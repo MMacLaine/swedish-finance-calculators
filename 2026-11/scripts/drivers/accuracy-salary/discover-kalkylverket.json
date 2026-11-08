@@ -1,0 +1,105 @@
+[
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "",
+  "name": "",
+  "lab": "Sök kalkylator",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 9
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Öppna meny",
+  "val": "",
+  "vis": true,
+  "y": 8
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Till resultatet",
+  "val": "",
+  "vis": true,
+  "y": 470
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "",
+  "name": "",
+  "lab": "35000",
+  "val": "35000",
+  "checked": false,
+  "vis": true,
+  "y": 942
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "",
+  "name": "",
+  "lab": "Genomsnitt i Sverige (32,38 %) Ale (32,8",
+  "val": "snitt",
+  "vis": true,
+  "y": 1068,
+  "opts": "291:snitt|Genomsnitt i Sverige (32,38 %);Ale|Ale (32,80 %);Alingsås|Alingsås (32,84 %);Alvesta|Alvesta (33,42 %)"
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Så räknade vi",
+  "val": "",
+  "vis": true,
+  "y": 2217
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Dela resultat",
+  "val": "",
+  "vis": true,
+  "y": 2415
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Bädda in på din sida",
+  "val": "",
+  "vis": true,
+  "y": 2415
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Fäll ned annonsen",
+  "val": "",
+  "vis": true,
+  "y": 757
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Cookie-inställningar",
+  "val": "",
+  "vis": true,
+  "y": 10315
+ }
+]

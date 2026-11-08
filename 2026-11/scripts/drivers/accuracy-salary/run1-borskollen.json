@@ -1,0 +1,218 @@
+{
+ "stOpts": [
+  "STOCKHOLM - ADOLF FREDRIKS FÖRSAMLING",
+  "STOCKHOLM - BROMMA FÖRSAMLING",
+  "STOCKHOLM - BRÄNNKYRKA FÖRSAMLING",
+  "STOCKHOLM - ENGELBREKTS FÖRSAMLING",
+  "STOCKHOLM - ENSKEDE-ÅRSTA FÖRSAMLING",
+  "STOCKHOLM - FARSTA FÖRSAMLING",
+  "STOCKHOLM - FINSKA FÖRSAMLINGEN",
+  "STOCKHOLM - GUSTAV VASA FÖRSAMLING",
+  "STOCKHOLM - HEDVIG ELEONORA OCH OSCARS FÖRSAMLING",
+  "STOCKHOLM - HOVFÖRSAMLINGEN",
+  "STOCKHOLM - HÄGERSTENS FÖRSAMLING",
+  "STOCKHOLM - HÄSSELBY FÖRSAMLING",
+  "STOCKHOLM - HÖGALIDS FÖRSAMLING",
+  "STOCKHOLM - KATARINA FÖRSAMLING",
+  "STOCKHOLM - MARIA MAGDALENA FÖRSAMLING",
+  "STOCKHOLM - S:T JOHANNES FÖRSAMLING",
+  "STOCKHOLM - S:T MATTEUS FÖRSAMLING",
+  "STOCKHOLM - SKARPNÄCKS FÖRSAMLING",
+  "STOCKHOLM - SKÄRHOLMENS FÖRSAMLING",
+  "STOCKHOLM - SOFIA FÖRSAMLING",
+  "STOCKHOLM - SPÅNGA-KISTA FÖRSAMLING",
+  "STOCKHOLM - STOCKHOLMS DOMKYRKOFÖRSAMLING",
+  "STOCKHOLM - TYSKA S:TA GERTRUDS FÖRSAMLING",
+  "STOCKHOLM - VANTÖRS FÖRSAMLING",
+  "STOCKHOLM - VÄLLINGBY FÖRSAMLING",
+  "STOCKHOLM - VÄSTERLEDS FÖRSAMLING",
+  "STOCKHOLM - VÄSTERMALMS FÖRSAMLING"
+ ],
+ "form": [
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "id": "",
+   "name": "",
+   "lab": "Logga in",
+   "val": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "start",
+   "name": "fname",
+   "lab": "",
+   "val": "45000",
+   "checked": false
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "county",
+   "name": "county",
+   "lab": "ALE - NÖDINGE FÖRSAMLING\nALE - SKEPPLAND",
+   "val": "ALE - NÖDINGE FÖRSAMLING"
+  }
+ ],
+ "mentions": {
+  "kyrk": "ålla efter skatt baserat på kommunal skatt, landstings skatt och om du är med i kyrkan. Bruttolön Kommun ALE - NÖDINGE FÖRSAMLING ALE - SKEPPLANDA-HÅLANDA FÖRSAMLIN",
+  "ar": "kollen Logga in Kalkylen: Solceller tar 14 år att räkna hem 2026 Beräkna lön efter skatt Räkna ut din nettolön 2026 Med vår "
+ },
+ "money": [
+  {
+   "t": "34,332 kr",
+   "y": 713,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Resultat Du får behålla 34,332 kr efter skatt Skatter och avgifter i ALE kommun Kommun & f"
+  },
+  {
+   "t": "59,139 kr",
+   "y": 1101,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "45,000 kr",
+   "y": 1152,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "1,445 kr",
+   "y": 1203,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "43,555 kr",
+   "y": 1237,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "14,413 kr",
+   "y": 1322,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "-4,424 kr",
+   "y": 1407,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "453 kr",
+   "y": 1475,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "127 kr",
+   "y": 1509,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "10,668 kr",
+   "y": 1611,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "34,332 kr",
+   "y": 1662,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "Avgiftstak (8,07 inkomstbasbelopp), 56 087 kr/månad eller 673 038 kr/å",
+   "y": 5404,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Varför skiljer sig skatten mellan olika kommuner? Kommunalskatten varierar beroende på var"
+  },
+  {
+   "t": "Nedbrytning av arbetsgivarens totalkostnad (48 625 kr):",
+   "y": 6196,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Varför skiljer sig skatten mellan olika kommuner? Kommunalskatten varierar beroende på var"
+  },
+  {
+   "t": "- 11 625 kr",
+   "y": 6284,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  },
+  {
+   "t": "- 11 644 kr",
+   "y": 6310,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  },
+  {
+   "t": "+ 3 050 kr",
+   "y": 6363,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  },
+  {
+   "t": "- 567 kr",
+   "y": 6390,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  },
+  {
+   "t": "- 108 kr",
+   "y": 6417,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  },
+  {
+   "t": "+ 125 kr",
+   "y": 6444,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  },
+  {
+   "t": "161 000 kr.",
+   "y": 7847,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Ökar för inkomster upp till ca 161 000 kr. Minskar gradvis över 184 000 kr."
+  },
+  {
+   "t": "184 000 kr.",
+   "y": 7885,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Ökar för inkomster upp till ca 161 000 kr. Minskar gradvis över 184 000 kr."
+  },
+  {
+   "t": "Den sammanlagda avgiften uppgår till på löner upp till 25 000 kronor p",
+   "y": 8564,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Den sammanlagda avgiften uppgår till 20,81 % på löner upp till 25 000 kronor per månad. 💵"
+  }
+ ]
+}

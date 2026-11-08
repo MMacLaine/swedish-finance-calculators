@@ -1,0 +1,91 @@
+{
+ "url": "https://velja.se/bolanekalkyl",
+ "title": "Bolånekalkyl 2026 – Räkna på bolån med KALP och dolda kostnader",
+ "clicked": [],
+ "inputs": [
+  {
+   "i": 0,
+   "tag": "INPUT",
+   "type": "range",
+   "name": "",
+   "id": "_R_1a9dbsnp5b_",
+   "label": "Pris",
+   "value": "4000000",
+   "min": "500000",
+   "max": "15000000"
+  },
+  {
+   "i": 1,
+   "tag": "INPUT",
+   "type": "range",
+   "name": "",
+   "id": "_R_9q9dbsnp5b_",
+   "label": "Kontantinsats i procent",
+   "value": "15",
+   "min": "10",
+   "max": "50"
+  },
+  {
+   "i": 2,
+   "tag": "INPUT",
+   "type": "range",
+   "name": "",
+   "id": "_R_2a9dbsnp5b_",
+   "label": "Månadsavgift",
+   "value": "4000",
+   "min": "1000",
+   "max": "10000"
+  },
+  {
+   "i": 3,
+   "tag": "INPUT",
+   "type": "range",
+   "name": "",
+   "id": "_R_6q9dbsnp5b_",
+   "label": "Bolåneränta",
+   "value": "2.8",
+   "min": "1",
+   "max": "8"
+  },
+  {
+   "i": 4,
+   "tag": "INPUT",
+   "type": "range",
+   "name": "",
+   "id": "_R_4qhdbsnp5b_",
+   "label": "Bruttoinkomst (hushåll/år)",
+   "value": "600000",
+   "min": "200000",
+   "max": "2000000"
+  },
+  {
+   "i": 5,
+   "tag": "INPUT",
+   "type": "range",
+   "name": "",
+   "id": "_R_6kdbsnp5b_",
+   "label": "Testa med ränta",
+   "value": "6",
+   "min": "2",
+   "max": "10"
+  }
+ ],
+ "amort": [
+  "Lägre kontantinsats = högre amorteringskrav",
+  "Amortering (2,0 %)",
+  "Amorteringskravet följer belåningsgraden. Det skärpta kravet på ytterligare 1 % vid sku",
+  "Amortering (2 %)",
+  "Amorteringskrav",
+  "i stället för din faktiska ränta. Från hushållets nettoinkomst drar den räntan, amorteringen, avgiften eller driftkostnaden och Konsumentverkets schablonbelopp för lev",
+  "emot bara gå upp till 80 % av bostadens värde, och en omvärdering för att sänka amorteringen får göras högst vart femte år. Utöver kontantinsatsen tillkommer för en vi",
+  "Hur fungerar amorteringskravet?",
+  "Amorteringskravet följer belåningsgraden: 2 % av lånet per år om belåningsgraden överst",
+  "iger 70 %, 1 % om den är 50–70 % och inget krav under 50 %. Det skärpta amorteringskravet – ytterligare 1 % om lånet översteg 4,5 gånger hushållets bruttoinkom",
+  "st – slopades den 1 april 2026. Amorteringen minskar din skuld men räknas inte som en kostnad – det är sparande.",
+  "Utöver räntan tillkommer amortering, avgiften för en bostadsrätt eller driftkostnaden för en villa (el, vatten, ",
+  "0 % av räntekostnaden upp till 100 000 kr per person och år och 21 % därutöver. Amortering och avgift kan tillsammans vara lika stora som räntan eller större – kalkyla",
+  "Amorteringskrav",
+  "Finansinspektionen – Amorteringskrav"
+ ],
+ "iframes": []
+}

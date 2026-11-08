@@ -1,0 +1,725 @@
+{
+ "id": "listentotaxman",
+ "url": "https://www.listentotaxman.com/",
+ "finalUrl": "https://www.listentotaxman.com/",
+ "site": "listentotaxman.com",
+ "at": "2026-11-08T17:25:35.603Z",
+ "requests": 102,
+ "failed": 34,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://html-load.com/loader.min.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://cdn.fuseplatform.net/publift/tags/2/2888/fuse.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://fb.html-load.com/loader.min.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://static.criteo.net/js/ld/publishertag.prebid.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://ad-delivery.net/px.gif?ch=2"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://ad-delivery.net/px.gif?ch=1"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-XR104G6C0G&gtm=45je6b41v885722096za208zd885722096xf1&_p=1794158728389&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-XR104G6C0G&cid=53265939.1794158729&gtm=45je6b41v885722096za208zd885722096xf1&rcb=12&aip=1&dma=1&dma_cps=a&gc"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://1.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/zao/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywfxgvjnyinj130ynvtyin43gvyc"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://1.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywl9ywfjvcnynafy73iyc9yeinfc"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://5.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjywm8ywf7tng3ynvtyin43gvycyzyky2yz99qs7x"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://fundingchoicesmessages.google.com/i/pub-8380869337985741?ers=1"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://static.criteo.net/js/ld/publishertag.prebid.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://www.google-analytics.com/collect"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://www.google-analytics.com/analytics.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://cdn.fuseplatform.net/publift/tags/2/2888/fuse.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://fundingchoicesmessages.google.com/i/pub-8380869337985741?ers=1"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://5.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjywm8ywf7tng3ynvtyin43gvycyzyky2yz99qs7x"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://0.stg.content-loader.com/session/oze/5ah/p1x/jc0/www.listentotaxman.com/tyo/qwhvi331tyxywywwyrt3cyrqs73n73yizsvy7ngyrqsjywm8ywnln73ynvtyin43gvycyzyky2yz"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://0.stg.content-loader.com/session/oze/5ah/p1x/jc0/www.listentotaxman.com/tyo/qwhvi331tyxywywwyrt3cyrqs73n73yizsvy7ngyrqsjywm8ywnln73ynvtyin43gvycyzyky2yz"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://static.criteo.net/js/ld/publishertag.prebid.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://www.google-analytics.com/collect"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://fundingchoicesmessages.google.com/i/pub-8380869337985741?ers=1"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://www.google-analytics.com/collect"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://0.stg.content-loader.com/session/oze/5ah/p1x/jc0/www.listentotaxman.com/tyo/qwhvi331tyxywywwyrt3cyrqs73n73yizsvy7ngyrqsjywm8ywnln73ynvtyin43gvycyzyky2yz"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://3.stg.content-loader.com/session/zg/5sp/t8t/www.listentotaxman.com/tyo/qwhvi331tyxywywqy77yrx5tn1zv3xsgjyr7n3yw3nznjn3g0yw7sqs7tn73ynlyceye33jyceyky66e2"
+  }
+ ],
+ "thirdPartyHosts": [
+  "0.stg.content-loader.com",
+  "1.stg.content-loader.com",
+  "2.stg.content-loader.com",
+  "3.stg.content-loader.com",
+  "4.stg.content-loader.com",
+  "5.stg.content-loader.com",
+  "6.stg.content-loader.com",
+  "7.stg.content-loader.com",
+  "ad-delivery.net",
+  "cdn.cookielaw.org",
+  "cdn.fuseplatform.net",
+  "cdn.jsdelivr.net",
+  "cdnjs.cloudflare.com",
+  "connect.facebook.net",
+  "content-loader.com",
+  "fb.html-load.com",
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+  "fundingchoicesmessages.google.com",
+  "html-load.com",
+  "lh3.googleusercontent.com",
+  "pagead2.googlesyndication.com",
+  "region1.analytics.google.com",
+  "securepubads.g.doubleclick.net",
+  "static.criteo.net",
+  "stats.g.doubleclick.net",
+  "stg.content-loader.com",
+  "unpkg.com",
+  "use.fontawesome.com",
+  "www.google-analytics.com",
+  "www.google.com",
+  "www.google.se",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "ad-delivery.net",
+  "cloudflare.com",
+  "content-loader.com",
+  "cookielaw.org",
+  "criteo.net",
+  "doubleclick.net",
+  "facebook.net",
+  "fontawesome.com",
+  "fuseplatform.net",
+  "google-analytics.com",
+  "google.com",
+  "google.se",
+  "googleapis.com",
+  "googlesyndication.com",
+  "googletagmanager.com",
+  "googleusercontent.com",
+  "gstatic.com",
+  "html-load.com",
+  "jsdelivr.net",
+  "unpkg.com"
+ ],
+ "trackerHosts": [
+  "connect.facebook.net",
+  "pagead2.googlesyndication.com",
+  "securepubads.g.doubleclick.net",
+  "static.criteo.net",
+  "stats.g.doubleclick.net",
+  "www.google-analytics.com",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [
+  "cdn.cookielaw.org",
+  "fundingchoicesmessages.google.com"
+ ],
+ "cookies": [
+  {
+   "name": "img_fmjxc5tdjxcxbj4sjoj1j3vx5fj55hcjxsvj9jzj9ii5txih5h",
+   "domain": ".stg.content-loader.com",
+   "thirdParty": true,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "PHPSESSID",
+   "domain": "www.listentotaxman.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": true,
+   "expiresDays": 0
+  },
+  {
+   "name": "_ga_XR104G6C0G",
+   "domain": ".listentotaxman.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_ga",
+   "domain": ".listentotaxman.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "FCCDCF",
+   "domain": ".listentotaxman.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 390
+  }
+ ],
+ "weight": {
+  "totalKB": 2404,
+  "thirdPartyKB": 2219,
+  "finished": 70,
+  "byTypeKB": {
+   "Script": 1816,
+   "Fetch": 183,
+   "Font": 166,
+   "Image": 129,
+   "Stylesheet": 59,
+   "Other": 27,
+   "Document": 15,
+   "XHR": 9
+  }
+ },
+ "reqUrls": [
+  "Document https://www.listentotaxman.com/",
+  "Script https://html-load.com/loader.min.js",
+  "Script https://cdn.fuseplatform.net/publift/tags/2/2888/fuse.js",
+  "Script https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+  "Stylesheet https://cdn.jsdelivr.net/gh/Pixabay/JavaScript-autoComplete/auto-complete.css",
+  "Stylesheet https://fonts.googleapis.com/css?family=Source+Serif+Pro",
+  "Stylesheet https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
+  "Script https://use.fontawesome.com/releases/v5.15.1/js/all.js",
+  "Script https://cdn.jsdelivr.net/gh/Pixabay/JavaScript-autoComplete/auto-complete.min.js",
+  "Script https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+  "Script https://www.listentotaxman.com/style/js/jquery.cookie.js",
+  "Script https://unpkg.com/sweetalert/dist/sweetalert.min.js",
+  "Script https://www.listentotaxman.com/assets/js/scripts.js",
+  "Stylesheet https://www.listentotaxman.com/style/style2020.css",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-XR104G6C0G",
+  "Script https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+  "Stylesheet https://www.listentotaxman.com/style/user-accounts.css",
+  "Script https://www.listentotaxman.com/assets/js/user-accounts.js",
+  "Image https://listentotaxman.com/style/img/listen-to-taxman-gold-2017-256.png",
+  "Stylesheet https://www.listentotaxman.com/style/calculator2021.css",
+  "Stylesheet https://www.listentotaxman.com/style/tax-insights.css",
+  "Script https://www.listentotaxman.com/assets/js/2026-calculator.js",
+  "Script https://www.listentotaxman.com/assets/js/tax-insights.js",
+  "Script https://fb.html-load.com/loader.min.js",
+  "Script https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js",
+  "Script https://content-loader.com/loader.min.js",
+  "Script https://stg.content-loader.com/loader.min.js",
+  "Image https://ad-delivery.net/px.gif?ch=1",
+  "Image https://ad-delivery.net/px.gif?ch=2",
+  "Stylesheet https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap",
+  "Stylesheet https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css",
+  "Fetch https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "Fetch https://static.criteo.net/js/ld/publishertag.prebid.js",
+  "Script https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "Image https://www.listentotaxman.com/style/img/listen-to-taxman-gold-2017-256.png",
+  "Image https://listentotaxman.com/assets/img/library/two-pound-coin.jpg",
+  "Font https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+  "Font https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d",
+  "Script https://connect.facebook.net/en_US/sdk.js",
+  "Fetch https://stg.content-loader.com/script/www.listentotaxman.com.js?hash=-1862709166",
+  "Fetch https://region1.analytics.google.com/g/collect?v=2&tid=G-XR104G6C0G&gtm=45je6b41v885722096za208zd885722096xf1&_p=1794158728389&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma",
+  "Ping https://stats.g.doubleclick.net/g/collect?v=2&tid=G-XR104G6C0G&cid=53265939.1794158729&gtm=45je6b41v885722096za208zd885722096xf1&rcb=12&aip=1&dma=1&dma_cps=a&gc",
+  "Image https://www.google.se/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-XR104G6C0G&cid=53265939.1794158729&gtm=45je6b41v885722096za208zd885722096xf1&rcb=12&aip=1&dm",
+  "Fetch https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "Fetch https://static.criteo.net/js/ld/publishertag.prebid.js",
+  "Script https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "Script https://cdn.jsdelivr.net/gh/ad-shield/e/index.js",
+  "Fetch https://www.google-analytics.com/collect",
+  "Fetch https://www.google-analytics.com/analytics.js",
+  "Script https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+  "Script https://fundingchoicesmessages.google.com/i/pub-8380869337985741?ers=1",
+  "Fetch https://0.stg.content-loader.com/session/oze/5ah/p1x/jc0/www.listentotaxman.com/tyo/qwhvi331tyxywywwyrt3cyrqs73n73yizsvy7ngyrqsjywm8ywnln73ynvtyin43gvycyzyky2yz",
+  "Document https://stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjywy7n3nq3ywfjvcnyimzsqbywfjvcnyimzsqbyiqi",
+  "Script https://cdn.fuseplatform.net/publift/tags/2/2888/fuse.js",
+  "Script https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+  "Stylesheet https://3.stg.content-loader.com/session/zg/mer/t8t/www.listentotaxman.com/mei/qwhvi331tyxywywqy77yruty7nzflgyr7n3ywciywy1f4vmv0ywyvvlvy8qgf13yiv53syosj1zn3nywv",
+  "Image https://www.listentotaxman.com/favicon.ico",
+  "Image https://www.google.com/favicon.ico",
+  "Document https://1.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/zao/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywfxgvjnyinj130ynvtyin43gvyc",
+  "Image https://1.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywl9ywfjvcnynafy73iyc9yeinfc",
+  "Fetch https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "Fetch https://static.criteo.net/js/ld/publishertag.prebid.js",
+  "Script https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "Script https://connect.facebook.net/en_US/bundle/sdk.js/",
+  "Fetch https://0.stg.content-loader.com/session/oze/5ah/p1x/jc0/www.listentotaxman.com/tyo/qwhvi331tyxywywwyrt3cyrqs73n73yizsvy7ngyrqsjywm8ywnln73ynvtyin43gvycyzyky2yz",
+  "Script https://5.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/ijk/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywtqgf13yitn3yilvz5nyn1vttqs",
+  "Fetch https://5.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjywm8ywf7tng3ynvtyin43gvycyzyky2yz99qs7x",
+  "Script https://0.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/ijk/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywtqgf13yitn3yilvz5nyn1vttqs",
+  "Fetch https://2.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywl6ywxn3qiyn1vttqsy7nyc9yky",
+  "XHR https://5.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywl6yw4igyn1vttqsy7nycykqxy7",
+  "Document https://6.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/zao/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjyw7ncs3fv3nywl6ywfxgvjnyn1vttqsy7nycqxy",
+  "Script https://fundingchoicesmessages.google.com/i/pub-8380869337985741?ers=1",
+  "Fetch https://www.google-analytics.com/collect",
+  "Script https://3.stg.content-loader.com/session/zg/5sp/t8t/www.listentotaxman.com/ijk/qwhvi331tyxywywqy77yrx5tn1zv3xsgjyr7n3yw15mzfx3yw3vctyw9yw9yfyfyfywx5tnyrutynvtyi",
+  "Script https://0.stg.content-loader.com/session/zg/gah/vhe/qp3/www.listentotaxman.com/ijk/qwhvi331tyxywywtnq5gn15mvy7tyrcyry7s5mznqzfqbyr7n3yw3vcywutywc13yrutynvtyin43",
+  "Fetch https://5.stg.content-loader.com/session/oze/5ah/p1x/www.listentotaxman.com/tyo/qwhvi331tyxywywt3cyrqs73n73yizsvy7ngyrqsjywm8ywf7tng3ynvtyin43gvycyzyky2yz99qs7x",
+  "Script https://fundingchoicesmessages.google.com/i/pub-8380869337985741?ers=1",
+  "Script https://5.stg.content-loader.com/session/zg/gah/vhe/qp3/www.listentotaxman.com/ijk/qwhvi331tyxywywtnq5gn15mvy7tyrcyry7s5mznqzfqbyr7n3yw1vcnvy7ywjv7vcny7ywutywc1",
+  "Other https://5.stg.content-loader.com/session/zg/gah/vhe/qp3/www.listentotaxman.com/tyo/qwhvi331tyxywywtnq5gn15mvy7tyrcyry7s5mznqzfqbyr7n3yw1vcnvy7ywjv7vcny7ywy7fq3y",
+  "Fetch https://www.google-analytics.com/collect",
+  "Script https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/ijk/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywfywykeeoeokkynngtyckyevtyin",
+  "XHR https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/tyo/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywnzywymysy8yhpa4pampvy1y4yvy",
+  "XHR https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/tyo/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywnzywymysy8yhpa4pampvy1y4yvy",
+  "XHR https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/tyo/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywnzywymysy8yhpa4pampvy1y4yvy",
+  "Script https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/ijk/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywxywymysy8yhpa4pyyopayo8s2ym",
+  "Stylesheet https://fonts.googleapis.com/css?family=Archivo:400,500|Arimo:400,500|Bitter:400,500|EB+Garamond:400,500|Lato|Libre+Baskervill|Libre+Franklin:400,500|Lora:400,5",
+  "Image https://lh3.googleusercontent.com/FZacgOgeFHhHNlmLmGldeGf_5Y8bTLfMIDKmPtdt4UpzOPbIbAJ6Kj6AsYLBQXeIaK78VRuxURIIi6d1gfnTTi1vw_sHOZp9ezfJ6vmXe4X6zub_1gmP=h60",
+  "Font https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+  "XHR https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/tyo/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywnzywymysy8yhpa4pampvy1y4yvy",
+  "XHR https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/tyo/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywnzywymysy8yhpa4pampvy1y4yvy",
+  "XHR https://4.stg.content-loader.com/session/oze/8t6/204/www.listentotaxman.com/tyo/qwhvi331tyxywywx57y7f7cqisfqntjnttvcntyrcsscznyrqsjywnzywymysy8yhpa4pampvy1y4yvy",
+  "Fetch https://0.stg.content-loader.com/session/oze/5ah/p1x/jc0/www.listentotaxman.com/tyo/qwhvi331tyxywywwyrt3cyrqs73n73yizsvy7ngyrqsjywm8ywnln73ynvtyin43gvycyzyky2yz",
+  "Script https://3.stg.content-loader.com/session/zg/5sp/t8t/www.listentotaxman.com/ijk/qwhvi331tyxywywqy77yrx5tn1zv3xsgjyr7n3yw1gnmfy7yw1gnmfy7yiy6yr2kyr2yi9y72xwmkqqmy",
+  "Script https://0.stg.content-loader.com/session/oze/vls/kc1/www.listentotaxman.com/ijk/qwhvi331tyxywywqyrvjvrs7yivy7t0t3njyrqsjywvv49ywv1t3vcyrutynvtyin43gvycyzyky2yz9",
+  "Fetch https://3.stg.content-loader.com/session/zg/5sp/t8t/www.listentotaxman.com/tyo/qwhvi331tyxywywqy77yrx5tn1zv3xsgjyr7n3yw3nznjn3g0yw7sqs7tn73ynlyceye33jyceyky66e2",
+  "XHR https://1.stg.content-loader.com/session/oze/vls/kc1/www.listentotaxman.com/tyo/qwhvi331tyxywywqyrvjvrs7yivy7t0t3njyrqsjywmvsyiqtjywv1tyiqsjjywv1ty0qtjyrutynvty",
+  "Script https://4.stg.content-loader.com/session/oze/vls/s2m/p6i/www.listentotaxman.com/ijk/qwhvi331tyxywywqs7xfcyrv1tyrvjvrs7yivy7t0t3njyrqsjywqs7xfctywyfm6yfn96y6yiny",
+  "Fetch https://3.stg.content-loader.com/session/zg/mer/t8t/www.listentotaxman.com/tyo/qwhvi331tyxywywqy77yruty7nzflgyr7n3ywciyw1gnmfy7ywq5ggn7q0yixfznpfeywzv3nt3yruts7",
+  "Script https://4.stg.content-loader.com/session/oze/1yi/t8t/www.listentotaxman.com/ijk/qwhvi331tyxywywqy77yrfy72yit07qyrqsjywv1fyweyrwywfy72yiv1fyrutynvtyin43gvycyzyky",
+  "Script https://7.stg.content-loader.com/session/zg/oii/t8t/tt1/www.listentotaxman.com/ijk/qwhvi331tyxywywtnq5gnyrqy77yrxvt3qzfqbyr7n3ywutyw15mqfy7ywzv3nt3yw15mqfy7yrjf",
+  "Other https://www.listentotaxman.com/favicon.ico",
+  "Other https://www.listentotaxman.com/favicon.ico"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtag/js?id=G-XR104G6C0G",
+  "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "https://static.criteo.net/js/ld/publishertag.prebid.js",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "https://connect.facebook.net/en_US/sdk.js",
+  "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-XR104G6C0G&cid=53265939.1794158729&gtm=45je6b41v885722096za208zd885722096xf1&rcb=12&aip=",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "https://static.criteo.net/js/ld/publishertag.prebid.js",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "https://www.google-analytics.com/collect",
+  "https://www.google-analytics.com/analytics.js",
+  "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "https://static.criteo.net/js/ld/publishertag.prebid.js",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+  "https://connect.facebook.net/en_US/bundle/sdk.js/",
+  "https://www.google-analytics.com/collect",
+  "https://www.google-analytics.com/collect"
+ ],
+ "allHosts": {
+  "www.listentotaxman.com": 14,
+  "html-load.com": 1,
+  "cdn.fuseplatform.net": 2,
+  "cdnjs.cloudflare.com": 1,
+  "cdn.jsdelivr.net": 7,
+  "fonts.googleapis.com": 3,
+  "use.fontawesome.com": 1,
+  "unpkg.com": 2,
+  "www.googletagmanager.com": 1,
+  "securepubads.g.doubleclick.net": 2,
+  "listentotaxman.com": 2,
+  "fb.html-load.com": 1,
+  "content-loader.com": 1,
+  "stg.content-loader.com": 3,
+  "ad-delivery.net": 2,
+  "pagead2.googlesyndication.com": 6,
+  "static.criteo.net": 3,
+  "fonts.gstatic.com": 2,
+  "connect.facebook.net": 2,
+  "region1.analytics.google.com": 1,
+  "stats.g.doubleclick.net": 1,
+  "www.google.se": 1,
+  "www.google-analytics.com": 4,
+  "cdn.cookielaw.org": 1,
+  "fundingchoicesmessages.google.com": 3,
+  "0.stg.content-loader.com": 6,
+  "3.stg.content-loader.com": 5,
+  "www.google.com": 1,
+  "1.stg.content-loader.com": 3,
+  "5.stg.content-loader.com": 6,
+  "2.stg.content-loader.com": 1,
+  "6.stg.content-loader.com": 1,
+  "4.stg.content-loader.com": 10,
+  "lh3.googleusercontent.com": 1,
+  "7.stg.content-loader.com": 1
+ },
+ "scan": {
+  "title": "UK Tax Calculator & Take Home Pay 2026-27 | Listen to Taxman",
+  "url": "https://www.listentotaxman.com/",
+  "docH": 2256,
+  "inputs": [
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "region",
+    "value": "uk",
+    "y": 219,
+    "x": 7,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "yr",
+    "value": "2026",
+    "y": 219,
+    "x": 212,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "Married",
+    "value": "y",
+    "y": 266,
+    "x": 14,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "Blind",
+    "value": "y",
+    "y": 266,
+    "x": 107,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "NI Letter A - Standard employees group B - Reduced",
+    "value": "A",
+    "y": 261,
+    "x": 248,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "plan",
+    "value": "",
+    "y": 301,
+    "x": 155,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Age",
+    "value": "0",
+    "y": 341,
+    "x": 155,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Rental Income",
+    "value": "",
+    "y": 381,
+    "x": 155,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "extras/deductions",
+    "value": "",
+    "y": 420,
+    "x": 155,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Tax code",
+    "value": "",
+    "y": 461,
+    "x": 155,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "is_pension_percent",
+    "value": "n",
+    "y": 501,
+    "x": 155,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Pension",
+    "value": "",
+    "y": 501,
+    "x": 194,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "pension_type",
+    "value": "relief_at_source",
+    "y": 501,
+    "x": 314,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Salary",
+    "value": "",
+    "y": 541,
+    "x": 185,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "time",
+    "value": "1",
+    "y": 541,
+    "x": 283,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "label": "Enter email address",
+    "value": "",
+    "y": 1602,
+    "x": -24,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "label": "Enter email address",
+    "value": "",
+    "y": 2137,
+    "x": 25,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "UK Salary Calculator 2026 2027",
+    "y": 41,
+    "h": 15,
+    "fs": 11.2,
+    "fixed": ""
+   },
+   {
+    "t": "Net change from 2025",
+    "y": 1014,
+    "h": 35,
+    "fs": 15,
+    "fixed": "sticky"
+   },
+   {
+    "t": "2026/27 Tax Rates & Allowances",
+    "y": 1318,
+    "h": 19,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "15/04/2026",
+    "y": 1359,
+    "h": 17,
+    "fs": 11.2,
+    "fixed": ""
+   },
+   {
+    "t": "© listentotaxman.com - 2023",
+    "y": 2228,
+    "h": 29,
+    "fs": 9.8,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "fc-consent-root",
+    "top": 0,
+    "h": 844,
+    "w": 390,
+    "pctViewport": 100,
+    "text": "Listentotaxman asks for your consent to use your personal data to: Personalised advertising and content, advertising and content measurement"
+   }
+  ],
+  "iframes": [
+   "about:blank",
+   "about:blank",
+   "about:blank",
+   "about:blank"
+  ],
+  "ls": [
+   "loglevel"
+  ],
+  "ss": [],
+  "sw": false
+ }
+}

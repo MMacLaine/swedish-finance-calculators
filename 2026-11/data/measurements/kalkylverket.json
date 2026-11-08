@@ -1,0 +1,752 @@
+{
+ "id": "kalkylverket",
+ "url": "https://kalkylverket.se/kalkylatorer/skatt/inkomstskatt/lon-efter-skatt-kalkylator",
+ "finalUrl": "https://kalkylverket.se/kalkylatorer/skatt/inkomstskatt/lon-efter-skatt-kalkylator",
+ "site": "kalkylverket.se",
+ "at": "2026-11-08T17:24:56.395Z",
+ "requests": 51,
+ "failed": 4,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4797689217218383"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://adtraction.com/image.htm?imgId=1582930365"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BG7ZMT79LG&gtm=45je6b41v9247189951za208zd9247189951xf1&_p=1794158687974&gcs=G100&gcd=13p3p3p2p5l1&npa=1"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://adtraction.com/image.htm?imgId=1582930365"
+  }
+ ],
+ "thirdPartyHosts": [
+  "adtraction.com",
+  "pagead2.googlesyndication.com",
+  "region1.google-analytics.com",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "adtraction.com",
+  "google-analytics.com",
+  "googlesyndication.com",
+  "googletagmanager.com"
+ ],
+ "trackerHosts": [
+  "adtraction.com",
+  "pagead2.googlesyndication.com",
+  "region1.google-analytics.com",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [],
+ "weight": {
+  "totalKB": 1130,
+  "thirdPartyKB": 178,
+  "finished": 49,
+  "byTypeKB": {
+   "Script": 777,
+   "Fetch": 185,
+   "Other": 89,
+   "Document": 54,
+   "Stylesheet": 25,
+   "Ping": 2,
+   "Image": 0
+  }
+ },
+ "reqUrls": [
+  "Document https://kalkylverket.se/kalkylatorer/skatt/inkomstskatt/lon-efter-skatt-kalkylator",
+  "Stylesheet https://kalkylverket.se/_next/static/css/a36cb6d84c4a9a80.css?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/webpack-598908bfdd5f8957.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/4bd1b696-bad92808725a934a.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/31255-5b77323f46cdff65.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/main-app-b71e398b5ff146b5.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/24909-6ce1976e628753c6.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/45890-80ea9316bf76a59b.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/8342-4b1076fda1d30220.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/83483-1dec495f972ea751.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/26852-fd74dae327a79b21.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/18720-ba96ece0871462fa.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/36543-ae462a447f08f6f5.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/layout-49188b301a8682ff.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/global-error-23fc8f9ff8432a8c.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/52619-c48a18d6f62d2371.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/error-f58b0239ebd258a3.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/8725-b7f5785c6ff9fb85.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/36619-a39869f971725442.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/kalkylatorer/layout-9be75100503327dd.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/3692-c7f5071389fd1929.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/92281-744384a660403814.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/49257-08944bf8d967dc3c.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/14381-ae56d33e6fa639c1.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/29411-73a552e633b1c240.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/67842-b971bc740cc581b5.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/61018-2ca76f73b9b0e4f5.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/86403-c3e7e930eaed224e.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/91887-3d710a4144a2c6b6.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/kalkylatorer/%5B...segments%5D/page-d749ba2ea55966fc.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/47643-e56784a6adbd3378.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/35161-72f0a59a6c66e5e4.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/46316.b902a7b01dbf032c.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-BG7ZMT79LG",
+  "Script https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4797689217218383",
+  "Fetch https://kalkylverket.se/api/maintenance-status",
+  "Fetch https://kalkylverket.se/?_rsc=4e0k0",
+  "Fetch https://kalkylverket.se/api/track-view",
+  "Fetch https://kalkylverket.se/kalkylatorer?_rsc=4e0k0",
+  "Fetch https://kalkylverket.se/kalkylatorer/skatt?_rsc=4e0k0",
+  "Fetch https://kalkylverket.se/kalkylatorer/skatt/inkomstskatt?_rsc=4e0k0",
+  "Image https://adtraction.com/image.htm?imgId=1582930365",
+  "Fetch https://kalkylverket.se/affiliate-information?_rsc=4e0k0",
+  "Script https://kalkylverket.se/_next/static/chunks/app/page-c8450adad8a289b1.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/kalkylatorer/page-3914f47ec4013ca5.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Script https://kalkylverket.se/_next/static/chunks/app/affiliate-information/page-ecef925a2815485c.js?dpl=dpl_5aBTPjJ6BHvxzSkU5eS8y4hywYnj",
+  "Other https://kalkylverket.se/favicon.ico",
+  "Fetch https://region1.google-analytics.com/g/collect?v=2&tid=G-BG7ZMT79LG&gtm=45je6b41v9247189951za208zd9247189951xf1&_p=1794158687974&gcs=G100&gcd=13p3p3p2p5l1&npa=1",
+  "Ping https://kalkylverket.se/api/ads/impressions",
+  "Image https://adtraction.com/image.htm?imgId=1582930365",
+  "Ping https://kalkylverket.se/api/ads/impressions"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtag/js?id=G-BG7ZMT79LG",
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4797689217218383",
+  "https://adtraction.com/image.htm?imgId=1582930365",
+  "https://region1.google-analytics.com/g/collect?v=2&tid=G-BG7ZMT79LG&gtm=45je6b41v9247189951za208zd9247189951xf1&_p=1794158687974&gcs=G100&gc",
+  "https://adtraction.com/image.htm?imgId=1582930365"
+ ],
+ "allHosts": {
+  "kalkylverket.se": 46,
+  "www.googletagmanager.com": 1,
+  "pagead2.googlesyndication.com": 1,
+  "adtraction.com": 2,
+  "region1.google-analytics.com": 1
+ },
+ "scan": {
+  "title": "Lön efter skatt 2026 – tabell för 20 000–80 000 kr – Kalkylverket",
+  "url": "https://kalkylverket.se/kalkylatorer/skatt/inkomstskatt/lon-efter-skatt-kalkylator",
+  "docH": 10548,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Sök kalkylator",
+    "value": "",
+    "y": 9,
+    "x": 60,
+    "fixed": "sticky"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "35000",
+    "value": "35000",
+    "y": 942,
+    "x": 58,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "",
+    "value": "snitt",
+    "y": 1068,
+    "x": 58,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Lön efter skatt-kalkylator 2026",
+    "y": 99,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Lön efter skatt-kalkylator 2026",
+    "y": 166,
+    "h": 60,
+    "fs": 24,
+    "fixed": ""
+   },
+   {
+    "t": "Uppdaterad 2026",
+    "y": 408,
+    "h": 46,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Lön efter skatt på 35 000 kr",
+    "y": 481,
+    "h": 16,
+    "fs": 10.5,
+    "fixed": ""
+   },
+   {
+    "t": "28 039 kr",
+    "y": 497,
+    "h": 25,
+    "fs": 20,
+    "fixed": ""
+   },
+   {
+    "t": "Månadsspara från 100 kr",
+    "y": 646,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Lägger till kyrkoavgift, snitt 1,05 %.",
+    "y": 1196,
+    "h": 32,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Lön efter skatt på 35 000 kr",
+    "y": 1316,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "28 039 kr",
+    "y": 1336,
+    "h": 48,
+    "fs": 48,
+    "fixed": ""
+   },
+   {
+    "t": "336 468 kr",
+    "y": 1485,
+    "h": 23,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "161,76 kr",
+    "y": 1485,
+    "h": 23,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "19,9 %",
+    "y": 1573,
+    "h": 23,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "20 000 kr",
+    "y": 1715,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "16 700 kr",
+    "y": 1715,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "16,5 %",
+    "y": 1715,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "25 000 kr",
+    "y": 1752,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "20 496 kr",
+    "y": 1752,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "18,0 %",
+    "y": 1752,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "30 000 kr",
+    "y": 1789,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "24 267 kr",
+    "y": 1789,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "19,1 %",
+    "y": 1789,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "35 000 kr",
+    "y": 1826,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "28 039 kr",
+    "y": 1826,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "19,9 %",
+    "y": 1826,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "40 000 kr",
+    "y": 1863,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "31 798 kr",
+    "y": 1863,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "20,5 %",
+    "y": 1863,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "45 000 kr",
+    "y": 1900,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "35 164 kr",
+    "y": 1900,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "21,9 %",
+    "y": 1900,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "50 000 kr",
+    "y": 1937,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "38 530 kr",
+    "y": 1937,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "22,9 %",
+    "y": 1937,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "55 000 kr",
+    "y": 1974,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "41 897 kr",
+    "y": 1974,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "23,8 %",
+    "y": 1974,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "60 000 kr",
+    "y": 2011,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "44 270 kr",
+    "y": 2011,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "26,2 %",
+    "y": 2011,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "65 000 kr",
+    "y": 2048,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "46 636 kr",
+    "y": 2048,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "28,3 %",
+    "y": 2048,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "70 000 kr",
+    "y": 2085,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "49 003 kr",
+    "y": 2085,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "30,0 %",
+    "y": 2085,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "75 000 kr",
+    "y": 2122,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "51 369 kr",
+    "y": 2122,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "31,5 %",
+    "y": 2122,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "80 000 kr",
+    "y": 2159,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "53 736 kr",
+    "y": 2159,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "32,8 %",
+    "y": 2159,
+    "h": 37,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Lön efter skatt 2026, tabell",
+    "y": 2953,
+    "h": 28,
+    "fs": 20,
+    "fixed": ""
+   },
+   {
+    "t": "20 000 kr i lön: 16 700 kr efter skatt (16,5 % skatt)",
+    "y": 3121,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "25 000 kr i lön: 20 496 kr efter skatt (18,0 % skatt)",
+    "y": 3180,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "30 000 kr i lön: 24 267 kr efter skatt (19,1 % skatt)",
+    "y": 3238,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "35 000 kr i lön: 28 039 kr efter skatt (19,9 % skatt)",
+    "y": 3297,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "40 000 kr i lön: 31 798 kr efter skatt (20,5 % skatt)",
+    "y": 3355,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "45 000 kr i lön: 35 164 kr efter skatt (21,9 % skatt)",
+    "y": 3414,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "50 000 kr i lön: 38 530 kr efter skatt (22,9 % skatt)",
+    "y": 3472,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "55 000 kr i lön: 41 897 kr efter skatt (23,8 % skatt)",
+    "y": 3531,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "60 000 kr i lön: 44 270 kr efter skatt (26,2 % skatt)",
+    "y": 3589,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "65 000 kr i lön: 46 636 kr efter skatt (28,3 % skatt)",
+    "y": 3648,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "70 000 kr i lön: 49 003 kr efter skatt (30,0 % skatt)",
+    "y": 3706,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "75 000 kr i lön: 51 369 kr efter skatt (31,5 % skatt)",
+    "y": 3765,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "80 000 kr i lön: 53 736 kr efter skatt (32,8 % skatt)",
+    "y": 3823,
+    "h": 53,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "Lön efter skatt på 30 000, 35 000 och 40 000 kr",
+    "y": 4016,
+    "h": 56,
+    "fs": 20,
+    "fixed": ""
+   },
+   {
+    "t": "Låga löner: 20 000 och 25 000 kr",
+    "y": 4444,
+    "h": 28,
+    "fs": 20,
+    "fixed": ""
+   },
+   {
+    "t": "Jämför din lön med andras – lönekolla vem du vill, alltid 10",
+    "y": 6874,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Vad blir 30 000 kr i lön efter skatt?",
+    "y": 7140,
+    "h": 21,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "Vad blir 35 000 kr i lön efter skatt?",
+    "y": 7195,
+    "h": 21,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "Vad blir 40 000 kr i lön efter skatt?",
+    "y": 7251,
+    "h": 21,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "31 798 kr i månaden med genomsnittlig kommunalskatt. Skatten",
+    "y": 7284,
+    "h": 46,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Vad blir 50 000 kr efter skatt?",
+    "y": 7306,
+    "h": 21,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "Vad blir 80 000 kr efter skatt?",
+    "y": 7436,
+    "h": 21,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "Kommunalskatt 2026 – jämför skatt mellan kommuner",
+    "y": 7965,
+    "h": 39,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Skattesatsen i din kommun, placering bland 290 och skillnad ",
+    "y": 8008,
+    "h": 39,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Pensionsskatt-kalkylator 2026",
+    "y": 8140,
+    "h": 19,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Marginalskattekalkylator 2026",
+    "y": 8296,
+    "h": 19,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Jobbskatteavdrag-kalkylator 2026",
+    "y": 8452,
+    "h": 19,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Skatteåterbäring-kalkylator 2026",
+    "y": 8607,
+    "h": 19,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Månadsspara från 100 kr",
+    "y": 799,
+    "h": 18,
+    "fs": 14,
+    "fixed": "fixed"
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [
+   "kv_ab_ec476841-adc1-40f1-a6ce-383bdd106610",
+   "kv_ab_2cd51d57-ccff-481f-9b85-8bf64d8f2641",
+   "kv_ab_56892dc8-4b18-4ad1-8739-eed29b23185c",
+   "kv_ab_f7e25c41-7f87-4f0a-9519-d4e3b9409e92"
+  ],
+  "ss": [
+   "kv_v_lon-efter-skatt-kalkylator",
+   "kv_ad_56892dc8-4b18-4ad1-8739-eed29b23185c_sticky"
+  ],
+  "sw": false
+ }
+}

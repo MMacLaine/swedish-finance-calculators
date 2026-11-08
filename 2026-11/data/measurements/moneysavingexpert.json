@@ -1,0 +1,374 @@
+{
+ "id": "moneysavingexpert",
+ "url": "https://www.moneysavingexpert.com/tax-calculator/",
+ "finalUrl": "https://www.moneysavingexpert.com/tax-calculator/",
+ "site": "moneysavingexpert.com",
+ "at": "2026-11-08T17:17:58.211Z",
+ "requests": 45,
+ "failed": 4,
+ "thirdPartyHosts": [
+  "cdn.monygroup.com",
+  "websdk.appsflyersdk.com",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "appsflyersdk.com",
+  "googletagmanager.com",
+  "monygroup.com"
+ ],
+ "trackerHosts": [
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "cf_clearance",
+   "domain": ".moneysavingexpert.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 365
+  },
+  {
+   "name": "__cf_bm",
+   "domain": ".moneysavingexpert.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "source",
+   "domain": ".moneysavingexpert.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 0
+  },
+  {
+   "name": "web-session-id",
+   "domain": ".moneysavingexpert.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 0
+  },
+  {
+   "name": "visitorId",
+   "domain": ".moneysavingexpert.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 400
+  }
+ ],
+ "weight": {
+  "totalKB": 1125,
+  "thirdPartyKB": 350,
+  "finished": 45,
+  "byTypeKB": {
+   "Script": 830,
+   "Document": 116,
+   "Image": 111,
+   "Stylesheet": 43,
+   "Font": 16,
+   "Other": 8,
+   "Manifest": 1,
+   "XHR": 1,
+   "Fetch": 0
+  }
+ },
+ "reqUrls": [
+  "Document https://www.moneysavingexpert.com/tax-calculator/",
+  "Stylesheet https://www.moneysavingexpert.com/mse-web/_astro/css/all-ymdrTPf8.css",
+  "Stylesheet https://www.moneysavingexpert.com/mse-web/_astro/css/tax-calculator-index___astro-B1j3yNGC.css",
+  "Script https://www.googletagmanager.com/gtm.js?id=GTM-T3V4FN",
+  "Script https://cdn.moneysavingexpert.com/header/assets/header-D8KuxtPV.js",
+  "Image https://www.moneysavingexpert.com/mse-web/_astro/img/calculator-and-user-desktop-BzSVPfei.png",
+  "Image https://www.moneysavingexpert.com/mse-web/_astro/img/calculator-and-user-mobile-CtztVdWe.png",
+  "Image https://www.moneysavingexpert.com/mse-web/_astro/img/no-result-C4rGBZOz.png",
+  "Image https://www.moneysavingexpert.com/mse-web/_astro/img/income-tax-calculator-BN7VD45E.png",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/DatadogRum.astro_astro_type_script_index_0_lang.Dpfuvg5p.js",
+  "Manifest https://www.moneysavingexpert.com/income-tax-calculator.webmanifest",
+  "Font https://cdn.monygroup.com/legacy/dtl-cdndtl.co.uk-sites/sites/fonts/moneysavingexpert/MuseoSlab/Museo_Slab_700-webfont.woff2",
+  "Font https://cdn.monygroup.com/legacy/dtl-cdndtl.co.uk-sites/sites/fonts/moneysavingexpert/MuseoSlab/Museo_Slab_700-webfont.woff2",
+  "Font https://cdn.monygroup.com/legacy/dtl-cdndtl.co.uk-sites/sites/fonts/moneysavingexpert/MuseoSlab/Museo_Slab_700-webfont.woff",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-X74CWQS9F0&cx=c&gtm=4e6b41",
+  "Script https://websdk.appsflyersdk.com/?st=banners&",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/main.DPgaEHG2.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/client.5MftgfM7.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/index.DiTjX5iG.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/VisitorPixel.BZbbz6JG.js",
+  "Font https://cdn.moneysavingexpert.com/fonts/Museo_Slab_700-webfont.woff",
+  "Image https://www.moneysavingexpert.com/mse-web/_astro/img/icon-tooltip-BMRYU7RZ-NRMJmNJu.svg",
+  "Image https://www.moneysavingexpert.com/mse-web/_astro/img/Chevron-7MYIHPSS-BOkLU8E2.svg",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/preload-helper.khBccGFq.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/client.DorzKLPy.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/main.BVnBLJk4.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/react.BQ7o4F5D.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/jsx-runtime.CCjdxiVK.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/react-dom.BwV-ZJbd.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/animated-scroll-to.BAMkHI5o.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/utils.DQbseZ7i.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/classnames.DYPgP9s6.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/PageFurniture.CAP_Jj0g.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/loader.TloBqJWe.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/formComponents.Bb2sQws0.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/format.BKZip4vo.js",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/utils.C7kNO_YR.js",
+  "Script https://www.moneysavingexpert.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5763bc40a06a92a",
+  "Script https://www.moneysavingexpert.com/mse-web/_astro/toDate.i8yNHYyg.js",
+  "Image https://prod-api.moneysavingexpert.com/page-impression-pixel/page-impression.png?channel=354&pageClassification=mseToolsAndCalcs&pageId=income-tax-calculator&pa",
+  "Script https://www.moneysavingexpert.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a5763bc40a06a92a",
+  "XHR https://www.moneysavingexpert.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.209814991859957:1794154216:RKGB82ZpKcs93QaQDqVr2S-Shg51R4tXjdD5PUOkJ",
+  "Other https://www.moneysavingexpert.com/etc/designs/zg/mse/desktop/assets/img/favicon.ico",
+  "Other https://www.moneysavingexpert.com/favicon.ico",
+  "Fetch https://tags.moneysavingexpert.com/g/collect?v=2&tid=G-X74CWQS9F0&gtm=45je6b41v886071100za20ozb6544834zd6544834xf1&_p=1794158270114&gcs=G100&gcd=13p3pPp2p5l1&np"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtm.js?id=GTM-T3V4FN",
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABiCAMAAADwfaQ5AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAMAUExURUdwTDM1W9/f3zE1Y4J8izAzXN",
+  "https://www.googletagmanager.com/gtag/js?id=G-X74CWQS9F0&cx=c&gtm=4e6b41"
+ ],
+ "allHosts": {
+  "www.moneysavingexpert.com": 35,
+  "www.googletagmanager.com": 2,
+  "cdn.moneysavingexpert.com": 2,
+  "cdn.monygroup.com": 3,
+  "websdk.appsflyersdk.com": 1,
+  "prod-api.moneysavingexpert.com": 1,
+  "tags.moneysavingexpert.com": 1
+ },
+ "scan": {
+  "title": "Income tax calculator: Find out your take-home pay - MSE",
+  "url": "https://www.moneysavingexpert.com/tax-calculator/",
+  "docH": 5724,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Value",
+    "value": "",
+    "y": 499,
+    "x": 83,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "payPeriod",
+    "value": "1",
+    "y": 501,
+    "x": 251,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Tax Year",
+    "value": "2026",
+    "y": 598,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "scotland",
+    "value": "",
+    "y": 672,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "How old are you?",
+    "value": "0",
+    "y": 746,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "pensionContribution-value",
+    "value": "",
+    "y": 835,
+    "x": 135,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "Yes",
+    "value": "1",
+    "y": 958,
+    "x": 52,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "No",
+    "value": "0",
+    "y": 958,
+    "x": 216,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "Yes",
+    "value": "yes",
+    "y": 1131,
+    "x": 52,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "No",
+    "value": "no",
+    "y": 1131,
+    "x": 216,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Tax code",
+    "value": "",
+    "y": 1218,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Repay student loan?",
+    "value": "",
+    "y": 1310,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "Yes",
+    "value": "1",
+    "y": 1429,
+    "x": 52,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "No",
+    "value": "0",
+    "y": 1429,
+    "x": 216,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "allowancesDeductions",
+    "value": "",
+    "y": 1508,
+    "x": 83,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "month",
+    "value": "month",
+    "y": 1575,
+    "x": 52,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "radio",
+    "label": "year",
+    "value": "year",
+    "y": 1575,
+    "x": 215,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Type of Allowances/Deductions",
+    "value": "allowance",
+    "y": 1659,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "label": "Want more MoneySaving help? (Optional)",
+    "value": "",
+    "y": 1758,
+    "x": 37,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Check your tax code - you may be owed £1,000s :",
+    "y": 3254,
+    "h": 49,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Up to £2,000/yr free per child to help with childcare costs ",
+    "y": 3461,
+    "h": 49,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Earn under £18,500/yr? Pay no savings tax :",
+    "y": 3668,
+    "h": 49,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Earn over £18,500/yr? Save tax-free in an ISA :",
+    "y": 3737,
+    "h": 49,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "10 .",
+    "y": 3896,
+    "h": 29,
+    "fs": 20,
+    "fixed": ""
+   },
+   {
+    "t": "11 .",
+    "y": 3965,
+    "h": 29,
+    "fs": 20,
+    "fixed": ""
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

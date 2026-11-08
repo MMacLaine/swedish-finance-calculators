@@ -1,0 +1,134 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Godkänn cookies",
+  "val": "",
+  "vis": true,
+  "y": 690
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Endast nödvändiga",
+  "val": "",
+  "vis": true,
+  "y": 738
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Anpassa",
+  "val": "",
+  "vis": true,
+  "y": 788
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "gross-salary",
+  "name": "",
+  "lab": "Bruttolön per månad (kr, efter löneväxli",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 610
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "_R_a8lfcnir5b_",
+  "name": "",
+  "lab": "Kommun för skattetabell",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 761
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Visa kommunlista",
+  "val": "",
+  "vis": true,
+  "y": 761
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Använd schablon",
+  "val": "",
+  "vis": true,
+  "y": 805
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Testa Helhetskollen",
+  "val": "",
+  "vis": true,
+  "y": 1754
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "FIRE-kalkylator Ekonomisk frihet",
+  "val": "",
+  "vis": true,
+  "y": 3051
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Sparkalkylator Ränta på ränta",
+  "val": "",
+  "vis": true,
+  "y": 3121
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Helhetskollen Dashboard",
+  "val": "",
+  "vis": true,
+  "y": 3191
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Hantera cookies",
+  "val": "",
+  "vis": true,
+  "y": 4589
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Öppna meny",
+  "val": "",
+  "vis": true,
+  "y": 780
+ }
+]

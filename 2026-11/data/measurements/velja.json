@@ -1,0 +1,443 @@
+{
+ "id": "velja",
+ "url": "https://velja.se/lonekalkyl",
+ "finalUrl": "https://velja.se/lonekalkyl",
+ "site": "velja.se",
+ "at": "2026-11-08T17:24:55.502Z",
+ "requests": 34,
+ "failed": 0,
+ "failedDetail": [],
+ "thirdPartyHosts": [],
+ "thirdPartyDomains": [],
+ "trackerHosts": [],
+ "cmpHosts": [],
+ "cookies": [],
+ "weight": {
+  "totalKB": 528,
+  "thirdPartyKB": 0,
+  "finished": 34,
+  "byTypeKB": {
+   "Script": 277,
+   "Font": 192,
+   "Document": 21,
+   "Fetch": 17,
+   "Stylesheet": 16,
+   "Other": 3,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://velja.se/lonekalkyl",
+  "Font https://velja.se/_next/static/media/jetbrains_mono_latin.p.15008bfb.woff2",
+  "Font https://velja.se/_next/static/media/newsreader_latin-s.p.b72f0478.woff2",
+  "Font https://velja.se/_next/static/media/newsreader_latin_italic-s.p.8f3b692e.woff2",
+  "Font https://velja.se/_next/static/media/outfit_latin-s.p.758e15a8.woff2",
+  "Stylesheet https://velja.se/_next/static/chunks/cbb2d23af6218dbb.css?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/adb2add67ac62bb1.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/5cedbe3d28acc407.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/cc759f7c2413b7ff.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/52af8d83ef1ed410.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/turbopack-50488211ba09413b.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/394649752bcc9b04.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/090145c0beb5600c.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/99ace9c46cd83e37.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/8c542175bba8f772.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/808ef5cfb9c569ce.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/3cd26354b6a5d517.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/92d21995b313c3f1.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/c007553fbb8d4139.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/7340adf74ff47ec0.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Script https://velja.se/_next/static/chunks/185f83485339680b.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs",
+  "Manifest https://velja.se/manifest.webmanifest",
+  "Fetch https://velja.se/api/geo",
+  "Script https://velja.se/_vercel/insights/script.js",
+  "Script https://velja.se/_vercel/speed-insights/script.js",
+  "Other https://velja.se/icon.svg",
+  "Other https://velja.se/icon-192.png",
+  "Fetch https://velja.se/?_rsc=1qaxt",
+  "Fetch https://velja.se/?_rsc=um44r",
+  "Fetch https://velja.se/?_rsc=ykfmd",
+  "Fetch https://velja.se/?_rsc=bh7bv",
+  "Fetch https://velja.se/_vercel/insights/view",
+  "Script https://velja.se/_next/static/chunks/7d5452ec28c8dd48.js?dpl=dpl_Fa6dUz2J3SyPuaeVhcppdPTFF2Fs"
+ ],
+ "trackerUrls": [],
+ "allHosts": {
+  "velja.se": 34
+ },
+ "scan": {
+  "title": "Lön efter skatt 2026 — räkna ut din nettolön | Lönekalkyl",
+  "url": "https://velja.se/lonekalkyl",
+  "docH": 8446,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "range",
+    "label": "Månadslön (brutto)",
+    "value": "45000",
+    "y": 512,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Kommun",
+    "value": "Rikssnitt (32,38 %)",
+    "y": 714,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "66 år eller äldre vid 2026 års början(förhöjt grun",
+    "value": "on",
+    "y": 792,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "Medlem i Svenska Kyrkan(+1,05 % kyrkoavgift)",
+    "value": "on",
+    "y": 844,
+    "x": 41,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Lön efter skatt — räkna ut din nettolön 2026",
+    "y": 136,
+    "h": 75,
+    "fs": 34,
+    "fixed": ""
+   },
+   {
+    "t": "2025",
+    "y": 411,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 411,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "45 000 kr",
+    "y": 478,
+    "h": 26,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "66 år eller äldre vid 2026 års början",
+    "y": 780,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "(+ 1,05 % kyrkoavgift)",
+    "y": 833,
+    "h": 38,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Resultat 2026",
+    "y": 946,
+    "h": 56,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "35 164 kr",
+    "y": 1054,
+    "h": 40,
+    "fs": 36,
+    "fixed": ""
+   },
+   {
+    "t": "av 45 000 kr före skatt · effektiv skatt 21,86 %",
+    "y": 1098,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "45 000 kr",
+    "y": 1186,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "150 tkr",
+    "y": 1356,
+    "h": 14,
+    "fs": 11,
+    "fixed": ""
+   },
+   {
+    "t": "Rikssnitt ( 32,38 % , SCB) · på 43 550 kr /mån efter grundav",
+    "y": 1435,
+    "h": 32,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "− 14 101 kr",
+    "y": 1427,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "0,292 % ( Kammarkollegiet 2026 )",
+    "y": 1532,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "− 127 kr",
+    "y": 1516,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1 184 kr /år",
+    "y": 1613,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "+ 4 366 kr",
+    "y": 1678,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Max 1 500 kr /år",
+    "y": 1775,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "+ 125 kr",
+    "y": 1759,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Effektiv skatt: 21,86 %",
+    "y": 1860,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "35 164 kr",
+    "y": 1842,
+    "h": 32,
+    "fs": 24,
+    "fixed": ""
+   },
+   {
+    "t": "marginalskatt 32,67 % på de 1 000 kr över 45 000 kr",
+    "y": 1948,
+    "h": 32,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "673 kr kvar",
+    "y": 1928,
+    "h": 48,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "100 tkr",
+    "y": 2523,
+    "h": 14,
+    "fs": 11,
+    "fixed": ""
+   },
+   {
+    "t": "150 tkr",
+    "y": 2523,
+    "h": 14,
+    "fs": 11,
+    "fixed": ""
+   },
+   {
+    "t": "3,24 pbb",
+    "y": 2324,
+    "h": 14,
+    "fs": 11,
+    "fixed": ""
+   },
+   {
+    "t": "8,08 pbb",
+    "y": 2310,
+    "h": 14,
+    "fs": 11,
+    "fixed": ""
+   },
+   {
+    "t": "Årsinkomst: 540 000 kr. Skatteverket räknar på hela hundrata",
+    "y": 2744,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Grundavdrag : 17 400 kr → beskattningsbar förvärvsinkomst 52",
+    "y": 2792,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Kommunalskatt 32,38 % på den beskattningsbara inkomsten: 169",
+    "y": 2840,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Summa skatt 118 036 kr/år = 9 836 kr per månad → nettolön 35",
+    "y": 3084,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "20 % på inkomster över brytpunkten (660 400 kr 2026)",
+    "y": 3450,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "1 % av inkomsten, max 1 184 kr/år (2026)",
+    "y": 3706,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "0,292 % 2026 enligt Kammarkollegiet (Stockholm och Tranås sä",
+    "y": 3804,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Upp till 1 500 kr/år (0,75 % av beskattningsbar inkomst över",
+    "y": 3922,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Senast uppdaterad: september 2026",
+    "y": 5685,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Skatteverket – Skattetabell 32 för 2026",
+    "y": 5850,
+    "h": 18,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "SCB – Kommunalskatterna 2026",
+    "y": 5942,
+    "h": 18,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "— 32,38 %, det ”rikssnitt” kalkylen använder när ingen kommu",
+    "y": 5942,
+    "h": 38,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Kommunala skattesatser 2025 och 2026",
+    "y": 5993,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Medianinkomst per kommun (2023)",
+    "y": 6085,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "(ages 25–64, weighted average)",
+    "y": 6106,
+    "h": 38,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Inkomstspridning per kommun (2023)",
+    "y": 6157,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Byggd i Rydebäck · © 2026 Traversal AB",
+    "y": 8290,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "( 2026 )",
+    "y": 809,
+    "h": 18,
+    "fs": 14,
+    "fixed": "fixed"
+   },
+   {
+    "t": "35 164 kr",
+    "y": 804,
+    "h": 28,
+    "fs": 18,
+    "fixed": "fixed"
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [
+   "velja:geo:v1"
+  ],
+  "sw": false
+ }
+}

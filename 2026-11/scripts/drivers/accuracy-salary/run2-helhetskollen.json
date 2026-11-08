@@ -1,0 +1,19 @@
+{
+ "log": [
+  "opts:Stockholm Tabell 31 · 30,620 %"
+ ],
+ "readback": {
+  "gross": "45000",
+  "kommun": "Stockholm - tabell 31"
+ },
+ "resultText": "Din nettolön per månad 35 550 kr Beräknad med skattetabell 31 (2026) utan kyrkoavgift. Din faktiska nettolön kan variera. Dela kalkylatorn Delar bara en ren länk till verktyget. Inga inmatningar eller resultat följer med. Dela länk Räkna ut pensionsavsättningar Viktigt att veta: De",
+ "money": [
+  {
+   "t": "35 550 kr",
+   "y": 997,
+   "fs": 30,
+   "fixed": "",
+   "ctx": "Din nettolön per månad 35 550 kr Beräknad med skattetabell 31 (2026) utan kyrkoavgift. Din"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "url": "https://maclaine.se/finance/bolan",
+ "title": "Bolånekalkylator 2026: Köpa vs Hyra & KALP | Gratis",
+ "clicked": [],
+ "inputs": [
+  {
+   "i": 0,
+   "tag": "INPUT",
+   "type": "number",
+   "name": "",
+   "id": "mort-price",
+   "label": "Bostadens pris",
+   "value": "3500000",
+   "min": "0",
+   "max": ""
+  },
+  {
+   "i": 1,
+   "tag": "INPUT",
+   "type": "number",
+   "name": "",
+   "id": "mort-deposit",
+   "label": "Kontantinsats",
+   "value": "525000",
+   "min": "0",
+   "max": ""
+  },
+  {
+   "i": 2,
+   "tag": "INPUT",
+   "type": "number",
+   "name": "",
+   "id": "mort-term",
+   "label": "Lånetid",
+   "value": "30",
+   "min": "1",
+   "max": "50"
+  },
+  {
+   "i": 3,
+   "tag": "SELECT",
+   "type": "select-one",
+   "name": "",
+   "id": "mort-borrowers",
+   "label": "Låntagare",
+   "value": "1"
+  },
+  {
+   "i": 4,
+   "tag": "SELECT",
+   "type": "select-one",
+   "name": "",
+   "id": "mort-binding",
+   "label": "Räntebindningstid",
+   "value": "variable"
+  },
+  {
+   "i": 5,
+   "tag": "INPUT",
+   "type": "number",
+   "name": "",
+   "id": "mort-rate",
+   "label": "Ränta",
+   "value": "2.72",
+   "min": "0",
+   "max": "15"
+  },
+  {
+   "i": 6,
+   "tag": "INPUT",
+   "type": "number",
+   "name": "",
+   "id": "mort-amort",
+   "label": "Amortering % kr",
+   "value": "2",
+   "min": "0",
+   "max": "10"
+  },
+  {
+   "i": 7,
+   "tag": "INPUT",
+   "type": "number",
+   "name": "",
+   "id": "mort-avgift",
+   "label": "Månadsavgift BRF",
+   "value": "4500",
+   "min": "0",
+   "max": ""
+  }
+ ],
+ "amort": [
+  "Svensk bolånekalkylator med aktuella räntor från SCB, amorteringsschema, KALP-kalkyl och fullständig kostnadsöversikt för BRF och villa.",
+  "Ränta & amortering",
+  "Amortering",
+  "Amortering över tid",
+  "Du lånar 2 975 000 kr, alltså 85,0% av priset, så du behöver amortera minst 2% per år.",
+  "Månadsamortering",
+  "Amorteringsnivå",
+  "Amortera eller investera?"
+ ],
+ "iframes": [
+  ""
+ ]
+}

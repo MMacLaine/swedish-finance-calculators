@@ -1,0 +1,44 @@
+{
+ "url": "https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl",
+ "title": "Hur mycket får jag låna? Bolånekalkyl | Handelsbanken",
+ "clicked": [],
+ "inputs": [
+  {
+   "i": 0,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "downPayment",
+   "id": "downPayment",
+   "label": "Hur mycket tänker du lägga i egen insats? — kr",
+   "value": "",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 1,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "monthlyIncome",
+   "id": "monthlyIncome",
+   "label": "Vad är din månadsinkomst? — kr per månad före skatt",
+   "value": "",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 2,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "loanInterestRate",
+   "id": "loanInterestRate",
+   "label": "Vilken ränta vill du räkna med? — %",
+   "value": "2,7",
+   "min": "",
+   "max": ""
+  }
+ ],
+ "amort": [
+  "Hur mycket behöver jag amortera?"
+ ],
+ "iframes": []
+}

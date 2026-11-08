@@ -1,0 +1,316 @@
+{
+ "readback": {
+  "salary": "45000",
+  "kommun": "Stockholm / Stockholm (30.55%)",
+  "all": [
+   {
+    "type": "number",
+    "val": "45000",
+    "checked": false
+   },
+   {
+    "type": "range",
+    "val": "45000",
+    "checked": false
+   },
+   {
+    "type": "select-one",
+    "val": "Stockholm"
+   },
+   {
+    "type": "email",
+    "val": "",
+    "checked": false
+   }
+  ]
+ },
+ "money": [
+  {
+   "t": "660,400 SEK/year",
+   "y": 595,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Key Facts: Swedish Tax 2026 Municipal tax range: 28.93% - 35.65% State tax threshold: 660,"
+  },
+  {
+   "t": "45 000 SEK",
+   "y": 1362,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Gross salary 45 000 SEK Tax deducted -9 832 SEK"
+  },
+  {
+   "t": "- 9 832 SEK",
+   "y": 1390,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Gross salary 45 000 SEK Tax deducted -9 832 SEK"
+  },
+  {
+   "t": "540 000 SEK",
+   "y": 1614,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Gross salary 540 000 SEK Total tax -117 986 SEK"
+  },
+  {
+   "t": "- 117 986 SEK",
+   "y": 1642,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Gross salary 540 000 SEK Total tax -117 986 SEK"
+  },
+  {
+   "t": "- 17 700 SEK",
+   "y": 1795,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Basic deduction Tax-free amount -17 700 SEK Municipal tax 30.55% in Stockholm 159 563 SEK "
+  },
+  {
+   "t": "159 563 SEK",
+   "y": 1860,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Basic deduction Tax-free amount -17 700 SEK Municipal tax 30.55% in Stockholm 159 563 SEK "
+  },
+  {
+   "t": "- 41 576 SEK",
+   "y": 1925,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Basic deduction Tax-free amount -17 700 SEK Municipal tax 30.55% in Stockholm 159 563 SEK "
+  },
+  {
+   "t": "117 986 SEK",
+   "y": 1986,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Basic deduction Tax-free amount -17 700 SEK Municipal tax 30.55% in Stockholm 159 563 SEK "
+  },
+  {
+   "t": "25 000 SEK",
+   "y": 3235,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "2 656 SEK",
+   "y": 3235,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "22 344 SEK",
+   "y": 3235,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "30 000 SEK",
+   "y": 3297,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "3 988 SEK",
+   "y": 3297,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "26 012 SEK",
+   "y": 3297,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "35 000 SEK",
+   "y": 3358,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "5 361 SEK",
+   "y": 3358,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "29 639 SEK",
+   "y": 3358,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "40 000 SEK",
+   "y": 3419,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "8 305 SEK",
+   "y": 3419,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "31 695 SEK",
+   "y": 3419,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "45 000 SEK",
+   "y": 3480,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "9 832 SEK",
+   "y": 3480,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "35 168 SEK",
+   "y": 3480,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "50 000 SEK",
+   "y": 3541,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "11 360 SEK",
+   "y": 3541,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "38 640 SEK",
+   "y": 3541,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "55 000 SEK",
+   "y": 3602,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "12 887 SEK",
+   "y": 3602,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "42 113 SEK",
+   "y": 3602,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "60 000 SEK",
+   "y": 3663,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "15 408 SEK",
+   "y": 3663,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "44 592 SEK",
+   "y": 3663,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "70 000 SEK",
+   "y": 3724,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "20 500 SEK",
+   "y": 3724,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "49 500 SEK",
+   "y": 3724,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "80 000 SEK",
+   "y": 3785,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "25 646 SEK",
+   "y": 3785,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "54 354 SEK",
+   "y": 3785,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "25 000 SEK 2 656 SEK 22 344 SEK 11% 30 000 SEK 3 988 SEK 26 012 SEK 13% 35 000 SEK 5 361 S"
+  },
+  {
+   "t": "45,000 SEK After Tax",
+   "y": 4170,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "How to Calculate Your Salary After Tax in Sweden To calculate your take-home pay in Sweden"
+  },
+  {
+   "t": "35,000 SEK After Tax",
+   "y": 4314,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "How to Calculate Your Salary After Tax in Sweden To calculate your take-home pay in Sweden"
+  }
+ ]
+}

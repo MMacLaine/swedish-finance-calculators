@@ -1,0 +1,112 @@
+{
+ "url": "https://www.ekonomifokus.se/kalkylator-boendekostnad",
+ "title": "Beräkna kostnad för boende & bolån - kalkylator & info",
+ "clicked": [],
+ "inputs": [
+  {
+   "i": 0,
+   "tag": "SELECT",
+   "type": "select-one",
+   "name": "",
+   "id": "cate",
+   "label": "cate",
+   "value": "0"
+  },
+  {
+   "i": 1,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "pris",
+   "id": "",
+   "label": "pris",
+   "value": "2 500 000",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 2,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "lanebelop",
+   "id": "",
+   "label": "lanebelop",
+   "value": "500 000",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 3,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "rente",
+   "id": "",
+   "label": "rente",
+   "value": "1.59",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 4,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "aar",
+   "id": "",
+   "label": "aar",
+   "value": "1000",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 5,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "wc_name",
+   "id": "wc_name-0_0",
+   "label": "Namn*",
+   "value": "",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 6,
+   "tag": "INPUT",
+   "type": "email",
+   "name": "wc_email",
+   "id": "wc_email-0_0",
+   "label": "E-post*",
+   "value": "",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 7,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "FIRSTNAME",
+   "id": "FIRSTNAME",
+   "label": "Förnamn",
+   "value": "",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 8,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "EMAIL",
+   "id": "EMAIL",
+   "label": "E-postadress",
+   "value": "",
+   "min": "",
+   "max": ""
+  }
+ ],
+ "amort": [
+  "Amortering:\t3 333 kr",
+  "Amortering (egentligen inte en kostnad utan ett sparande, men ska ändå räknas med)",
+  "Amortering (egentligen inte en kostnad utan ett sparande, men ska ändå räknas med)"
+ ],
+ "iframes": [
+  ""
+ ]
+}

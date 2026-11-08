@@ -1,0 +1,79 @@
+{
+ "readback": {
+  "salary": "45000",
+  "kommun": "Stockholm / Stockholm (30.55%)",
+  "all": [
+   {
+    "type": "number",
+    "val": "45000",
+    "checked": false
+   },
+   {
+    "type": "range",
+    "val": "45000",
+    "checked": false
+   },
+   {
+    "type": "select-one",
+    "val": "Stockholm"
+   },
+   {
+    "type": "email",
+    "val": "",
+    "checked": false
+   }
+  ]
+ },
+ "net": [
+  {
+   "t": "35 168 SEK",
+   "y": 1292,
+   "vpTop": 857,
+   "h": 37,
+   "fs": 30,
+   "fixed": ""
+  },
+  {
+   "t": "35 168 SEK",
+   "y": 3480,
+   "vpTop": 3045,
+   "h": 61,
+   "fs": 14,
+   "fixed": ""
+  }
+ ],
+ "takeHome": [
+  {
+   "t": "Calculate your in-hand salary after Swedish taxes — built fo",
+   "y": 276,
+   "vpTop": -159,
+   "h": 196,
+   "fs": 18,
+   "fixed": ""
+  },
+  {
+   "t": "78% take-home",
+   "y": 1110,
+   "vpTop": 675,
+   "h": 20,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "TAKE-HOME PAY",
+   "y": 1272,
+   "vpTop": 837,
+   "h": 16,
+   "fs": 12,
+   "fixed": ""
+  },
+  {
+   "t": "TAKE-HOME PAY",
+   "y": 1524,
+   "vpTop": 1089,
+   "h": 16,
+   "fs": 12,
+   "fixed": ""
+  }
+ ]
+}

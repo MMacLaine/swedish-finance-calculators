@@ -1,0 +1,704 @@
+{
+ "id": "rikatillsammans",
+ "url": "https://rikatillsammans.se/verktyg/ranta-pa-ranta/",
+ "finalUrl": "https://rikatillsammans.se/verktyg/ranta-pa-ranta/",
+ "site": "rikatillsammans.se",
+ "at": "2026-11-08T17:24:55.633Z",
+ "requests": 101,
+ "failed": 5,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://lwadm.com/lw/pbjs?pid=9c40dbbb-3a4e-4be6-b760-a144d5939287"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://analytics.ahrefs.com/analytics.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://fundingchoicesmessages.google.com/i/pub-4732364589022996?ers=1"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-3MX9V3S1LK&gtm=45Pe6b41v9132821713za208zd9132821713xf1&_p=1794158687968&_gaz=1&gcd=13l3l3l2l1l1&npa=1&d"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-3MX9V3S1LK&cid=1380599514.1794158689&gtm=45Pe6b41v9132821713za208zd9132821713xf1&rcb=6&aip=1&dma=1&dma_cps=a"
+  }
+ ],
+ "thirdPartyHosts": [
+  "analytics.ahrefs.com",
+  "api.cmp.inmobi.com",
+  "cmp.inmobi.com",
+  "ekr.zdassets.com",
+  "flo.uri.sh",
+  "fundingchoicesmessages.google.com",
+  "lwadm.com",
+  "public.flourish.studio",
+  "region1.analytics.google.com",
+  "rikatillsammans.zendesk.com",
+  "static.zdassets.com",
+  "stats.g.doubleclick.net",
+  "www.google.se",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "ahrefs.com",
+  "doubleclick.net",
+  "flourish.studio",
+  "google.com",
+  "google.se",
+  "googletagmanager.com",
+  "inmobi.com",
+  "lwadm.com",
+  "uri.sh",
+  "zdassets.com",
+  "zendesk.com"
+ ],
+ "trackerHosts": [
+  "stats.g.doubleclick.net",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [
+  "fundingchoicesmessages.google.com",
+  "cmp.inmobi.com",
+  "api.cmp.inmobi.com"
+ ],
+ "cookies": [
+  {
+   "name": "usprivacy",
+   "domain": ".rikatillsammans.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 390
+  },
+  {
+   "name": "_ga_3MX9V3S1LK",
+   "domain": ".rikatillsammans.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_ga",
+   "domain": ".rikatillsammans.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  }
+ ],
+ "weight": {
+  "totalKB": 5458,
+  "thirdPartyKB": 819,
+  "finished": 94,
+  "byTypeKB": {
+   "Image": 3894,
+   "Script": 1091,
+   "Font": 206,
+   "XHR": 98,
+   "Stylesheet": 88,
+   "Document": 63,
+   "Other": 15,
+   "Fetch": 3,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://rikatillsammans.se/verktyg/ranta-pa-ranta/",
+  "Font https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/fonts/nunito/Nunito-VariableFont_wght.woff2",
+  "Font https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/fonts/nunito/Nunito-Italic-VariableFont_wght.woff2",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/icon-caret-down.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/logo-rikatillsammans-light.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/search.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/search-dark.svg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/05/jan-256.jpg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/05/oliver-256.jpg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/08/og-median-isk.png",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/01/sparandring.png",
+  "Image https://rikatillsammans.se/wp-content/uploads/2025/12/spara-na-miljon-vid-65.png",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/10/485.-Moa-barn-och-pengar-scaled.jpg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/484-og.jpg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/og-pension-4-siffran.png",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/06/niklas-og.jpg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/johan-strand-og.jpg",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/34cce5cc3377e41247a724c166506376624d442e.jpeg",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/98b9f9edd5db.bootstrap-5.3.7.min.css",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/a79a37e2ca44.style.min.css",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/a24c54b20e6f.style.css",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/9ea6c5b44001.frontend.css",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/3bd442050c0f.jquery.fancybox.min.css",
+  "Script https://rikatillsammans.se/wp-includes/js/jquery/jquery.min.js?ver=826eb77e86b0",
+  "Script https://rikatillsammans.se/wp-content/plugins/simple-tags/assets/frontend/js/frontend.js?ver=dab705812ca8",
+  "Script https://www.googletagmanager.com/gtag/js?id=GT-PZ64DMQ",
+  "Script https://lwadm.com/lw/pbjs?pid=9c40dbbb-3a4e-4be6-b760-a144d5939287",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/0e5d85da451d.print.css",
+  "Manifest https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/favicons/manifest.json",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/08/og-median-isk-768x403-png.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/01/sparandring-768x432-png.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2025/12/spara-na-miljon-vid-65-768x432-png.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/10/485.-Moa-barn-och-pengar-768x432-jpg.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/484-og-768x432-jpg.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/og-pension-4-siffran-768x403-png.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/06/niklas-og-768x432-jpg.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/johan-strand-og-768x403-jpg.avif",
+  "Image https://rikatillsammans.se/wp-content/uploads/2026/09/34cce5cc3377e41247a724c166506376624d442e-768x432-jpeg.avif",
+  "Script https://static.zdassets.com/ekr/snippet.js?key=43eea441-6919-40a9-8672-00f81d6a8730",
+  "Script https://analytics.ahrefs.com/analytics.js",
+  "Stylesheet https://rikatillsammans.se/wp-content/cache/flying-press/f5ff4da97814.compound-interest.css",
+  "Script https://rikatillsammans.se/wp-content/plugins/flying-press/assets/vitals.min.js?ver=def2a6433a78",
+  "Script https://rikatillsammans.se/wp-includes/js/imagesloaded.min.js?ver=6823120876c9",
+  "Script https://public.flourish.studio/resources/embed.js?ver=1794102679",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/6b30d5d3b85c.swiper-bundle.min.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/f51297eea248.rikatillsammans.js",
+  "Script https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/js/dark-mode.js?ver=287b992fe1a3",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/78bfc26d9e06.jquery.main.js",
+  "Script https://rikatillsammans.se/wp-content/plugins/easy-fancybox/vendor/purify.min.js?ver=52abf5cb41ad",
+  "Script https://rikatillsammans.se/wp-content/plugins/easy-fancybox/fancybox/2.2.0/jquery.fancybox.min.js?ver=32dc588ac83a",
+  "Script https://rikatillsammans.se/wp-content/plugins/easy-fancybox/fancybox/2.2.0/helpers/jquery.fancybox-media.min.js?ver=dee9977dd8c5",
+  "Script https://rikatillsammans.se/wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.min.js?ver=963b3f6599b0",
+  "Script https://rikatillsammans.se/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js?ver=ce68afff27",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/33911cf093ad.bootstrap.bundle.min.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/ea9266add710.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/7679e51533c3.js",
+  "Script https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/d3/libs/js/d3.v7.min.js?ver=69faba9d2fff",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/a5c4c1f37ffa.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/fda499a11106.chart.js",
+  "Script https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/d3/scripts/utils.js?ver=86ad091b3b5a",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/1c487843af6a.line-chart.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/ea78450639d6.selectors.js",
+  "Script https://rikatillsammans.se/wp-content/themes/rikatillsammans/page-templates-calculators/_inc/autonumeric-config.js?ver=71a63d3678bc",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/3d687c6e4422.BaseCalculatorChart.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/ec8586538abc.CompoundedInterestStackedBarChart.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/40e551bf228f.CompoundedInterestPercentageOfFinalChart.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/6bb0b7bc4a9f.CompoundedInterestCumulativeChart.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/52802e8e0642.CompoundInterestCalculator.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/c383bf4485c3.CompoundInterestMarketSimulator.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/c97fd777c3b8.CompoundInterestConfig.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/0c6ef9851a46.CompoundInterestConfidenceBandCalculator.js",
+  "Script https://rikatillsammans.se/wp-content/cache/flying-press/5ce9e27c2aca.CompoundedInterestMarketSimulatorChart.js",
+  "Script https://fundingchoicesmessages.google.com/i/pub-4732364589022996?ers=1",
+  "Fetch https://ekr.zdassets.com/compose/43eea441-6919-40a9-8672-00f81d6a8730",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/icon-caret-down-white.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/logo-swish.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/logo-bmc.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/logo-rikatillsammans-dark.svg",
+  "Script https://cmp.inmobi.com/choice/sNSDhh71Axb_n/rikatillsammans.se/choice.js?tag_version=V3",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/icon-blockquote-light.svg",
+  "Document https://flo.uri.sh/story/3344602/embed?auto=1",
+  "Document https://flo.uri.sh/story/3344738/embed?auto=1",
+  "Script https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7007823.js",
+  "Script https://static.zdassets.com/web_widget/classic/latest/web-widget-5433-7007823.js",
+  "Script https://static.zdassets.com/web_widget/classic/latest/web-widget-locales/classic/sv-se-json-7007823.js",
+  "Fetch https://rikatillsammans.zendesk.com/embeddable/config",
+  "Script https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=rikatillsammans.se",
+  "XHR https://cmp.inmobi.com/geoip",
+  "XHR https://cmp.inmobi.com/GVL-v2/cmp-list.json",
+  "Script https://cmp.inmobi.com/tcfv2/53/cmp2ui-sv.js",
+  "Fetch https://region1.analytics.google.com/g/collect?v=2&tid=G-3MX9V3S1LK&gtm=45Pe6b41v9132821713za208zd9132821713xf1&_p=1794158687968&_gaz=1&gcd=13l3l3l2l1l1&npa=1&d",
+  "Ping https://stats.g.doubleclick.net/g/collect?v=2&tid=G-3MX9V3S1LK&cid=1380599514.1794158689&gtm=45Pe6b41v9132821713za208zd9132821713xf1&rcb=6&aip=1&dma=1&dma_cps=a",
+  "XHR https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json",
+  "Image https://www.google.se/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-3MX9V3S1LK&cid=1380599514.1794158689&gtm=45Pe6b41v9132821713za208zd9132821713xf1&rcb=6&aip=1",
+  "Fetch https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json",
+  "XHR https://api.cmp.inmobi.com/?log=%7B%22accountId%22%3A%22sNSDhh71Axb_n%22%2C%22domain%22%3A%22rikatillsammans.se%22%2C%22publisher%22%3A%22RikaTillsammans%22%2C%",
+  "XHR https://cmp.inmobi.com/geoip",
+  "XHR https://cmp.inmobi.com/GVL-v3/purposes-sv.json",
+  "Other https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/favicons/favicon.ico",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/icon-newspaper.svg",
+  "Image https://rikatillsammans.se/wp-content/themes/rikatillsammans/assets/images/icon-play-solid-white.svg"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtag/js?id=GT-PZ64DMQ",
+  "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-3MX9V3S1LK&cid=1380599514.1794158689&gtm=45Pe6b41v9132821713za208zd9132821713xf1&rcb=6&a"
+ ],
+ "allHosts": {
+  "rikatillsammans.se": 75,
+  "www.googletagmanager.com": 1,
+  "lwadm.com": 1,
+  "static.zdassets.com": 4,
+  "analytics.ahrefs.com": 1,
+  "public.flourish.studio": 1,
+  "fundingchoicesmessages.google.com": 1,
+  "ekr.zdassets.com": 1,
+  "cmp.inmobi.com": 9,
+  "flo.uri.sh": 2,
+  "rikatillsammans.zendesk.com": 1,
+  "region1.analytics.google.com": 1,
+  "stats.g.doubleclick.net": 1,
+  "www.google.se": 1,
+  "api.cmp.inmobi.com": 1
+ },
+ "scan": {
+  "title": "Ränta-på-ränta | RikaTillsammans",
+  "url": "https://rikatillsammans.se/verktyg/ranta-pa-ranta/",
+  "docH": 13180,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Sök efter avsnitt, skriv ett nummer eller ord...️",
+    "value": "",
+    "y": -457,
+    "x": 12,
+    "fixed": "fixed"
+   },
+   {
+    "tag": "input",
+    "type": "range",
+    "label": "Ränta per år (%) Rimligt för en global indexfond ä",
+    "value": "7",
+    "y": 1446,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Ränta per år i procent, textinmatning",
+    "value": "7,00 %",
+    "y": 1435,
+    "x": 237,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "range",
+    "label": "Startkapital (kr) Större belopp? Skriv i rutan.",
+    "value": "10000",
+    "y": 1547,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Startkapital i kronor, textinmatning",
+    "value": "10 000 kr",
+    "y": 1536,
+    "x": 237,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "range",
+    "label": "Månadssparande (kr/mån) Se alt. \"överkurs\" för fle",
+    "value": "1000",
+    "y": 1647,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Månadssparande i kronor per månad, textinmatning",
+    "value": "1 000 kr/mån",
+    "y": 1636,
+    "x": 237,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "range",
+    "label": "Sparhorisont (år) Hur många år vill du spara?",
+    "value": "20",
+    "y": 1747,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Sparhorisont i år, textinmatning",
+    "value": "20 år",
+    "y": 1736,
+    "x": 237,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Investerat sedan 1996 · Bloggat sedan 2007",
+    "y": 389,
+    "h": 17,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "23 maj 2026",
+    "y": 510,
+    "h": 17,
+    "fs": 12.5,
+    "fixed": ""
+   },
+   {
+    "t": "7 oktober 2025",
+    "y": 510,
+    "h": 17,
+    "fs": 12.5,
+    "fixed": ""
+   },
+   {
+    "t": "100 tkr",
+    "y": 1128,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "150 tkr",
+    "y": 1100,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "200 tkr",
+    "y": 1072,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "250 tkr",
+    "y": 1044,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "300 tkr",
+    "y": 1016,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "350 tkr",
+    "y": 988,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "400 tkr",
+    "y": 960,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "450 tkr",
+    "y": 932,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "500 tkr",
+    "y": 904,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "7.0 %",
+    "y": 1825,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "546 233",
+    "y": 1875,
+    "h": 88,
+    "fs": 64,
+    "fixed": ""
+   },
+   {
+    "t": "10 000 kr",
+    "y": 1985,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "240 000 kr",
+    "y": 2003,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "296 233 kr",
+    "y": 2022,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "10 000 kr",
+    "y": 2233,
+    "h": 34,
+    "fs": 24.875,
+    "fixed": ""
+   },
+   {
+    "t": "240 000 kr",
+    "y": 2354,
+    "h": 34,
+    "fs": 24.875,
+    "fixed": ""
+   },
+   {
+    "t": "296 233 kr",
+    "y": 2476,
+    "h": 34,
+    "fs": 24.875,
+    "fixed": ""
+   },
+   {
+    "t": "7.0 %",
+    "y": 2719,
+    "h": 34,
+    "fs": 24.875,
+    "fixed": ""
+   },
+   {
+    "t": "546 233 kr",
+    "y": 2962,
+    "h": 34,
+    "fs": 24.875,
+    "fixed": ""
+   },
+   {
+    "t": "10,1",
+    "y": 8016,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "13,3",
+    "y": 8016,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "17,4",
+    "y": 8016,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "10,3",
+    "y": 8053,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "15,0",
+    "y": 8053,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "21,7",
+    "y": 8053,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "31,4",
+    "y": 8053,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "45,3",
+    "y": 8053,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "11,5",
+    "y": 8091,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "18,4",
+    "y": 8091,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "29,5",
+    "y": 8091,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "46,9",
+    "y": 8091,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "74,4",
+    "y": 8091,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "117,4",
+    "y": 8091,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "10,1",
+    "y": 9142,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "10,3",
+    "y": 9179,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "15,0",
+    "y": 9179,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "21,7",
+    "y": 9179,
+    "h": 37,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "11,5",
+    "y": 9217,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "18,4",
+    "y": 9217,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "29,5",
+    "y": 9217,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "46,9",
+    "y": 9217,
+    "h": 38,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "(123 463 53 22)",
+    "y": 10775,
+    "h": 42,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Hur stor pension har svensken 2026?",
+    "y": 11834,
+    "h": 20,
+    "fs": 14.47,
+    "fixed": ""
+   },
+   {
+    "t": "RikaTillsammans AB © 2007-2026 Org. nr:",
+    "y": 13895,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "559006-8960",
+    "y": 13894,
+    "h": 19,
+    "fs": 13.3672,
+    "fixed": ""
+   },
+   {
+    "t": "546 233 kr",
+    "y": 855,
+    "h": 31,
+    "fs": 22.4,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "qc-cmp-cleanslate css-1caw51z",
+    "top": 0,
+    "h": 844,
+    "w": 390,
+    "pctViewport": 100,
+    "text": "Vi värdesätter din integritet Vi och våra leverantorer lagrar och/eller får åtkomst till information på en enhet, exempelvis cookies, samt b"
+   }
+  ],
+  "iframes": [
+   "https://flo.uri.sh/story/3344602/embed?auto=1",
+   "https://flo.uri.sh/story/3344738/embed?auto=1",
+   "about:blank"
+  ],
+  "ls": [
+   "ZD-store",
+   "ZD-suid",
+   "CMPList",
+   "ZD-buid"
+  ],
+  "ss": [],
+  "sw": false
+ }
+}

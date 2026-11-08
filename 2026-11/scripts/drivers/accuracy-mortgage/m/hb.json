@@ -1,0 +1,324 @@
+{
+ "id": "hb",
+ "url": "https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl",
+ "finalUrl": "https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl",
+ "site": "handelsbanken.se",
+ "at": "2026-11-08T17:22:55.915Z",
+ "requests": 29,
+ "failed": 0,
+ "thirdPartyHosts": [],
+ "thirdPartyDomains": [],
+ "trackerHosts": [],
+ "cmpHosts": [],
+ "cookies": [],
+ "weight": {
+  "totalKB": 1888,
+  "thirdPartyKB": 0,
+  "finished": 29,
+  "byTypeKB": {
+   "Script": 1113,
+   "Other": 437,
+   "Image": 121,
+   "Stylesheet": 106,
+   "Font": 72,
+   "Document": 32,
+   "Fetch": 7
+  }
+ },
+ "reqUrls": [
+  "Document https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl",
+  "Other https://www.handelsbanken.se/tron/public/system/publicationsettings.json?lang=sv",
+  "Other https://www.handelsbanken.se/tron/public/ui/navigations/v2/menu/topmenu2?lang=sv",
+  "Other https://www.handelsbanken.se/tron/public/ui/configurations/v1/sitemap/sitemap?lang=sv",
+  "Font https://www.handelsbanken.se/sv/sepu/fonts/jedi/base/kit/HandelsbankenSansTable-Regular.woff2",
+  "Font https://www.handelsbanken.se/sv/sepu/fonts/jedi/base/kit/HandelsbankenSansTable-Bold.woff2",
+  "Image https://www.handelsbanken.se/tron/public/info/contents/v1/image/32-274022?variantId=1200",
+  "Script https://www.handelsbanken.se/sv/sepu//js/bootstrap.main.js?rev=2789586",
+  "Script https://www.handelsbanken.se/sv/sepu/js/vendors.b8e2526a722a6b3ddd9e.bundle.js?rev=2789586",
+  "Script https://www.handelsbanken.se/sv/sepu/js/main.3b21060e2f0ef7fa7cd5.bundle.js?rev=2789586",
+  "Stylesheet https://www.handelsbanken.se/sv/sepu/css/shb/app/vendors.1772963c76b7d5daca41.css?rev=2789586",
+  "Stylesheet https://www.handelsbanken.se/sv/sepu/css/shb/app/main.8b8391e728bf11fafe6b.css?rev=2789586",
+  "Script https://www.handelsbanken.se/sv/sepu//lib/adobe.analytics/launch-0f08f7ab8f9c.min.js?rev=2789586",
+  "Fetch https://www.handelsbanken.se/tron/public//ui/navigations/v1/menu/topmenu_become_a_customer?lang=sv",
+  "Fetch https://www.handelsbanken.se/tron/public/system/publicationsettings.json?lang=sv",
+  "Fetch https://www.handelsbanken.se/tron/public/ui/configurations/v1/footer/footer?lang=sv",
+  "Other https://www.handelsbanken.se/sv/sepu//48x48.png",
+  "Image https://www.handelsbanken.se/tron/public/info/contents/v1/image/32-271409",
+  "Image https://www.handelsbanken.se/tron/public/info/contents/v1/image/32-271408",
+  "Image https://www.handelsbanken.se/tron/public/info/contents/v1/image/32-272209",
+  "Image https://www.handelsbanken.se/tron/public/info/contents/v1/image/32-271411",
+  "Fetch https://www.handelsbanken.se/tron/public/info/alerts/v1/alert/32-80961",
+  "Fetch https://www.handelsbanken.se/tron/public/info/contents/v1/component/32-275442?templateId=32-181104-32",
+  "Fetch https://www.handelsbanken.se/tron/public/info/contents/v1/component/32-167780?templateId=32-3617-32",
+  "Fetch https://www.handelsbanken.se/tron/public/info/contents/v1/component/32-274016?templateId=32-272587-32",
+  "Fetch https://www.handelsbanken.se/tron/public/info/contents/v1/component/32-273652?templateId=32-272590-32",
+  "Fetch https://www.handelsbanken.se/tron/public/info/contents/v1/component/32-274017?templateId=32-272592-32",
+  "Fetch https://www.handelsbanken.se/tron/public/info/contents/v1/component/32-81765",
+  "Fetch https://www.handelsbanken.se/rsopdistresource/slan/resource/open/v1/mortgagerates/currentcalculationrate"
+ ],
+ "trackerUrls": [],
+ "allHosts": {
+  "www.handelsbanken.se": 29
+ },
+ "scan": {
+  "title": "Hur mycket får jag låna? Bolånekalkyl | Handelsbanken",
+  "url": "https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl",
+  "docH": 5585,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Hur mycket tänker du lägga i egen insats? — kr",
+    "value": "",
+    "y": 1001,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Vad är din månadsinkomst? — kr per månad före skat",
+    "value": "",
+    "y": 1119,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Vilken ränta vill du räkna med? — %",
+    "value": "2,7",
+    "y": 1586,
+    "x": 37,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "0771-77 88 99",
+    "y": 4349,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "+46 771 77 88 99",
+    "y": 4386,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "020‑41 12 12",
+    "y": 4692,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "+46 8 411 21 22",
+    "y": 4729,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "dialog",
+    "id": "",
+    "cls": "hds-base hds-base--display-revert hds-mo",
+    "top": 84,
+    "h": 760,
+    "w": 390,
+    "pctViewport": 90,
+    "text": "modal öppnad Cookies på Handelsbankens webbplats Handelsbanken använder cookies (kakor) som är nödvändiga för att webbplatsen ska fungera ko"
+   }
+  ],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ },
+ "actFile": "./raw/accuracy-mortgage/act-hb.js",
+ "act": {
+  "feeInfo": [
+   "monthlyFee",
+   "Hur mycket kan du betala i avgift till föreningen? — kr per månad"
+  ],
+  "cookieClicked": true,
+  "picks": [
+   "multipleApplicantsNo:true",
+   "accommodationType_0:true",
+   "hasStudentLoan-no:true",
+   "hasChildren-no:true",
+   "currentAccomodationKeep-no:true"
+  ],
+  "checked": [
+   "multipleApplicantsNo",
+   "accommodationType_0",
+   "hasStudentLoan-no",
+   "hasChildren-no",
+   "currentAccomodationKeep-no",
+   "otherLoans-no"
+  ],
+  "read": [
+   [
+    "downPayment",
+    "400 000"
+   ],
+   [
+    "monthlyIncome",
+    "60 000"
+   ],
+   [
+    "loanInterestRate",
+    "2,7"
+   ],
+   [
+    "fee",
+    "4 000"
+   ]
+  ],
+  "errs": [
+   "modal öppnad",
+   "modal öppnad"
+  ],
+  "after": ""
+ },
+ "after": {
+  "title": "Hur mycket får jag låna? Bolånekalkyl | Handelsbanken",
+  "url": "https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl",
+  "docH": 6605,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Hur mycket kan du betala i avgift till föreningen?",
+    "value": "4 000",
+    "y": 1001,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Hur mycket tänker du lägga i egen insats? — kr",
+    "value": "400 000",
+    "y": 1119,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Vad är din månadsinkomst? — kr per månad före skat",
+    "value": "60 000",
+    "y": 1238,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Vilken ränta vill du räkna med? — %",
+    "value": "2,7",
+    "y": 1705,
+    "x": 37,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "3 600 000 kr *",
+    "y": 1904,
+    "h": 20,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "4 000 000 kr",
+    "y": 1931,
+    "h": 19,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "11 670 kr per månad efter ränteavdrag",
+    "y": 2144,
+    "h": 20,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "14 100 kr per månad innan ränteavdrag",
+    "y": 2166,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "5 670 kr",
+    "y": 2514,
+    "h": 16,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "6 000 kr",
+    "y": 2541,
+    "h": 16,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "0771-77 88 99",
+    "y": 5370,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "+46 771 77 88 99",
+    "y": 5406,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "020‑41 12 12",
+    "y": 5713,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "+46 8 411 21 22",
+    "y": 5749,
+    "h": 21,
+    "fs": 16,
+    "fixed": ""
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ },
+ "weightAfter": {
+  "totalKB": 1888,
+  "thirdPartyKB": 0,
+  "finished": 30,
+  "byTypeKB": {
+   "Script": 1113,
+   "Other": 437,
+   "Image": 121,
+   "Stylesheet": 106,
+   "Font": 72,
+   "Document": 32,
+   "Fetch": 8
+  }
+ },
+ "requestsAfter": 31
+}

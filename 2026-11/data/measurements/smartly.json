@@ -1,0 +1,566 @@
+{
+ "id": "smartly",
+ "url": "https://smartly.se/tools/salary-after-tax",
+ "finalUrl": "https://smartly.se/tools/salary-after-tax",
+ "site": "smartly.se",
+ "at": "2026-11-08T17:25:05.839Z",
+ "requests": 30,
+ "failed": 2,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8378607050045237"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-NV435Y0DXT&gtm=45je6b41v9242722732za200zd9242722732xf1&_p=1794158697876&gcd=13l3l3l2l1l1&npa=1&dma_cps="
+  }
+ ],
+ "thirdPartyHosts": [
+  "cloud.umami.is",
+  "gateway.umami.is",
+  "pagead2.googlesyndication.com",
+  "region1.google-analytics.com",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "google-analytics.com",
+  "googlesyndication.com",
+  "googletagmanager.com",
+  "umami.is"
+ ],
+ "trackerHosts": [
+  "cloud.umami.is",
+  "gateway.umami.is",
+  "pagead2.googlesyndication.com",
+  "region1.google-analytics.com",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "_ga_NV435Y0DXT",
+   "domain": ".smartly.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_ga",
+   "domain": ".smartly.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  }
+ ],
+ "weight": {
+  "totalKB": 454,
+  "thirdPartyKB": 183,
+  "finished": 28,
+  "byTypeKB": {
+   "Script": 335,
+   "Font": 48,
+   "Fetch": 21,
+   "Other": 18,
+   "Document": 17,
+   "Stylesheet": 15,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://smartly.se/tools/salary-after-tax",
+  "Font https://smartly.se/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+  "Stylesheet https://smartly.se/_next/static/chunks/7703150f1d8d6b5c.css?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/89a8aa9b031d9776.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/82abf2d65f5428ae.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/95cdcae47f50a602.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/4c86ddcf3a767f1a.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/turbopack-1ffef559cfc248cc.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/d3183d26f8dbfd43.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://smartly.se/_next/static/chunks/d2be314c3ece3fbe.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8378607050045237",
+  "Script https://smartly.se/_next/static/chunks/d872799624419d41.js?dpl=dpl_GMqkLbvoTwipUXuECGNBorKTbDdL",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-NV435Y0DXT",
+  "Script https://cloud.umami.is/script.js",
+  "Manifest https://smartly.se/manifest.json",
+  "Fetch https://smartly.se/tools?_rsc=hqk45",
+  "Fetch https://smartly.se/?_rsc=hqk45",
+  "Fetch https://smartly.se/?_rsc=49xpu",
+  "Fetch https://smartly.se/?_rsc=oovk1",
+  "Fetch https://smartly.se/?_rsc=10fc3",
+  "Fetch https://smartly.se/tools?_rsc=49xpu",
+  "Fetch https://smartly.se/tools?_rsc=cdvj3",
+  "Fetch https://smartly.se/tools?_rsc=18mav",
+  "Fetch https://region1.google-analytics.com/g/collect?v=2&tid=G-NV435Y0DXT&gtm=45je6b41v9242722732za200zd9242722732xf1&_p=1794158697876&gcd=13l3l3l2l1l1&npa=1&dma_cps=",
+  "Fetch https://gateway.umami.is/api/send",
+  "Other https://gateway.umami.is/api/send",
+  "Other https://smartly.se/icon.svg",
+  "Other https://smartly.se/icon-192.png",
+  "Other https://smartly.se/favicon.ico"
+ ],
+ "trackerUrls": [
+  "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8378607050045237",
+  "https://www.googletagmanager.com/gtag/js?id=G-NV435Y0DXT",
+  "https://cloud.umami.is/script.js",
+  "https://region1.google-analytics.com/g/collect?v=2&tid=G-NV435Y0DXT&gtm=45je6b41v9242722732za200zd9242722732xf1&_p=1794158697876&gcd=13l3l3l",
+  "https://gateway.umami.is/api/send",
+  "https://gateway.umami.is/api/send"
+ ],
+ "allHosts": {
+  "smartly.se": 24,
+  "pagead2.googlesyndication.com": 1,
+  "www.googletagmanager.com": 1,
+  "cloud.umami.is": 1,
+  "region1.google-analytics.com": 1,
+  "gateway.umami.is": 2
+ },
+ "scan": {
+  "title": "Swedish Salary Calculator 2026 — Free Take-Home Pay Calculator | Smartly.se",
+  "url": "https://smartly.se/tools/salary-after-tax",
+  "docH": 6687,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "",
+    "value": "45000",
+    "y": 829,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "range",
+    "label": "",
+    "value": "45000",
+    "y": 899,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "",
+    "value": "Stockholm",
+    "y": 986,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "label": "you@example.com",
+    "value": "",
+    "y": 5786,
+    "x": 16,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "2026",
+    "y": 224,
+    "h": 36,
+    "fs": 30,
+    "fixed": ""
+   },
+   {
+    "t": "Key Facts: Swedish Tax 2026",
+    "y": 529,
+    "h": 26,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "28.93% - 35.65%",
+    "y": 567,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "660,400 SEK/year",
+    "y": 595,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Österåker (28.93%)",
+    "y": 651,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Dorotea (35.65%)",
+    "y": 679,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "30.55%",
+    "y": 707,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "15,000",
+    "y": 918,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "150,000",
+    "y": 918,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Tax rate varies by municipality (28.93% - 35.65%)",
+    "y": 1046,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "35 168",
+    "y": 1292,
+    "h": 37,
+    "fs": 30,
+    "fixed": ""
+   },
+   {
+    "t": "45 000 SEK",
+    "y": 1362,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "- 9 832 SEK",
+    "y": 1390,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "422 014",
+    "y": 1544,
+    "h": 37,
+    "fs": 30,
+    "fixed": ""
+   },
+   {
+    "t": "540 000 SEK",
+    "y": 1614,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "- 117 986 SEK",
+    "y": 1642,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "- 17 700 SEK",
+    "y": 1795,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "30.55 % in Stockholm",
+    "y": 1872,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "159 563 SEK",
+    "y": 1860,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "- 41 576 SEK",
+    "y": 1925,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "117 986 SEK",
+    "y": 1986,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Common Salary After Tax Examples (Stockholm, 2026)",
+    "y": 3070,
+    "h": 64,
+    "fs": 24,
+    "fixed": ""
+   },
+   {
+    "t": "25 000 SEK",
+    "y": 3235,
+    "h": 62,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2 656 SEK",
+    "y": 3235,
+    "h": 62,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "22 344 SEK",
+    "y": 3235,
+    "h": 62,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "30 000 SEK",
+    "y": 3297,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "3 988 SEK",
+    "y": 3297,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "26 012 SEK",
+    "y": 3297,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "35 000 SEK",
+    "y": 3358,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "5 361 SEK",
+    "y": 3358,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "29 639 SEK",
+    "y": 3358,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "40 000 SEK",
+    "y": 3419,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "8 305 SEK",
+    "y": 3419,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "31 695 SEK",
+    "y": 3419,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "45 000 SEK",
+    "y": 3480,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "9 832 SEK",
+    "y": 3480,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "35 168 SEK",
+    "y": 3480,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "50 000 SEK",
+    "y": 3541,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "11 360 SEK",
+    "y": 3541,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "38 640 SEK",
+    "y": 3541,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "55 000 SEK",
+    "y": 3602,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "12 887 SEK",
+    "y": 3602,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "42 113 SEK",
+    "y": 3602,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "60 000 SEK",
+    "y": 3663,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "15 408 SEK",
+    "y": 3663,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "44 592 SEK",
+    "y": 3663,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "70 000 SEK",
+    "y": 3724,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "20 500 SEK",
+    "y": 3724,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "49 500 SEK",
+    "y": 3724,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "80 000 SEK",
+    "y": 3785,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "25 646 SEK",
+    "y": 3785,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "54 354 SEK",
+    "y": 3785,
+    "h": 61,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "45,000 SEK After Tax",
+    "y": 4170,
+    "h": 32,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "35,000 SEK After Tax",
+    "y": 4314,
+    "h": 32,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Last updated: January 2026 · All 290 Swedish municipalities ",
+    "y": 5585,
+    "h": 32,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "© 2026 Smartly.se. Helping you navigate life in Sweden.",
+    "y": 6599,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

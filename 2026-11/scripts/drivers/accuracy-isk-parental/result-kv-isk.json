@@ -1,0 +1,11 @@
+{
+ "at600": {
+  "input": "600000",
+  "block": "Årets ISK-skatt3 195 kr"
+ },
+ "at500": {
+  "input": "500000",
+  "range": "500000",
+  "block": "Årets ISK-skatt2 130 kr"
+ }
+}

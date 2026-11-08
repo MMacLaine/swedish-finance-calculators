@@ -1,0 +1,42 @@
+{
+ "set": {
+  "start": "500000",
+  "monthly": "0",
+  "ret": "0",
+  "div": "missing Varav utdelning",
+  "turn": "0",
+  "years": "1",
+  "cbBefore": false,
+  "cbAfter": false
+ },
+ "readBack": {
+  "Startbelopp": "500000",
+  "Månadssparande": "0",
+  "Förväntad årsavkastning": "0",
+  "Årlig omsättning": "0",
+  "Spartid": "1"
+ },
+ "lines": [
+  "500 000 kr",
+  "0 kr",
+  "Fribeloppet är 300 000 kr per person",
+  "Schablonränta 2026: 3,55 % (statslåneräntan + 1 procentenhet), skatt 30 % av schablonintäkten = 1,06 % av kapitalet över 300 000 kr.",
+  "2 100 kr mer efter skatt",
+  "497 870 kr",
+  "Betalt i skatt: 2 130 kr",
+  "500 000 kr",
+  "Total skatt: 0 kr",
+  "Totalt insatt: 500 000 kr",
+  "500 000 kr",
+  "497 870 kr",
+  "497 870 kr",
+  "500 000 kr",
+  "• Skattefritt upp till 300 000 kr per person (fribelopp från 2026, delas med KF)",
+  "• 30 % skatt på vinst vid försäljning",
+  "• 30 % skatt på utdelningar",
+  "I depå skattas utdelningar med 30 % när de betalas ut. I ISK ingår de i schablonskatten.",
+  "3,55 % (statslåneräntan 30 november 2025, 2,55 %, + 1 procentenhet), skatt 30 % av schablonintäkten — samma konstanter som FIRE-kalkylen och löneväxlingskalkylen läser",
+  "300 000 kr per person, gemensamt för ISK och kapitalförsäkring, inte indexerat",
+  "Lönen efter skatt, uppdelad post för post och jämförd mellan alla 290 kommuner."
+ ]
+}

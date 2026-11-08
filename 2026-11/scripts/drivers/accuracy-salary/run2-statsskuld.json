@@ -1,0 +1,198 @@
+{
+ "before": {
+  "form": "_token=pGUMPellkSt6BwgwrrhOgASvQuv6CR4bODmzj3gw&kommun=STOCKHOLM&kyrkoskatt=0&kyrkoskatt-toggle=&bruttolon=45000",
+  "err": null
+ },
+ "readback": {
+  "bruttolon": "45000",
+  "kommun": "STOCKHOLM",
+  "kyrka": [
+   "kyrkoskatt=0",
+   "kyrkoskatt-toggle="
+  ],
+  "activeTab": [
+   "tabb-2022:hideOnMobile xxxl:w-full hs-tab-active:b:null",
+   "tabb-2023:xxxl:w-full hs-tab-active:bg-primary hs-:null",
+   "tabb-2024:xxxl:w-full hs-tab-active:bg-primary hs-:null",
+   "tabb-2025:xxxl:w-full hs-tab-active:bg-primary hs-:null",
+   "tabb-2026:xxxl:w-full hs-tab-active:bg-primary hs-:null"
+  ]
+ },
+ "net": [
+  {
+   "t": "Beräkna nettolön",
+   "y": 2167,
+   "vpTop": 118,
+   "h": 14,
+   "fs": 13.6,
+   "fixed": "fixed"
+  },
+  {
+   "t": "Beräkna Lön Efter Skatt, Nettolön",
+   "y": 93,
+   "vpTop": -1956,
+   "h": 20,
+   "fs": 13.008,
+   "fixed": ""
+  },
+  {
+   "t": "Nettolön",
+   "y": 323,
+   "vpTop": -1726,
+   "h": 21,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "34 991",
+   "y": 344,
+   "vpTop": -1705,
+   "h": 38,
+   "fs": 25,
+   "fixed": ""
+  },
+  {
+   "t": "Nettolön",
+   "y": 554,
+   "vpTop": -1495,
+   "h": 18,
+   "fs": 12,
+   "fixed": ""
+  },
+  {
+   "t": "34 991",
+   "y": 579,
+   "vpTop": -1470,
+   "h": 18,
+   "fs": 16,
+   "fixed": ""
+  },
+  {
+   "t": "nettolön",
+   "y": 1097,
+   "vpTop": -952,
+   "h": 17,
+   "fs": 14.4,
+   "fixed": ""
+  },
+  {
+   "t": "Din Nettolön i Stockholm",
+   "y": 1391,
+   "vpTop": -658,
+   "h": 23,
+   "fs": 15,
+   "fixed": ""
+  },
+  {
+   "t": "Din nettolön",
+   "y": 2356,
+   "vpTop": 307,
+   "h": 18,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "34 991 kr",
+   "y": 2361,
+   "vpTop": 312,
+   "h": 18,
+   "fs": 16,
+   "fixed": ""
+  },
+  {
+   "t": "Nettolönekalkylatorn hjälper dig att se vad som blir kvar ef",
+   "y": 3301,
+   "vpTop": 1252,
+   "h": 79,
+   "fs": 15.68,
+   "fixed": ""
+  },
+  {
+   "t": "Bruttolön från nettolön",
+   "y": 3775,
+   "vpTop": 1726,
+   "h": 37,
+   "fs": 13.44,
+   "fixed": ""
+  }
+ ],
+ "money": [
+  {
+   "t": "59 139 kr",
+   "y": 1516,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Arbetsgivaren betalar Total kostnad för arbetsgivaren 59 139 kr"
+  },
+  {
+   "t": "14 139 kr",
+   "y": 1575,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift Denna avgift betalas av bolaget -14 139 kr"
+  },
+  {
+   "t": "45 000 kr",
+   "y": 1633,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Din bruttolön Detta är din lön innan avdrag, skatter och avgifter = 45 000 kr"
+  },
+  {
+   "t": "1 442 kr",
+   "y": 1701,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Grundavdrag Ett avdrag som sänker den beskattningsbara inkomsten -1 442 kr"
+  },
+  {
+   "t": "43 558 kr",
+   "y": 1769,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Detta är vad skatt och avgifter beräknas på =43 558 kr"
+  },
+  {
+   "t": "3 386 kr",
+   "y": 1838,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Jobbskatteavdrag En skattereduktion på arbetsinkomster, avsedd att öka incitamenten för ar"
+  },
+  {
+   "t": "7 936 kr",
+   "y": 1941,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Kommunalskatt Den kommunala skatten i Stockholm är 18.22% -7 936 kr"
+  },
+  {
+   "t": "5 371 kr",
+   "y": 2009,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Landstingsskatt Skatten i ditt landsting är 12.33% -5 371 kr"
+  },
+  {
+   "t": "En extra 20-procentig skatt tas ut på inkomster över 643 000 kr per år",
+   "y": 2093,
+   "fs": 13,
+   "fixed": "",
+   "ctx": "Statlig inkomstskatt En extra 20-procentig skatt tas ut på inkomster över 643 000 kr per å"
+  },
+  {
+   "t": "34 991 kr",
+   "y": 2361,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Din nettolön Detta är det du får behålla efter skatter och avgifter 34 991 kr"
+  },
+  {
+   "t": "24 148 kr",
+   "y": 2441,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Skatter & Avgifter Detta är vad du och arbetsgivaren betalat totalt i skatter och avgifter"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "out": {
+  "tabb-2022": {
+   "controls": "year-2022",
+   "panelHidden": true,
+   "state": "över 540 700 kr per år"
+  },
+  "tabb-2023": {
+   "controls": "year-2023",
+   "panelHidden": true,
+   "state": "över 598 500 kr per år"
+  },
+  "tabb-2024": {
+   "controls": "year-2024",
+   "panelHidden": true,
+   "state": "över 598 500 kr per år"
+  },
+  "tabb-2025": {
+   "controls": "year-2025",
+   "panelHidden": true,
+   "state": "över 625 800 kr per år"
+  },
+  "tabb-2026": {
+   "controls": "year-2026",
+   "panelHidden": false,
+   "state": "över 643 000 kr per år"
+  }
+ },
+ "visibleAfter2026Click": [
+  "year-2026"
+ ],
+ "first": [
+  {
+   "t": "34 991",
+   "y": 344,
+   "vpTop": -1705,
+   "h": 38,
+   "fs": 25,
+   "fixed": ""
+  },
+  {
+   "t": "34 991",
+   "y": 579,
+   "vpTop": -1470,
+   "h": 18,
+   "fs": 16,
+   "fixed": ""
+  }
+ ]
+}

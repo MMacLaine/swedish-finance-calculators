@@ -1,0 +1,45 @@
+{
+ "feeInfo": [
+  "monthlyFee",
+  "Hur mycket kan du betala i avgift till föreningen? — kr per månad"
+ ],
+ "cookieClicked": true,
+ "picks": [
+  "multipleApplicantsNo:true",
+  "accommodationType_0:true",
+  "hasStudentLoan-no:true",
+  "hasChildren-no:true",
+  "currentAccomodationKeep-no:true"
+ ],
+ "checked": [
+  "multipleApplicantsNo",
+  "accommodationType_0",
+  "hasStudentLoan-no",
+  "hasChildren-no",
+  "currentAccomodationKeep-no",
+  "otherLoans-no"
+ ],
+ "read": [
+  [
+   "downPayment",
+   "400 000"
+  ],
+  [
+   "monthlyIncome",
+   "60 000"
+  ],
+  [
+   "loanInterestRate",
+   "2,7"
+  ],
+  [
+   "fee",
+   "4 000"
+  ]
+ ],
+ "errs": [
+  "modal öppnad",
+  "modal öppnad"
+ ],
+ "after": "d\nHur mycket tänker du lägga i egen insats? — kr\nVad är din månadsinkomst? — kr per månad före skatt\nHar du studielån från CSN?\nHar du studielån från CSN?\nJa\nNej\nFörsörjer du några barn under 22 år?\nFörsörjer du några barn under 22 år?\nJa\nNej\nHar du annat boende som ska behållas?\nHar du annat boende som ska behållas?\nJa\nNej\nHar du andra lån som ska behållas?\nHar du andra lån som ska behållas?\n\nTill exempel billån eller kortkrediter.\n\nJa\nNej\nVilken ränta vill du räkna med? — %\n\nSnitträntan för ett lån med bindningstiden 3 månader var 2,70 % den senaste månaden.\n\nRäkna om\nDu kan preliminärt låna3 600 000 kr*Du kan köpa för 4 000 000 kr*Beloppet är en indikation och inte ett lånelöfte.\nAnsök om lånelöfte\nLånekostnad11 670 kr per månad efter ränteavdrag14 100 kr per månad innan ränteavdrag\nChart\nPie chart with 2 slices.\nRänta 2,7%\n5 670 kr\nAmortering 2%\n6 000 kr\nEnd of interactive chart.\nRäntan sätts individuellt. Exempelräntan är den genomsnittliga räntan för ett lån med bindningstiden 3 månader från föregående månad. Läs mer om våra aktuella och genomsnittliga bolåneräntor på vår hemsida.\nBolåneräntor.\nÖppnas i nytt fönster\nAnsök om lånelöfte\nSå fungerar bostadsköp Steg för steg\nHur mycket bolån kan du få?\nI bolånekalkylen får du en uppskattning av hur mycket du kan låna och vad din månadskostnad skulle bli. Testa med olika räntesatser och se vilken lånekostnad som passar din ekonomi.\nSkaffa lånelöfte innan budgivning\nNär du räknat på lånet och vet hur mycket du vill låna är nästa steg att ansöka om ett lånelöfte. Med ett lånelöfte är du redo för visning och budgivning om du hittar din drömbostad.\nAnsök om lånelöfte\nKontakta oss innan kontrakt\nKontakta oss innan du skriver på köpekontraktet. Vi kontrollerar att bostaden kan belånas och gör en slutlig kreditprövning. Därefter hjälper vi dig att göra om ditt lånelöfte till ett bolån.\nHitta bankkontor\nÖkad kundnöjdhet för Handelsbanken enligt SKI\nHandelsbanken har Sveriges nöjdaste kunder inom bolån och sparande bland de stora bankerna i Sverige – och kundnöjdheten ökar. Det visar Svenskt Kvalitetsindex årliga specialundersökning Lån & Spar. Ett förtroende vi tar på stort allvar – och som vi önskar känns i varje möte.\nFrågor och svar\nVad får jag för ränta?\nCollapse\nVad avgör hur mycket jag får låna?\nCollapse\nHur gör jag en ansökan om bolån?\nCollapse\nHur mycket behöver jag amortera?\nCollapse\nVem kan ansöka om ett lånelöfte?\nCollapse\nVad händer med mitt bolån om räntan ändras?\nCollapse\nVi finns här för dig Hjälp,"
+}

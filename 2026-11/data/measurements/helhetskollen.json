@@ -1,0 +1,122 @@
+{
+ "id": "helhetskollen",
+ "url": "https://www.helhetskollen.se/salary",
+ "finalUrl": "https://www.helhetskollen.se/salary",
+ "site": "helhetskollen.se",
+ "at": "2026-11-08T17:25:16.157Z",
+ "requests": 30,
+ "failed": 1,
+ "failedDetail": [
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://www.helhetskollen.se/integritet?_rsc=Eqxl0-dGtM4d2G7p"
+  }
+ ],
+ "thirdPartyHosts": [],
+ "thirdPartyDomains": [],
+ "trackerHosts": [],
+ "cmpHosts": [],
+ "cookies": [],
+ "weight": {
+  "totalKB": 417,
+  "thirdPartyKB": 0,
+  "finished": 29,
+  "byTypeKB": {
+   "Script": 295,
+   "Font": 65,
+   "Stylesheet": 31,
+   "Document": 12,
+   "Fetch": 9,
+   "Other": 3,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://www.helhetskollen.se/salary",
+  "Font https://www.helhetskollen.se/_next/static/immutable/media/0c8f209abc35ee02-s.p.0q59resy_4ije.woff2",
+  "Font https://www.helhetskollen.se/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+  "Stylesheet https://www.helhetskollen.se/_next/static/immutable/chunks/0jzabiynt2z0i.css",
+  "Stylesheet https://www.helhetskollen.se/_next/static/immutable/chunks/3f7o9k6zq3lq-.css",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/2belr3pe9fbiz.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/2u5v7xdlfh11m.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/128km8cbjrh55.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/1y1w9n_90tnzx.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/turbopack-3g1nikmeg8-qi.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/1azwf-rwipq1-.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/3fi6uh6ocevd9.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/38do15hibdzuq.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/312lnj7kqihwy.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/2osgj4bbeq5xl.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/0mzzstnkiyoa7.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/1wx58r45jsinw.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/1edj2bw-18oon.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/1jwombnzzp3mg.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/2zvi874n5jayt.js",
+  "Script https://www.helhetskollen.se/_next/static/immutable/chunks/3-h132_-esgi6.js",
+  "Script https://www.helhetskollen.se/theme-init.js",
+  "Manifest https://www.helhetskollen.se/site.webmanifest",
+  "Other https://www.helhetskollen.se/favicon.ico",
+  "Fetch https://www.helhetskollen.se/tjanstepension?_rsc=Eqxl0-dGtM4d2G7p",
+  "Fetch https://www.helhetskollen.se/allman-pension?_rsc=Eqxl0-dGtM4d2G7p",
+  "Fetch https://www.helhetskollen.se/integritet?_rsc=Eqxl0-dGtM4d2G7p",
+  "Fetch https://www.helhetskollen.se/tjanstepension?_rsc=7QQ0fL0RuROAk4zq",
+  "Fetch https://www.helhetskollen.se/integritet?_rsc=7QQ0fL0RuROAk4zq",
+  "Fetch https://www.helhetskollen.se/allman-pension?_rsc=7QQ0fL0RuROAk4zq"
+ ],
+ "trackerUrls": [],
+ "allHosts": {
+  "www.helhetskollen.se": 30
+ },
+ "scan": {
+  "title": "Lön efter skatt 2026 – räkna nettolön och pension | Helhetskollen",
+  "url": "https://www.helhetskollen.se/salary",
+  "docH": 4629,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Bruttolön per månad (kr, efter löneväxling)",
+    "value": "",
+    "y": 610,
+    "x": 41,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Kommun för skattetabell",
+    "value": "",
+    "y": 761,
+    "x": 58,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Lön efter skatt 2026 med skattetabell och pension",
+    "y": 86,
+    "h": 72,
+    "fs": 30,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "fixed inset-x-0 bottom-0 z-50 border-t b",
+    "top": 535,
+    "h": 309,
+    "w": 390,
+    "pctViewport": 37,
+    "text": "Cookies för statistik och annonser Helhetskollen kan använda cookies för statistik och annonser på publika sidor. Hushållsdata skickas inte "
+   }
+  ],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "read": {
+  "price": "4000000",
+  "deposit": "400000",
+  "rate": "2.72",
+  "amortPct": "2",
+  "term": "30"
+ },
+ "lines": [
+  "Svensk bolånekalkylator med aktuella räntor från SCB, amorteringsschema, KALP-kalkyl och fullständig kostnadsöversikt för",
+  "Ränta & amortering | Räntebindningstid | Rörlig (3 mån)",
+  "Amortering | % | kr",
+  "Amortering över tid | Trappas ned | Samma hela tiden",
+  "Du lånar 3 600 000 kr, alltså 90,0% av priset, så du behöver amortera minst 2% per år. |  | BRF-analys – Ladda upp din BRF:s årsredo",
+  "Månadsamortering | 6 000 kr | BRF-avgift",
+  "Amorteringsnivå | 2%/år (LTV > 70%) | Så räknade jag"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://www.helhetskollen.se/",
+ "title": "Helhetskollen – Se hela din ekonomi samlad på ett ställe",
+ "inputs": [],
+ "lines": [
+  "2 450 000 kr",
+  "+6 200 kr/mån",
+  "2 450 000 kr",
+  "-850 000 kr",
+  "1 600 000 kr",
+  "1\t0 – 100 000 kr\tLön-till-lön\tLägre klass\tca 20%\t20–30 år",
+  "2\t100 000 – 1 miljon kr\tMatvarufrihet\tArbetarklass\tca 20%\t30–40 år",
+  "3\t1 – 10 miljoner kr\tRestaurangfrihet\tMedelklass\tca 40%\t40–50 år",
+  "4\t10 – 100 miljoner kr\tResefrihet\tÖvre medelklass\tca 18%\t50–60 år",
+  "5\t100 – 1 000 miljoner kr\tGeografisk frihet\tÖvre klass\t≈ 2%\t60+ år",
+  "6\t> 1 miljard kr\tPåverkansfrihet\tSuperrika\t< 0,1%\t60+ år",
+  "Under 35 år\t39 000 USD (≈ 390 000 kr)\tFidelity 2024 (SCF 2022)",
+  "35–44 år\t135 600 USD (≈ 1,36 milj kr)\tFidelity 2024 (SCF 2022)",
+  "45–54 år\t247 200 USD (≈ 2,47 milj kr)\tFidelity 2024 (SCF 2022)",
+  "55–64 år\t364 500 USD (≈ 3,65 milj kr)\tFidelity 2024 (SCF 2022)",
+  "65–74 år\t409 900 USD (≈ 4,10 milj kr)\tFidelity 2024 (SCF 2022)",
+  "Marknadsbaserad pension – tjänstepension och IPS/privata pensionsförsäkringar (kan ofta tas ut från 55 år, beroende på avtal)",
+  "Registrerade månader visas bakåt i året. Modellbanan visar nästa 12 månader utifrån dagens uppgifter och nuvarande antaganden.",
+  "Lås upp på Nivå 3 (≥ 1 000 000 kr)"
+ ],
+ "links": [
+  "https://www.helhetskollen.se/fire-kalkylator",
+  "https://www.helhetskollen.se/bo-hemma-kalkylator"
+ ]
+}

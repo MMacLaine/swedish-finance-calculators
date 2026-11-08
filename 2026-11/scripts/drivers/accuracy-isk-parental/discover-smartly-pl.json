@@ -1,0 +1,123 @@
+{
+ "url": "https://smartly.se/tools/parental-leave",
+ "title": "Swedish Parental Leave Calculator 2026 - Estimate Your Income on Leave | Smartly.se",
+ "inputs": [
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "id": "",
+   "name": "",
+   "label": "Search guides, money, tools...",
+   "value": "",
+   "vis": true,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "45000",
+   "vis": true,
+   "min": "0",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "45000",
+   "vis": true,
+   "min": "0",
+   "max": "100000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "40000",
+   "vis": true,
+   "min": "0",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "40000",
+   "vis": true,
+   "min": "0",
+   "max": "100000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "195",
+   "vis": true,
+   "min": "90",
+   "max": "300"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "6",
+   "vis": true,
+   "min": "0",
+   "max": "12"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "6",
+   "vis": true,
+   "min": "0",
+   "max": "12"
+  },
+  {
+   "tag": "INPUT",
+   "type": "email",
+   "id": "",
+   "name": "",
+   "label": "you@example.com",
+   "value": "",
+   "vis": true,
+   "min": "",
+   "max": ""
+  }
+ ],
+ "lines": [
+  "Estimate your income during parental leave in Sweden. See how the 480 days split between parents, with Försäkringskassan benefits and employer top-up.",
+  "SGI ceiling: 49 333 SEK/month (592 000 SEK/year)",
+  "Max daily benefit: 1 250 SEK (föräldrapenning cap)",
+  "Lägstanivå: 180 SEK/day (45 days each)",
+  "Prisbasbelopp 2026: 59 200 SEK",
+  "489 959 SEK",
+  "39 399 SEK",
+  "34 899 SEK",
+  "+4 500 SEK",
+  "258 959 SEK",
+  "35 008 SEK",
+  "31 008 SEK",
+  "+4 000 SEK",
+  "231 000 SEK",
+  "Lägstanivå (180 SEK/day)",
+  "Data sources: Parental Benefit overview (English) · Official 2026 amounts (Försäkringskassan) · Prisbasbelopp 2026 (Government)"
+ ]
+}

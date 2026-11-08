@@ -1,0 +1,45 @@
+{
+ "steps": [
+  {
+   "inputs": [
+    {
+     "id": "",
+     "name": "",
+     "type": "text",
+     "value": "3500000",
+     "checked": false,
+     "label": "3500000"
+    },
+    {
+     "id": "",
+     "name": "",
+     "type": "text",
+     "value": "700000",
+     "checked": false,
+     "label": "700000"
+    },
+    {
+     "id": "",
+     "name": "",
+     "type": "text",
+     "value": "4000",
+     "checked": false,
+     "label": "4000"
+    },
+    {
+     "id": "",
+     "name": "",
+     "type": "text",
+     "value": "4000",
+     "checked": false,
+     "label": "4000"
+    }
+   ],
+   "buttons": [
+    "Tillbaka",
+    "Visa resultat",
+    "Visa detaljerade siffror"
+   ]
+  }
+ ]
+}

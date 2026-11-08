@@ -1,0 +1,223 @@
+{
+ "id": "ficalc",
+ "url": "https://ficalc.app/",
+ "finalUrl": "https://ficalc.app/",
+ "site": "ficalc.app",
+ "at": "2026-11-08T17:25:33.878Z",
+ "requests": 54,
+ "failed": 2,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-PQ9DSLNL9K&gtm=45je6b41v9125828785za200zd9125828785xf1&_p=1794158726452&_gaz=1&gcd=13l3l3l2l1l1&npa=1&d"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-PQ9DSLNL9K&cid=305912926.1794158727&gtm=45je6b41v9125828785za200zd9125828785xf1&rcb=2&aip=1&dma="
+  }
+ ],
+ "thirdPartyHosts": [
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+  "region1.analytics.google.com",
+  "stats.g.doubleclick.net",
+  "www.google.se",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "doubleclick.net",
+  "google.com",
+  "google.se",
+  "googleapis.com",
+  "googletagmanager.com",
+  "gstatic.com"
+ ],
+ "trackerHosts": [
+  "stats.g.doubleclick.net",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "appearance",
+   "domain": "ficalc.app",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 365
+  },
+  {
+   "name": "_ga_PQ9DSLNL9K",
+   "domain": ".ficalc.app",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_ga",
+   "domain": ".ficalc.app",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  }
+ ],
+ "weight": {
+  "totalKB": 760,
+  "thirdPartyKB": 249,
+  "finished": 52,
+  "byTypeKB": {
+   "Script": 595,
+   "Font": 71,
+   "Image": 42,
+   "Stylesheet": 23,
+   "Document": 15,
+   "Other": 11,
+   "Fetch": 1,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://ficalc.app/",
+  "Image https://ficalc.app/fi-calc-logo-light-small.png",
+  "Image https://ficalc.app/fi-calc-logo-small.png",
+  "Image https://ficalc.app/assets/green-checkmark-Dlvav8H6.png",
+  "Image https://ficalc.app/assets/rollercoaster-BQcFr7Bz.png",
+  "Image https://ficalc.app/assets/diamond-BDfnIud7.png",
+  "Image https://ficalc.app/assets/peanuts-BlYk3i_u.png",
+  "Image https://ficalc.app/assets/money-bag-Uo92o_ZG.png",
+  "Image https://ficalc.app/assets/concerned-expression-CJsLegJf.png",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-PQ9DSLNL9K",
+  "Script https://ficalc.app/assets/entry.client-B7L1UMNs.js",
+  "Script https://ficalc.app/assets/chunk-OB3PAWPO-DTsfuIfb.js",
+  "Script https://ficalc.app/assets/react-dom-CZLwNmxW.js",
+  "Script https://ficalc.app/assets/jsx-runtime-CS9hgvR7.js",
+  "Script https://ficalc.app/assets/root-BYN9UOw0.js",
+  "Script https://ficalc.app/assets/legacy-query-D4dgfayj.js",
+  "Script https://ficalc.app/assets/alert-VwWRlCJd.js",
+  "Script https://ficalc.app/assets/button-_5Zsl2B-.js",
+  "Script https://ficalc.app/assets/app-main-layout-Bu4nRIlm.js",
+  "Script https://ficalc.app/assets/not-found-BOoNFUl5.js",
+  "Script https://ficalc.app/assets/session-change-4nrOFfPi.js",
+  "Script https://ficalc.app/assets/toggle-sMgglx4E.js",
+  "Script https://ficalc.app/assets/google-analytics-DUD8QFBS.js",
+  "Script https://ficalc.app/assets/app-shell-auth-BijMo_OE.js",
+  "Script https://ficalc.app/assets/IconBase.es-C5FpZy8H.js",
+  "Script https://ficalc.app/assets/forecast-events-DhK7Iy3V.js",
+  "Script https://ficalc.app/assets/classnames-Cc1IKny4.js",
+  "Script https://ficalc.app/assets/input-C8QsBEFv.js",
+  "Script https://ficalc.app/assets/surface-sQkWjRlW.js",
+  "Script https://ficalc.app/assets/CaretRight.es-Cu5BJEOO.js",
+  "Script https://ficalc.app/assets/footer-BINbwH7N.js",
+  "Script https://ficalc.app/assets/List.es-DFamNc1k.js",
+  "Script https://ficalc.app/assets/elements-CwvorJpM.js",
+  "Script https://ficalc.app/assets/app-shell-BP_EOUaH.js",
+  "Script https://ficalc.app/assets/forecast-queries-DNSkEg0C.js",
+  "Script https://ficalc.app/assets/forecast-create-error-DXkudPCo.js",
+  "Script https://ficalc.app/assets/use-loader-query-CN-ZkWGx.js",
+  "Script https://ficalc.app/assets/home-ByQJApW6.js",
+  "Script https://ficalc.app/assets/calculator-app-5OrFsbYZ.js",
+  "Script https://ficalc.app/assets/dismissed-content-CAq59v_s.js",
+  "Stylesheet https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+  "Stylesheet https://ficalc.app/assets/root-B9Xy5cIF.css",
+  "Stylesheet https://ficalc.app/assets/legacy-query-BD3EsB0N.css",
+  "Manifest https://ficalc.app/manifest.json",
+  "Font https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+  "Script https://ficalc.app/assets/simulation-worker-DEAXuS1g.js",
+  "Fetch https://ficalc.app/__manifest?paths=%2F%2C%2Fabout%2C%2Fcontact%2C%2Fdocs%2C%2Fprivacy%2C%2Fsettings%2C%2Fterms&version=47305760",
+  "Fetch https://ficalc.app/__manifest?paths=%2F%2C%2Fabout%2C%2Fcontact%2C%2Fdocs%2C%2Fprivacy%2C%2Fsettings%2C%2Fterms&version=47305760",
+  "Fetch https://region1.analytics.google.com/g/collect?v=2&tid=G-PQ9DSLNL9K&gtm=45je6b41v9125828785za200zd9125828785xf1&_p=1794158726452&_gaz=1&gcd=13l3l3l2l1l1&npa=1&d",
+  "Ping https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-PQ9DSLNL9K&cid=305912926.1794158727&gtm=45je6b41v9125828785za200zd9125828785xf1&rcb=2&aip=1&dma=",
+  "Image https://www.google.se/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-PQ9DSLNL9K&cid=305912926.1794158727&gtm=45je6b41v9125828785za200zd9125828785xf1&",
+  "Other https://ficalc.app/icon.svg",
+  "Other https://ficalc.app/android-chrome-192x192.png",
+  "Other https://ficalc.app/favicon.ico"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtag/js?id=G-PQ9DSLNL9K",
+  "https://ficalc.app/assets/google-analytics-DUD8QFBS.js",
+  "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-PQ9DSLNL9K&cid=305912926.1794158727&gtm=45je6b41v9125828785za200zd9125828785"
+ ],
+ "allHosts": {
+  "ficalc.app": 48,
+  "www.googletagmanager.com": 1,
+  "fonts.googleapis.com": 1,
+  "fonts.gstatic.com": 1,
+  "region1.analytics.google.com": 1,
+  "stats.g.doubleclick.net": 1,
+  "www.google.se": 1
+ },
+ "scan": {
+  "title": "FI Calc",
+  "url": "https://ficalc.app/",
+  "docH": 1696,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Starting Age",
+    "value": "60",
+    "y": 518,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Duration",
+    "value": "30",
+    "y": 590,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Initial Portfolio Value",
+    "value": "1,000,000",
+    "y": 731,
+    "x": 47,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Rebalance frequency (in years)",
+    "value": "1",
+    "y": 837,
+    "x": 233,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Withdrawal Strategy",
+    "value": "constantDollar",
+    "y": 1001,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Annual spending goal",
+    "value": "40,000",
+    "y": 1080,
+    "x": 47,
+    "fixed": ""
+   }
+  ],
+  "money": [],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

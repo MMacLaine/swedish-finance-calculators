@@ -1,0 +1,1011 @@
+{
+ "id": "nerdwallet",
+ "url": "https://www.nerdwallet.com/taxes/calculators/tax-calculator",
+ "finalUrl": "https://www.nerdwallet.com/taxes/calculators/tax-calculator",
+ "site": "nerdwallet.com",
+ "at": "2026-11-08T17:25:35.757Z",
+ "requests": 111,
+ "failed": 26,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://ct.pinterest.com/user/?tid=2612449957680&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&cb=1794158729238&dep=2%2CPAGE_LOAD"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://ct.pinterest.com/v3/?tid=2612449957680&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fww"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-4JQS1HXE97&cid=1837545321.1794158730&gtm=45je6b41v9196007286z876674221za20gzb76674221zd76674221x"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-4JQS1HXE97&gtm=45je6b41v9196007286z876674221za20gzb76674221zd76674221xf1&_p=1794158728172&_gaz=1&gcs=G1"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://c.tvpixel.com/js/current/dpm_pixel_min.js?aid=nerd-wallet-2d1738e0-b798-465f-aa7d-4b0e5f2c51d0&gtmcb=424460958"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://b.videoamp.com/d2/d7f42aaf-75d5-4aa8-b5e2-fdbe8a1bb1f1/8710/impression?bwb=35&vpxid=8710&dnt=false&cevt=NWconversion&cp1=https%3A%2F%2Fwww.nerdwallet.co"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CFE2FNBC77U208RTD9TG&lib=ttq"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://b-code.liadm.com/b-02dv.min.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://pixel-config.reddit.com/pixels/a2_gaspejol4t8q/config"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://cdn.taboola.com/libtrc/unip/1040862/tfa.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://bat.bing.com/bat.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://bzrcdn.openai.com/sdk/oaiq.min.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://alb.reddit.com/rp?id=a2_gaspejol4t8q&event=PageVisit"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://alb.reddit.com/rp.gif?ts=1794158730579&id=a2_gaspejol4t8q&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.orderId=&"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+  }
+ ],
+ "thirdPartyHosts": [
+  "alb.reddit.com",
+  "analytics.tiktok.com",
+  "atr.veritonicmetrics.com",
+  "b-code.liadm.com",
+  "b.videoamp.com",
+  "bat.bing.com",
+  "browser-intake-datadoghq.com",
+  "bzrcdn.openai.com",
+  "c.tvpixel.com",
+  "cdn.cookielaw.org",
+  "cdn.taboola.com",
+  "cdn.veritonic.com",
+  "connect.facebook.net",
+  "ct.pinterest.com",
+  "geolocation.onetrust.com",
+  "ip.veritonicmetrics.com",
+  "meta.nerdwallet.io",
+  "pixel-config.reddit.com",
+  "region1.analytics.google.com",
+  "s.pinimg.com",
+  "stats.g.doubleclick.net",
+  "www.facebook.com",
+  "www.google.se",
+  "www.googletagmanager.com",
+  "www.redditstatic.com"
+ ],
+ "thirdPartyDomains": [
+  "bing.com",
+  "browser-intake-datadoghq.com",
+  "cookielaw.org",
+  "doubleclick.net",
+  "facebook.com",
+  "facebook.net",
+  "google.com",
+  "google.se",
+  "googletagmanager.com",
+  "liadm.com",
+  "nerdwallet.io",
+  "onetrust.com",
+  "openai.com",
+  "pinimg.com",
+  "pinterest.com",
+  "reddit.com",
+  "redditstatic.com",
+  "taboola.com",
+  "tiktok.com",
+  "tvpixel.com",
+  "veritonic.com",
+  "veritonicmetrics.com",
+  "videoamp.com"
+ ],
+ "trackerHosts": [
+  "analytics.tiktok.com",
+  "bat.bing.com",
+  "browser-intake-datadoghq.com",
+  "cdn.taboola.com",
+  "connect.facebook.net",
+  "ct.pinterest.com",
+  "s.pinimg.com",
+  "stats.g.doubleclick.net",
+  "www.facebook.com",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [
+  "cdn.cookielaw.org",
+  "geolocation.onetrust.com"
+ ],
+ "cookies": [
+  {
+   "name": "cee",
+   "domain": ".meta.nerdwallet.io",
+   "thirdParty": true,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 90
+  },
+  {
+   "name": "ajs_anonymous_id",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 365
+  },
+  {
+   "name": "wordpress_session_active",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "expiresDays": 0
+  },
+  {
+   "name": "X-NW-sig_lvl",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "expiresDays": 0
+  },
+  {
+   "name": "X-NW-f_opt",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "expiresDays": 0
+  },
+  {
+   "name": "X-NW-bt",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "expiresDays": 0
+  },
+  {
+   "name": "X-NW-bt_ua",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "expiresDays": 0
+  },
+  {
+   "name": "nws4",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "_cfuvid",
+   "domain": ".www.nerdwallet.com",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "cf_clearance",
+   "domain": ".www.nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 365
+  },
+  {
+   "name": "__cf_bm",
+   "domain": ".www.nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "_ga_4JQS1HXE97",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_ga",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_fbp",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 90
+  },
+  {
+   "name": "OTGPPConsent",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 365
+  },
+  {
+   "name": "_rdt_uuid",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Strict",
+   "expiresDays": 90
+  },
+  {
+   "name": "OptanonConsent",
+   "domain": ".nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 365
+  },
+  {
+   "name": "_dd_s",
+   "domain": "www.nerdwallet.com",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Strict",
+   "expiresDays": 0
+  }
+ ],
+ "weight": {
+  "totalKB": 3131,
+  "thirdPartyKB": 1959,
+  "finished": 96,
+  "byTypeKB": {
+   "Script": 2818,
+   "Document": 107,
+   "Font": 80,
+   "Fetch": 55,
+   "Stylesheet": 33,
+   "Image": 27,
+   "Other": 7,
+   "XHR": 4
+  }
+ },
+ "reqUrls": [
+  "Document https://www.nerdwallet.com/taxes/calculators/tax-calculator",
+  "Font https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/media/ChronicleDisplay_Roman__critical_835fdb1566-s.p.159dgg0sb4ks9.woff2",
+  "Font https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/media/ChronicleDisplay_Semibold__critical_2c31edcaf3-s.p.2b53fhi1xzg3w.woff2",
+  "Font https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/media/Gotham_Bold__critical_dcf83fb890-s.p.2lsgv12tl-lf9.woff2",
+  "Font https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/media/Gotham_Book__critical_fdbad282be-s.p.109dm0l2y-ry2.woff2",
+  "Font https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/media/Gotham_Medium__critical_ee5c613487-s.p.0rp4kwkef52q9.woff2",
+  "Image https://www.nerdwallet.com/cdn-cgi/image/width=36,height=36,quality=85,format=webp,fit=contain,dpr=2,/assets/blog/wp-content/uploads/2021/09/Sabrina_bio-copy.jp",
+  "Image https://www.nerdwallet.com/cdn-cgi/image/width=36,height=36,quality=85,format=webp,fit=contain,dpr=2,/assets/blog/wp-content/uploads/2020/09/Screen-Shot-2020-09",
+  "Stylesheet https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/1lfuxgm6cwd96.css",
+  "Stylesheet https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/29w49g-75l5qb.css",
+  "Stylesheet https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/3vrowqk0qa82b.css",
+  "Stylesheet https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/3jtsh0d1orimq.css",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/2sdxxyokwb4sj.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/16-26fxdyuc-e.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/0lhbjx3uaps2p.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/16f6rvaq67t4_.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/turbopack-1xg9x7vbj8snz.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/0pv18yg2ifn_g.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/39pnfhhio588-.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/2rz4xvl8zmqbq.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/1bux8w6u95xes.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/0iy9w8gu079kp.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/3yeed3pozerfq.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/09ddjc1omhton.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/09hk87hqompgv.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/2zcynv5kh63n6.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/2ugm1mfz3mq1s.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/3frfqkntzsnii.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/09hcrgx4y8o64.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/3iu1ofeaumx1o.js",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/0jhcdy7kvsgn4.js",
+  "Font https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--critical.ee5c613487.woff2",
+  "Font https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.dcf83fb890.woff2",
+  "Font https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.fdbad282be.woff2",
+  "Script https://www.nerdwallet.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a57646edb95e8c68",
+  "Script https://www.nerdwallet.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a57646edb95e8c68",
+  "Fetch https://siteusagetools.nerdwallet.com/v1/projects/JYRuJgHKw4wkaqthzGZuBleTLTNzaVYr/settings",
+  "XHR https://www.nerdwallet.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.209814991859957:1794154216:RKGB82ZpKcs93QaQDqVr2S-Shg51R4tXjdD5PUOkJgc/a576",
+  "Script https://www.googletagmanager.com/gtm.js?id=GTM-NVWSKF5",
+  "Fetch https://siteusagetools.nerdwallet.com/v1/projects/JYRuJgHKw4wkaqthzGZuBleTLTNzaVYr/settings",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/3oxefi23bl3bu.js",
+  "Fetch https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke",
+  "Fetch https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/06n7tmcgaxmlh.js",
+  "XHR https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key=",
+  "XHR https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key=",
+  "Script https://www.nerdwallet.com/vertical-expansion/_next/static/immutable/chunks/0bhk4hsd02qy6.js",
+  "Fetch https://siteusage.nerdwallet.com/v1/p",
+  "Fetch https://siteusage.nerdwallet.com/v1/t",
+  "Fetch https://siteusage.nerdwallet.com/v1/t",
+  "Fetch https://siteusage.nerdwallet.com/v1/t",
+  "Fetch https://siteusage.nerdwallet.com/v1/t",
+  "Script https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=c095b28e-6dfb-40a3-a284-794251df86e9",
+  "Script https://www.googletagmanager.com/gtag/js?id=AW-18071591651&cx=c&gtm=4e6b41",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-CNTR275F69&cx=c&gtm=4e6b41",
+  "Script https://www.googletagmanager.com/gtag/js?id=AW-11298004898&cx=c&gtm=4e6b41",
+  "Script https://www.googletagmanager.com/gtag/js?id=AW-17592114049&cx=c&gtm=4e6b41",
+  "Script https://www.googletagmanager.com/gtag/js?id=GT-WPF683LK&cx=c&gtm=4e6b41",
+  "Script https://www.googletagmanager.com/gtag/js?id=AW-979644386&cx=c&gtm=4e6b41",
+  "Script https://bat.bing.com/bat.js",
+  "Script https://s.pinimg.com/ct/core.js",
+  "Script https://bzrcdn.openai.com/sdk/oaiq.min.js",
+  "Script https://connect.facebook.net/en_US/fbevents.js",
+  "Script https://cdn.taboola.com/libtrc/unip/1040862/tfa.js",
+  "Script https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CFE2FNBC77U208RTD9TG&lib=ttq",
+  "Script https://cdn.veritonic.com/static/vpr.min.js",
+  "Script https://www.redditstatic.com/ads/pixel.js",
+  "Script https://b-code.liadm.com/b-02dv.min.js",
+  "Image https://c.tvpixel.com/js/current/dpm_pixel_min.js?aid=nerd-wallet-2d1738e0-b798-465f-aa7d-4b0e5f2c51d0&gtmcb=424460958",
+  "Image https://b.videoamp.com/d2/d7f42aaf-75d5-4aa8-b5e2-fdbe8a1bb1f1/8710/impression?bwb=35&vpxid=8710&dnt=false&cevt=NWconversion&cp1=https%3A%2F%2Fwww.nerdwallet.co",
+  "Script https://www.googletagmanager.com/gtag/js?id=GT-NFJ2CH8X&cx=c&gtm=4e6b41",
+  "Fetch https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke",
+  "XHR https://cdn.cookielaw.org/consent/c095b28e-6dfb-40a3-a284-794251df86e9/c095b28e-6dfb-40a3-a284-794251df86e9.json",
+  "Script https://connect.facebook.net/signals/config/612184065591075?v=2.9.438&r=stable&domain=www.nerdwallet.com&im=1&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8",
+  "XHR https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+  "Script https://s.pinimg.com/ct/lib/main.80c2b6ae.js",
+  "XHR https://ct.pinterest.com/user/?tid=2612449957680&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&cb=1794158729238&dep=2%2CPAGE_LOAD",
+  "Fetch https://ct.pinterest.com/v3/?tid=2612449957680&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fww",
+  "Fetch https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke",
+  "Fetch https://region1.analytics.google.com/g/collect?v=2&tid=G-4JQS1HXE97&gtm=45je6b41v9196007286z876674221za20gzb76674221zd76674221xf1&_p=1794158728172&_gaz=1&gcs=G1",
+  "Ping https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-4JQS1HXE97&cid=1837545321.1794158730&gtm=45je6b41v9196007286z876674221za20gzb76674221zd76674221x",
+  "Image https://www.google.se/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-4JQS1HXE97&cid=1837545321.1794158730&gtm=45je6b41v9196007286z876674221za20gzb766",
+  "XHR https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key=",
+  "XHR https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key=",
+  "Script https://cdn.cookielaw.org/scripttemplates/202508.2.0/otBannerSdk.js",
+  "Fetch https://cdn.cookielaw.org/consent/c095b28e-6dfb-40a3-a284-794251df86e9/0199e088-ac0d-73cf-af4b-daa2f5f27627/en.json",
+  "Script https://connect.facebook.net/signals/config/703568349508621?v=2.9.438&r=stable&domain=www.nerdwallet.com&im=1&hme=4453c87d489b6902031c012cadd2731893cd69feb64fe8",
+  "Fetch https://meta.nerdwallet.io/events/2fe7a087cf5d325973f167dfdf6eeaf17217961023b6798f35bd4770d1935a7a",
+  "Document https://www.facebook.com/tr/",
+  "Script https://cdn.cookielaw.org/scripttemplates/202508.2.0/otGPP.js",
+  "Fetch https://cdn.cookielaw.org/scripttemplates/202508.2.0/assets/otFloatingRounded.json",
+  "Fetch https://cdn.cookielaw.org/scripttemplates/202508.2.0/assets/v2/otPcCenter.json",
+  "Fetch https://cdn.cookielaw.org/scripttemplates/202508.2.0/assets/otCommonStyles.css",
+  "XHR https://pixel-config.reddit.com/pixels/a2_gaspejol4t8q/config",
+  "Fetch https://alb.reddit.com/rp?id=a2_gaspejol4t8q&event=PageVisit",
+  "Fetch https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke",
+  "XHR https://ip.veritonicmetrics.com/",
+  "XHR https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key=",
+  "Image https://cdn.cookielaw.org/logos/static/ot_close.svg",
+  "Fetch https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+  "Image https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+  "Image https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+  "Script https://connect.facebook.net/signals/config/10155690113223502?v=2.9.438&r=stable&domain=www.nerdwallet.com&im=1&hme=4453c87d489b6902031c012cadd2731893cd69feb64f",
+  "Image https://www.facebook.com/tr/?id=703568349508621&ev=PageView&dl=https%3A%2F%2Fwww.nerdwallet.com&rl=&if=false&ts=1794158730730&iw=false&sw=390&sh=844&v=2.9.438&r",
+  "Image https://www.facebook.com/tr/?id=10155690113223502&ev=PageView&dl=https%3A%2F%2Fwww.nerdwallet.com%2Ftaxes%2Fcalculators%2Ftax-calculator&rl=&if=false&ts=1794158",
+  "Fetch https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-ke",
+  "XHR https://atr.veritonicmetrics.com/",
+  "Other https://atr.veritonicmetrics.com/",
+  "Other https://www.nerdwallet.com/cdn/favicon.ico",
+  "Image https://alb.reddit.com/rp.gif?ts=1794158730579&id=a2_gaspejol4t8q&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.orderId=&",
+  "XHR https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-expansion&dd-api-key="
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NVWSKF5",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-e",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-e",
+  "https://www.googletagmanager.com/gtag/js?id=AW-18071591651&cx=c&gtm=4e6b41",
+  "https://www.googletagmanager.com/gtag/js?id=G-CNTR275F69&cx=c&gtm=4e6b41",
+  "https://www.googletagmanager.com/gtag/js?id=AW-11298004898&cx=c&gtm=4e6b41",
+  "https://www.googletagmanager.com/gtag/js?id=AW-17592114049&cx=c&gtm=4e6b41",
+  "https://www.googletagmanager.com/gtag/js?id=GT-WPF683LK&cx=c&gtm=4e6b41",
+  "https://www.googletagmanager.com/gtag/js?id=AW-979644386&cx=c&gtm=4e6b41",
+  "https://bat.bing.com/bat.js",
+  "https://s.pinimg.com/ct/core.js",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://cdn.taboola.com/libtrc/unip/1040862/tfa.js",
+  "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CFE2FNBC77U208RTD9TG&lib=ttq",
+  "https://www.googletagmanager.com/gtag/js?id=GT-NFJ2CH8X&cx=c&gtm=4e6b41",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical",
+  "https://connect.facebook.net/signals/config/612184065591075?v=2.9.438&r=stable&domain=www.nerdwallet.com&im=1&hme=4453c87d489b6902031c012cad",
+  "https://s.pinimg.com/ct/lib/main.80c2b6ae.js",
+  "https://ct.pinterest.com/user/?tid=2612449957680&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&cb=1794158729238&dep=2%2CP",
+  "https://ct.pinterest.com/v3/?tid=2612449957680&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&event=init&ad=%7B%22loc%22%3",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical",
+  "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-4JQS1HXE97&cid=1837545321.1794158730&gtm=45je6b41v9196007286z876674221za20gz",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-e",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-e",
+  "https://connect.facebook.net/signals/config/703568349508621?v=2.9.438&r=stable&domain=www.nerdwallet.com&im=1&hme=4453c87d489b6902031c012cad",
+  "https://www.facebook.com/tr/",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-e",
+  "https://connect.facebook.net/signals/config/10155690113223502?v=2.9.438&r=stable&domain=www.nerdwallet.com&im=1&hme=4453c87d489b6902031c012c",
+  "https://www.facebook.com/tr/?id=703568349508621&ev=PageView&dl=https%3A%2F%2Fwww.nerdwallet.com&rl=&if=false&ts=1794158730730&iw=false&sw=39",
+  "https://www.facebook.com/tr/?id=10155690113223502&ev=PageView&dl=https%3A%2F%2Fwww.nerdwallet.com%2Ftaxes%2Fcalculators%2Ftax-calculator&rl=",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Avertical",
+  "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Avertical-e"
+ ],
+ "allHosts": {
+  "www.nerdwallet.com": 41,
+  "siteusagetools.nerdwallet.com": 2,
+  "www.googletagmanager.com": 8,
+  "browser-intake-datadoghq.com": 12,
+  "siteusage.nerdwallet.com": 5,
+  "cdn.cookielaw.org": 12,
+  "bat.bing.com": 1,
+  "s.pinimg.com": 2,
+  "bzrcdn.openai.com": 1,
+  "connect.facebook.net": 4,
+  "cdn.taboola.com": 1,
+  "analytics.tiktok.com": 1,
+  "cdn.veritonic.com": 1,
+  "www.redditstatic.com": 1,
+  "b-code.liadm.com": 1,
+  "c.tvpixel.com": 1,
+  "b.videoamp.com": 1,
+  "geolocation.onetrust.com": 1,
+  "ct.pinterest.com": 2,
+  "region1.analytics.google.com": 1,
+  "stats.g.doubleclick.net": 1,
+  "www.google.se": 1,
+  "meta.nerdwallet.io": 1,
+  "www.facebook.com": 3,
+  "pixel-config.reddit.com": 1,
+  "alb.reddit.com": 2,
+  "ip.veritonicmetrics.com": 1,
+  "atr.veritonicmetrics.com": 2
+ },
+ "scan": {
+  "title": "Tax Calculator & Refund Estimator (2026)",
+  "url": "https://www.nerdwallet.com/taxes/calculators/tax-calculator",
+  "docH": 12665,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Annual gross income",
+    "value": "$100,000",
+    "y": 633,
+    "x": 32,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Age",
+    "value": "18",
+    "y": 717,
+    "x": 32,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Itemized deductions",
+    "value": "$0",
+    "y": 885,
+    "x": 32,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Taxes withheld",
+    "value": "$0",
+    "y": 969,
+    "x": 32,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Federal Income Tax Calculator and Refund Estimator 2026",
+    "y": 167,
+    "h": 107,
+    "fs": 32,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 473,
+    "h": 36,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Your standard deduction: $16,100",
+    "y": 781,
+    "h": 20,
+    "fs": 13,
+    "fixed": ""
+   },
+   {
+    "t": "For the 2026 tax year, your estimated taxes owed are",
+    "y": 1212,
+    "h": 57,
+    "fs": 18.92,
+    "fixed": ""
+   },
+   {
+    "t": "$13,169.88",
+    "y": 1270,
+    "h": 37,
+    "fs": 29.536,
+    "fixed": ""
+   },
+   {
+    "t": "$100,000.00",
+    "y": 1369,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "−$16,100.00",
+    "y": 1401,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "−$0.00",
+    "y": 1433,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "−$0.00",
+    "y": 1465,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$83,900.00",
+    "y": 1506,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$13,169.88",
+    "y": 1592,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "−$0.00",
+    "y": 1624,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "−$0.00",
+    "y": 1656,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$13,169.88",
+    "y": 1697,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "15.70%",
+    "y": 1783,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Jul 7, 2026",
+    "y": 2116,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Here are the tax brackets for 2026 (taxes filed in 2027).",
+    "y": 5143,
+    "h": 48,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$0 to $12,400",
+    "y": 5378,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$0 to $24,800",
+    "y": 5378,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$0 to $17,700",
+    "y": 5378,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$0 to $12,400",
+    "y": 5378,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$12,401 to $50,400",
+    "y": 5468,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$24,801 to $100,800",
+    "y": 5457,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$17,701 to $67,450",
+    "y": 5468,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$12,401 to $50,400",
+    "y": 5468,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$50,401 to $105,700",
+    "y": 5558,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$100,801 to $211,400",
+    "y": 5558,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$67,451 to $105,700",
+    "y": 5570,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$50,401 to $105,700",
+    "y": 5570,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$105,701 to $201,775",
+    "y": 5660,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$211,401 to $403,550",
+    "y": 5660,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$105,701 to $201,750",
+    "y": 5660,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$105,701 to $201,775",
+    "y": 5660,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$201,776 to $256,225",
+    "y": 5761,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$403,551 to $512,450",
+    "y": 5761,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$201,751 to $256,200",
+    "y": 5761,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$201,776 to $256,225",
+    "y": 5761,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$256,226 to $640,600",
+    "y": 5863,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$512,451 to $768,700",
+    "y": 5863,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$256,201 to $640,600",
+    "y": 5863,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$256,226 to $384,350",
+    "y": 5863,
+    "h": 69,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$640,601 or more",
+    "y": 5965,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$768,701 or more",
+    "y": 5965,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$640,601 or more",
+    "y": 5965,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "$384,351 or more",
+    "y": 5965,
+    "h": 46,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "121,000+ reviews",
+    "y": 10098,
+    "h": 21,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "31,200+ reviews",
+    "y": 10098,
+    "h": 21,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "NerdWallet Compare, Inc. NMLS ID# 1617539",
+    "y": 11277,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Fundera, Inc. NMLS ID# 1240038",
+    "y": 11485,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "NerdWallet™ | 4150 N Drinkwater Blvd, Suite 200, Scottsdale,",
+    "y": 12189,
+    "h": 32,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "© 2026 NerdWallet, Inc.",
+    "y": 12532,
+    "h": 18,
+    "fs": 12,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "onetrust-banner-sdk",
+    "cls": "otFloatingRounded ot-bottom-left ot-wo-t",
+    "top": 624,
+    "h": 220,
+    "w": 390,
+    "pctViewport": 26,
+    "text": "NerdWallet uses targeting cookies to improve user experience on our site. Learn more in ourPrivacy policy Manage preferences CONTINUE"
+   }
+  ],
+  "iframes": [],
+  "ls": [
+   "lastExternalReferrer",
+   "lastExternalReferrerTime",
+   "ajs_anonymous_id",
+   "cookie_id",
+   "ajs_user_id"
+  ],
+  "ss": [],
+  "sw": false
+ }
+}

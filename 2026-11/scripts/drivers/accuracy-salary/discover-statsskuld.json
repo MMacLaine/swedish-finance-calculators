@@ -1,0 +1,145 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Öppna sök",
+  "val": "",
+  "vis": true,
+  "y": 12
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "dropdown-flag",
+  "name": "",
+  "lab": "",
+  "val": "",
+  "vis": true,
+  "y": 12
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "dropdown-profile",
+  "name": "",
+  "lab": "",
+  "val": "",
+  "vis": true,
+  "y": -2
+ },
+ {
+  "tag": "DIV",
+  "id": "",
+  "lab": "Var bor du",
+  "val": "",
+  "vis": true,
+  "y": 229
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "kommun",
+  "name": "kommun",
+  "lab": "Var bor du?",
+  "val": "STOCKHOLM",
+  "vis": false,
+  "y": 0,
+  "opts": "1:STOCKHOLM|STOCKHOLM (31.58%)"
+ },
+ {
+  "tag": "INPUT",
+  "type": "search",
+  "id": "",
+  "name": "",
+  "lab": "-- Var bor du --",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 279
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "bruttolon",
+  "name": "bruttolon",
+  "lab": "Ange din bruttolön:",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 385
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Beräkna",
+  "val": "",
+  "vis": true,
+  "y": 431
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "tabb-2023",
+  "name": "",
+  "lab": "2023",
+  "val": "",
+  "vis": true,
+  "y": 952
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "tabb-2024",
+  "name": "",
+  "lab": "2024",
+  "val": "",
+  "vis": true,
+  "y": 952
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "tabb-2025",
+  "name": "",
+  "lab": "2025",
+  "val": "",
+  "vis": true,
+  "y": 952
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "tabb-2026",
+  "name": "",
+  "lab": "2026",
+  "val": "",
+  "vis": true,
+  "y": 952
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "",
+  "name": "datatable-basic_length",
+  "lab": "Visa 10 25 50 100 poster",
+  "val": "10",
+  "vis": true,
+  "y": 4279,
+  "opts": "4:10|10;25|25;50|50;100|100"
+ },
+ {
+  "tag": "INPUT",
+  "type": "search",
+  "id": "",
+  "name": "",
+  "lab": "Sök:",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 4279
+ }
+]

@@ -1,0 +1,105 @@
+{
+ "url": "https://velja.se/isk-eller-depa",
+ "title": "ISK eller depå 2026 — Vilket ger bäst avkastning efter skatt",
+ "inputs": [
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "_R_39dbsnp5b_",
+   "name": "",
+   "label": "Startbelopp",
+   "value": "100000",
+   "vis": true,
+   "min": "0",
+   "max": "1000000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "_R_59dbsnp5b_",
+   "name": "",
+   "label": "Månadssparande",
+   "value": "2000",
+   "vis": true,
+   "min": "0",
+   "max": "20000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "_R_79dbsnp5b_",
+   "name": "",
+   "label": "Förväntad årsavkastning",
+   "value": "7",
+   "vis": true,
+   "min": "0",
+   "max": "15"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "_R_299dbsnp5b_",
+   "name": "",
+   "label": "Varav utdelning",
+   "value": "2",
+   "vis": true,
+   "min": "0",
+   "max": "7"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "_R_1b9dbsnp5b_",
+   "name": "",
+   "label": "Årlig omsättning (rebalansering/byten)",
+   "value": "0",
+   "vis": true,
+   "min": "0",
+   "max": "50"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "_R_d9dbsnp5b_",
+   "name": "",
+   "label": "Spartid",
+   "value": "10",
+   "vis": true,
+   "min": "1",
+   "max": "30"
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "id": "fribeloppUsed",
+   "name": "",
+   "label": "Fribeloppet används redan av annat ISK/KF-sparande",
+   "value": "on",
+   "vis": true,
+   "min": "",
+   "max": ""
+  }
+ ],
+ "lines": [
+  "100 000 kr",
+  "2 000 kr",
+  "Fribeloppet är 300 000 kr per person",
+  "Schablonränta 2026: 3,55 % (statslåneräntan + 1 procentenhet), skatt 30 % av schablonintäkten = 1,06 % av kapitalet över 300 000 kr.",
+  "70 000 kr mer efter skatt",
+  "535 816 kr",
+  "Betalt i skatt: 6 718 kr",
+  "466 284 kr",
+  "Total skatt: 71 388 kr",
+  "Totalt insatt: 340 000 kr",
+  "535 816 kr",
+  "100 000 kr",
+  "535 816 kr",
+  "466 284 kr",
+  "• Skattefritt upp till 300 000 kr per person (fribelopp från 2026, delas med KF)",
+  "• 30 % skatt på vinst vid försäljning",
+  "• 30 % skatt på utdelningar",
+  "I depå skattas utdelningar med 30 % när de betalas ut. I ISK ingår de i schablonskatten.",
+  "300 000 kr per person, gemensamt för ISK och kapitalförsäkring, inte indexerat",
+  "Lönen efter skatt, uppdelad post för post och jämförd mellan alla 290 kommuner."
+ ]
+}

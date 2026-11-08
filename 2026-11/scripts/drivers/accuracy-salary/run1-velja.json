@@ -1,0 +1,158 @@
+{
+ "log": [
+  "year:2026",
+  "opts:Stockholm\n30,55 %"
+ ],
+ "readback": {
+  "salary": "45000",
+  "kommun": "Stockholm (30,55 %)",
+  "church": false,
+  "age66": false,
+  "yearBtns": [
+   "2025:false",
+   "2026:true"
+  ]
+ },
+ "money": [
+  {
+   "t": "45 000 kr",
+   "y": 478,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Månadslön (brutto) 45 000 kr"
+  },
+  {
+   "t": "35 811 kr",
+   "y": 1144,
+   "fs": 36,
+   "fixed": "",
+   "ctx": "Nettolön per månad 35 811 kr av 45 000 kr före skatt · effektiv skatt 20,42 % Bruttolön 45"
+  },
+  {
+   "t": "av 45 000 kr före skatt · effektiv skatt 20,42 %",
+   "y": 1188,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Nettolön per månad 35 811 kr av 45 000 kr före skatt · effektiv skatt 20,42 % Bruttolön 45"
+  },
+  {
+   "t": "45 000 kr",
+   "y": 1276,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Bruttolön 45 000 kr Din lön i Stockholm Högre än 62 % median 15 tkr 150 tkr Kommunalskatt "
+  },
+  {
+   "t": "− 13 305 kr",
+   "y": 1525,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Bruttolön 45 000 kr Din lön i Stockholm Högre än 62 % median 15 tkr 150 tkr Kommunalskatt "
+  },
+  {
+   "t": "1 184 kr /år",
+   "y": 1719,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "Public service-avgift 1 184 kr/år −99 kr"
+  },
+  {
+   "t": "+ 4 119 kr",
+   "y": 1784,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Bruttolön 45 000 kr Din lön i Stockholm Högre än 62 % median 15 tkr 150 tkr Kommunalskatt "
+  },
+  {
+   "t": "Max 1 500 kr /år",
+   "y": 1881,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "Skattereduktion förvärvsinkomster Max 1 500 kr/år +125 kr"
+  },
+  {
+   "t": "+ 125 kr",
+   "y": 1865,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Bruttolön 45 000 kr Din lön i Stockholm Högre än 62 % median 15 tkr 150 tkr Kommunalskatt "
+  },
+  {
+   "t": "35 811 kr",
+   "y": 1948,
+   "fs": 24,
+   "fixed": "",
+   "ctx": "Bruttolön 45 000 kr Din lön i Stockholm Högre än 62 % median 15 tkr 150 tkr Kommunalskatt "
+  },
+  {
+   "t": "marginalskatt 30,62 % på de 1 000 kr över 45 000 kr",
+   "y": 2054,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "Din nästa tusenlapp marginalskatt 30,62 % på de 1 000 kr över 45 000 kr 694 kr kvar"
+  },
+  {
+   "t": "694 kr kvar",
+   "y": 2034,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Bruttolön 45 000 kr Din lön i Stockholm Högre än 62 % median 15 tkr 150 tkr Kommunalskatt "
+  },
+  {
+   "t": "Årsinkomst: 540 000 kr. Skatteverket räknar på hela hundratal: 540 000",
+   "y": 2850,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Så räknade vi — steg för steg med dina siffror"
+  },
+  {
+   "t": "Grundavdrag : 17 400 kr → beskattningsbar förvärvsinkomst 522 600 kr.",
+   "y": 2898,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Så räknade vi — steg för steg med dina siffror"
+  },
+  {
+   "t": "Kommunalskatt 30,55 % på den beskattningsbara inkomsten: 159 654 kr/år",
+   "y": 2946,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Så räknade vi — steg för steg med dina siffror"
+  },
+  {
+   "t": "Summa skatt 110 274 kr/år = 9 190 kr per månad → nettolön 35 811 kr .",
+   "y": 3190,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Så räknade vi — steg för steg med dina siffror"
+  },
+  {
+   "t": "20 % på inkomster över brytpunkten (660 400 kr 2026)",
+   "y": 3556,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Kommunalskatt + regionskatt Varierar mellan kommuner, cirka 29–35 % totalt Statlig inkomst"
+  },
+  {
+   "t": "1 % av inkomsten, max 1 184 kr/år (2026)",
+   "y": 3812,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Kommunalskatt + regionskatt Varierar mellan kommuner, cirka 29–35 % totalt Statlig inkomst"
+  },
+  {
+   "t": "Upp till 1 500 kr/år (0,75 % av beskattningsbar inkomst över 40 000 kr",
+   "y": 4028,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Kommunalskatt + regionskatt Varierar mellan kommuner, cirka 29–35 % totalt Statlig inkomst"
+  },
+  {
+   "t": "35 811 kr",
+   "y": 804,
+   "fs": 18,
+   "fixed": "fixed",
+   "ctx": "Hoppa till innehållet VELJA Sök Meny Hem / Lönekalkyl Lön efter skatt — räkna ut din netto"
+  }
+ ]
+}

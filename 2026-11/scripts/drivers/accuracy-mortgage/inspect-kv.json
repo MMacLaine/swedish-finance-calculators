@@ -1,0 +1,34 @@
+{
+ "url": "https://kalkylverket.se/kalkylatorer/bostad-fastighet/kopa-bostad/bolanekalkylator",
+ "title": "Bolånekalkylator – räkna bolån, kontantinsats & KALP – Kalkylverket",
+ "clicked": [],
+ "inputs": [
+  {
+   "i": 0,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "",
+   "id": "",
+   "label": "Sök kalkylator",
+   "value": "",
+   "min": "",
+   "max": ""
+  }
+ ],
+ "amort": [
+  "Många bolånekalkylatorer visar bara ränta och amortering. Den här kalkylatorn går längre än så. Här kan du se hur bostadens pris, din",
+  " vanligtvis blir 10 procent i stället för 15 procent. Samtidigt tas det skärpta amorteringskravet bort, medan grundkravet kopplat till belåningsgrad ligger kvar.",
+  "Det skärpta amorteringskravet tas bort.",
+  "Grundamortering utifrån belåningsgrad finns kvar.",
+  " hur stor del av bostadens värde som finansieras med lån, och den påverkar både amortering och den totala risknivån i kalkylen.",
+  "Hög belåningsgrad kan ge högre amorteringskrav.",
+  "Ränta, amortering och månadskostnad",
+  "Månadskostnaden består främst av ränta och amortering, men i många fall även av avgift eller driftkostnader. Räntan är kostnaden f",
+  "ör att låna pengar, medan amorteringen minskar själva skulden. Det gör att två upplägg med liknande månadskostnad",
+  "Amortering visar hur snabbt skulden minskar.",
+  "nsats och rimlighetsbedömning. Gå sedan vidare till detaljer som belåningsgrad, amortering, ränta, KALP och räntekänslighet. På så sätt får du en bättre helhetsbild än",
+  "n, men den kan inte ersätta bankens slutliga kreditprövning. Om du vill jämföra amorteringsupplägg mer i detalj kan du använda annuitetslån kalkylator eller rak amorte",
+  "Hur räknas amortering på bolån efter de nya reglerna?"
+ ],
+ "iframes": []
+}

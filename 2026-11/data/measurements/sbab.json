@@ -1,0 +1,263 @@
+{
+ "id": "sbab",
+ "url": "https://www.sbab.se/1/privat/lana/bolan/rakneexempel_for_bolan.html",
+ "finalUrl": "https://www.sbab.se/1/privat/lana/bolan/rakneexempel_for_bolan.html",
+ "site": "sbab.se",
+ "at": "2026-11-08T17:17:40.280Z",
+ "requests": 84,
+ "failed": 1,
+ "thirdPartyHosts": [
+  "sbab.boost.ai",
+  "sbab.containers.piwik.pro"
+ ],
+ "thirdPartyDomains": [
+  "boost.ai",
+  "piwik.pro"
+ ],
+ "trackerHosts": [
+  "sbab.containers.piwik.pro"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "JSESSIONID",
+   "domain": "www.sbab.se",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 0
+  }
+ ],
+ "weight": {
+  "totalKB": 794,
+  "thirdPartyKB": 273,
+  "finished": 82,
+  "byTypeKB": {
+   "Script": 506,
+   "Stylesheet": 124,
+   "Font": 80,
+   "Document": 71,
+   "XHR": 9,
+   "Fetch": 2,
+   "Image": 1,
+   "Other": 1,
+   "Manifest": 0
+  }
+ },
+ "reqUrls": [
+  "Document https://www.sbab.se/1/privat/lana/bolan/rakneexempel_for_bolan.html",
+  "Stylesheet https://www.sbab.se/2.5f90d2cc12b155ffe708000951/1793675849125/sitevision-responsive-grids.css",
+  "Stylesheet https://www.sbab.se/2.5f90d2cc12b155ffe708000951/0/1413/SiteVision.css",
+  "Stylesheet https://www.sbab.se/sitevision/system-resource/8425386481e0ed56e42263f5002c3894d0ca9f4befc6523dd66cec97488f9637/css/portlets.css",
+  "Stylesheet https://www.sbab.se/sitevision/system-resource/8425386481e0ed56e42263f5002c3894d0ca9f4befc6523dd66cec97488f9637/envision/envision.css",
+  "Stylesheet https://www.sbab.se/2.5f90d2cc12b155ffe708000951/1793675891640/sitevision-spacing.css",
+  "Script https://www.sbab.se/sitevision/system-resource/8425386481e0ed56e42263f5002c3894d0ca9f4befc6523dd66cec97488f9637/js/jquery.js",
+  "Script https://www.sbab.se/sitevision/system-resource/8425386481e0ed56e42263f5002c3894d0ca9f4befc6523dd66cec97488f9637/envision/envision.js",
+  "Script https://www.sbab.se/sitevision/system-resource/8425386481e0ed56e42263f5002c3894d0ca9f4befc6523dd66cec97488f9637/js/utils.js",
+  "Script https://www.sbab.se/sitevision/system-resource/8425386481e0ed56e42263f5002c3894d0ca9f4befc6523dd66cec97488f9637/js/portlets.js",
+  "Stylesheet https://www.sbab.se/download/18.ffa8c97163cefd8ac8b4/1585294491496/drawer-host.css",
+  "Script https://www.sbab.se/download/18.533849ab161af45fdf71/1519064577778/toggle.js",
+  "Script https://www.sbab.se/static/consent-management-app/bundle.js?v=20250613__0",
+  "Stylesheet https://www.sbab.se/assets/legacy.slim.min.css",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/base.js",
+  "Script https://www.sbab.se/download/18.ffa8c97163cefd8ac8ad/1666788683232/accordion-drawer-listeners.js",
+  "Manifest https://www.sbab.se/essentials/site.webmanifest",
+  "Script https://sbab.containers.piwik.pro/fccb4319-6dd3-493b-a869-75c092a6d997.js",
+  "Image https://www.sbab.se/assets/icons/functional/orange-plus.svg",
+  "Image https://www.sbab.se/images/18.24f817c51a0408ab79d9c1/1788857471248/accordion-chevron-down.svg",
+  "Font https://www.sbab.se/assets/fonts/SBAB-Regular.woff2",
+  "Font https://www.sbab.se/assets/fonts/SBAB-Display.woff2",
+  "Font https://www.sbab.se/assets/fonts/SBAB-Bold.woff2",
+  "Manifest https://www.sbab.se/download/18.113e0059190de94eea1138fe/1736255301853/site.webmanifest",
+  "Other https://www.sbab.se/essentials/favicon.ico",
+  "Other https://www.sbab.se/images/18.113e0059190de94eea1138fd/1736247064132/favicon.ico",
+  "Fetch https://www.sbab.se/api/interest-mortgage-service/api/external/v1/interest",
+  "Fetch https://www.sbab.se/api/interest-service/api/v2/interest/difference",
+  "Fetch https://www.sbab.se/api/interest-service/api/external/v4/interest/difference/market/mortgage",
+  "Fetch https://www.sbab.se/api/interest-service/api/external/v4/interest/difference/market/mortgage",
+  "Fetch https://www.sbab.se/api/interest-service/api/external/v4/interest/difference/market/mortgage",
+  "Fetch https://www.sbab.se/api/interest-service/api/external/v4/interest/difference/market/mortgage",
+  "Fetch https://www.sbab.se/api/interest-service/api/external/v4/interest/difference/market/mortgage",
+  "Fetch https://www.sbab.se/api/interest-service/api/external/v4/interest/difference/market/mortgage",
+  "Fetch https://www.sbab.se/api/interest-mortgage-service/api/external/v1/interest",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v3/total-cost/simplified/years",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Fetch https://www.sbab.se/api/interest-calculation-service/api/v1/effective-interest/mortgage",
+  "Script https://sbab.boost.ai/chatPanel/chatPanel.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/hooks.module-c5ni-kSS.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/preload-helper-BEN4dUpp.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/appHost-rtkVypmg.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/responsive-props-m2IVgcbv.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Show-B6JRjokz.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Flex-CmE5QzNA.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Text-C7PaOezi.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Card-BBt163b1.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Stack-B1EJni5b.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Button-DGme2bSW.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/flags-aXl6kJN1.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/package-Cl3b1kbc.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/modeCatalog-CkBJET5Z.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Typography-PRlC7WzH.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/technicalError-d6VpCwpZ.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/focusable-CBn56J54.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/instanceId-B6wTVT8F.js",
+  "Stylesheet https://www.sbab.se/static/dsd-frontend-apps/assets/style-hQFzAIS0.shadow.css",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/main-BemEwbGD.js",
+  "Other https://sbab.boost.ai/api/chat_panel/v2",
+  "XHR https://sbab.boost.ai/api/chat_panel/v2",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/size.props-BIwgG0S_.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Prose-DqoZvxIM.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/aliases-CnYvIZik.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/openSearch-CmFxIqvx.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Link-CYyiitPr.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/XRingIcon-C5HN7_8O-BZxqAbUg.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/VisuallyHidden-BJUlsaOC.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/PlainButton-BhkptiAC.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/focus-ring-BNMucYhE.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Label-CC8vGu_I.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/RenderSlot-DyDdWgWi.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Input-DlTZWOsH.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Input.module-Dw9NOZB7--sjELvId.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/InputGroup-BD5HBAGP.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/fetchJson-DVFd-Z9t.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/eventQueue-jjCSOXjN.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Skeleton-CYVVQfNc.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/SkeletonPrimitives-BZPZHzxd.js",
+  "Script https://www.sbab.se/static/dsd-frontend-apps/assets/Skeleton-nIzLoChF.js"
+ ],
+ "trackerUrls": [
+  "https://sbab.containers.piwik.pro/fccb4319-6dd3-493b-a869-75c092a6d997.js"
+ ],
+ "allHosts": {
+  "www.sbab.se": 80,
+  "sbab.containers.piwik.pro": 1,
+  "sbab.boost.ai": 3
+ },
+ "scan": {
+  "title": "Räkna på bolånet - SBAB",
+  "url": "https://www.sbab.se/1/privat/lana/bolan/rakneexempel_for_bolan.html",
+  "docH": 3662,
+  "inputs": [],
+  "money": [
+   {
+    "t": "Det här är ett exempel som gäller ett på 1 000 000 kronor.",
+    "y": 396,
+    "h": 60,
+    "fs": 20,
+    "fixed": ""
+   },
+   {
+    "t": "1 000 000 kr",
+    "y": 512,
+    "h": 67,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "2,85 %**",
+    "y": 579,
+    "h": 47,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "2,89 %",
+    "y": 639,
+    "h": 20,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "2 375 kr",
+    "y": 718,
+    "h": 47,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "2 084 kr***",
+    "y": 765,
+    "h": 47,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "4 459 kr",
+    "y": 812,
+    "h": 47,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1 571 006 kr",
+    "y": 905,
+    "h": 67,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "571 006 kr",
+    "y": 971,
+    "h": 66,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "**3 mån bindningstid, 70 % belåningsgrad och 1 miljon kr i l",
+    "y": 1354,
+    "h": 36,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Totalt att betala efter 480 månadsbetalningar.",
+    "y": 1426,
+    "h": 18,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Org nr. 556253-7513",
+    "y": 3601,
+    "h": 21,
+    "fs": 14,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "_overlay_134ds_27",
+    "top": 0,
+    "h": 844,
+    "w": 390,
+    "pctViewport": 100,
+    "text": "Så använder SBAB cookies Vi använder oss av cookies för att anpassa och förbättra din upplevelse på vår webbplats. Med cookies kan vi erbjud"
+   },
+   {
+    "tag": "div",
+    "id": "cmp",
+    "cls": "_banner_134ds_48",
+    "top": 164,
+    "h": 680,
+    "w": 390,
+    "pctViewport": 81,
+    "text": "Så använder SBAB cookies Vi använder oss av cookies för att anpassa och förbättra din upplevelse på vår webbplats. Med cookies kan vi erbjud"
+   }
+  ],
+  "iframes": [],
+  "ls": [
+   "sbab-dsd-frontend-apps-loaded",
+   "_cmp_piwik_reconcile"
+  ],
+  "ss": [],
+  "sw": false
+ }
+}

@@ -1,0 +1,420 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Menu",
+  "val": "",
+  "vis": true,
+  "y": 6
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "settings-btn",
+  "name": "",
+  "lab": "Inställningar",
+  "val": "",
+  "vis": true,
+  "y": 6
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Switch to light",
+  "val": "",
+  "vis": true,
+  "y": 6
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Bruttolön",
+  "val": "",
+  "vis": true,
+  "y": 774
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Nettolön",
+  "val": "",
+  "vis": true,
+  "y": 774
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Pension",
+  "val": "",
+  "vis": true,
+  "y": 774
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "sal-income",
+  "name": "",
+  "lab": "salarynetpension",
+  "val": "salary",
+  "vis": false,
+  "y": 0,
+  "opts": "3:salary|salary;net|net;pension|pension"
+ },
+ {
+  "tag": "INPUT",
+  "type": "number",
+  "id": "shared-gross",
+  "name": "",
+  "lab": "Bruttolön per månad",
+  "val": "50000",
+  "checked": false,
+  "vis": true,
+  "y": 855
+ },
+ {
+  "tag": "INPUT",
+  "type": "number",
+  "id": "shared-yob",
+  "name": "",
+  "lab": "Födelseår",
+  "val": "1995",
+  "checked": false,
+  "vis": true,
+  "y": 1000
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "shared-mun-input",
+  "name": "",
+  "lab": "Stockholm",
+  "val": "Stockholm (30,55%)",
+  "checked": false,
+  "vis": true,
+  "y": 1086
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "shared-employment",
+  "name": "",
+  "lab": "Anställningsform",
+  "val": "employed",
+  "vis": true,
+  "y": 1231,
+  "opts": "3:employed|Anställd;self_ef|Enskild firma;self_ab|Eget AB"
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Nej",
+  "val": "",
+  "vis": true,
+  "y": 1321
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Ja",
+  "val": "",
+  "vis": true,
+  "y": 1321
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "shared-trossamfund",
+  "name": "",
+  "lab": "NejJa",
+  "val": "no",
+  "vis": false,
+  "y": 0,
+  "opts": "2:no|Nej;yes|Ja"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "shared-trossamfund-select",
+  "name": "",
+  "lab": "Trossamfund",
+  "val": "svenska_kyrkan",
+  "vis": false,
+  "y": 0,
+  "opts": "20:svenska_kyrkan|Svenska kyrkan (~1,0%);bosniakiska_islamiska|Bosniakiska islamiska samfundet (0,70%);equmeniakyrkan|Equmeniakyrkan (1,0%);evangeliska_frikyrkan|Evangeliska frikyrkan (1,0%)"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "partner-employment",
+  "name": "",
+  "lab": "Anställningsform",
+  "val": "employed",
+  "vis": false,
+  "y": 0,
+  "opts": "3:employed|Anställd;self_ef|Enskild firma;self_ab|Eget AB"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "partner-trossamfund",
+  "name": "",
+  "lab": "NejJa",
+  "val": "no",
+  "vis": false,
+  "y": 0,
+  "opts": "2:no|Nej;yes|Ja"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "partner-trossamfund-select",
+  "name": "",
+  "lab": "Trossamfund",
+  "val": "svenska_kyrkan",
+  "vis": false,
+  "y": 0,
+  "opts": "20:svenska_kyrkan|Svenska kyrkan (~1,0%);bosniakiska_islamiska|Bosniakiska islamiska samfundet (0,70%);equmeniakyrkan|Equmeniakyrkan (1,0%);evangeliska_frikyrkan|Evangeliska frikyrkan (1,0%)"
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "shared-add-partner",
+  "name": "",
+  "lab": "+ Lägg till partner Jämför två personer ",
+  "val": "",
+  "vis": true,
+  "y": 1407
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "",
+  "val": "",
+  "vis": true,
+  "y": 2589
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "",
+  "val": "",
+  "vis": true,
+  "y": 2589
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "sk-share-btn",
+  "name": "",
+  "lab": "",
+  "val": "",
+  "vis": true,
+  "y": 3887
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "result-strip",
+  "name": "",
+  "lab": "Nettolön 39 279 kr/mån, gå till resultat",
+  "val": "",
+  "vis": true,
+  "y": 56
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "settings-close",
+  "name": "",
+  "lab": "Stäng",
+  "val": "",
+  "vis": true,
+  "y": 32
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Ljust",
+  "val": "",
+  "vis": true,
+  "y": 135
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Mörkt",
+  "val": "",
+  "vis": true,
+  "y": 135
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "SV",
+  "val": "",
+  "vis": true,
+  "y": 212
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "EN",
+  "val": "",
+  "vis": true,
+  "y": 212
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Av",
+  "val": "",
+  "vis": true,
+  "y": 289
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "På",
+  "val": "",
+  "vis": true,
+  "y": 289
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "settings-details-open",
+  "name": "",
+  "lab": "DINA UPPGIFTER ›",
+  "val": "",
+  "vis": true,
+  "y": 370
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "settings-partner-open",
+  "name": "",
+  "lab": "PARTNERUPPGIFTER ›",
+  "val": "",
+  "vis": true,
+  "y": 429
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-employment",
+  "name": "",
+  "lab": "Anställningsform",
+  "val": "employed",
+  "vis": false,
+  "y": 0,
+  "opts": "3:employed|Anställd;self_ef|Enskild firma;self_ab|Eget AB"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-pension-plan",
+  "name": "",
+  "lab": "Pensionsavtal",
+  "val": "itp1",
+  "vis": false,
+  "y": 0,
+  "opts": "6:itp1|ITP1 (privat, tjänsteman);itp2|ITP2 (privat, född före 1979);saflo|SAF-LO (privat, arbetare);akap|AKAP-KR (kommun/region)"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-trossamfund",
+  "name": "",
+  "lab": "NejJa",
+  "val": "no",
+  "vis": false,
+  "y": 0,
+  "opts": "2:no|Nej;yes|Ja"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-trossamfund-select",
+  "name": "",
+  "lab": "Trossamfund",
+  "val": "svenska_kyrkan",
+  "vis": false,
+  "y": 0,
+  "opts": "20:svenska_kyrkan|Svenska kyrkan (~1,0%);bosniakiska_islamiska|Bosniakiska islamiska samfundet (0,70%);equmeniakyrkan|Equmeniakyrkan (1,0%);evangeliska_frikyrkan|Evangeliska frikyrkan (1,0%)"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-partner-employment",
+  "name": "",
+  "lab": "Anställningsform",
+  "val": "employed",
+  "vis": false,
+  "y": 0,
+  "opts": "3:employed|Anställd;self_ef|Enskild firma;self_ab|Eget AB"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-partner-pension-plan",
+  "name": "",
+  "lab": "Pensionsavtal",
+  "val": "itp1",
+  "vis": false,
+  "y": 0,
+  "opts": "6:itp1|ITP1 (privat, tjänsteman);itp2|ITP2 (privat, född före 1979);saflo|SAF-LO (privat, arbetare);akap|AKAP-KR (kommun/region)"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-partner-trossamfund",
+  "name": "",
+  "lab": "NejJa",
+  "val": "no",
+  "vis": false,
+  "y": 0,
+  "opts": "2:no|Nej;yes|Ja"
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "settings-partner-trossamfund-select",
+  "name": "",
+  "lab": "Trossamfund",
+  "val": "svenska_kyrkan",
+  "vis": false,
+  "y": 0,
+  "opts": "20:svenska_kyrkan|Svenska kyrkan (~1,0%);bosniakiska_islamiska|Bosniakiska islamiska samfundet (0,70%);equmeniakyrkan|Equmeniakyrkan (1,0%);evangeliska_frikyrkan|Evangeliska frikyrkan (1,0%)"
+ }
+]

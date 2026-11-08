@@ -1,0 +1,244 @@
+{
+ "id": "nordnet",
+ "url": "https://www.nordnet.se/se/tjanster/manadsspara",
+ "finalUrl": "https://www.nordnet.se/tjanster/manadsspara",
+ "site": "nordnet.se",
+ "at": "2026-11-08T17:25:16.389Z",
+ "requests": 78,
+ "failed": 0,
+ "failedDetail": [],
+ "thirdPartyHosts": [
+  "api.prod.nntech.io",
+  "cdn.prod.nntech.io",
+  "relay.prod.nntech.io"
+ ],
+ "thirdPartyDomains": [
+  "nntech.io"
+ ],
+ "trackerHosts": [],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "lang",
+   "domain": "www.nordnet.se",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "expiresDays": 0
+  },
+  {
+   "name": "_csrf",
+   "domain": "www.nordnet.se",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": true,
+   "sameSite": "Strict",
+   "expiresDays": 0
+  }
+ ],
+ "weight": {
+  "totalKB": 1998,
+  "thirdPartyKB": 93,
+  "finished": 77,
+  "byTypeKB": {
+   "Script": 1352,
+   "Document": 400,
+   "Image": 89,
+   "Font": 84,
+   "Stylesheet": 62,
+   "Other": 5,
+   "Fetch": 4,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://www.nordnet.se/se/tjanster/manadsspara",
+  "Document https://www.nordnet.se/tjanster/manadsspara",
+  "Font https://www.nordnet.se/static/fonts/nordnet-sans-mono/nordnet-sans-mono-regular.woff2",
+  "Font https://www.nordnet.se/static/fonts/nordnet-sans-mono/nordnet-sans-mono-bold.woff2",
+  "Font https://www.nordnet.se/static/fonts/nordnet-sans-mono/nordnet-sans-mono-extrabold.woff2",
+  "Script https://www.nordnet.se/static/nn-contentful.728ca7f805517195c278.js",
+  "Script https://www.nordnet.se/static/nn-cms-conditional.7e03162be8afb295ee3a.js",
+  "Script https://www.nordnet.se/static/nn-cms-info-banner.2fe25d9ecbae708b04d1.js",
+  "Script https://www.nordnet.se/static/nn-cms-section-cards.f9575083e77a67f4e6c1.js",
+  "Script https://www.nordnet.se/static/nn-contentful-icons.ad51c1fc336e75dea34a.js",
+  "Script https://www.nordnet.se/static/nn-cms-calculator.845be6f7ef2fdd94d4a6.js",
+  "Script https://www.nordnet.se/static/nn-cms-calculator-graph.973a6f191b4669e11242.js",
+  "Script https://www.nordnet.se/static/nn-cms-feature.1cc852c27dd807c1383c.js",
+  "Script https://www.nordnet.se/static/nn-cms-embedded-content.ab72648935d8fd72925e.js",
+  "Script https://www.nordnet.se/static/nn-cms-list.427212c083807a9f2384.js",
+  "Script https://www.nordnet.se/static/nn-cms-nn-academy-teasers.96a46c48af4f91dd12f5.js",
+  "Script https://www.nordnet.se/static/nn-cms-section-faq.3cae8ccc426022d96bf9.js",
+  "Script https://www.nordnet.se/static/nn-cms-link.f4cb00b0d0892d845bd4.js",
+  "Stylesheet https://www.nordnet.se/static/tailwind-output.a0967bbe.css",
+  "Manifest https://www.nordnet.se/site.webmanifest",
+  "Image https://cdn.prod.nntech.io/cms-proxy/gklsn0xlu599/2pUaiUZbDqq6yj6YbpQMi1/fef4b2012aef85e0091964aa40992713/750x1000_UA_2.jpg?q=90&fm=avif&w=780",
+  "Script https://www.nordnet.se/static/nn-npm.nordnet.ui-tailwind.febd1e0d4d04ea9429df.js",
+  "Script https://www.nordnet.se/static/nn-npm.framer-motion.481fffa8e805c61efe49.js",
+  "Script https://www.nordnet.se/static/nn-npm.lodash.aece118ee658d0272d41.js",
+  "Script https://www.nordnet.se/static/nn-npm.nordnet.ui~929cd496.52150e0bb45933efb52a.js",
+  "Script https://www.nordnet.se/static/nn-npm.nordnet.ui~d14e42d4.1ceeb694468eca3a096c.js",
+  "Script https://www.nordnet.se/static/nn-npm.ramda.34447179e4cb2c7a5b93.js",
+  "Script https://www.nordnet.se/static/nn-npm.sentry.core.99b32c1522454dc79683.js",
+  "Script https://www.nordnet.se/static/nn-npm.date-fns.b7950cc9ca8f9c7e5b40.js",
+  "Script https://www.nordnet.se/static/nn-npm.popperjs.core.62c4d71fae341f11b9b2.js",
+  "Script https://www.nordnet.se/static/nn-npm.sentry.browser-utils.3d6189ec2ac7297df737.js",
+  "Script https://www.nordnet.se/static/nn-npm.sentry.browser.6a03ae00b8993ab11aa7.js",
+  "Script https://www.nordnet.se/static/nn-npm.focus-lock.1c778214bd886dd3dce7.js",
+  "Script https://www.nordnet.se/static/nn-npm.formatjs.intl.99e7e5a648be24f46611.js",
+  "Script https://www.nordnet.se/static/nn-npm.nordnet.design-tokens.0f1a76501bc0b3c36dee.js",
+  "Script https://www.nordnet.se/static/nn-npm.formatjs.icu-messageformat-parser.59b6a47e789bc62deed8.js",
+  "Script https://www.nordnet.se/static/nn-npm.stylis.fe58e7ce19f1abc44fe9.js",
+  "Script https://www.nordnet.se/static/nn-npm.date-fns.tz.0fc5729d4b450efb8c22.js",
+  "Script https://www.nordnet.se/static/nn-npm.swr.6fd3928efc5b33263aa5.js",
+  "Script https://www.nordnet.se/static/nn-npm.optimizely.optimizely-sdk.e986cf8ee25bfaa372a4.js",
+  "Script https://www.nordnet.se/static/nn-npm.p-queue.2e82377b0e5fa08b1aff.js",
+  "Script https://www.nordnet.se/static/nn-npm.react-dom~4a523f79.2e026015fe8a762be2f5.js",
+  "Script https://www.nordnet.se/static/nn-npm.react-dom~2594363e.0c501ca4a740fc20ec10.js",
+  "Script https://www.nordnet.se/static/nn-npm.contentful.live-preview.f7bb27806d943bf6deec.js",
+  "Script https://www.nordnet.se/static/nn-npm.react-router.08e13600daed61800042.js",
+  "Script https://www.nordnet.se/static/nn-npm.color-convert.317f4bd5ae123e1827c2.js",
+  "Script https://www.nordnet.se/static/nn-npm.react-redux.043486ba78b4ba379bdb.js",
+  "Script https://www.nordnet.se/static/nn-npm.zod.02dfe5c5078d6ef27152.js",
+  "Script https://www.nordnet.se/static/nn-npm.ua-parser-js.b36511cac20158034e5a.js",
+  "Script https://www.nordnet.se/static/nn-npm.vaul.8abe7c980ce42b5cf768.js",
+  "Script https://www.nordnet.se/static/nn-npm.tailwind-merge.3a436ca2a6c2e5c33301.js",
+  "Script https://www.nordnet.se/static/nn-npm.styled-components.cfcb17cd31c650437e7c.js",
+  "Script https://www.nordnet.se/static/nn-npm.optimizely.react-sdk.22f59becbaf647015fce.js",
+  "Script https://www.nordnet.se/static/nn-npm.sentry.conventions.f0acf4bc8dd671b2c1de.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_floating-ui_react-dom_dist_floating-ui_react-dom_mjs-node_modules_format-decd61.aeb5077c7d3014d97ec7.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_radix-ui_react-accordion_dist_index_mjs-node_modules_radix-ui_react-dial-2bd956.c7379e7369e1883f3df4.js",
+  "Script https://www.nordnet.se/static/nn-main.14bbe7074c9e767eaf9e.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_components_flex-table_flex-table_js.438269968671c90a65ee.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_react-markdown_src_react-markdown_js-node_modules_nordnet_ui-tailwind_di-111830.2a88cfdf1b4a0a484747.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_webapp-next_news-components_src_index_ts.6b20796101f8343ee04a.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_webapp-next_contentful-renderers_src_index_ts-node_modules_contentful_ri-cefb62.bdee821829a66b3c4502.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_webapp-next_page-contentful_src_index_ts.2a692e90bf6779d64ace.js",
+  "Fetch https://relay.prod.nntech.io/web/api/4510781841145936/envelope/?sentry_version=7&sentry_key=e9b44f69ab5e60df182a556ecde716ef&sentry_client=sentry.javascript.rea",
+  "Other https://api.prod.nntech.io/cms/v1/contentful-cache/icc/se?fullContent=true",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_webapp-next_contentful-renderers_src_sections_Feature_Layouts_Layouts_tsx.b033b73c06f0c4a24d17.js",
+  "Fetch https://api.prod.nntech.io/cms/v1/contentful-cache/icc/se?fullContent=true",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_primitives_icon_arrow-line_arrow-line-16_js-nod-e1e87b.519e175941e8228d0ace.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_primitives_icon_account_account-32_js-node_modu-02dae8.adcfb5e7ce5a0d85a650.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_primitives_icon_add-circle_add-circle-16_js-nod-d66096.5b1c8bb3c209eaa42182.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_primitives_icon_index_js.0b4f5c716e1198015050.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_components_date-picker_date-picker_js.ac536abb3e23e05ba020.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_nordnet_ui-tailwind_dist_components_date-picker_date-picker-with-input_d-d46d7f.aaea933c66b7bb1db75c.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_highcharts_esm_highcharts_js.406732752c3384054731.js",
+  "Script https://www.nordnet.se/static/nn-vendors-node_modules_webapp-next_graphs_src_index_ts.bcb64f3c9cdac359dad3.js",
+  "Fetch https://www.nordnet.se/api/2/batch",
+  "Other https://www.nordnet.se/static/assets/icon.svg",
+  "Other https://www.nordnet.se/static/assets/android-chrome-192x192.png",
+  "Fetch https://relay.prod.nntech.io/web/api/4510781841145936/envelope/?sentry_version=7&sentry_key=e9b44f69ab5e60df182a556ecde716ef&sentry_client=sentry.javascript.rea"
+ ],
+ "trackerUrls": [
+  "https://www.nordnet.se/static/nn-npm.sentry.core.99b32c1522454dc79683.js",
+  "https://www.nordnet.se/static/nn-npm.sentry.browser-utils.3d6189ec2ac7297df737.js",
+  "https://www.nordnet.se/static/nn-npm.sentry.browser.6a03ae00b8993ab11aa7.js",
+  "https://www.nordnet.se/static/nn-npm.optimizely.optimizely-sdk.e986cf8ee25bfaa372a4.js",
+  "https://www.nordnet.se/static/nn-npm.optimizely.react-sdk.22f59becbaf647015fce.js",
+  "https://www.nordnet.se/static/nn-npm.sentry.conventions.f0acf4bc8dd671b2c1de.js"
+ ],
+ "allHosts": {
+  "www.nordnet.se": 73,
+  "cdn.prod.nntech.io": 1,
+  "relay.prod.nntech.io": 2,
+  "api.prod.nntech.io": 2
+ },
+ "scan": {
+  "title": "Månadsspara | Nordnet",
+  "url": "https://www.nordnet.se/tjanster/manadsspara",
+  "docH": 5511,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Startbelopp",
+    "value": "50 000",
+    "y": 2738,
+    "x": 188,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Månadssparande",
+    "value": "2 000",
+    "y": 2866,
+    "x": 223,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Avkastning",
+    "value": "8,68",
+    "y": 2994,
+    "x": 210,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Antal år",
+    "value": "20",
+    "y": 3122,
+    "x": 196,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "1 503 823",
+    "y": 3289,
+    "h": 48,
+    "fs": 40,
+    "fixed": ""
+   },
+   {
+    "t": "530 000",
+    "y": 3339,
+    "h": 19,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "+973 823",
+    "y": 3363,
+    "h": 19,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "© 2026 Nordnet Bank AB.",
+    "y": 5455,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Nordnet | Box 30099 | 104 25 Stockholm",
+    "y": 5483,
+    "h": 14,
+    "fs": 12,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "radix-_R_86_",
+    "cls": "data-[state=open]:animate-in data-[state",
+    "top": 536,
+    "h": 292,
+    "w": 358,
+    "pctViewport": 32,
+    "text": "Användning av valfria cookies Cookies hjälper oss att anpassa din upplevelse, analysera hur du använder vår webbplats och ge dig relevant in"
+   }
+  ],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

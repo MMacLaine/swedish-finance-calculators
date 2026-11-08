@@ -1,0 +1,54 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Manage Options",
+  "val": "",
+  "vis": true,
+  "y": 593
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Agree and proceed",
+  "val": "",
+  "vis": true,
+  "y": 637
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Logga in",
+  "val": "",
+  "vis": true,
+  "y": 52
+ },
+ {
+  "tag": "INPUT",
+  "type": "number",
+  "id": "start",
+  "name": "fname",
+  "lab": "",
+  "val": "35000",
+  "checked": false,
+  "vis": true,
+  "y": 429
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "county",
+  "name": "county",
+  "lab": "ALE - NÖDINGE FÖRSAMLING ALE - SKEPPLAND",
+  "val": "ALE - NÖDINGE FÖRSAM",
+  "vis": true,
+  "y": 509,
+  "opts": "1267:ALE - NÖDINGE FÖRSAMLING|ALE - NÖDINGE FÖRSAMLING;ALE - SKEPPLANDA-HÅLANDA FÖRSAMLING|ALE - SKEPPLANDA-HÅLANDA FÖRSAMLING;ALE - STARRKÄRR-KILANDA FÖRSAMLING|ALE - STARRKÄRR-KILANDA FÖRSAMLING;ALINGSÅS - ALINGSÅS FÖRSAMLING|ALINGSÅS - ALINGSÅS FÖRSAMLING"
+ }
+]

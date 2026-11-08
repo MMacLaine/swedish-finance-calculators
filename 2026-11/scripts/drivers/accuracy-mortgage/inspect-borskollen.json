@@ -1,0 +1,57 @@
+{
+ "url": "https://www.borskollen.se/basta-bolanerantan",
+ "title": "Bästa bolåneräntan november – Så sänker du din boränta 2026",
+ "clicked": [],
+ "inputs": [
+  {
+   "i": 0,
+   "tag": "INPUT",
+   "type": "text",
+   "name": "",
+   "id": "",
+   "label": "Sök i rubriker..",
+   "value": "",
+   "min": "",
+   "max": ""
+  },
+  {
+   "i": 1,
+   "tag": "INPUT",
+   "type": "email",
+   "name": "",
+   "id": "",
+   "label": "E-postadress",
+   "value": "",
+   "min": "",
+   "max": ""
+  }
+ ],
+ "amort": [
+  "på 3 mkr med antagande att räntan är konstant under hela perioden och att ingen amortering sker. Ränteavdrag beaktas ej. Avser rapporterade snitträntor föregående måna",
+  "Exemplet nedan visar räntekostnad per månad på ett bolån om 3 000 000 kr utan amortering, före ränteavdrag.",
+  "nka på: Exemplet antar att räntan är konstant under hela perioden och att ingen amortering sker. I praktiken förändras räntorna löpande. Ränteavdrag (30 % av räntekost",
+  "4. Begär ut amorteringsunderlag från din nuvarande bank",
+  "Regler för amortering",
+  "5. Vad är amorteringskravet och hur fungerar det?",
+  "Begär ut amorteringsunderlag – signalerar till din nuvarande bank att du överväger flytt (enkelt",
+  "änd dina bästa erbjudanden för att förhandla med nuvarande bank (kombination av amorteringsunderlag och skarpa erbjudanden)",
+  "4. Begär ut amorteringsunderlag från din nuvarande bank",
+  "Det är enkelt och kostnadsfritt att beställa ut amorteringsunderlaget. Samtidigt skickar du en tydlig signal till banken om att du över",
+  "💡 Fler tips: Ett amorteringsunderlag visar hur mycket du amorterar idag och vilka amorteringsvillkor som gäller för ditt bolån. När du begär ut ",
+  "åga att betala tillbaka. Banken gör alltid en helhetsbedömning där både räntor, amorteringar och hushållets utgifter vägs in.",
+  "Den nya bolånekostnaden (ränta + amortering)",
+  "Regler för amortering",
+  "Amortering innebär att du betalar av på lånet varje månad, utöver räntan. Sedan 2016 gä"
+ ],
+ "iframes": [
+  "https://www.tradingview-widget.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22title%22%3A%22S%26P%20500%22%7D%2C%7B%22description%22%3A%22OMXS30%22%2C%22proName%22%3A%22OMXSTO%3AOMXS30%22%7D%2C%7B%22description%22%3A%22DAX%22%2C%22proName%22%3A%22XETR%3ADAX%22%7D%2C%7B%22description%22%3A%22USD%2FSEK%22%2C%22proName%22%3A%22FX%3AUSDSEK%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22Bitcoin%22%7D%2C%7B%22description%22%3A%22Guld%22%2C%22proName%22%3A%22CAPITALCOM%3AGOLD%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22displayMode%22%3A%22regular%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A58%2C%22utm_source%22%3A%22www.borskollen.se%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22www.borskollen.se%2Fbasta-bolanerantan%22%7D",
+  "https://borskollen.compricer.se/widget/borantor/prio/",
+  "https://borskollen.compricer.se/widget/borantor/prio/?widget_source=widgetCompricer",
+  "",
+  "",
+  ""
+ ]
+}
+JS ERRORS [
+  'Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.'
+]

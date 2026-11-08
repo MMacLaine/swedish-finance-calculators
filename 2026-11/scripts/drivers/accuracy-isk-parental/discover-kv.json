@@ -1,0 +1,65 @@
+{
+ "url": "https://kalkylverket.se/kalkylatorer/skatt/kapitalskatt/isk-skatt-kalkylator",
+ "title": "ISK-skatt kalkylator 2026 – räkna ut din schablonskatt – Kalkylverket",
+ "inputs": [
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "id": "",
+   "name": "",
+   "label": "Sök kalkylator",
+   "value": "",
+   "vis": true,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "id": "",
+   "name": "",
+   "label": "500000",
+   "value": "500000",
+   "vis": true,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "",
+   "name": "",
+   "label": "",
+   "value": "500000",
+   "vis": true,
+   "min": "0",
+   "max": "5000000"
+  }
+ ],
+ "lines": [
+  "ISK-skatt kalkylator 2026",
+  "ISK-skatt kalkylator 2026",
+  "Kryptoskatt kalkylator 2026",
+  "Utdelningsskatt kalkylator 2026",
+  "Kapitalvinstskatt aktier 2026",
+  "2 130 kr",
+  "7 100 kr",
+  "200 000 kr",
+  "300 000 kr",
+  "Hur beräknas ISK-skatten 2026?",
+  "Dra av den skattefria grundnivån: kapitalunderlag − 300 000 kr.",
+  "Beräkna schablonintäkten: skattat belopp × 3,55 %.",
+  "Beräkna skatten: schablonintäkt × 30 %.",
+  "Den skattefria gränsen på 300 000 kr",
+  "Den skattefria gränsen på 300 000 kr gäller totalt per person — ha koll på alla dina ISK och kapitalförsäkringar.",
+  "Hur mycket är ISK-skatten 2026?",
+  "Är ISK skattefritt upp till 300 000 kr?",
+  "Kryptoskatt kalkylator 2026",
+  "Räkna ut skatten på din kryptovaluta 2026. Se skatt, 70 %-avdrag och vad DAC 8 innebär.",
+  "Utdelningsskatt kalkylator 2026",
+  "Räkna ut skatten på din aktieutdelning på depå 2026. Se netto — svenska och utländska aktier.",
+  "Kapitalvinstskatt aktier 2026",
+  "Räkna ut skatten på din aktievinst 2026. Kvitta förluster mot vinster — se exakt vad du betalar.",
+  "Låt pengarna växa – månadsspara i fonder från 100 kr"
+ ]
+}

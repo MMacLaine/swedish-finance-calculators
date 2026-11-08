@@ -1,0 +1,212 @@
+{
+ "before": {
+  "form": null,
+  "err": "TypeError: Cannot set properties of null (setting 'value')"
+ },
+ "readback": {
+  "bruttolon": "",
+  "kommun": "STOCKHOLM",
+  "kyrka": [
+   "kyrkoskatt=0",
+   "kyrkoskatt-toggle="
+  ],
+  "activeTab": [
+   "tabb-2022:hideOnMobile xxxl:w-full hs-tab-active:b:null",
+   "tabb-2023:xxxl:w-full hs-tab-active:bg-primary hs-:null",
+   "tabb-2024:xxxl:w-full hs-tab-active:bg-primary hs-:null",
+   "tabb-2025:xxxl:w-full hs-tab-active:bg-primary hs-:null",
+   "tabb-2026:xxxl:w-full hs-tab-active:bg-primary hs-:null"
+  ]
+ },
+ "net": [
+  {
+   "t": "Beräkna nettolön",
+   "y": 118,
+   "vpTop": 118,
+   "h": 14,
+   "fs": 13.6,
+   "fixed": "fixed"
+  },
+  {
+   "t": "Beräkna Lön Efter Skatt, Nettolön",
+   "y": 93,
+   "vpTop": 93,
+   "h": 20,
+   "fs": 13.008,
+   "fixed": ""
+  },
+  {
+   "t": "nettolön",
+   "y": 614,
+   "vpTop": 614,
+   "h": 17,
+   "fs": 14.4,
+   "fixed": ""
+  },
+  {
+   "t": "Beräkning av nettolön",
+   "y": 908,
+   "vpTop": 908,
+   "h": 23,
+   "fs": 15,
+   "fixed": ""
+  },
+  {
+   "t": "Din nettolön",
+   "y": 1873,
+   "vpTop": 1873,
+   "h": 18,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "Lön efter skatt 2026 - så fungerar nettolönekalkylatorn",
+   "y": 2076,
+   "vpTop": 2076,
+   "h": 45,
+   "fs": 15,
+   "fixed": ""
+  },
+  {
+   "t": "3. Se nettolönen",
+   "y": 2741,
+   "vpTop": 2741,
+   "h": 24,
+   "fs": 17.28,
+   "fixed": ""
+  },
+  {
+   "t": "Lön efter skatt är samma sak som nettolön: den summa som nor",
+   "y": 2913,
+   "vpTop": 2913,
+   "h": 173,
+   "fs": 15.68,
+   "fixed": ""
+  },
+  {
+   "t": "Det här påverkar din nettolön",
+   "y": 3092,
+   "vpTop": 3092,
+   "h": 26,
+   "fs": 19.52,
+   "fixed": ""
+  },
+  {
+   "t": "Kommun och region: kommunalskatten skiljer sig mellan kommun",
+   "y": 3128,
+   "vpTop": 3128,
+   "h": 72,
+   "fs": 16,
+   "fixed": ""
+  },
+  {
+   "t": "Kyrkoavgift: om du är medlem i Svenska kyrkan blir nettolöne",
+   "y": 3344,
+   "vpTop": 3344,
+   "h": 48,
+   "fs": 16,
+   "fixed": ""
+  },
+  {
+   "t": "Om du har 40 000 kr i bruttolön kan nettolönen skilja sig me",
+   "y": 3444,
+   "vpTop": 3444,
+   "h": 173,
+   "fs": 15.68,
+   "fixed": ""
+  }
+ ],
+ "money": [
+  {
+   "t": "52 305 kr",
+   "y": 1033,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Arbetsgivaren betalar Total kostnad för arbetsgivaren 52 305 kr"
+  },
+  {
+   "t": "12 505 kr",
+   "y": 1092,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift Denna avgift betalas av bolaget -12 505 kr"
+  },
+  {
+   "t": "39 800 kr",
+   "y": 1150,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Din bruttolön Detta är din lön innan avdrag, skatter och avgifter = 39 800 kr"
+  },
+  {
+   "t": "1 442 kr",
+   "y": 1218,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Grundavdrag Ett avdrag som sänker den beskattningsbara inkomsten -1 442 kr"
+  },
+  {
+   "t": "38 358 kr",
+   "y": 1287,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Detta är vad skatt och avgifter beräknas på =38 358 kr"
+  },
+  {
+   "t": "3 386 kr",
+   "y": 1355,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Jobbskatteavdrag En skattereduktion på arbetsinkomster, avsedd att öka incitamenten för ar"
+  },
+  {
+   "t": "6 989 kr",
+   "y": 1458,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Kommunalskatt Den kommunala skatten i Stockholm är 18.22% -6 989 kr"
+  },
+  {
+   "t": "4 730 kr",
+   "y": 1527,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Landstingsskatt Skatten i ditt landsting är 12.33% -4 730 kr"
+  },
+  {
+   "t": "En extra 20-procentig skatt tas ut på inkomster över 643 000 kr per år",
+   "y": 1610,
+   "fs": 13,
+   "fixed": "",
+   "ctx": "Statlig inkomstskatt En extra 20-procentig skatt tas ut på inkomster över 643 000 kr per å"
+  },
+  {
+   "t": "31 390 kr",
+   "y": 1878,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Din nettolön Detta är det du får behålla efter skatter och avgifter 31 390 kr"
+  },
+  {
+   "t": "20 915 kr",
+   "y": 1958,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Skatter & Avgifter Detta är vad du och arbetsgivaren betalat totalt i skatter och avgifter"
+  },
+  {
+   "t": "Fyll i lönen före skatt, till exempel 40 000 kr per månad.",
+   "y": 2436,
+   "fs": 16.64,
+   "fixed": "",
+   "ctx": "1. Ange bruttolön Fyll i lönen före skatt, till exempel 40 000 kr per månad. 2. Välj kommu"
+  },
+  {
+   "t": "Exempel: 40 000 kr i lön före skatt",
+   "y": 3408,
+   "fs": 19.52,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026 - så fungerar nettolönekalkylatorn Här räknar du snabbt ut ungefär hu"
+  }
+ ]
+}

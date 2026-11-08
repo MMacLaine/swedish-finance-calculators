@@ -1,0 +1,56 @@
+{
+ "before": [
+  [
+   "Pris kr",
+   "3500000"
+  ],
+  [
+   "Kontantinsats kr = 20,0 % av priset Minst 10 % av köpesumman",
+   "700000"
+  ],
+  [
+   "kr/mån",
+   "4000"
+  ],
+  [
+   "kr/mån",
+   "4000"
+  ]
+ ],
+ "read": [
+  [
+   "Pris kr",
+   "4000000"
+  ],
+  [
+   "Kontantinsats kr = 10,0 % av priset Minst 10 % av köpesumman",
+   "400000"
+  ],
+  [
+   "kr/mån",
+   "4000"
+  ],
+  [
+   "kr/mån",
+   "4000"
+  ]
+ ],
+ "result": "Resultat\nRimlighetsbedömning\n80\nav 100\nGod ekonomi\n\nMånadskostnad (netto)\n\n22 612 kr\n\nEfter ränteavdrag (brutto: 25 850 kr)\n\nMinsta egna insats\n\n400 000 kr\n\n10 % av priset\n\nKALP-överskott\n\n32 000 kr/mån\n\nKvar att leva på vid 7 % ränta\n\nVarför blev bedömningen så här?\n\nBelåningsgrad\n\n90 % – hög, kräver 2 % amortering\n\nKALP vid stresstest\n\n32 000 kr kvar – god marginal\n\nEgen insats\n\nUppfyller minimikravet (10 %)\n\nSå kan du förbättra resultatet\nÖka kontantinsatsen för att sänka belåningsgraden under 70 %\nRäntekänslighetsanalys\nJämför med annat scenario\nAmorteringsplan & skuldutveckling\nVisa detaljerade siffror\nUppskattat lånebelopp\n3 600 000 kr\nBelåningsgrad\n90,0 %\nAmortering per månad\nTakt: 2,0 %\n6 000 kr\nRänta per månad\nAntagen ränta 3,95 %\n11 850 kr\nRänteavdrag\nSkattereduktion 30 % / 21 %\n-3 239 kr/mån\nKALP-överskott\nVid 7 % stresstest\n32 000 kr/mån\nTotal boendekostnad\nEfter ränteavdrag\n22 612 kr/mån\nKALP = Kvar Att Leva På efter alla bostadskostnader vid stresstestad ränta (7 %). Nya regler gäller från 1 april 2026.\n\nObservera: Detta är en indikativ bedömning och inte ett lånelöfte. Kontakta din bank för en bindande kreditprövning. Räntan är satt till 3,95 % och stresstestas vid 7 %. Nya regler från 1 april 2026: minsta insats 10 %, inget skärpt amorteringskrav vid hög skuld.\n\nDela resultat\nÄndra scenario\nÄndra ekonomi\nÄndra bostad\n\nBeräkningen är en vägledande uppskattning baserad på de uppgifter du anger. Resultatet kan skilja sig från verkligt utfall beroende på individuella förutsättningar, lokala regler, priser, materialval och andra omständigheter. Kontrollera alltid viktiga uppgifter innan du fattar beslut eller påbörjar ett arbete.\n\nRapportera fel\nJÄMFÖR OCH SPARA\nANNONSLÄNK\n\nJämför bolåneräntor\n\nLendo jämför bolåneräntor från flera banker kostnadsfritt. Svar inom 24h.\n\nJämför gratis\nSå använder du bolånekalkylatorn\n\nBolånekalkylatorn är byggd som ett steg-för-steg-flöde så att du enkelt kan räkna på olika typer av bolån. Du börjar med att välja om du vill räkna på villa, bostadsrätt, fritidshus eller att utöka ett befintligt bolån. Sedan fyller du i hushållets ekonomi och uppgifter om bostaden. Resultatet visar både huvudvärden och mer detaljerade beräkningar, så att du snabbt ser vad upplägget kan innebära i praktiken.\n\nVälj scenario: villa, bostadsrätt, fritidshus eller utöka bolån.\nFyll i hushållets inkomster, medlåntagare, barn, befintliga lån och fasta kostnader.\nAnge uppgifter om bostaden eller din nuvarande bostad.\nLäs av månadskostnad, insats, belåningsgrad, KALP och rimlighetsbedömning.\nVad kalkylatorn hjälper dig att se\n\nMånga bolånekalkylatorer visar bara ränta och amortering. Den här kalkylatorn går längre än så. Här kan du se hur bostadens pris, din kontantinsats, hushållets inkomster och befintliga lån tillsammans påverkar helheten. Det gör det lättare att förstå om ett visst bostadsköp verkar rimligt eller om ekonomin blir för pressad.\n\nUppskattad månadskostnad\nMinsta egna insats\nBelåningsgrad\nKALP och ekonomiskt utrymme\nIndikativ rimlighetsbedömning\nRäntekänslighetsanalys\nJämförelse mellan olika scenarier\nNya regler för bolån från 1 april 2026\n\nFrån 1 april 2026 gäller nya regler som påverkar hur mycket du kan låna och hur stor egen insats som krävs. Vid köp av ny bostad får bolånet normalt uppgå till upp till 90 procent av bostadens marknadsvärde. Det innebär att minsta egna insats vanligtvis blir 10 procent i stället för 15 procent. Samtidigt tas det skärpta amorteringskravet bort, medan grundkravet kopplat t",
+ "amortLines": [
+  "90 % – hög, kräver 2 % amortering | ",
+  "Amorteringsplan & skuldutveckling | Visa detaljerade siffror",
+  "Amortering per månad | Takt: 2,0 %",
+  " regler från 1 april 2026: minsta insats 10 %, inget skärpt amorteringskrav vid hög skuld. | ",
+  "Många bolånekalkylatorer visar bara ränta och amortering. Den här kalkylatorn går längre än så. Här kan du se hur bo",
+  "procent i stället för 15 procent. Samtidigt tas det skärpta amorteringskravet bort, medan grundkravet kopplat till belåningsgrad l",
+  "Det skärpta amorteringskravet tas bort. | Grundamortering utifrån belåningsgrad fi",
+  "tadens värde som finansieras med lån, och den påverkar både amortering och den totala risknivån i kalkylen. | ",
+  "Hög belåningsgrad kan ge högre amorteringskrav. | Lägre belåningsgrad ger ofta bättre marg",
+  "Ränta, amortering och månadskostnad | ",
+  "Månadskostnaden består främst av ränta och amortering, men i många fall även av avgift eller driftkostnader. Ränt",
+  "an är kostnaden för att låna pengar, medan amorteringen minskar själva skulden. Det gör att två upplägg med likna",
+  "Amortering visar hur snabbt skulden minskar. | Total månadskostnad visar hur mycket hus",
+  "bedömning. Gå sedan vidare till detaljer som belåningsgrad, amortering, ränta, KALP och räntekänslighet. På så sätt får du en bätt",
+  "ersätta bankens slutliga kreditprövning. Om du vill jämföra amorteringsupplägg mer i detalj kan du använda annuitetslån kalkylator"
+ ]
+}

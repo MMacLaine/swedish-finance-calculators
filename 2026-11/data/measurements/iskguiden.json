@@ -1,0 +1,676 @@
+{
+ "id": "iskguiden",
+ "url": "https://isk-guiden.se/isk-kalkylator/",
+ "finalUrl": "https://isk-guiden.se/isk-kalkylator/",
+ "site": "isk-guiden.se",
+ "at": "2026-11-08T17:25:05.209Z",
+ "requests": 14,
+ "failed": 3,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://www.clarity.ms/tag/w2v0jfg91o"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://analytics.ahrefs.com/analytics.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-C56EDD0GNV&gtm=45je6b41v9246933271za208zd9246933271xf1&_p=1794158697091&gcd=13l3l3l2l1l1&npa=1&dma_cps="
+  }
+ ],
+ "thirdPartyHosts": [
+  "analytics.ahrefs.com",
+  "region1.google-analytics.com",
+  "www.clarity.ms",
+  "www.googletagmanager.com"
+ ],
+ "thirdPartyDomains": [
+  "ahrefs.com",
+  "clarity.ms",
+  "google-analytics.com",
+  "googletagmanager.com"
+ ],
+ "trackerHosts": [
+  "region1.google-analytics.com",
+  "www.clarity.ms",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "_ga_C56EDD0GNV",
+   "domain": ".isk-guiden.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  },
+  {
+   "name": "_ga",
+   "domain": ".isk-guiden.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "expiresDays": 400
+  }
+ ],
+ "weight": {
+  "totalKB": 610,
+  "thirdPartyKB": 177,
+  "finished": 11,
+  "byTypeKB": {
+   "Image": 316,
+   "Script": 183,
+   "Font": 69,
+   "Document": 42,
+   "Other": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://isk-guiden.se/isk-kalkylator/",
+  "Script https://analytics.ahrefs.com/analytics.js",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-C56EDD0GNV",
+  "Image https://isk-guiden.se/images/annons/opti-mobile-c.webp",
+  "Image https://isk-guiden.se/logos/nordnet.webp",
+  "Image https://isk-guiden.se/logos/opti.webp",
+  "Script https://isk-guiden.se/_astro/StickyCTA.astro_astro_type_script_index_0_lang.BB1pcncT.js",
+  "Script https://isk-guiden.se/_astro/isk-kalkylator.astro_astro_type_script_index_0_lang.Brj4lNPM.js",
+  "Script https://www.clarity.ms/tag/w2v0jfg91o",
+  "Font https://isk-guiden.se/_astro/public-sans-latin-wght-normal.DdeTHZLK.woff2",
+  "Font https://isk-guiden.se/_astro/bricolage-grotesque-latin-wght-normal.DLoelf7F.woff2",
+  "Script https://isk-guiden.se/_astro/format.Bc2mcYB-.js",
+  "Fetch https://region1.google-analytics.com/g/collect?v=2&tid=G-C56EDD0GNV&gtm=45je6b41v9246933271za208zd9246933271xf1&_p=1794158697091&gcd=13l3l3l2l1l1&npa=1&dma_cps=",
+  "Other https://isk-guiden.se/favicon.svg"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtag/js?id=G-C56EDD0GNV",
+  "https://www.clarity.ms/tag/w2v0jfg91o",
+  "https://region1.google-analytics.com/g/collect?v=2&tid=G-C56EDD0GNV&gtm=45je6b41v9246933271za208zd9246933271xf1&_p=1794158697091&gcd=13l3l3l"
+ ],
+ "allHosts": {
+  "isk-guiden.se": 10,
+  "analytics.ahrefs.com": 1,
+  "www.googletagmanager.com": 1,
+  "www.clarity.ms": 1,
+  "region1.google-analytics.com": 1
+ },
+ "scan": {
+  "title": "ISK-kalkylator 2026: schablonskatt, fribelopp 300 000 kr",
+  "url": "https://isk-guiden.se/isk-kalkylator/",
+  "docH": 11941,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Portföljvärde (kr)",
+    "value": "500000",
+    "y": 1752,
+    "x": 37,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Statslåneränta (%)",
+    "value": "2.55",
+    "y": 1894,
+    "x": 37,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Kalkylator 2026",
+    "y": 383,
+    "h": 24,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "ISK-kalkylator 2026: beräkna din schablonskatt",
+    "y": 419,
+    "h": 113,
+    "fs": 36,
+    "fixed": ""
+   },
+   {
+    "t": "Uppdaterad 13 september 2026",
+    "y": 719,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Snabbt svar: hur mycket skatt betalar du i ISK 2026?",
+    "y": 1376,
+    "h": 56,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "2026: 2,55% (statslåneräntan 30 november 2025)",
+    "y": 1952,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "500 000 kr",
+    "y": 2056,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "− 300 000 kr",
+    "y": 2092,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "200 000 kr",
+    "y": 2128,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "3,55%",
+    "y": 2177,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "7 100 kr",
+    "y": 2213,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1,065%",
+    "y": 2257,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 2314,
+    "h": 32,
+    "fs": 24,
+    "fixed": ""
+   },
+   {
+    "t": "178 kr",
+    "y": 2358,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 2678,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 2737,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 2864,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "3 000 kr",
+    "y": 2894,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 2923,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3050,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "6 000 kr",
+    "y": 3080,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3109,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3236,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "9 000 kr",
+    "y": 3266,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3295,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3422,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "12 000 kr",
+    "y": 3452,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3481,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3608,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "15 000 kr",
+    "y": 3638,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3667,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3794,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "22 500 kr",
+    "y": 3823,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 3853,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Nytt 2026, fribelopp på 300 000 kr:",
+    "y": 4713,
+    "h": 20,
+    "fs": 17,
+    "fixed": ""
+   },
+   {
+    "t": "2026: Kapitalunderlaget × (2,55% + 1%) = Kapitalunderlaget ×",
+    "y": 5578,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "= Kapitalunderlaget × 3,55% × 30% =",
+    "y": 5729,
+    "h": 40,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Kapitalunderlaget × 1,065%",
+    "y": 5750,
+    "h": 17,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Schablonskatt 2026",
+    "y": 5821,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "1,065%",
+    "y": 5845,
+    "h": 36,
+    "fs": 30,
+    "fixed": ""
+   },
+   {
+    "t": "Obs om fribeloppet 300 000 kr:",
+    "y": 6045,
+    "h": 15,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Praktiska räkneexempel: schablonskatt 2026",
+    "y": 6221,
+    "h": 60,
+    "fs": 28,
+    "fixed": ""
+   },
+   {
+    "t": "100 000 kr",
+    "y": 6319,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "300 000 kr",
+    "y": 6515,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "500 000 kr",
+    "y": 6712,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr",
+    "y": 6741,
+    "h": 50,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "178 kr",
+    "y": 6791,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "0,43%",
+    "y": 6821,
+    "h": 50,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "1 000 000 kr",
+    "y": 6908,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "7 455 kr",
+    "y": 6938,
+    "h": 50,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "622 kr",
+    "y": 6987,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "0,75%",
+    "y": 7017,
+    "h": 50,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "2 000 000 kr",
+    "y": 7105,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "18 105 kr",
+    "y": 7134,
+    "h": 50,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "1 509 kr",
+    "y": 7184,
+    "h": 30,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "0,91%",
+    "y": 7213,
+    "h": 50,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Din faktiska skattesats är lägre än 1,065 procent",
+    "y": 7369,
+    "h": 60,
+    "fs": 28,
+    "fixed": ""
+   },
+   {
+    "t": "Effektiv skattesats per kapitalunderlag, med 1,065 procent s",
+    "y": 7682,
+    "h": 74,
+    "fs": 18,
+    "fixed": ""
+   },
+   {
+    "t": "300 000 kr i underlag",
+    "y": 7779,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "0 kr, 0,00 %",
+    "y": 7776,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "400 000 kr",
+    "y": 7849,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "1 065 kr, 0,27 %",
+    "y": 7846,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "500 000 kr",
+    "y": 7919,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2 130 kr, 0,43 %",
+    "y": 7916,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1 000 000 kr",
+    "y": 7989,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "7 455 kr, 0,75 %",
+    "y": 7986,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "2 000 000 kr",
+    "y": 8059,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "18 105 kr, 0,91 %",
+    "y": 8056,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "5 000 000 kr",
+    "y": 8129,
+    "h": 20,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "50 055 kr, 1,00 %",
+    "y": 8126,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Hela stapelbredden motsvarar 1,065 procent, den nominella sa",
+    "y": 8196,
+    "h": 39,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Se bästa ISK 2026",
+    "y": 9022,
+    "h": 44,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Bästa ISK-konto 2026",
+    "y": 9276,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Schablonskatt 2026",
+    "y": 9459,
+    "h": 24,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Hur beräknas schablonskatt 2026?",
+    "y": 9897,
+    "h": 22,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Bästa ISK-konto 2026",
+    "y": 11103,
+    "h": 17,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "Schablonskatt 2026",
+    "y": 11299,
+    "h": 17,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "© 2026 ISK-guiden.se · ELS Catalyst AB · Org.nr 559583-6163 ",
+    "y": 11659,
+    "h": 32,
+    "fs": 12,
+    "fixed": ""
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

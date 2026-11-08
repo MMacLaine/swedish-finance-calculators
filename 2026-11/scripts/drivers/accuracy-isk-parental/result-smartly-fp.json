@@ -1,0 +1,90 @@
+{
+ "p1": "80000",
+ "p1range": "80000",
+ "p2": "40000",
+ "lines": [
+  "Estimate your income during parental leave in Sweden. See how the 480 days split between parents, with Försäkringskassan benefits and employer top-up.",
+  "Total days: 480 per child — 390 income-based + 90 minimum level",
+  "SGI ceiling: 49 333 SEK/month (592 000 SEK/year)",
+  "Max daily benefit: 1 250 SEK (föräldrapenning cap)",
+  "Reserved days: 90 per parent (non-transferable)",
+  "Lägstanivå: 180 SEK/day (45 days each)",
+  "Transfer to non-guardian: Up to 45 days per parent can be transferred to e.g. a grandparent",
+  "Prisbasbelopp 2026: 59 200 SEK",
+  "Parent 1: 195 days (6.4 months)",
+  "Parent 2: 195 days (6.4 months)",
+  "90 days (min)",
+  "300 days (max)",
+  "678 054 SEK",
+  "Over 480 days (15.8 months combined)",
+  "70 534 SEK",
+  "38 000 SEK",
+  "+32 534 SEK",
+  "195 days (6.4 mo)",
+  "45 days (1.5 mo)",
+  "447 054 SEK",
+  "35 008 SEK",
+  "31 008 SEK",
+  "+4 000 SEK",
+  "195 days (6.4 mo)",
+  "45 days (1.5 mo)",
+  "231 000 SEK",
+  "Lägstanivå (180 SEK/day)",
+  "10 Partner Days",
+  "The non-birthing parent gets 10 extra days at ~80% pay within 60 days of birth. Separate from the 480 days.",
+  "60 Double Days",
+  "Both parents can take leave simultaneously during the first 15 months. Uses 2 days from the total per double day.",
+  "120 days/year per child at ~80% pay for caring for a sick child, until the child turns 12.",
+  "What are the 10 partner days?"
+ ],
+ "day": [
+  {
+   "t": "Max daily benefit:",
+   "y": 516,
+   "vpTop": 516,
+   "h": 17,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "Lägstanivå: 180 SEK/day (45 days each)",
+   "y": 543,
+   "vpTop": 543,
+   "h": 20,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "Of the 480 total days, 390 are at the income-based \"sickness",
+   "y": 934,
+   "vpTop": 934,
+   "h": 40,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "Lägstanivå (180 SEK/day)",
+   "y": 2143,
+   "vpTop": 2143,
+   "h": 16,
+   "fs": 12,
+   "fixed": ""
+  },
+  {
+   "t": "Sweden has one of the most generous parental leave systems i",
+   "y": 3162,
+   "vpTop": 3162,
+   "h": 80,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "For most employed parents, the first months of leave provide",
+   "y": 3258,
+   "vpTop": 3258,
+   "h": 60,
+   "fs": 14,
+   "fixed": ""
+  }
+ ]
+}

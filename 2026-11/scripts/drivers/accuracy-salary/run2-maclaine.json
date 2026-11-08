@@ -1,0 +1,20 @@
+{
+ "readback": {
+  "gross": "45000",
+  "yob": "1990",
+  "mun": "Stockholm (30,55%)",
+  "trossamfund": "no",
+  "employment": "employed"
+ },
+ "strip": "Nettolön\n35 810 kr/mån\n↓",
+ "net": [
+  {
+   "t": "35 810 kr/mån",
+   "y": 520,
+   "vpTop": 65,
+   "h": 26,
+   "fs": 16,
+   "fixed": "fixed"
+  }
+ ]
+}

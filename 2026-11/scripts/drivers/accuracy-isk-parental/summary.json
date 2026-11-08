@@ -1,0 +1,19 @@
+{
+ "measuredAt": "2026-11-08 (Europe/Stockholm), headless Chrome via _local/scripts/probe.mjs, desktop 1440x1000, WAIT=6000",
+ "how": "Each site: node _local/scripts/probe.mjs <url> \"$(cat helpers.js; cat drive-<id>.js)\" > result-<id>.json. Values set with __set (native value setter + input/change/keyup), read back from the input after a 1.5-2 s wait.",
+ "isk_2026_500k": {"official": 2130, "rows": [
+  {"site":"kalkylverket.se","url":"https://kalkylverket.se/kalkylatorer/skatt/kapitalskatt/isk-skatt-kalkylator","readBack":"kapitalunderlag 500000 (range 500000)","shown":2130,"check":"600000 -> 3195","file":"result-kv-isk.json"},
+  {"site":"isk-guiden.se","url":"https://isk-guiden.se/isk-kalkylator/","readBack":"portfolio-value 500000, state-loan-rate 2.55","shown":2130,"check":"600000 -> 3195","file":"result-iskg.json"},
+  {"site":"velja.se","url":"https://velja.se/isk-eller-depa","readBack":"start 500000, monthly 0, return 0%, turnover 0, years 1, 'fribelopp already used' unchecked","shown":2130,"note":"ISK 'Betalt i skatt'; multi-year ISK vs depå tool driven to a one-year, zero-return case; page text says 1,06 %","file":"result-velja-isk.json"},
+  {"site":"maclaine.se","url":"https://maclaine.se/finance/sparande","readBack":"start-capital 500000, monthly 0, return 0, horizon 1, tax isk","shown":2130,"note":"compound-growth tool driven to one year, zero return; hero-tax and sentence both 2 130 kr","file":"result-ours-sparande.json"},
+  {"site":"maclaine.se","url":"https://maclaine.se/finance/guides/isk-skatt-2027","readBack":"slr 2.55, b 500000","shown":2130,"note":"2027 tool; slider verdict at 2,55 % says 'På 500 000 kr blir det 2 130 kr'; the output card stays on the current 2,96 % (2 376 kr, 'ISK-skatt för 2027')","file":"result-ours-guide.json"}
+ ],
+ "noCalculator": {"borskollen.se/isk-skatt":"article example: 500 000 kr -> 'ca 1 240 kr' (200 000 x 1,07 %)","nordnet.se/tjanster/konton/investeringssparkonto":"text only: 1,065 % (2026), 300 000 kr free","avanza.se/konton-lan-prislista/konton/isk.html":"text only","rikatillsammans.se/verktyg/jamfor-isk/":"compares ISK size with Avanza statistics, no tax output","smartly.se":"no ISK tool in /tools","helhetskollen.se, statsskuld.se, ekonomifokus.se":"no ISK tool in nav/index"}},
+ "parental_max_per_day_2026": {"official": 1259, "rows": [
+  {"site":"kalkylverket.se","url":"https://kalkylverket.se/kalkylatorer/privatekonomi/lon-och-inkomst/foraldrapenning-kalkylator","readBack":"salary 80000, 'Hel dag'","shown":1259,"note":"'Per dag 1 259 kr'; text 'högst 1 259 kr per dag'","file":"result-kv-fp.json"},
+  {"site":"velja.se","url":"https://velja.se/foraldrapenning","readBack":"parent 1 salary 80000","shown":1259,"note":"monthly 37 770 kr (1 259 x 30)","file":"result-velja-fp.json"},
+  {"site":"maclaine.se","url":"https://maclaine.se/finance/foraldrapenning","readBack":"shared-gross 80000 (SGI field auto 592000)","shown":1259,"note":"'Dagsbelopp sjukpenningnivå 1 259 kr'","file":"result-ours-fp.json"},
+  {"site":"smartly.se","url":"https://smartly.se/tools/parental-leave","readBack":"parent 1 salary 80000 (number and range)","shown":"no per-day output; FK benefit/month 38 000 SEK","note":"page states 'Max daily benefit: 1 250 SEK'; 38 000 = 1 250 x 30.4","file":"result-smartly-fp.json, result-smartly-fp2.json"}
+ ],
+ "noCalculator": {"isk-guiden.se, rikatillsammans.se, statsskuld.se, helhetskollen.se, borskollen.se, ekonomifokus.se, avanza.se, nordnet.se":"no parental-benefit tool found in nav/index/sitemap checks"}}
+}

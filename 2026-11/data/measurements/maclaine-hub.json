@@ -1,0 +1,199 @@
+{
+ "id": "maclaine-hub",
+ "url": "https://maclaine.se/finance",
+ "finalUrl": "https://maclaine.se/finance",
+ "site": "maclaine.se",
+ "at": "2026-11-08T17:25:24.918Z",
+ "requests": 17,
+ "failed": 1,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://static.cloudflareinsights.com/beacon.min.js"
+  }
+ ],
+ "thirdPartyHosts": [
+  "static.cloudflareinsights.com"
+ ],
+ "thirdPartyDomains": [
+  "cloudflareinsights.com"
+ ],
+ "trackerHosts": [
+  "static.cloudflareinsights.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "cf_clearance",
+   "domain": ".maclaine.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 365
+  }
+ ],
+ "weight": {
+  "totalKB": 198,
+  "thirdPartyKB": 0,
+  "finished": 15,
+  "byTypeKB": {
+   "Script": 84,
+   "Font": 62,
+   "Document": 26,
+   "Stylesheet": 17,
+   "Other": 8,
+   "Manifest": 1,
+   "XHR": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://maclaine.se/finance",
+  "Stylesheet https://maclaine.se/assets/tokens.css?v=2",
+  "Stylesheet https://maclaine.se/assets/chrome.css?v=2",
+  "Script https://static.cloudflareinsights.com/beacon.min.js",
+  "Script https://maclaine.se/finance/settings-drawer.js?v=90",
+  "Script https://maclaine.se/site-links.js",
+  "Script https://maclaine.se/finance/finance-core.js?v=92",
+  "Script https://maclaine.se/finance/releases.js?v=0.90.1",
+  "Script https://maclaine.se/assets/chrome.js?v=2",
+  "Manifest https://maclaine.se/manifest.json",
+  "Font https://maclaine.se/fonts/dm-sans-latin.woff2",
+  "Script https://maclaine.se/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a57646ab08f9ac17",
+  "Stylesheet https://maclaine.se/finance/fields.css",
+  "Script https://maclaine.se/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a57646ab08f9ac17",
+  "Other https://maclaine.se/favicon.svg",
+  "Other https://maclaine.se/icons/icon-192x192.png",
+  "XHR https://maclaine.se/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.209814991859957:1794154216:RKGB82ZpKcs93QaQDqVr2S-Shg51R4tXjdD5PUOkJgc/a57646ab08f"
+ ],
+ "trackerUrls": [
+  "https://static.cloudflareinsights.com/beacon.min.js"
+ ],
+ "allHosts": {
+  "maclaine.se": 16,
+  "static.cloudflareinsights.com": 1
+ },
+ "scan": {
+  "title": "Privatekonomiska Verktyg 2026: Kalkylatorer & Guider | Gratis",
+  "url": "https://maclaine.se/finance",
+  "docH": 8692,
+  "inputs": [],
+  "money": [
+   {
+    "t": "Svensk privatekonomi · 2026",
+    "y": 100,
+    "h": 19,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Aktuellt · 5 november 2026",
+    "y": 499,
+    "h": 19,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Aktuellt · 5 november 2026",
+    "y": 592,
+    "h": 19,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Aktuellt · 5 november 2026",
+    "y": 685,
+    "h": 19,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Officiell data 2026",
+    "y": 873,
+    "h": 16,
+    "fs": 10,
+    "fixed": ""
+   },
+   {
+    "t": "Härnäst: , 30 november 2026",
+    "y": 907,
+    "h": 18,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "ISK-skatten för 2027",
+    "y": 908,
+    "h": 16,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "Gränsbelopp och lön vs utdelning enligt 2026 års regler.",
+    "y": 2568,
+    "h": 39,
+    "fs": 12.5,
+    "fixed": ""
+   },
+   {
+    "t": "Ditt ROT/RUT-avdrag 2026 med takbevakning per person och net",
+    "y": 2712,
+    "h": 39,
+    "fs": 12.5,
+    "fixed": ""
+   },
+   {
+    "t": "Jämför din nettolön i alla 290 svenska kommuner.",
+    "y": 3310,
+    "h": 19,
+    "fs": 12.5,
+    "fixed": ""
+   },
+   {
+    "t": "Din strategi mot verklig svensk marknadsdata, 1970-2025.",
+    "y": 4256,
+    "h": 39,
+    "fs": 12.5,
+    "fixed": ""
+   },
+   {
+    "t": "7,5 × IBB",
+    "y": 7476,
+    "h": 18,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "7,5 × IBB",
+    "y": 7791,
+    "h": 18,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "© 2026 Matthew MacLaine.",
+    "y": 7946,
+    "h": 18,
+    "fs": 13,
+    "fixed": ""
+   },
+   {
+    "t": "v0.90.1",
+    "y": 797,
+    "h": 13,
+    "fs": 10,
+    "fixed": "fixed"
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [
+   "financeMunDefaultMigrated",
+   "finance_last_seen"
+  ],
+  "ss": [],
+  "sw": true
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "log": [
+  "opts:LI:Stockholm\nTabell 31 · 30,620 %/BUTTON:Stockholm\nTabell 31 · 30,620 %"
+ ],
+ "readback": {
+  "gross": "45000",
+  "kommun": "Stockholm",
+  "all": [
+   {
+    "type": "text",
+    "id": "gross-salary",
+    "lab": "Bruttolön per månad (kr, efter löneväxling)",
+    "val": "45000",
+    "checked": false
+   },
+   {
+    "type": "text",
+    "id": "_R_a8lfcnir5b_",
+    "lab": "Kommun för skattetabell",
+    "val": "Stockholm",
+    "checked": false
+   }
+  ]
+ },
+ "mentions": {
+  "kyrk": "kommun för att använda Skatteverkets skattetabell 2026 utan kyrkoavgift, eller hoppa över valet och använda appens schablon.",
+  "alder": "",
+  "ar": "dast nödvändiga Anpassa Lön efter skatt 2026 med skattetabell och pension Med den hä"
+ },
+ "money": [
+  {
+   "t": "34 652 kr",
+   "y": 981,
+   "fs": 30,
+   "fixed": "",
+   "ctx": "Din nettolön per månad 34 652 kr Beräknad med Helhetskollens förenklade schablon. Välj kom"
+  }
+ ]
+}

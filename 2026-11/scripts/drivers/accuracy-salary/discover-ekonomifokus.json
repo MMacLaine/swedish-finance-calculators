@@ -1,0 +1,294 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Anpassa",
+  "val": "",
+  "vis": true,
+  "y": 486
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Neka alla",
+  "val": "",
+  "vis": true,
+  "y": 540
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Godkänn alla",
+  "val": "",
+  "vis": true,
+  "y": 432
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Close cookie preference modal",
+  "val": "",
+  "vis": true,
+  "y": 1281
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "wccDetailCategorynecessary-title",
+  "name": "",
+  "lab": "Nödvändiga",
+  "val": "",
+  "vis": true,
+  "y": 1420
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "wccDetailCategoryfunctional-title",
+  "name": "",
+  "lab": "Funktionella",
+  "val": "",
+  "vis": true,
+  "y": 1510
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "wccDetailCategoryanalytics-title",
+  "name": "",
+  "lab": "Statistik",
+  "val": "",
+  "vis": true,
+  "y": 1600
+ },
+ {
+  "tag": "INPUT",
+  "type": "checkbox",
+  "id": "wccSwitchanalytics",
+  "name": "",
+  "lab": "Aktivera Statistik",
+  "val": "on",
+  "checked": false,
+  "vis": true,
+  "y": 1602
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "wccDetailCategoryperformance-title",
+  "name": "",
+  "lab": "Prestanda",
+  "val": "",
+  "vis": true,
+  "y": 1690
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "wccDetailCategoryadvertisement-title",
+  "name": "",
+  "lab": "Marknadsföring",
+  "val": "",
+  "vis": true,
+  "y": 1780
+ },
+ {
+  "tag": "INPUT",
+  "type": "checkbox",
+  "id": "wccSwitchadvertisement",
+  "name": "",
+  "lab": "Aktivera Marknadsföring",
+  "val": "on",
+  "checked": false,
+  "vis": true,
+  "y": 1782
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "wccDetailCategoryothers-title",
+  "name": "",
+  "lab": "Övriga",
+  "val": "",
+  "vis": true,
+  "y": 1870
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Neka alla",
+  "val": "",
+  "vis": true,
+  "y": 2041
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Spara mina val",
+  "val": "",
+  "vis": true,
+  "y": 1987
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Godkänn alla",
+  "val": "",
+  "vis": true,
+  "y": 1933
+ },
+ {
+  "tag": "INPUT",
+  "type": "search",
+  "id": "",
+  "name": "s",
+  "lab": "",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 0
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Meny",
+  "val": "",
+  "vis": true,
+  "y": 0
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "in_year",
+  "name": "year",
+  "lab": "Vilket inkomstår?",
+  "val": "2026",
+  "vis": true,
+  "y": 1154,
+  "opts": "3:2026|2026;2025|2025;2024|2024"
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "in_salary",
+  "name": "salary",
+  "lab": "Vad har du i lön?",
+  "val": "25000",
+  "checked": false,
+  "vis": true,
+  "y": 1154
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "in_municipality",
+  "name": "municipality",
+  "lab": "Vilken kommun bor du i?",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 1283
+ },
+ {
+  "tag": "INPUT",
+  "type": "checkbox",
+  "id": "in_church",
+  "name": "church",
+  "lab": "Medlem i Svenska kyrkan?",
+  "val": "on",
+  "checked": true,
+  "vis": true,
+  "y": 1375
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "in_parish",
+  "name": "parish",
+  "lab": "Vilken församling bor du i?",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 1473
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Beräkna",
+  "val": "",
+  "vis": true,
+  "y": 1567
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "fieldname1_1",
+  "name": "fieldname1_1",
+  "lab": "Fyll i din månadslön innan skatt (brutto",
+  "val": "25 000",
+  "checked": false,
+  "vis": true,
+  "y": 6293
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "fieldname2_1",
+  "name": "fieldname2_1",
+  "lab": "Så här mycket kostar du din arbetsgivare",
+  "val": "7 855 kr",
+  "checked": false,
+  "vis": true,
+  "y": 6424
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "fieldname3_1",
+  "name": "fieldname3_1",
+  "lab": "Så här mycket kostar du din arbetsgivare",
+  "val": "32 855 kr",
+  "checked": false,
+  "vis": true,
+  "y": 6555
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "hdcaptcha_cp_calculated_fields_form_post_1",
+  "name": "hdcaptcha_cp_calculated_fields_form_post",
+  "lab": "",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 6634
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "",
+  "val": "",
+  "vis": true,
+  "y": 0
+ }
+]

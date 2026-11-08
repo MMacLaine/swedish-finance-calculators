@@ -1,0 +1,521 @@
+{
+ "id": "statsskuld",
+ "url": "https://statsskuld.se/berakna-nettolon",
+ "finalUrl": "https://statsskuld.se/berakna-nettolon",
+ "site": "statsskuld.se",
+ "at": "2026-11-08T17:25:05.601Z",
+ "requests": 31,
+ "failed": 0,
+ "failedDetail": [],
+ "thirdPartyHosts": [
+  "cdn.datatables.net",
+  "code.jquery.com"
+ ],
+ "thirdPartyDomains": [
+  "datatables.net",
+  "jquery.com"
+ ],
+ "trackerHosts": [],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "XSRF-TOKEN",
+   "domain": "statsskuld.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Lax",
+   "expiresDays": 0
+  },
+  {
+   "name": "statsskuldse_session",
+   "domain": "statsskuld.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "Lax",
+   "expiresDays": 0
+  },
+  {
+   "name": "cf_clearance",
+   "domain": ".statsskuld.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 365
+  }
+ ],
+ "weight": {
+  "totalKB": 847,
+  "thirdPartyKB": 63,
+  "finished": 31,
+  "byTypeKB": {
+   "Font": 588,
+   "Script": 131,
+   "Stylesheet": 79,
+   "Document": 33,
+   "Image": 7,
+   "Fetch": 4,
+   "Other": 3,
+   "Manifest": 1,
+   "XHR": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://statsskuld.se/berakna-nettolon",
+  "Stylesheet https://statsskuld.se/build/assets/iconfonts/icons-salary.css?v=1792410324",
+  "Stylesheet https://statsskuld.se/build/assets/salary-d4bb1c0d.css",
+  "Script https://statsskuld.se/build/assets/main.js?v=1792410325",
+  "Stylesheet https://statsskuld.se/build/assets/libs/choices.js/public/assets/styles/choices.min.css",
+  "Stylesheet https://statsskuld.se/build/assets/libs/tom-select/css/tom-select.default.min.css",
+  "Image https://statsskuld.se/images/logos/logo-icon-cropped.png",
+  "Image https://statsskuld.se/build/assets/images/flagssmall/sweden-flag-icon.png",
+  "Image https://statsskuld.se/assets/images/avatars/48x48/avatar-unknown.webp",
+  "Script https://statsskuld.se/js/municipality-select.js?v=2",
+  "Script https://statsskuld.se/build/assets/libs/@popperjs/core/umd/popper.min.js",
+  "Script https://statsskuld.se/build/assets/libs/preline/preline.js",
+  "Script https://statsskuld.se/build/assets/switch-8b7d28fe.js",
+  "Script https://code.jquery.com/jquery-3.6.0.min.js",
+  "Stylesheet https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css",
+  "Script https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js",
+  "Script https://statsskuld.se/build/assets/libs/choices.js/public/assets/scripts/choices.min.js",
+  "Script https://statsskuld.se/build/assets/sticky.js",
+  "Script https://statsskuld.se/build/assets/app-e0ece6ec.js",
+  "Manifest https://statsskuld.se/images/siteicons/manifest.json",
+  "Font https://statsskuld.se/build/assets/iconfonts/tabler-icons/iconfont/fonts/tabler-icons.woff2",
+  "Font https://statsskuld.se/build/assets/iconfonts/bootstrap-icons/icons/font/fonts/bootstrap-icons.woff2?08efbba7c53d8c5413793eecb19b20bb",
+  "Font https://statsskuld.se/build/assets/iconfonts/RemixIcons/fonts/remixicon.woff2?t=1590207869815",
+  "Script https://statsskuld.se/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5764630c862ac1a",
+  "Image https://cdn.datatables.net/1.11.3/images/sort_both.png",
+  "Fetch https://statsskuld.se/api/ui/municipalities",
+  "Image https://cdn.datatables.net/1.11.3/images/sort_asc.png",
+  "Script https://statsskuld.se/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a5764630c862ac1a",
+  "XHR https://statsskuld.se/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.209814991859957:1794154216:RKGB82ZpKcs93QaQDqVr2S-Shg51R4tXjdD5PUOkJgc/a5764630c",
+  "Other https://statsskuld.se/images/siteicons/favicon.ico",
+  "Other https://statsskuld.se/images/siteicons/favicon-32x32.png"
+ ],
+ "trackerUrls": [],
+ "allHosts": {
+  "statsskuld.se": 26,
+  "code.jquery.com": 1,
+  "cdn.datatables.net": 4
+ },
+ "scan": {
+  "title": "Lön efter skatt 2026 – räkna ut nettolön i din kommun",
+  "url": "https://statsskuld.se/berakna-nettolon",
+  "docH": 7459,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Ange din bruttolön:",
+    "value": "",
+    "y": 385,
+    "x": 28,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Visa 10 25 50 100 poster",
+    "value": "10",
+    "y": 4279,
+    "x": 61,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "STOCKHOLM (31.58%)",
+    "y": 242,
+    "h": 21,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "* Uppdaterad med 2026 skatter",
+    "y": 840,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "2023",
+    "y": 964,
+    "h": 25,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2024",
+    "y": 964,
+    "h": 25,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2025",
+    "y": 964,
+    "h": 25,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 964,
+    "h": 25,
+    "fs": 14,
+    "fixed": ""
+   },
+   {
+    "t": "52 305 kr",
+    "y": 1033,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "12 505 kr",
+    "y": 1092,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "39 800 kr",
+    "y": 1150,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1 442 kr",
+    "y": 1218,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "38 358 kr",
+    "y": 1287,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "3 386 kr",
+    "y": 1355,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Den kommunala skatten i Stockholm är 18.22%",
+    "y": 1474,
+    "h": 35,
+    "fs": 13,
+    "fixed": ""
+   },
+   {
+    "t": "6 989 kr",
+    "y": 1458,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Skatten i ditt landsting är 12.33%",
+    "y": 1542,
+    "h": 35,
+    "fs": 13,
+    "fixed": ""
+   },
+   {
+    "t": "4 730 kr",
+    "y": 1527,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "En extra 20-procentig skatt tas ut på inkomster över 643 000",
+    "y": 1610,
+    "h": 53,
+    "fs": 13,
+    "fixed": ""
+   },
+   {
+    "t": "31 390 kr",
+    "y": 1878,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "20 915 kr",
+    "y": 1958,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Lön efter skatt 2026 - så fungerar nettolönekalkylatorn",
+    "y": 2076,
+    "h": 45,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "Fyll i lönen före skatt, till exempel 40 000 kr per månad.",
+    "y": 2436,
+    "h": 68,
+    "fs": 16.64,
+    "fixed": ""
+   },
+   {
+    "t": "Exempel: 40 000 kr i lön före skatt",
+    "y": 3408,
+    "h": 26,
+    "fs": 19.52,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 4207,
+    "h": 18,
+    "fs": 15,
+    "fixed": ""
+   },
+   {
+    "t": "21.32%",
+    "y": 4364,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "11.48%",
+    "y": 4364,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "34.17%",
+    "y": 4364,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "21.36%",
+    "y": 4399,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "11.48%",
+    "y": 4399,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "34.21%",
+    "y": 4399,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "21.42%",
+    "y": 4434,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "34.88%",
+    "y": 4434,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "22.09%",
+    "y": 4469,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "11.76%",
+    "y": 4469,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "35.32%",
+    "y": 4469,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "22.41%",
+    "y": 4504,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "10.88%",
+    "y": 4504,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "34.64%",
+    "y": 4504,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "23.5%",
+    "y": 4539,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "11.34%",
+    "y": 4539,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "36.13%",
+    "y": 4539,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "22.8%",
+    "y": 4574,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "11.34%",
+    "y": 4574,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "35.43%",
+    "y": 4574,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "21.75%",
+    "y": 4609,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "12.28%",
+    "y": 4609,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "35.46%",
+    "y": 4609,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "21.85%",
+    "y": 4644,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "12.3%",
+    "y": 4644,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "35.5%",
+    "y": 4644,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "21.96%",
+    "y": 4679,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "11.99%",
+    "y": 4679,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "35.39%",
+    "y": 4679,
+    "h": 35,
+    "fs": 13.008,
+    "fixed": ""
+   },
+   {
+    "t": "Visar 1 till 10 av 290 poster",
+    "y": 4714,
+    "h": 36,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "© 2026 Statsskuld.se",
+    "y": 7275,
+    "h": 20,
+    "fs": 12,
+    "fixed": ""
+   },
+   {
+    "t": "WebFinance Digital i Sverige AB · Org.nr 559162-0900 · Bygde",
+    "y": 7358,
+    "h": 37,
+    "fs": 11,
+    "fixed": ""
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

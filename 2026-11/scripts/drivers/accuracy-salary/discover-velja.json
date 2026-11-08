@@ -1,0 +1,146 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Sök",
+  "val": "",
+  "vis": true,
+  "y": 6
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Meny",
+  "val": "",
+  "vis": true,
+  "y": 6
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "2025",
+  "val": "",
+  "vis": true,
+  "y": 411
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "2026",
+  "val": "",
+  "vis": true,
+  "y": 411
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Ange exakt värde för Månadslön (brutto),",
+  "val": "",
+  "vis": true,
+  "y": 478
+ },
+ {
+  "tag": "INPUT",
+  "type": "range",
+  "id": "_R_1a9dbsnp5b_",
+  "name": "",
+  "lab": "Månadslön (brutto)",
+  "val": "45000",
+  "checked": false,
+  "vis": true,
+  "y": 512
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Räkna med skatten i Stockholm →",
+  "val": "",
+  "vis": true,
+  "y": 641
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Dölj platsförslaget",
+  "val": "",
+  "vis": true,
+  "y": 599
+ },
+ {
+  "tag": "INPUT",
+  "type": "text",
+  "id": "kommunSelect",
+  "name": "",
+  "lab": "Kommun",
+  "val": "Rikssnitt (32,38 %)",
+  "checked": false,
+  "vis": true,
+  "y": 714
+ },
+ {
+  "tag": "INPUT",
+  "type": "checkbox",
+  "id": "is66Plus",
+  "name": "",
+  "lab": "66 år eller äldre vid 2026 års början(fö",
+  "val": "on",
+  "checked": false,
+  "vis": true,
+  "y": 792
+ },
+ {
+  "tag": "INPUT",
+  "type": "checkbox",
+  "id": "churchMember",
+  "name": "",
+  "lab": "Medlem i Svenska Kyrkan(+1,05 % kyrkoavg",
+  "val": "on",
+  "checked": false,
+  "vis": true,
+  "y": 844
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Kopiera som text",
+  "val": "",
+  "vis": true,
+  "y": 946
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Dela",
+  "val": "",
+  "vis": true,
+  "y": 951
+ },
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Visa nettolönen i resultatet",
+  "val": "",
+  "vis": true,
+  "y": 791
+ }
+]

@@ -1,0 +1,117 @@
+{
+ "readback": {
+  "gross": "45000",
+  "county": "STOCKHOLM - STOCKHOLMS DOMKYRKOFÖRSAMLING"
+ },
+ "resultText": "Resultat Du får behålla 35,206 kr efter skatt Skatter och avgifter i STOCKHOLM kommun Kommun & församling STOCKHOLM - STOCKHOLMS DOMKYRKOFÖRSAMLING Skattesats exkl. kyrkoavgift 30.62% Kyrkoavgift 1.03% Begravningsavgift 0.07% Landstingsskatt 12.33% Uträkning lön och skatter Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,445 kr Beskattningsbar inkomst 43,555 kr Skatter Kommunalskatt & Landstingsskatt 13,337 kr Statlig skatt 0 kr Jobbskatteavdrag -4,121 kr Avgifter Kyrkoavgift 449 kr Begravningsavgift 30 kr Public service-avgift 99 kr Resultat Summa skatter & avgifter 9,794 kr Nettolön efter skatt 35,206 kr Kolla vad grannen tjänar i lön? Med Lönekollen kan d",
+ "net": [
+  {
+   "t": "Du får behålla 35,206 kr efter skatt",
+   "y": 698,
+   "vpTop": 698,
+   "h": 50,
+   "fs": 16,
+   "fixed": ""
+  }
+ ],
+ "money": [
+  {
+   "t": "1 000 kronor i månaden kan bli 1,2 miljoner",
+   "y": 97,
+   "fs": 12.8,
+   "fixed": "fixed",
+   "ctx": "Kalkylen: 1 000 kronor i månaden kan bli 1,2 miljoner"
+  },
+  {
+   "t": "35,206 kr",
+   "y": 713,
+   "fs": 16,
+   "fixed": "",
+   "ctx": "Resultat Du får behålla 35,206 kr efter skatt Skatter och avgifter i STOCKHOLM kommun Komm"
+  },
+  {
+   "t": "59,139 kr",
+   "y": 1118,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "45,000 kr",
+   "y": 1169,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "1,445 kr",
+   "y": 1220,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "43,555 kr",
+   "y": 1254,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "13,337 kr",
+   "y": 1339,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "-4,121 kr",
+   "y": 1424,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "449 kr",
+   "y": 1492,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "9,794 kr",
+   "y": 1628,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "35,206 kr",
+   "y": 1662,
+   "fs": 14.4,
+   "fixed": "",
+   "ctx": "Beskattningsbar inkomst Arbetsgivaren betalar 59,139 kr Bruttolön 45,000 kr Grundavdrag 1,"
+  },
+  {
+   "t": "Avgiftstak (8,07 inkomstbasbelopp), 56 087 kr/månad eller 673 038 kr/å",
+   "y": 5404,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Varför skiljer sig skatten mellan olika kommuner? Kommunalskatten varierar beroende på var"
+  },
+  {
+   "t": "Nedbrytning av arbetsgivarens totalkostnad (48 625 kr):",
+   "y": 6196,
+   "fs": 15.2,
+   "fixed": "",
+   "ctx": "Varför skiljer sig skatten mellan olika kommuner? Kommunalskatten varierar beroende på var"
+  },
+  {
+   "t": "- 11 625 kr",
+   "y": 6284,
+   "fs": 11.52,
+   "fixed": "",
+   "ctx": "Arbetsgivaravgift - 11 625 kr Kommunalskatt - 11 644 kr Statlig skatt 0 kr Jobbskatteavdra"
+  }
+ ]
+}

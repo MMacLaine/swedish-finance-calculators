@@ -1,0 +1,14 @@
+{
+ "inputs": {
+  "start": "500000",
+  "monthly": "0",
+  "ret": "0",
+  "years": "1",
+  "tax": "isk"
+ },
+ "sentence": "Efter 1 år har du 497 870 kr.ISK-skatten blir 2 130 kr totalt. Jag räknar med 2026 års schablonränta varje år.",
+ "heroTax": "2 130 kr",
+ "heroTaxPct": "",
+ "heroFinal": "497 870 kr",
+ "how": "Du sätter in 500 000 kr från start och 0 kr i månaden i 1 år, alltså 500 000 kr totalt.Jag låter det växa med 0,0% per år. Före skatt blir det 500 000 kr.ISK-skatten (investeringssparkonto) dras varje år på årets genomsnittliga värde över 300 000 kr. Den blir 2 130 kr på 1 år, och pengarna som går till skatt växer inte heller, så du får 497 870 kr."
+}

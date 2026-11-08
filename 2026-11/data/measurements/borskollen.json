@@ -1,0 +1,840 @@
+{
+ "id": "borskollen",
+ "url": "https://www.borskollen.se/rakna-ut-lon-efter-skatt-kalkylator",
+ "finalUrl": "https://www.borskollen.se/rakna-ut-lon-efter-skatt-kalkylator",
+ "site": "borskollen.se",
+ "at": "2026-11-08T17:25:16.303Z",
+ "requests": 92,
+ "failed": 7,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://lwadm.com/lw/pbjs?pid=accf63e4-847c-47e4-98ff-922a3d9e8696"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://applets.ebxcdn.com/ebx.js"
+  },
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://cmp.uniconsent.com/v2/stubgcm.min.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://macro.adnami.io/macro/hosts/adsm.macro.borskollen.se.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://source.advisible.com/10130023/main.js"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MNCNM31ZT5&gtm=45je6b41v881543988za20ozb835389924zd835389924xf1&_p=1794158708732&gcs=G100&gcd=13q3p3q2q"
+  }
+ ],
+ "thirdPartyHosts": [
+  "ad.doubleclick.net",
+  "applets.ebxcdn.com",
+  "cmp.uniconsent.com",
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+  "lwadm.com",
+  "macro.adnami.io",
+  "region1.google-analytics.com",
+  "s3.tradingview.com",
+  "source.advisible.com",
+  "www.googletagmanager.com",
+  "www.ratsit.se",
+  "www.tradingview-widget.com"
+ ],
+ "thirdPartyDomains": [
+  "adnami.io",
+  "advisible.com",
+  "doubleclick.net",
+  "ebxcdn.com",
+  "google-analytics.com",
+  "googleapis.com",
+  "googletagmanager.com",
+  "gstatic.com",
+  "lwadm.com",
+  "ratsit.se",
+  "tradingview-widget.com",
+  "tradingview.com",
+  "uniconsent.com"
+ ],
+ "trackerHosts": [
+  "ad.doubleclick.net",
+  "region1.google-analytics.com",
+  "www.googletagmanager.com"
+ ],
+ "cmpHosts": [
+  "cmp.uniconsent.com"
+ ],
+ "cookies": [],
+ "weight": {
+  "totalKB": 1663,
+  "thirdPartyKB": 843,
+  "finished": 84,
+  "byTypeKB": {
+   "Script": 1101,
+   "Image": 200,
+   "Fetch": 164,
+   "Other": 99,
+   "Font": 57,
+   "Document": 37,
+   "Stylesheet": 4,
+   "Manifest": 1,
+   "XHR": 0
+  }
+ },
+ "reqUrls": [
+  "Document https://www.borskollen.se/rakna-ut-lon-efter-skatt-kalkylator",
+  "Stylesheet https://www.borskollen.se/_next/static/css/1aacb296cdb77b3a.css",
+  "Stylesheet https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap",
+  "Image https://img.borskollen.se/public/logos/borskollen_100.png",
+  "Image https://www.ratsit.se/dist/assets/images/cmp/ratsit-logo-cmp.svg",
+  "Image https://img.borskollen.se/cms/2025/01/lon_efter_skatt.jpg",
+  "Image https://img.borskollen.se/cms/2026/10/daniel_a--strand_v2-1.png",
+  "Image https://img.borskollen.se/cms/2026/10/kristoffer_matsson_v2.png",
+  "Manifest https://img.borskollen.se/public/favicon/site.webmanifest",
+  "Script https://www.borskollen.se/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "Script https://www.borskollen.se/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+  "Font https://img.borskollen.se/public/fonts/Aileron-BlackItalic.woff2",
+  "Font https://fonts.gstatic.com/s/frankruhllibre/v23/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Dl4brkiY8.woff2",
+  "Script https://www.borskollen.se/_next/static/W0EYmzIRF3H-VfpCoAqcE/_ssgManifest.js",
+  "Script https://www.borskollen.se/_next/static/W0EYmzIRF3H-VfpCoAqcE/_buildManifest.js",
+  "Script https://www.borskollen.se/_next/static/chunks/pages/rakna-ut-lon-efter-skatt-kalkylator-7a8abbd6eee90309.js",
+  "Script https://www.borskollen.se/_next/static/chunks/2323-6f669fe37665ae3f.js",
+  "Script https://www.borskollen.se/_next/static/chunks/2799-2af8f33445354847.js",
+  "Script https://www.borskollen.se/_next/static/chunks/8034-e4866923b0a19ccd.js",
+  "Script https://www.borskollen.se/_next/static/chunks/9437-eda64bf12d2e9963.js",
+  "Script https://www.borskollen.se/_next/static/chunks/559-8b661f4e892493b1.js",
+  "Script https://www.borskollen.se/_next/static/chunks/8029-8a603f7dc1c4cf0b.js",
+  "Script https://www.borskollen.se/_next/static/chunks/2909-71c6602fddb1c685.js",
+  "Script https://www.borskollen.se/_next/static/chunks/pages/_app-affd167b84e5a7a4.js",
+  "Script https://www.borskollen.se/_next/static/chunks/main-c8af85087f4e137f.js",
+  "Script https://www.borskollen.se/_next/static/chunks/framework-89b3a13628227522.js",
+  "Script https://www.borskollen.se/_next/static/chunks/webpack-ad964bd18c439162.js",
+  "Script https://www.borskollen.se/_next/static/chunks/5195.326a972ccfb0bc18.js",
+  "Script https://applets.ebxcdn.com/ebx.js",
+  "Script https://lwadm.com/lw/pbjs?pid=accf63e4-847c-47e4-98ff-922a3d9e8696",
+  "Script https://cmp.uniconsent.com/v2/stubgcm.min.js",
+  "Script https://cmp.uniconsent.com/v2/stub.min.js",
+  "Other https://img.borskollen.se/public/favicon/favicon.ico",
+  "Script https://cmp.uniconsent.com/v2/stubgcm.min.js",
+  "Script https://source.advisible.com/10130023/main.js",
+  "Script https://macro.adnami.io/macro/hosts/adsm.macro.borskollen.se.js",
+  "Script https://www.borskollen.se/_next/static/chunks/5826.9d02933139a85d4c.js",
+  "Script https://www.borskollen.se/_next/static/chunks/1290.2acd9a15ffaa05a3.js",
+  "Script https://www.borskollen.se/_next/static/chunks/1369.8f176872a4c31174.js",
+  "Script https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js",
+  "Script https://www.borskollen.se/_next/static/chunks/6233.275f4b080cb53c96.js",
+  "Script https://cmp.uniconsent.com/v2/d73db6ea30/cmp.js",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-MNCNM31ZT5",
+  "Script https://www.googletagmanager.com/gtm.js?id=GTM-TB82VVB",
+  "Script https://img.borskollen.se/public/js/adblocker.js",
+  "Other https://www.borskollen.se/_next/static/chunks/3133-6ba6e84bc22aba7f.js",
+  "Other https://www.borskollen.se/_next/static/chunks/9632-11f41893749cf2b7.js",
+  "Other https://www.borskollen.se/_next/static/chunks/1680-9f7521b23aaa782e.js",
+  "Other https://www.borskollen.se/_next/static/chunks/3156-8576d85c9d9f67be.js",
+  "Other https://www.borskollen.se/_next/static/chunks/2454-7be7a31b8e8c71b4.js",
+  "Other https://www.borskollen.se/_next/static/chunks/6528-a1177a78dd234a6e.js",
+  "Other https://www.borskollen.se/_next/static/chunks/4973-2bb255be8bad0060.js",
+  "Other https://www.borskollen.se/_next/static/chunks/5453-debf0410d86facc6.js",
+  "Other https://www.borskollen.se/_next/static/chunks/9715-ccc0548c57636659.js",
+  "Other https://www.borskollen.se/_next/static/chunks/3685-17d5774471045da4.js",
+  "Other https://www.borskollen.se/_next/static/chunks/5198-b2bfbadc7517e308.js",
+  "Other https://www.borskollen.se/_next/static/chunks/6957-2897aa8a7f5e295d.js",
+  "Other https://www.borskollen.se/_next/static/chunks/3555-1add5b983f3c4112.js",
+  "Other https://www.borskollen.se/_next/static/chunks/3390-88857566f9deb04a.js",
+  "Other https://www.borskollen.se/_next/static/chunks/1282-59020ac9340b2a1c.js",
+  "Other https://www.borskollen.se/_next/static/chunks/pages/index-8cfaf5b77fbe8507.js",
+  "Script https://cmp.uniconsent.com/v2/main-v6.min.js",
+  "Fetch https://www.borskollen.se/api/featured/promotion",
+  "Fetch https://cmp.uniconsent.com/v2/d73db6ea30/config.json",
+  "Script https://www.borskollen.se/_next/static/chunks/3133-6ba6e84bc22aba7f.js",
+  "Script https://www.borskollen.se/_next/static/chunks/9632-11f41893749cf2b7.js",
+  "Script https://www.borskollen.se/_next/static/chunks/1680-9f7521b23aaa782e.js",
+  "Script https://www.borskollen.se/_next/static/chunks/3156-8576d85c9d9f67be.js",
+  "Script https://www.borskollen.se/_next/static/chunks/2454-7be7a31b8e8c71b4.js",
+  "Script https://www.borskollen.se/_next/static/chunks/6528-a1177a78dd234a6e.js",
+  "Script https://www.borskollen.se/_next/static/chunks/4973-2bb255be8bad0060.js",
+  "Script https://www.borskollen.se/_next/static/chunks/5453-debf0410d86facc6.js",
+  "Script https://www.borskollen.se/_next/static/chunks/9715-ccc0548c57636659.js",
+  "Script https://www.borskollen.se/_next/static/chunks/3685-17d5774471045da4.js",
+  "Script https://www.borskollen.se/_next/static/chunks/5198-b2bfbadc7517e308.js",
+  "Script https://www.borskollen.se/_next/static/chunks/6957-2897aa8a7f5e295d.js",
+  "Script https://www.borskollen.se/_next/static/chunks/3555-1add5b983f3c4112.js",
+  "Script https://www.borskollen.se/_next/static/chunks/3390-88857566f9deb04a.js",
+  "Script https://www.borskollen.se/_next/static/chunks/1282-59020ac9340b2a1c.js",
+  "Script https://www.borskollen.se/_next/static/chunks/pages/index-8cfaf5b77fbe8507.js",
+  "Fetch https://cmp.uniconsent.com/json/",
+  "Document https://www.tradingview-widget.com/embed-widget/ticker-tape/?locale=en",
+  "Fetch https://cmp.uniconsent.com/v3/ui-sv.json",
+  "Fetch https://cmp.uniconsent.com/v3/eazy/ui-sv.json",
+  "Fetch https://cmp.uniconsent.com/v3/vendor-list.json",
+  "Image https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250",
+  "Fetch https://cmp.uniconsent.com/v3/purposes-sv.json",
+  "Script https://www.googletagmanager.com/gtag/js?id=G-MNCNM31ZT5&cx=c&gtm=4e6b41",
+  "Script https://cmp.uniconsent.com/v2/vendors-v6.625cae72.js",
+  "Image https://img.borskollen.se/public/logos/borskollen_100_rounded.png",
+  "XHR https://cmp.uniconsent.com/v2/edge",
+  "Fetch https://region1.google-analytics.com/g/collect?v=2&tid=G-MNCNM31ZT5&gtm=45je6b41v881543988za20ozb835389924zd835389924xf1&_p=1794158708732&gcs=G100&gcd=13q3p3q2q"
+ ],
+ "trackerUrls": [
+  "https://www.googletagmanager.com/gtag/js?id=G-MNCNM31ZT5",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-TB82VVB",
+  "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250",
+  "https://www.googletagmanager.com/gtag/js?id=G-MNCNM31ZT5&cx=c&gtm=4e6b41",
+  "https://region1.google-analytics.com/g/collect?v=2&tid=G-MNCNM31ZT5&gtm=45je6b41v881543988za20ozb835389924zd835389924xf1&_p=1794158708732&gc"
+ ],
+ "allHosts": {
+  "www.borskollen.se": 56,
+  "fonts.googleapis.com": 1,
+  "img.borskollen.se": 9,
+  "www.ratsit.se": 1,
+  "fonts.gstatic.com": 1,
+  "applets.ebxcdn.com": 1,
+  "lwadm.com": 1,
+  "cmp.uniconsent.com": 13,
+  "source.advisible.com": 1,
+  "macro.adnami.io": 1,
+  "s3.tradingview.com": 1,
+  "www.googletagmanager.com": 3,
+  "www.tradingview-widget.com": 1,
+  "ad.doubleclick.net": 1,
+  "region1.google-analytics.com": 1
+ },
+ "scan": {
+  "title": "Räkna ut lön efter skatt 2026 – Kalkylator nettolön",
+  "url": "https://www.borskollen.se/rakna-ut-lon-efter-skatt-kalkylator",
+  "docH": 12724,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "fname",
+    "value": "35000",
+    "y": 429,
+    "x": 10,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "county",
+    "value": "ALE - NÖDINGE FÖRSAM",
+    "y": 509,
+    "x": 10,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "Solceller tar 14 år att räkna hem 2026",
+    "y": 97,
+    "h": 15,
+    "fs": 12.8,
+    "fixed": "fixed"
+   },
+   {
+    "t": "Räkna ut din nettolön 2026",
+    "y": 213,
+    "h": 15,
+    "fs": 12.8,
+    "fixed": ""
+   },
+   {
+    "t": "27,381 kr",
+    "y": 713,
+    "h": 19,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "33.092%",
+    "y": 839,
+    "h": 51,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "1.04%",
+    "y": 890,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "0.292%",
+    "y": 924,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "11.48%",
+    "y": 958,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "45,997 kr",
+    "y": 1101,
+    "h": 51,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "35,000 kr",
+    "y": 1152,
+    "h": 51,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "1,833 kr",
+    "y": 1203,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33,167 kr",
+    "y": 1237,
+    "h": 51,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "10,976 kr",
+    "y": 1322,
+    "h": 51,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "-3,898 kr",
+    "y": 1407,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "345 kr",
+    "y": 1475,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "7,619 kr",
+    "y": 1611,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "27,381 kr",
+    "y": 1645,
+    "h": 51,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "Kommunalskatten 2026 – alla landets kommuner",
+    "y": 2215,
+    "h": 56,
+    "fs": 22.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.092%",
+    "y": 2447,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2447,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.132%",
+    "y": 2481,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2481,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.712%",
+    "y": 2515,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2515,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.142%",
+    "y": 2549,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2549,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.582%",
+    "y": 2583,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2583,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "35.132%",
+    "y": 2617,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2617,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.432%",
+    "y": 2651,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2651,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.322%",
+    "y": 2685,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2685,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.442%",
+    "y": 2719,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2719,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.242%",
+    "y": 2753,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2753,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.692%",
+    "y": 2787,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2787,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.512%",
+    "y": 2821,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2821,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "35.292%",
+    "y": 2855,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2855,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "32.462%",
+    "y": 2889,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2889,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.232%",
+    "y": 2923,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2923,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.362%",
+    "y": 2957,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2957,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.662%",
+    "y": 2991,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 2991,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.732%",
+    "y": 3025,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3025,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.692%",
+    "y": 3059,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3059,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.082%",
+    "y": 3093,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3093,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "32.522%",
+    "y": 3127,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3127,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "33.662%",
+    "y": 3161,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3161,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.032%",
+    "y": 3195,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3195,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "35.382%",
+    "y": 3229,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3229,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "31.562%",
+    "y": 3263,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3263,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "31.702%",
+    "y": 3297,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3297,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.982%",
+    "y": 3331,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3331,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "30.872%",
+    "y": 3365,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3365,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "35.592%",
+    "y": 3399,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3399,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "35.942%",
+    "y": 3433,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3433,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "34.842%",
+    "y": 3467,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3467,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "31.742%",
+    "y": 3501,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   },
+   {
+    "t": "2026",
+    "y": 3501,
+    "h": 34,
+    "fs": 14.4,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "fixed unic-modal flex flex-col justify-c",
+    "top": 0,
+    "h": 844,
+    "w": 390,
+    "pctViewport": 100,
+    "text": "Sekretesspreferens Börskollen är en kostnadsfri tjänst & beroende av annonsintäkter. För att kunna fortsätta erbjuda vår tjänst behöver vi s"
+   }
+  ],
+  "iframes": [
+   "https://www.tradingview-widget.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22title%22%3A%22S%26P%20500%22%7D%2C%7B%22description%22%3A%22OMXS30%22%2C%22proName%22%3A%22OMXSTO%3AOMXS30%22%7D%2C%7B%22description%22%3A%22DAX%22%2C%22proName%22%3A%22XETR%3ADAX%22%7D%2C%7B%22description%22%3A%22USD%2FSEK%22%2C%22proName%22%3A%22FX%3AUSDSEK%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22Bitcoin%22%7D%2C%7B%22description%22%3A%22Guld%22%2C%22proName%22%3A%22CAPITALCOM%3AGOLD%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22displayMode%22%3A%22regular%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A58%2C%22utm_source%22%3A%22www.borskollen.se%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22www.borskollen.se%2Frakna-ut-lon-efter-skatt-kalkylator%22%7D"
+  ],
+  "ls": [
+   "__unic"
+  ],
+  "ss": [],
+  "sw": false
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "run": {
+  "date": "2026-11-08",
+  "window": "18:51 to 19:07 CET (Europe/Stockholm)",
+  "method": "headless Chrome via _local/competitive/round3/verify/shot.mjs (one or two loads per page; per-shot JSON beside each PNG holds URL, final URL, HTTP status, load time, driver result); static HTML via curl; official sources via WebFetch/WebSearch and the Skatteverket open-data API",
+  "network_note": "local DNS filter blocks some ad/analytics hosts (see objective/findings.md); no effect on the figures checked here",
+  "consent": "cookie banners declined where a decline button existed (ekonomifokus 'Avvisa alla', Swedbank 'Bara nödvändiga cookies', Konsumenternas and helhetskollen 'Endast nödvändiga'). borskollen offers no decline button: its UniConsent overlay (#uniccmp) was hidden with CSS for the screenshot, no consent given."
+ },
+ "counts": {"CONFIRMED": 10, "CONFIRMED WITH CHANGE": 5, "FIXED": 0, "NOT CONFIRMED": 2},
+ "claims": [
+  {
+   "id": "1", "site": "smartly.se", "claim": "ISK article: about 5 000 kr tax on 500 000 kr, old schablon rate about 3.3%, no 300 000 kr tax-free amount",
+   "status": "CONFIRMED WITH CHANGE",
+   "url": "https://smartly.se/money/isk-account-sweden",
+   "time": "2026-11-08 18:52:48 and 18:52:54 CET",
+   "page_dated": "July 21, 2026 (datePublished and dateModified 2026-07-21)",
+   "quote": ["On a 500,000 SEK account, that's about 5,000 SEK in tax for the year, whether your investments gained 15% or lost 15%.", "The statslåneränta (Swedish government borrowing rate) as of November 2025 was 2.33%. Add 1 percentage point: 2.33% + 1% = 3.33%.", "500,000 SEK ~5,000 SEK (table 'Approx. Annual ISK Tax (≈1.0%)')"],
+   "language_note": "the article is in English; quotes are as written",
+   "tax_free_amount": "not mentioned: no '300', 'fribelopp', 'tax-free amount' or 'exempt' in the article text (the only 'tax-free' hits are the myth section 'Is ISK \"Tax-Free\"?')",
+   "change": "5 000 kr and the missing 300 000 kr tax-free amount are exact. The rate is 3.33%, but it is not an old official rate: the article misstates the 30 Nov 2025 statslåneränta as 2.33% (official 2.55%). No year used 3.33% (2024: 3.62%, 2025: 2.96%). Describe it as a wrong rate, not an old one.",
+   "official": "2026: 300 000 kr tax-free, schablonintäkt 3.55% (statslåneränta 2.55% at 30 Nov 2025 + 1), tax 30%: (500 000 - 300 000) x 3.55% x 30% = 2 130 kr",
+   "official_source": "Skatteverket, https://www.skatteverket.se/investeringssparkonto: 'Den 30 november 2025 var statslåneräntan 2,55 procent. Det betyder att schablonintäkten för inkomståret 2026 blir 3,55 procent'; 'Från och med 1 januari 2026 höjs den skattefria grundnivån till 300 000 kronor.'",
+   "screenshots": ["c1a-smartly-isk-5000.png", "c1b-smartly-isk-rate.png"],
+   "also": "the same '5,000 SEK/year on a 500,000 SEK account' line is on the smartly.se home page article card"
+  },
+  {
+   "id": "2", "site": "smartly.se", "claim": "parental benefit uses 1 250 kr a day as the maximum",
+   "status": "CONFIRMED",
+   "url": "https://smartly.se/tools/parental-leave",
+   "time": "2026-11-08 18:52:48 CET",
+   "page_dated": "'Last updated: February 2026'; dateModified 2026-02-06",
+   "quote": "Max daily benefit: 1 250 SEK (föräldrapenning cap)",
+   "context": "same Key Facts box gives Prisbasbelopp 2026: 59 200 SEK and SGI ceiling 49 333 SEK/month (592 000 SEK/year), both correct. Earlier run: salary 80 000 gave 'FK benefit/month 38 000 SEK' (1 250 x 30.4).",
+   "official": "1 259 kr/day (10 x 59 200 x 0.97 x 0.80 / 365)",
+   "official_source": "Försäkringskassan, Aktuella belopp, https://www.forsakringskassan.se/privatperson/e-tjanster-blanketter-och-informationsmaterial/aktuella-belopp: 'Dagar på sjukpenningnivå, högsta möjliga belopp: 1 259'",
+   "screenshots": ["c2-smartly-parental-1250.png"],
+   "do_not_confuse": "smartly's parental guide says 'Barnbidrag 1,250 SEK/month': that is child allowance and is correct; it is not this claim"
+  },
+  {
+   "id": "3a", "site": "smartly.se", "claim": "salary-after-tax: 45 000 kr, Stockholm shows 35 168 kr",
+   "status": "CONFIRMED",
+   "url": "https://smartly.se/tools/salary-after-tax",
+   "time": "2026-11-08 18:51:47 CET",
+   "inputs": "Monthly salary 45000; Municipality 'Stockholm (30.55%)'. The tool has no year, age or church field.",
+   "output": "Monthly TAKE-HOME PAY 35 168 SEK; Tax deducted -9 832 SEK; Yearly 422 014 SEK; Basic deduction -17 700 SEK; Municipal tax 159 563 SEK; Work tax credit -41 576 SEK; Total tax paid 117 986 SEK",
+   "official": "payslip table 31: tax 9 450 kr, take-home 35 550 kr (difference -382 kr); final yearly tax basis about 35 810 kr (difference -642 kr)",
+   "official_source": "Skatteverket open data, skattetabeller för månadslön 2026, table 31, row 44 801-45 000, column 1 = 9 450 (ref-skattetabell31-2026-45000.json, fetched 2026-11-08 19:06 from skatteverket.entryscape.net dataset 88320397-5c32-4c16-ae79-d36d95b17b95)",
+   "screenshots": ["c3a-smartly-salary.png"]
+  },
+  {
+   "id": "3b", "site": "smartly.se", "claim": "home page figure for the same salary: about 34 500 kr",
+   "status": "CONFIRMED",
+   "url": "https://smartly.se/",
+   "time": "2026-11-08 18:53:08 CET",
+   "quote": "Example calculation 45,000 SEK/month in Stockholm ~34,500 SEK take-home per month; Yearly net ~414,000 SEK; Effective tax ~23% rate",
+   "note": "the home page example (~34 500) and smartly's own calculator (35 168) disagree by about 670 kr for the same case",
+   "official": "35 550 kr (table 31) / about 35 810 kr (final tax)",
+   "screenshots": ["c3b-smartly-home-34500.png"]
+  },
+  {
+   "id": "4a", "site": "statsskuld.se", "claim": "berakna-nettolon: 45 000 kr, Stockholm, 2026, no church fee shows 34 991 kr; Stockholm labelled 31.58%",
+   "status": "CONFIRMED",
+   "url": "https://statsskuld.se/berakna-nettolon",
+   "time": "2026-11-08 18:53:27 CET",
+   "inputs": "form POST: kommun=STOCKHOLM (option text 'STOCKHOLM (31.58%)'), kyrkoskatt=0, bruttolon=45000; then the 2026 tab",
+   "output": "Nettolön 34 991 (donut) and 'Din nettolön ... 34 991 kr' in the 2026 tab. Breakdown: Grundavdrag -1 442 kr; Jobbskatteavdrag +3 386 kr; 'Den kommunala skatten i Stockholm är 18.22%' -7 936 kr; 'Skatten i ditt landsting är 12.33%' -5 371 kr; Kyrkoavgift -0 kr; Begravningsavgift '... (i din kommun) 0.2%' -87 kr",
+   "extra_finding": "the page's own components sum to 30.55% (18.22 + 12.33), so the 31.58% label is 1.03 points high. It also applies a 0.2% burial fee (-87 kr) where Stockholm's is 0.07% (about -30 kr).",
+   "official": "SCB 2026 Stockholm 30.55% (kommun 18.22 + region 12.33); begravningsavgift Stockholm 0.07%, separate; take-home 35 550 kr (table 31), so 34 991 is -559 kr (table) / -819 kr (final tax)",
+   "official_source": "SCB, Kommunalskatterna 2026, https://www.scb.se/hitta-statistik/statistik-efter-amne/offentlig-ekonomi/finanser-for-den-kommunala-sektorn/kommunalskatterna/pong/statistiknyhet/kommunalskatterna-2026/ ; Skatteverket, Belopp och procent 2026, https://www.skatteverket.se/privat/skatter/beloppochprocent/2026.html ('0,07 procent' Stockholm)",
+   "screenshots": ["c4a-statsskuld-salary.png"]
+  },
+  {
+   "id": "4b", "site": "statsskuld.se", "claim": "a salary link on the home page returns 404",
+   "status": "NOT CONFIRMED",
+   "url": "https://statsskuld.se/",
+   "time": "2026-11-08 18:53:57 CET (browser) and about 18:54 (curl status sweep)",
+   "found": "Every salary link on the Swedish home page points to https://statsskuld.se/berakna-nettolon (5 occurrences in the HTML, HTTP 200). Salary-related links checked in the browser: /lonestatistik, /berakna-nettolon, /berakna-bruttolon, /privatekonomi, /jamforelser/ekonomi, /lon-skatt, all 200. All 57 unique statsskuld.se hrefs in the home page HTML were status-checked: the only 404 is /kommun-data ('Kommun data'), which sits inside an HTML comment (not rendered) and is not a salary link. The English home page (/en/) links /en/berakna-nettolon.",
+   "earlier_source_of_claim": "review-fable.md says 'the /berakna-netlolon link on the home page is a 404'. That URL does return 404 (c4c), but no link to it exists on the home page now. It may have been a typo in the earlier reading rather than on the site; cannot tell.",
+   "screenshots": ["c4b-statsskuld-home-links.png", "c4c-statsskuld-typo-url-404.png"],
+   "evidence_files": ["c4b-statsskuld-home-link-status.txt", "c4b-statsskuld-home-links.json"]
+  },
+  {
+   "id": "5a", "site": "borskollen.se", "claim": "45 000 kr, Stockholm shows 35 206 kr and always deducts a church fee (about 449 kr) with no way to turn it off",
+   "status": "NOT CONFIRMED",
+   "url": "https://www.borskollen.se/rakna-ut-lon-efter-skatt-kalkylator",
+   "time": "2026-11-08 18:57:52 (church on) and 18:58:18 CET (church off)",
+   "inputs": "Bruttolön 45000; Kommun 'STOCKHOLM - STOCKHOLMS DOMKYRKOFÖRSAMLING'; checkbox 'Medlem i svenska kyrkan' (id church): left checked (default), then unchecked",
+   "output": {"church_on_default": "Du får behålla 35,206 kr efter skatt; Kyrkoavgift 449 kr; Summa skatter & avgifter 9,794 kr", "church_off": "Du får behålla 35,655 kr efter skatt; Kyrkoavgift 0 kr; Summa skatter & avgifter 9,345 kr"},
+   "what_is_true": "35 206 kr with a 449 kr church fee is the default result, because the church box is ticked by default.",
+   "what_is_false": "there is a 'Medlem i svenska kyrkan' checkbox and unticking it removes the fee. The earlier run (390 px phone width) reported no toggle: the real input is 0 x 0 px with opacity 0 behind a styled label, which a visible-inputs scan misses. So probably a measurement miss, not a site change; not provable either way.",
+   "official": "with church off, 35 655 kr is +105 kr vs table 31 (35 550) and -155 kr vs final tax (35 810)",
+   "screenshots": ["c5a-borskollen-salary-church-on.png", "c5b-borskollen-salary-church-off.png"]
+  },
+  {
+   "id": "5b", "site": "borskollen.se", "claim": "ISK article says 'ca 1 240 kr' for 500 000 kr",
+   "status": "CONFIRMED",
+   "url": "https://www.borskollen.se/isk-skatt",
+   "time": "2026-11-08 18:58:48 CET",
+   "page_dated": "datePublished 2023-11-23, dateModified 2026-01-21",
+   "quote": "Exempel: Har du 500 000 kr på ISK beskattas 200 000 kr (efter det skattefria beloppet). Skatten blir då ca 1 240 kr för året (200 000 × 1,07 %).",
+   "context": "Under '3. Hur mycket betalar jag i praktiken?', right after '2. Hur beräknas skatten 2026?' which says 'År 2026 ökar skatten till 1,07 % (1,065 % avrundat) ... grundbeloppet ökar till 300 000 kr per person/år (från 150 000 kr 2025)'. Same year (2026) and same assumptions as the official figure; it is an arithmetic slip, not a different year: its own formula 200 000 x 1,07 % gives 2 140 kr.",
+   "official": "2 130 kr (200 000 x 3.55% x 30%)",
+   "official_source": "Skatteverket, https://www.skatteverket.se/investeringssparkonto",
+   "screenshots": ["c5c-borskollen-isk-1240.png"]
+  },
+  {
+   "id": "6a", "site": "ekonomifokus.se", "claim": "home-sale page says uppskov costs about 0.5% a year",
+   "status": "CONFIRMED WITH CHANGE",
+   "url": "https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning",
+   "time": "2026-11-08 19:00:52 CET",
+   "page_dated": "dateModified 2026-06-30T08:37 (datePublished 2023-06-28); this is the 'dated 30 June 2026' page. /reavinstkalkylator returns 404.",
+   "quote": "0,5% på uppskovsbeloppet per år är kostnaden för att ha ett uppskov. Dvs om du gör en vinst på 1 miljon kr som du skjuter upp så kostar den 5000 kr/år i uppskovskostnad.",
+   "change": "The text is on the page and visible, but only in the reader-comment section (317 comments), as a staff reply signed 'Andreas på Ekonomifokus.se' / 'Mvh admin på Ekonomifokus', shown as '8 år sedan' (about 2018), when it was true. Similar staff replies on the same page: 'Den vinst ni skjuter med er kostar 0,5% (på vinsten) i ränta till skatteverket varje år' and '0,5% på den totala vinst som man skjuter med sig' (9 år sedan). The article body does not state a cost, and ekonomifokus's own uppskov article (dateModified 2026-10-06) says 'Det är gratis att göra uppskov ... borttagen sedan 2021-01-01' (c6c). Fair wording: old staff answers still shown under the article, not the article text.",
+   "official": "the schablonintäkt on uppskov was abolished from income year 2021; uppskov is interest-free",
+   "official_source": "regeringen.se, 'Avskaffad schablonintäkt på uppskovsbelopp' (https://www.regeringen.se/contentassets/4ac543f54a804ed9a841bc25178779e9/avskaffad-schablonintakt-pa-uppskovsbelopp.pdf); Skatteverket 'Slutligt uppskov' mentions no annual cost (https://www.skatteverket.se/privat/fastigheterochbostad/forsaljningavbostad/uppskov/slutligtuppskov.4.5c281c7015abecc2e2018bd.html)",
+   "screenshots": ["c6a-ekonomifokus-uppskov-05pct.png", "c6c-ekonomifokus-uppskov-article-correct.png"]
+  },
+  {
+   "id": "6b", "site": "ekonomifokus.se", "claim": "home-sale page says the uppskov cap is removed",
+   "status": "CONFIRMED WITH CHANGE",
+   "url": "https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning",
+   "time": "2026-11-08 19:01:13 CET",
+   "quote": "Hej Jonte. Taket för uppskov är borttaget så du kan nuförtiden skjuta med dig hela din vinst beroende på hur dyrt ert nya hus är.",
+   "change": "Again a staff reply in the comments ('Andreas på Ekonomifokus.se', '9 år sedan', about 2017). The cap was in fact suspended for sales from mid-2016 to mid-2020, so the reply was true when written and is outdated now. The article body does not say this; the uppskov article states 'taket för uppskov är 3 miljoner kr per såld bostad'.",
+   "official": "takbelopp 3 000 000 kr (since 1 July 2020)",
+   "official_source": "Skatteverket, Slutligt uppskov: 'Takbeloppet är 3 000 000 kronor och ditt slutliga uppskov får inte överstiga din andel av takbeloppet.'",
+   "screenshots": ["c6b-ekonomifokus-uppskov-cap.png", "c6c-ekonomifokus-uppskov-article-correct.png"]
+  },
+  {
+   "id": "6c", "site": "ekonomifokus.se", "claim": "mortgage calculator flags a 10% deposit as too low (uses 15%)",
+   "status": "CONFIRMED",
+   "url": "https://www.ekonomifokus.se/kalkylator-boendekostnad",
+   "time": "2026-11-08 19:01:58 CET",
+   "page_dated": "dateModified 2026-10-07",
+   "inputs": "Pris på boende 4 000 000; Kontantinsats 400 000 (exactly 10%); Ränta 1.59 (default); scripts load on first interaction, synthetic events sent",
+   "output": "Kontantinsats field red with 'Du måste ha minst 10% i kontantinsats!'; Belåningsgrad 90%; Lånebelopp 3 600 000 kr; Amortering 6 000 kr; Månadskostnad 10 339 kr",
+   "code": "bank-main.js?ver=1 slideLanebelop: 'var minlanebelop = pris - (0.85 * pris); if (lanebelop < minlanebelop ...) addClass(\"red\")' i.e. 15% minimum. The page text itself says 'minst 10 % av bostadens pris', so the message and the check contradict each other.",
+   "official": "since 1 April 2026: bolånetak 90%, so 10% minimum deposit",
+   "official_source": "Lag (2026:226) om begränsning av bostadskrediter, 4 §: 'När en bostadskredit lämnas ska kreditgivaren se till att belåningsgraden blir högst 90 procent.' https://data.riksdagen.se/dokument/sfs-2026-226.text",
+   "screenshots": ["c6d-ekonomifokus-mortgage-deposit-flag.png"]
+  },
+  {
+   "id": "7a", "site": "swedbank.se", "claim": "mortgage calculator page still describes income-based extra amortisation (skuldkvot over 4.5)",
+   "status": "CONFIRMED WITH CHANGE",
+   "url": "https://www.swedbank.se/privat/boende-och-bolan/rakna-pa-ditt-bolan.html",
+   "time": "2026-11-08 19:03:41 CET",
+   "quote": "Du som tar nytt bolån måste amortera om du lånar mer än 50 procent av bostadens värde. Amorteringen påverkas också av din inkomst i förhållande till hur mycket bolån du har.",
+   "where": "FAQ 'Vanliga frågor om bolån och bolånekalkyl', item 'Hur mycket måste jag amortera?' (collapsed by default; clicked open)",
+   "change": "The income-based wording is there, but the page does not name the 4.5x skuldkvot or an extra percentage point. Swedbank's linked explainer ('Nya amorteringsregler: så påverkas du') states the 1 April 2026 removal correctly (per review-opus/fable; not re-shot here).",
+   "official": "from 1 April 2026 amortisation depends only on LTV (1% over 50%, 2% over 70%); no income-based requirement",
+   "official_source": "Lag (2026:226) 7 §, in force 1 April 2026 (https://data.riksdagen.se/dokument/sfs-2026-226.text); no income or skuldkvot rule in the law",
+   "screenshots": ["c7a-swedbank-income-amortisation.png"]
+  },
+  {
+   "id": "7b", "site": "konsumenternas.se (Konsumenternas Bank- och finansbyrå)", "claim": "mortgage page still describes income-based extra amortisation",
+   "status": "CONFIRMED WITH CHANGE",
+   "url": "https://www.konsumenternas.se/konsumentstod/kalkyler--verktyg/bolanekalkyl/ (redirects to https://konsumenternasbankochfinansbyra.se/konsumentstod/kalkyler--verktyg/bolanekalkyl)",
+   "time": "2026-11-08 19:03:02 CET",
+   "quote": "Du måste amortera om lånet överstiger 50 procent av bostadens värde eller om du har hög belåning i förhållande till din inkomst.",
+   "where": "'Att tänka på' box above the calculator",
+   "change": "Income-based wording present, but no 4.5x figure or extra percentage point named. The same page states the 90% cap and 10% deposit correctly, and the calculator has no income input, so it cannot apply an income rule. Konsumenternas' own news item of 2026-03-30 ('nya amorteringsregler') covers the change.",
+   "official": "as 7a",
+   "official_source": "Lag (2026:226)",
+   "screenshots": ["c7b-konsumenternas-income-amortisation.png"]
+  },
+  {
+   "id": "8", "site": "kalkylverket.se", "claim": "tax category page links an aktieskatt calculator that returns 404",
+   "status": "CONFIRMED",
+   "url": "https://kalkylverket.se/kalkylatorer/skatt",
+   "time": "2026-11-08 19:04:05 (status check) and 19:04:24 / 19:04:37 CET (screenshots)",
+   "link": {"href": "/kalkylatorer/skatt/kapitalskatt/aktieskatt-kalkylator", "text": "aktieskattekalkylatorn", "status": 404, "target_title": "Sidan hittades inte – Kalkylverket"},
+   "context": "Section 'Kapitalskatt — aktier, ISK och krypto': 'Säljer du aktier på ett vanligt depåkonto gäller 30 % kapitalvinstskatt — aktieskattekalkylatorn räknar ut vinst och skatt med genomsnittsmetoden.' The working equivalent is /kalkylatorer/skatt/kapitalskatt/kapitalvinstskatt-kalkylator (200), linked elsewhere on the page.",
+   "screenshots": ["c8a-kalkylverket-aktieskatt-link.png", "c8b-kalkylverket-aktieskatt-404.png"],
+   "evidence_files": ["c8-kalkylverket-aktie-link-status.json"]
+  },
+  {
+   "id": "9a", "site": "velja.se", "claim": "lonekalkyl: 45 000 kr, Stockholm shows 35 811 kr (final-tax basis)",
+   "status": "CONFIRMED",
+   "url": "https://velja.se/lonekalkyl (URL becomes ?k=0180 after choosing Stockholm)",
+   "time": "2026-11-08 19:04:58 CET",
+   "inputs": "year 2026; Månadslön 45000; Kommun 'Stockholm (30,55 %)'; 66+ unticked; Svenska Kyrkan unticked",
+   "output": "Nettolön per månad 35 811 kr; 'av 45 000 kr före skatt · effektiv skatt 20,42 %'; Kommunalskatt 'Stockholm: 18,22 % kommun + 12,33 % Stockholm' -13 305 kr; Begravningsavgift 0,07 % -30 kr; 'Summa skatt 110 274 kr/år = 9 190 kr per månad → nettolön 35 811 kr'",
+   "basis_note": "'final-tax basis' is inferred: 35 811 matches the final-yearly-tax reference (about 35 810) within 1 kr and is 261 kr above table 31. The page shows a yearly tax sum; it does not use the words 'slutlig skatt'.",
+   "screenshots": ["c9a-velja-stockholm-35811.png"]
+  },
+  {
+   "id": "9b", "site": "velja.se", "claim": "default without a municipality is the national average (35 164 kr)",
+   "status": "CONFIRMED",
+   "url": "https://velja.se/lonekalkyl",
+   "time": "2026-11-08 19:05:15 CET",
+   "inputs": "none (default load): 45 000, year 2026, church off",
+   "output": "Nettolön per månad 35 164 kr, 'effektiv skatt 21,86 %'; Kommun field shows 'Rikssnitt (32,38 %)'; 'Din lön i Sverige'; Kommunalskatt 'Rikssnitt (32,38 %, SCB)' -14 101 kr; Begravningsavgift 0,292 % -127 kr",
+   "note": "the default is labelled 'Rikssnitt' in the municipality field and in the breakdown, so the page itself does not present it as Stockholm. Headless Chrome also showed a geolocation hint 'Det ser ut som att du är i Göteborg' (from the IP), not applied.",
+   "screenshots": ["c9b-velja-default-35164.png"]
+  },
+  {
+   "id": "10", "site": "helhetskollen.se", "claim": "salary: 45 000 kr, Stockholm (tabell 31) shows 35 550 kr",
+   "status": "CONFIRMED",
+   "url": "https://www.helhetskollen.se/salary",
+   "time": "2026-11-08 19:05:37 CET",
+   "inputs": "Bruttolön per månad 45000; Kommun 'Stockholm - tabell 31' (option 'Stockholm Tabell 31 · 30,620 %')",
+   "output": "Din nettolön per månad 35 550 kr; 'Beräknad med skattetabell 31 (2026) utan kyrkoavgift.'",
+   "official": "table 31 row 44 801-45 000: 9 450 kr tax, 35 550 kr take-home (exact match)",
+   "official_source": "Skatteverket open data (ref-skattetabell31-2026-45000.json)",
+   "screenshots": ["c10-helhetskollen-35550.png"]
+  }
+ ]
+}

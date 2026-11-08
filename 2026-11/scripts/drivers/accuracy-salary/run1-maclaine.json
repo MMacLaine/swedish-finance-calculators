@@ -1,0 +1,19 @@
+{
+ "readback": {
+  "gross": "45000",
+  "yob": "1990",
+  "mun": "Stockholm (30,55%)",
+  "trossamfund": "no",
+  "employment": "employed"
+ },
+ "strip": "Nettolön\n35 810 kr/mån\n↓",
+ "money": [
+  {
+   "t": "35 810 kr/mån",
+   "y": 520,
+   "fs": 16,
+   "fixed": "fixed",
+   "ctx": "Hoppa till innehåll Matthew MacLaine Menu Finansverktyg / Nettolönekalkylator Kalkylator N"
+  }
+ ]
+}

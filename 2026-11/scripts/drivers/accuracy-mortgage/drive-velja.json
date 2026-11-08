@@ -1,0 +1,43 @@
+{
+ "read": [
+  [
+   "Pris",
+   "4000000"
+  ],
+  [
+   "Kontantinsats i procent",
+   "10"
+  ],
+  [
+   "Månadsavgift",
+   "4000"
+  ],
+  [
+   "Bolåneränta",
+   "2.8"
+  ],
+  [
+   "Bruttoinkomst (hushåll/år)",
+   "720000"
+  ],
+  [
+   "Testa med ränta",
+   "6"
+  ]
+ ],
+ "lines": [
+  "Kontantinsats | 10 % (400 tkr)",
+  "Amortering (2,0 %) | 6 000 kr",
+  "Amorteringskravet följer belåningsgraden. Det skärpta kravet på ytterl",
+  "Amortering (2 %) | −6 000 kr",
+  "Månadskostnad vid 6,0 % | ",
+  "Amorteringskrav | Grundkrav",
+  "Belåningsgrad över 70 %: 2 % per år | Belåningsgrad 50–70 %: 1 % per år",
+  "Belåningsgrad under 50 %: Inget krav | Nya regler 1 april 2026",
+  "Amorteringskravet följer belåningsgraden: 2 % av lånet per år om belån",
+  "ånger hushållets bruttoinkomst – slopades den 1 april 2026. Amorteringen minskar din skuld men räknas inte som en kostnad – det är",
+  "n upp till 100 000 kr per person och år och 21 % därutöver. Amortering och avgift kan tillsammans vara lika stora som räntan eller",
+  "Amorteringskrav | Finansinspektionen – Amorteringskrav",
+  "Månadskostnad och total ränta för rak amortering eller annuitetslån, över"
+ ]
+}

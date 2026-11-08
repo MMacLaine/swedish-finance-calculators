@@ -1,0 +1,156 @@
+{
+ "id": "maclaine-salary",
+ "url": "https://maclaine.se/finance/salary",
+ "finalUrl": "https://maclaine.se/finance/salary",
+ "site": "maclaine.se",
+ "at": "2026-11-08T17:25:25.933Z",
+ "requests": 21,
+ "failed": 1,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://static.cloudflareinsights.com/beacon.min.js"
+  }
+ ],
+ "thirdPartyHosts": [
+  "static.cloudflareinsights.com"
+ ],
+ "thirdPartyDomains": [
+  "cloudflareinsights.com"
+ ],
+ "trackerHosts": [
+  "static.cloudflareinsights.com"
+ ],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "cf_clearance",
+   "domain": ".maclaine.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 365
+  }
+ ],
+ "weight": {
+  "totalKB": 314,
+  "thirdPartyKB": 0,
+  "finished": 20,
+  "byTypeKB": {
+   "Script": 180,
+   "Font": 62,
+   "Document": 35,
+   "Stylesheet": 27,
+   "Other": 8,
+   "Manifest": 1,
+   "XHR": 1,
+   "Image": 0
+  }
+ },
+ "reqUrls": [
+  "Document https://maclaine.se/finance/salary",
+  "Stylesheet https://maclaine.se/assets/tokens.css?v=2",
+  "Stylesheet https://maclaine.se/finance/_shared.css?v=91",
+  "Stylesheet https://maclaine.se/assets/chrome.css?v=2",
+  "Stylesheet https://maclaine.se/finance/fields.css",
+  "Script https://static.cloudflareinsights.com/beacon.min.js",
+  "Script https://maclaine.se/finance/vendor/chart.umd.min.js",
+  "Script https://maclaine.se/finance/finance-core.js?v=92",
+  "Script https://maclaine.se/finance/benchmark-extra.js",
+  "Script https://maclaine.se/finance/settings-drawer.js?v=90",
+  "Script https://maclaine.se/site-links.js",
+  "Script https://maclaine.se/finance/_shared.js?v=91",
+  "Script https://maclaine.se/assets/chrome.js?v=2",
+  "Script https://maclaine.se/finance/sankey.js?v=88",
+  "Manifest https://maclaine.se/manifest.json",
+  "Font https://maclaine.se/fonts/dm-sans-latin.woff2",
+  "Script https://maclaine.se/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a57646b25eccac23",
+  "Script https://maclaine.se/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a57646b25eccac23",
+  "Other https://maclaine.se/favicon.svg",
+  "Other https://maclaine.se/icons/icon-192x192.png",
+  "XHR https://maclaine.se/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.209814991859957:1794154216:RKGB82ZpKcs93QaQDqVr2S-Shg51R4tXjdD5PUOkJgc/a57646b25ec"
+ ],
+ "trackerUrls": [
+  "https://static.cloudflareinsights.com/beacon.min.js"
+ ],
+ "allHosts": {
+  "maclaine.se": 20,
+  "static.cloudflareinsights.com": 1
+ },
+ "scan": {
+  "title": "Nettolön Kalkylator 2026: Lön Efter Skatt | Gratis",
+  "url": "https://maclaine.se/finance/salary",
+  "docH": 8363,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Bruttolön per månad",
+    "value": "50000",
+    "y": 855,
+    "x": 53,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "number",
+    "label": "Födelseår",
+    "value": "1995",
+    "y": 1000,
+    "x": 53,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Stockholm",
+    "value": "Stockholm (30,55%)",
+    "y": 1086,
+    "x": 53,
+    "fixed": ""
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "label": "Anställningsform",
+    "value": "employed",
+    "y": 1231,
+    "x": 53,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "© 2026 Matthew MacLaine.",
+    "y": 7617,
+    "h": 18,
+    "fs": 13,
+    "fixed": ""
+   },
+   {
+    "t": "39 279 kr/mån",
+    "y": 65,
+    "h": 26,
+    "fs": 16,
+    "fixed": "fixed"
+   },
+   {
+    "t": "v0.90.1",
+    "y": 797,
+    "h": 13,
+    "fs": 10,
+    "fixed": "fixed"
+   }
+  ],
+  "banners": [],
+  "iframes": [],
+  "ls": [
+   "financeMunDefaultMigrated"
+  ],
+  "ss": [],
+  "sw": true
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "gross": "80000",
+ "yob": "1995",
+ "out": {
+  "fp-a-sjuk-days": "195",
+  "fp-a-daily": "1 259 kr",
+  "fp-a-lagsta-days": "45",
+  "fp-a-total": "253 605 kr",
+  "fp-a-monthly": "31 701 kr",
+  "fp-b-daily": "1 259 kr",
+  "fp-sgi-a": "",
+  "sgiA": "592000"
+ },
+ "dailyRow": "Dagsbelopp sjukpenningnivå 1 259 kr"
+}

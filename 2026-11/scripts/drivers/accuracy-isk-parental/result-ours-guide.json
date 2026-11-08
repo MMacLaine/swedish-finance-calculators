@@ -1,0 +1,12 @@
+{
+ "inputs": {
+  "slr": "2.55",
+  "b": "500000",
+  "ret": "5",
+  "sav": "2.6"
+ },
+ "label": "ISK-skatt för 2027",
+ "oTax": "2 376 kr",
+ "oTaxS": "1,188% på 200 000 kr",
+ "slrOut": "Med 2,55% blir skatten för 2027 1,065% av värdet. Det stannar under rekordet från 2024 på 1,086%. På 500 000 kr blir det 2 130 kr för året."
+}

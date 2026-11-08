@@ -1,0 +1,202 @@
+{
+ "id": "avanza",
+ "url": "https://www.avanza.se/manadssparande.html",
+ "finalUrl": "https://www.avanza.se/manadssparande.html",
+ "site": "avanza.se",
+ "at": "2026-11-08T17:25:05.250Z",
+ "requests": 61,
+ "failed": 1,
+ "failedDetail": [
+  {
+   "err": "net::ERR_ABORTED",
+   "blocked": "",
+   "canceled": true,
+   "url": "https://www.avanza.se/_api/datadriven-experiments/v1/flags:apply"
+  }
+ ],
+ "thirdPartyHosts": [],
+ "thirdPartyDomains": [],
+ "trackerHosts": [],
+ "cmpHosts": [],
+ "cookies": [
+  {
+   "name": "AZAPERSISTENCE",
+   "domain": "www.avanza.se",
+   "thirdParty": false,
+   "session": true,
+   "httpOnly": false,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "AZA_VISITOR",
+   "domain": ".avanza.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "Strict",
+   "expiresDays": 400
+  }
+ ],
+ "weight": {
+  "totalKB": 1132,
+  "thirdPartyKB": 0,
+  "finished": 60,
+  "byTypeKB": {
+   "Script": 926,
+   "Font": 117,
+   "XHR": 54,
+   "Stylesheet": 12,
+   "Image": 8,
+   "Other": 7,
+   "Fetch": 5,
+   "Document": 4,
+   "Manifest": 1
+  }
+ },
+ "reqUrls": [
+  "Document https://www.avanza.se/manadssparande.html",
+  "Font https://cdn.avanza.se/versioned-assets/mint-fonts/1.0.0/Roboto-Flex-latin.woff2",
+  "Font https://cdn.avanza.se/versioned-assets/mint-fonts/1.0.0/Roboto-Slab-latin.woff2",
+  "Script https://cdn.avanza.se/frontend/resources/app/main-SLGUEX2M.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/polyfills-MXZTYKDA.js",
+  "Stylesheet https://cdn.avanza.se/frontend/resources/app/styles-NJVWEJHI.css",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BJ45jolN.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-_4zhM4we.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-B3U40pim.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-DNKY7bOB.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BIZ_lY6T.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BGWsQPbK.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BG_W-iqr.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-uzbVNY5d.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-DU3N96-u.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-VDu11hoz.js",
+  "Manifest https://www.avanza.se/manifest.json",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-DcZaKmB5.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-B1P_LigR.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-Bdso4rVe.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-6nCXIJbO.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BOimjLc9.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-DAwv3pyy.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-NHFvJw9W.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-B6hqDPsA.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BwDqopIo.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-C8J-3Fs0.js",
+  "Other https://cms.avanza.se/spaces/dzdx88dow2oa/environments/master/entries?content_type=fullPage&locale=sv&limit=1000&include=0",
+  "XHR https://www.avanza.se/_api/authentication/session/info/session",
+  "XHR https://cms.avanza.se/spaces/dzdx88dow2oa/environments/master/entries?content_type=fullPage&locale=sv&limit=1000&include=0",
+  "Other https://cdn.avanza.se/frontend/resources/images/splash-screen-icons/144x144.png",
+  "Other https://cdn.avanza.se/frontend/resources/images/favicon.ico",
+  "XHR https://www.avanza.se/_api/pwa-feature-toggles/features/pwa.disc-portfolio.menu.enabled",
+  "XHR https://www.avanza.se/_api/pwa-feature-toggles/features/pwa.mortgage.borrowing-power-calculator.enabled",
+  "XHR https://www.avanza.se/_api/pwa-feature-toggles/features/pwa.pension.foretagswebben.enabled",
+  "XHR https://www.avanza.se/_api/pwa-feature-toggles/features/pwa.pension.pensionsportalen.enabled",
+  "XHR https://www.avanza.se/_api/market-index/header-index",
+  "XHR https://www.avanza.se/_api/cookie/settings/poll?optionalKeysHash=",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk--7jk7tyy.js",
+  "Fetch https://www.avanza.se/_api/datadriven-experiments/v1/flags:resolve",
+  "XHR https://www.avanza.se/_api/pwa-feature-toggles/features",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-CRYzPyQ0.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-Duty2_uK.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-Bt2tgE62.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BaU5EUjW.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-C2dObPns.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BaxkIyFh.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-6MWNuj2Q.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-BtCR2tnA.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-DAiWz_PJ.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-CBO9BmS2.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-myx_bmXB.js",
+  "Script https://cdn.avanza.se/frontend/resources/app/chunk-lrA2Ibn7.js",
+  "Fetch https://www.avanza.se/_api/datadriven-experiments/v1/flags:apply",
+  "Other https://cms.avanza.se/spaces/dzdx88dow2oa/environments/master/entries?content_type=resourceLabelList&locale=sv&limit=1&include=1&fields.url=%2Fmanadssparande",
+  "Fetch https://cdn.avanza.se/frontend/resources/images/icons/deprecated_nav_arrow_medium_0866181d7834ce8155b637d813f58afe.svg",
+  "XHR https://www.avanza.se/_api/systemmessage/messages-filtered",
+  "XHR https://cms.avanza.se/spaces/dzdx88dow2oa/environments/master/entries?content_type=resourceLabelList&locale=sv&limit=1&include=1&fields.url=%2Fmanadssparande",
+  "Image https://cdn.avanza.se/frontend/resources/images/fund/start-periodic-saving/intro-illustration-light.svg",
+  "Image https://cdn.avanza.se/frontend/resources/images/fund/start-periodic-saving/accounts.svg",
+  "Image https://cdn.avanza.se/frontend/resources/images/fund/start-periodic-saving/savings-account.svg"
+ ],
+ "trackerUrls": [],
+ "allHosts": {
+  "www.avanza.se": 13,
+  "cdn.avanza.se": 44,
+  "cms.avanza.se": 4
+ },
+ "scan": {
+  "title": "Börja månadsspara - Avanza",
+  "url": "https://www.avanza.se/manadssparande.html",
+  "docH": 5224,
+  "inputs": [
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "",
+    "value": "",
+    "y": 2684,
+    "x": 192,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "",
+    "value": "",
+    "y": 2744,
+    "x": 192,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "",
+    "value": "",
+    "y": 2804,
+    "x": 192,
+    "fixed": ""
+   }
+  ],
+  "money": [
+   {
+    "t": "980 000 kr",
+    "y": 2614,
+    "h": 37,
+    "fs": 28,
+    "fixed": ""
+   },
+   {
+    "t": "varav 420 000 kr",
+    "y": 2652,
+    "h": 22,
+    "fs": 16,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "cookie-banner-content ng-star-inserted",
+    "top": 568,
+    "h": 276,
+    "w": 390,
+    "pctViewport": 33,
+    "text": "Vi använder cookies på vår sajt för att få den att fungera korrekt, personalisera innehåll och annonser och för att analysera hur sajten anv"
+   }
+  ],
+  "iframes": [],
+  "ls": [
+   "_platform-global-context",
+   "AZA_HASH",
+   "platform-routeConfigCacheDate",
+   "platform-routeConfig"
+  ],
+  "ss": [
+   "menu-confidenceFlags",
+   "_platform-webview-playback",
+   "menu-featureToggles",
+   "_platform-nav-back"
+  ],
+  "sw": false
+ }
+}

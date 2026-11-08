@@ -1,0 +1,467 @@
+{
+ "id": "ekonomifokus",
+ "url": "https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning",
+ "finalUrl": "https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning",
+ "site": "ekonomifokus.se",
+ "at": "2026-11-08T17:24:55.750Z",
+ "requests": 29,
+ "failed": 2,
+ "failedDetail": [
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://track.adtraction.com/t/t?as=1165936981&t=1&tk=0&trt=2"
+  },
+  {
+   "err": "net::ERR_NAME_NOT_RESOLVED",
+   "blocked": "",
+   "canceled": false,
+   "url": "https://cdn.adt512.com/atag.js?as=1165936981"
+  }
+ ],
+ "thirdPartyHosts": [
+  "cdn.adt512.com",
+  "directory.cookieyes.com",
+  "track.adtraction.com"
+ ],
+ "thirdPartyDomains": [
+  "adt512.com",
+  "adtraction.com",
+  "cookieyes.com"
+ ],
+ "trackerHosts": [
+  "track.adtraction.com"
+ ],
+ "cmpHosts": [
+  "directory.cookieyes.com"
+ ],
+ "cookies": [
+  {
+   "name": "__cf_bm",
+   "domain": ".www.ekonomifokus.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": true,
+   "sameSite": "None",
+   "expiresDays": 0
+  },
+  {
+   "name": "wt_consent",
+   "domain": "www.ekonomifokus.se",
+   "thirdParty": false,
+   "session": false,
+   "httpOnly": false,
+   "sameSite": "Strict",
+   "expiresDays": 365
+  }
+ ],
+ "weight": {
+  "totalKB": 360,
+  "thirdPartyKB": 0,
+  "finished": 31,
+  "byTypeKB": {
+   "Font": 180,
+   "Document": 89,
+   "Image": 39,
+   "Stylesheet": 27,
+   "Script": 23,
+   "Other": 2,
+   "Fetch": 0
+  }
+ },
+ "reqUrls": [
+  "Document https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning",
+  "Image https://www.ekonomifokus.se/wp-content/uploads/2021/03/ekonomifokus-logga.png",
+  "Font https://www.ekonomifokus.se/wp-content/uploads/generatepress/fonts/asap/KFO9CniXp96a4Tc2DaTeuDAoKsE615hJW34.woff2",
+  "Font https://www.ekonomifokus.se/wp-content/uploads/generatepress/fonts/asap/KFO7CniXp96ayz4E7kSn66aGLdTylUAMa3yUBA.woff2",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/cache/perfmatters/www.ekonomifokus.se/css/post.used.css?ver=1790869867",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/uploads/generatepress/fonts/fonts.css?ver=1756215056",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/themes/generatepress/assets/css/main.min.css?ver=3.6.0",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/uploads/generatepress/style.min.css?ver=1781004876",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/cache/perfmatters/www.ekonomifokus.se/minify/6d2de1ea8d74.style.min.css?ver=1779870236",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/uploads/generateblocks/style-global.css?ver=1780576011",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/plugins/gp-premium/menu-plus/functions/css/offside.min.css?ver=2.5.5",
+  "Stylesheet https://www.ekonomifokus.se/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css?ver=2.5.5",
+  "Script https://www.ekonomifokus.se/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/js/script.min.js?ver=3.5.0",
+  "Script https://www.ekonomifokus.se/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/js/gcm.min.js?ver=3.5.0",
+  "Image https://www.ekonomifokus.se/wp-content/uploads/2021/11/Ny-loggo-EF.svg",
+  "Image https://www.ekonomifokus.se/wp-content/uploads/2020/09/Berakna-1.png",
+  "Font https://www.ekonomifokus.se/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/webfonts/fa-regular-400.woff2",
+  "Font https://www.ekonomifokus.se/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/webfonts/fa-solid-900.woff2",
+  "Script https://track.adtraction.com/t/t?as=1165936981&t=1&tk=0&trt=2",
+  "Script https://cdn.adt512.com/atag.js?as=1165936981",
+  "Script https://www.ekonomifokus.se/wp-content/plugins/gp-premium/menu-plus/functions/js/offside.min.js?ver=2.5.5",
+  "Script https://www.ekonomifokus.se/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.6.0",
+  "Script https://www.ekonomifokus.se/wp-content/plugins/perfmatters/js/lazyload.min.js?ver=2.5.5",
+  "Fetch https://directory.cookieyes.com/api/v1/ip",
+  "Image https://www.ekonomifokus.se/wp-content/uploads/2025/11/647c88f4f6566bfc61e314ebe74924027a4bc8f7aa14643c9323a4c65ec3d88e.png",
+  "Other https://www.ekonomifokus.se/wp-content/uploads/2021/03/ekonomifokus-favicon.png",
+  "Image https://www.ekonomifokus.se/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/revisit.svg",
+  "Image https://www.ekonomifokus.se/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/close.svg",
+  "Image https://www.ekonomifokus.se/wp-content/plugins/webtoffee-cookie-consent/lite/frontend/images/webtoffee.svg"
+ ],
+ "trackerUrls": [
+  "https://track.adtraction.com/t/t?as=1165936981&t=1&tk=0&trt=2"
+ ],
+ "allHosts": {
+  "www.ekonomifokus.se": 26,
+  "track.adtraction.com": 1,
+  "cdn.adt512.com": 1,
+  "directory.cookieyes.com": 1
+ },
+ "scan": {
+  "title": "Beräkna vinst/förlust & skatt på hus & bostadsrätt - Kalkylator",
+  "url": "https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning",
+  "docH": 64753,
+  "inputs": [
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "label": "Label",
+    "value": "",
+    "y": 13927,
+    "x": 18,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Namn*",
+    "value": "",
+    "y": 13990,
+    "x": 18,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "label": "E-post*",
+    "value": "",
+    "y": 14034,
+    "x": 18,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "Jag godkänner er hantering av personuppgifter enli",
+    "value": "1",
+    "y": 14075,
+    "x": 18,
+    "fixed": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "Förnamn",
+    "value": "",
+    "y": 62780,
+    "x": 34,
+    "fixed": "sticky"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "label": "E-postadress",
+    "value": "",
+    "y": 62856,
+    "x": 34,
+    "fixed": "sticky"
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "Jag godkänner att Ekonomifokus skickar nyhetsbrev ",
+    "value": "1",
+    "y": 62912,
+    "x": 34,
+    "fixed": "sticky"
+   }
+  ],
+  "money": [
+   {
+    "t": "30 juni 2026",
+    "y": 304,
+    "h": 19,
+    "fs": 12.601,
+    "fixed": ""
+   },
+   {
+    "t": "1995 kr",
+    "y": 2910,
+    "h": 42,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1995 kr",
+    "y": 3169,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "– Inköpspris 1 400 000 kr",
+    "y": 7299,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "– Renoveringar 100 000 kr",
+    "y": 7323,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "– Försäljningskostnader (mäklararvode, styling osv) 50 000 k",
+    "y": 7347,
+    "h": 42,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "– Kapitaltillskott 25 000 kr",
+    "y": 7395,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "287 500 kr är alltså förlustavdraget i detta exempel",
+    "y": 7790,
+    "h": 42,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "30% tillbaka på de första 100 000 kronorna av förlustavdrage",
+    "y": 9577,
+    "h": 48,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "21% tillbaka på del av förlustavdraget som överstiger 100 00",
+    "y": 9625,
+    "h": 48,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1995 kr",
+    "y": 9887,
+    "h": 42,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1995 kr",
+    "y": 10146,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1995 kr",
+    "y": 11973,
+    "h": 42,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "1995 kr",
+    "y": 12232,
+    "h": 18,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "I’m from another Nordic country and I moved to Sweden in 201",
+    "y": 20225,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "I sold my apartment in 2018.",
+    "y": 20286,
+    "h": 26,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "I originally bought it for 100000 euros.",
+    "y": 20321,
+    "h": 26,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "I sold it for 140000 euros.",
+    "y": 20357,
+    "h": 26,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "More smaller detailed things were done during 2012.",
+    "y": 20867,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Between 2013-2018 additional renovations have been done",
+    "y": 21015,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "I also spent a lot of money remodelling the whole house from",
+    "y": 21622,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Det är hela året 2012 som gäller så det går bra att dra av d",
+    "y": 25359,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "+ 5000.000",
+    "y": 27239,
+    "h": 26,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "– 3.900.000 – 145.000 – 100.000",
+    "y": 27275,
+    "h": 77,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "5.000.000 – lånet på 3 miljoner = 2.000.000 kr – Skatt 495.9",
+    "y": 27525,
+    "h": 154,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Totalt kvar i handen efter att lån är lösta och skatten är b",
+    "y": 27630,
+    "h": 44,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Hej ! Jag ska betala in vinstskatt det här året för min läge",
+    "y": 33820,
+    "h": 77,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "drygt ett år efter det utökade jag bolånet med 100.000:- för",
+    "y": 34147,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Förra året sålde jag bostaden och fick 3.100.000:-.",
+    "y": 34208,
+    "h": 26,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Totalt i fickan efter alla kostnader och skatt 181.155 kr",
+    "y": 49114,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "Hej Hacke. 100 % rätt räknat.",
+    "y": 58064,
+    "h": 51,
+    "fs": 16,
+    "fixed": ""
+   },
+   {
+    "t": "26 oktober 2026",
+    "y": 63180,
+    "h": 19,
+    "fs": 12.601,
+    "fixed": "sticky"
+   },
+   {
+    "t": "26 oktober 2026",
+    "y": 63261,
+    "h": 19,
+    "fs": 12.601,
+    "fixed": "sticky"
+   },
+   {
+    "t": "14 maj 2026",
+    "y": 63350,
+    "h": 19,
+    "fs": 12.601,
+    "fixed": "sticky"
+   },
+   {
+    "t": "14 maj 2026",
+    "y": 63438,
+    "h": 19,
+    "fs": 12.601,
+    "fixed": "sticky"
+   },
+   {
+    "t": "442 30 Kungälv",
+    "y": 64289,
+    "h": 19,
+    "fs": 14.24,
+    "fixed": ""
+   },
+   {
+    "t": "Org nr: 559122-2780",
+    "y": 64313,
+    "h": 19,
+    "fs": 14.24,
+    "fixed": ""
+   },
+   {
+    "t": "© Ekonomifokus.se 2026",
+    "y": 64618,
+    "h": 86,
+    "fs": 16,
+    "fixed": ""
+   }
+  ],
+  "banners": [
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "wcc-consent-container wcc-banner-bottom",
+    "top": 445,
+    "h": 399,
+    "w": 390,
+    "pctViewport": 47,
+    "text": "Vi använder cookies för en bättre användarupplevelse Vi använder cookies för att kunna se hur sajten används, göra det lättare för besökare "
+   }
+  ],
+  "iframes": [],
+  "ls": [],
+  "ss": [],
+  "sw": false
+ }
+}

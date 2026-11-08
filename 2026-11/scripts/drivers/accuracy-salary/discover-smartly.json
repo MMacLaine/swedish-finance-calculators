@@ -1,0 +1,156 @@
+[
+ {
+  "tag": "BUTTON",
+  "type": "button",
+  "id": "",
+  "name": "",
+  "lab": "Open menu",
+  "val": "",
+  "vis": true,
+  "y": 12
+ },
+ {
+  "tag": "INPUT",
+  "type": "number",
+  "id": "",
+  "name": "",
+  "lab": "",
+  "val": "45000",
+  "checked": false,
+  "vis": true,
+  "y": 829
+ },
+ {
+  "tag": "INPUT",
+  "type": "range",
+  "id": "",
+  "name": "",
+  "lab": "",
+  "val": "45000",
+  "checked": false,
+  "vis": true,
+  "y": 899
+ },
+ {
+  "tag": "SELECT",
+  "type": "select-one",
+  "id": "",
+  "name": "",
+  "lab": "Ale (32.8%) Alingsås (32.84%) Alvesta (3",
+  "val": "Stockholm",
+  "vis": true,
+  "y": 986,
+  "opts": "290:Ale|Ale (32.8%);Alingsås|Alingsås (32.84%);Alvesta|Alvesta (33.42%);Aneby|Aneby (33.85%)"
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "How does Swedish income tax work?",
+  "val": "",
+  "vis": true,
+  "y": 2366
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "What is the basic deduction?",
+  "val": "",
+  "vis": true,
+  "y": 2425
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "What is the work tax credit?",
+  "val": "",
+  "vis": true,
+  "y": 2483
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Why does tax vary by municipality in Swe",
+  "val": "",
+  "vis": true,
+  "y": 2542
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "When do I pay state tax in Sweden?",
+  "val": "",
+  "vis": true,
+  "y": 2626
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Is church tax included in Swedish salary",
+  "val": "",
+  "vis": true,
+  "y": 2685
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "What are employer contributions in Swede",
+  "val": "",
+  "vis": true,
+  "y": 2769
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Can foreigners and expats use this calcu",
+  "val": "",
+  "vis": true,
+  "y": 2853
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Is this calculator based on official Ska",
+  "val": "",
+  "vis": true,
+  "y": 2937
+ },
+ {
+  "tag": "INPUT",
+  "type": "email",
+  "id": "",
+  "name": "",
+  "lab": "you@example.com",
+  "val": "",
+  "checked": false,
+  "vis": true,
+  "y": 5786
+ },
+ {
+  "tag": "BUTTON",
+  "type": "submit",
+  "id": "",
+  "name": "",
+  "lab": "Subscribe",
+  "val": "",
+  "vis": true,
+  "y": 5840
+ }
+]

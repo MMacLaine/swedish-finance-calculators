@@ -1,0 +1,83 @@
+{
+ "input": "80000",
+ "select": "1",
+ "before": [
+  "27 088 kr",
+  "893 kr",
+  "19 123 kr",
+  "−8 915 kr/mån",
+  "7 dagar\t27 088 / 19 123 kr\t6,4 mån",
+  "6 dagar\t23 218 / 16 645 kr\t7,5 mån"
+ ],
+ "lines": [
+  "38 190 kr",
+  "1 259 kr",
+  "26 236 kr",
+  "−27 499 kr/mån",
+  "7 dagar\t38 190 / 26 236 kr\t6,4 mån",
+  "6 dagar\t32 734 / 22 741 kr\t7,5 mån",
+  "5 dagar\t27 278 / 19 246 kr\t9 mån",
+  "Din lön är över taket på 592 000 kr per år (49 333 kr i månaden). Föräldrapenningen blir högst 1 259 kr per dag, och lön över taket ersätts inte.",
+  "Årsinkomst: 35 000 × 12 = 420 000 kr.",
+  "Gånger 0,97 och 0,8: 420 000 × 0,97 × 0,8 = 325 920 kr.",
+  "Delat på 365 dagar: cirka 893 kr per dag.",
+  "Per månad: dagbeloppet × dagar per vecka × 52 / 12.",
+  "Hur länge räcker 480 dagar?",
+  "Varje barn ger 480 dagar: 390 på sjukpenningnivå och 90 dagar på lägstanivå, 180 kr per dag. Lägstanivådagarna kan tas ut först när 180 dagar på sjukpenningnivå är uttagna.",
+  "Har barnet två föräldrar delas dagarna lika. 90 dagar per förälder är reserverade och kan inte överlåtas.",
+  "Ni kan ta ut 60 dagar samtidigt, så kallade dubbeldagar, tills barnet är 15 månader.",
+  "Sjukpenning per dag och månad, och vad du får de första 14 dagarna.",
+  "Karensavdrag och sjuklön de första 14 dagarna, för månadslön och timlön.",
+  "Låt pengarna växa – månadsspara i fonder från 100 kr"
+ ],
+ "dayLabel": [
+  {
+   "t": "Skriv din lön och hur många dagar i veckan du tar ut föräldr",
+   "y": 236,
+   "vpTop": 236,
+   "h": 84,
+   "fs": 18,
+   "fixed": ""
+  },
+  {
+   "t": "Per dag",
+   "y": 852,
+   "vpTop": 852,
+   "h": 15,
+   "fs": 12,
+   "fixed": ""
+  },
+  {
+   "t": "Din lön är över taket på 592 000 kr per år (49 333 kr i måna",
+   "y": 1335,
+   "vpTop": 1335,
+   "h": 68,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "Försäkringskassan beslutar om föräldrapenningen. Beloppen gä",
+   "y": 1457,
+   "vpTop": 1457,
+   "h": 159,
+   "fs": 14,
+   "fixed": ""
+  },
+  {
+   "t": "Föräldrapenningen betalas per dag. Hur mycket det blir i mån",
+   "y": 2260,
+   "vpTop": 2260,
+   "h": 81,
+   "fs": 15,
+   "fixed": ""
+  },
+  {
+   "t": "Delat på 365 dagar: cirka 893 kr per dag.",
+   "y": 2664,
+   "vpTop": 2664,
+   "h": 26,
+   "fs": 15,
+   "fixed": ""
+  }
+ ]
+}

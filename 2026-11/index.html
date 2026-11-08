@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Same salary, five answers</title>
+<meta name="description" content="Swedish personal finance calculators tested against official figures, November 2026: accuracy, what loads before you click, page weight, phone layout and coverage.">
+<style>
+:root {
+  --paper: #F6F6F3; --paper-2: #EEEEEA; --card: #FFFFFF; --ink: #161718; --ink-2: #393B3E; --muted: #6A6D71; --rule: #E1E1DC;
+  --ok: #24724F; --ok-soft: #DCEDE3; --bad: #B23B2A; --bad-soft: #F6DED8; --none: #ECECE7; --mark: #1E5A96; --mark-soft: #DCE7F3; --gold: #1E5A96;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #161616; --paper-2: #1C1C1C; --card: #1F1F1F; --ink: #ECECEA; --ink-2: #C9C9C6; --muted: #9C9C98; --rule: #2E2E2E;
+  --ok: #6CC596; --ok-soft: #1F3328; --bad: #F08A72; --bad-soft: #3A221D; --none: #2A2A2A; --mark: #84B6EE; --mark-soft: #1C2A3A; --gold: #84B6EE; } }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.65 var(--sans); }
+.wrap { max-width: 1080px; padding: 0 16px; margin: 0; }
+@media (min-width: 760px) { .wrap { padding: 0 48px; } }
+.prose { max-width: 680px; }
+header.top { padding: 56px 0 28px; border-bottom: 1px solid var(--rule); }
+.kicker { font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); margin: 0 0 18px; }
+h1 { font: 700 clamp(40px, 7vw, 76px)/1.02 var(--sans); letter-spacing: -0.025em; margin: 0 0 22px; max-width: 900px; }
+.dek { font-size: clamp(18px, 2.2vw, 21px); line-height: 1.55; color: var(--ink-2); max-width: 680px; margin: 0; }
+.disclose { margin: 26px 0 0; padding: 14px 16px; border-left: 3px solid var(--gold); background: var(--card); font-size: 14px; line-height: 1.6; color: var(--ink-2); max-width: 680px; }
+section { padding: 52px 0 8px; }
+h2 { font: 600 clamp(24px, 3.2vw, 32px)/1.2 var(--sans); letter-spacing: -0.01em; margin: 0 0 14px; max-width: 760px; }
+h2 .n { font: 500 13px/1 var(--mono); color: var(--gold); display: block; margin-bottom: 10px; letter-spacing: .06em; }
+p { margin: 0 0 14px; }
+.lead { font-size: 19px; color: var(--ink-2); }
+.note { font-size: 13px; color: var(--muted); line-height: 1.55; }
+.big { display: flex; flex-wrap: wrap; gap: 14px 40px; margin: 26px 0 8px; }
+.big div { min-width: 150px; }
+.big b { display: block; font: 700 clamp(34px, 5vw, 52px)/1.05 var(--sans); letter-spacing: -0.02em; color: var(--ink); font-variant-numeric: tabular-nums; }
+.big span { font-size: 13px; color: var(--muted); }
+figure { margin: 26px 0 10px; padding: 20px 18px 16px; background: var(--card); border: 1px solid var(--rule); border-radius: 6px; }
+figcaption { font-size: 13px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+.chart-title { font: 600 15px/1.3 var(--sans); margin: 0 0 4px; }
+.chart-sub { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+svg text { font-family: var(--sans); fill: var(--ink); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+/* scorecard */
+.score { width: 100%; border-collapse: separate; border-spacing: 4px; font-size: 13px; }
+.score th { font-weight: 500; color: var(--muted); text-align: left; padding: 2px 6px; font-size: 12px; }
+.score td { padding: 8px 8px; border-radius: 4px; background: var(--none); color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.score td.site { background: transparent; font-weight: 600; color: var(--ink); white-space: normal; padding-left: 0; }
+.score td.ok { background: var(--ok-soft); color: var(--ok); font-weight: 600; }
+.score td.bad { background: var(--bad-soft); color: var(--bad); font-weight: 600; }
+.score td.na { color: var(--muted); }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* defaults */
+.defaults { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin: 20px 0; }
+.dcard { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 14px; }
+.dcard b { display: block; font-size: 15px; margin-bottom: 4px; }
+.dcard span { display: block; font-size: 13px; color: var(--muted); }
+.dcard .v { font: 600 22px/1.2 var(--sans); color: var(--ink); margin-top: 6px; }
+/* phones */
+.phones { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 14px; }
+.phone { text-align: left; }
+.phone .screen { position: relative; height: 230px; border: 1.5px solid var(--ink-2); border-radius: 14px; background: var(--paper); overflow: hidden; }
+.phone .fold { position: absolute; left: 0; right: 0; border-top: 1.5px dashed var(--muted); }
+.phone .dot { position: absolute; left: 12px; right: 12px; height: 8px; border-radius: 4px; }
+.phone .dot.res { background: var(--ok); }
+.phone .dot.inp { background: var(--mark); }
+.phone .wall { position: absolute; left: 0; right: 0; top: 0; background: var(--bad-soft); opacity: .9; }
+.phone b { display: block; font-size: 13px; margin-top: 8px; }
+.phone span { display: block; font-size: 12px; color: var(--muted); line-height: 1.4; }
+/* coverage */
+.cov { border-collapse: separate; border-spacing: 2px; font-size: 12px; }
+.cov th { font-weight: 500; color: var(--muted); padding: 0 2px; }
+.cov th.rot { height: 118px; vertical-align: bottom; white-space: nowrap; }
+.cov th.rot div { transform: rotate(-60deg); transform-origin: left bottom; width: 18px; translate: 8px 0; }
+.cov td { width: 22px; height: 22px; border-radius: 3px; background: var(--none); }
+.cov td.y { background: var(--ok); }
+.cov td.site { width: auto; background: transparent; font-weight: 600; font-size: 13px; padding-right: 10px; white-space: nowrap; }
+.cov td.cnt { width: auto; background: transparent; font: 500 13px var(--mono); color: var(--muted); padding-left: 8px; }
+/* errors + learn */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin: 20px 0; }
+.card { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 16px; }
+.card h3 { font-size: 16px; margin: 0 0 6px; }
+.card p { font-size: 14px; margin: 0 0 8px; color: var(--ink-2); }
+.card .fig { font: 400 13px var(--mono); color: var(--muted); }
+.card .shows { color: var(--bad); font-weight: 600; }
+.card .off { white-space: nowrap; }
+.card .num { white-space: nowrap; }
+.card .off { color: var(--ok); font-weight: 600; }
+.errs img { display: block; width: 100%; height: 150px; object-fit: cover; object-position: top; border: 1px solid var(--rule); border-radius: 4px; margin-top: 10px; }
+.pending { padding: 18px; border: 1.5px dashed var(--rule); border-radius: 6px; color: var(--muted); font-size: 14px; }
+.stand { list-style: none; padding: 0; margin: 18px 0; max-width: 720px; }
+.stand li { padding: 10px 0 10px 28px; border-top: 1px solid var(--rule); position: relative; font-size: 16px; }
+.stand li::before { content: ''; position: absolute; left: 0; top: 18px; width: 14px; height: 14px; border-radius: 3px; background: var(--ok); }
+.stand li.minus::before { background: var(--bad); }
+.stand li.neutral::before { background: var(--muted); }
+.stand.check li::before { background: transparent; border: 2px solid var(--gold); border-radius: 50%; width: 12px; height: 12px; }
+footer { margin: 60px 0 0; padding: 28px 0 60px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
+footer a, .prose a, .disclose a { color: var(--mark); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <p class="kicker">Swedish finance calculators · tested 8 November 2026</p>
+  <h1>Same salary, five answers</h1>
+  <p class="dek">I typed the same figures into the Swedish finance calculators people find, checked every answer against the official number, and measured what each page loads before you click anything. My own site is one of them.</p>
+  <div class="disclose"><strong>Before you read on:</strong> I run <a href="https://maclaine.se/en/finance">MacLaine Finance</a>, one of the sites tested. So this sticks to things anyone can check: fixed inputs, official reference figures and measurements taken by script. There's no overall ranking, and where another site does better than mine, it says so. AI was used to run the measurements and cross-check the findings; how, exactly, is at the end.</div>
+</header>
+
+<section class="prose">
+  <h2><span class="n">Why I did this</span>The number you plan around depends on which site you landed on</h2>
+  <p class="lead">Most of us type our salary into whichever calculator comes up first, take the number it gives, and build a budget around it. I build these tools, and I wanted to know how much that number depends on the site you happened to pick.</p>
+  <p>More than I expected. For the same salary, in the same municipality, the calculators I tested gave five different answers. Two of them are right, for different reasons. The others are off by up to 820 kr a month, which is close to 10 000 kr over a year. That's a holiday, or the buffer you thought you had.</p>
+  <p>It isn't only the answer. A salary calculator is a page where you type what you earn. Some of these pages contact no other company at all. Others have contacted a dozen or more before you've typed a thing. Not all of these tools are equal, and it's worth knowing which kind you're using.</p>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">1 · Accuracy</span>45 000 kr a month in Stockholm</h2>
+  <p class="prose">Born 1990, no church fee, 2026 rules. There are two correct answers. Your payslip uses Skatteverket's monthly tax table, which for Stockholm gives 35 550 kr. The tax you owe for the year comes out a little lower, about 35 810 kr a month, and the difference comes back after your tax return. A good calculator tells you which one it's showing.</p>
+  <figure>
+    <p class="chart-title">Take-home pay shown for the same salary</p>
+    <p class="chart-sub">Each dot is one calculator. The two lines are the official figures.</p>
+    <svg id="salaryChart" viewBox="0 0 1000 340" role="img" aria-label="Take-home pay shown by seven calculators for 45 000 kr in Stockholm"></svg>
+    <div class="legend"><span><i style="background:var(--mark)"></i>payslip (tax table 31): 35 550 kr</span><span><i style="background:var(--ok)"></i>final tax for the year: about 35 810 kr</span><span><i style="background:var(--bad)"></i>matches neither</span></div>
+    <figcaption>35 810 and 35 811 kr count as one answer: a krona of rounding. Börskollen's church fee box is ticked by default, which gives 35 206 kr; the dot is the result with it unticked, as the test asks. Velja's page shows 35 164 kr before you pick a municipality, labelled as its national-average default, a different case. Inputs typed into each calculator at phone size and read back before recording.</figcaption>
+  </figure>
+  <div class="big prose"><div><b>5</b><span>different answers for one salary</span></div><div><b>820 kr</b><span>a month between the highest and lowest</span></div><div><b>4 of 7</b><span>match one of the two official figures</span></div></div>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">2 · Four cases, every site that has the tool</span>Who gave the official figure</h2>
+  <p class="prose">The same four cases, typed into every Swedish calculator that offers them. Grey means the site has no calculator for that case; it isn't a fail.</p>
+  <figure class="scroll">
+    <table class="score" id="scoreTable"></table>
+    <div class="legend"><span><i style="background:var(--ok-soft);border:1px solid var(--ok)"></i>official figure</span><span><i style="background:var(--bad-soft);border:1px solid var(--bad)"></i>different figure</span><span><i style="background:var(--none)"></i>no calculator for this</span></div>
+    <figcaption>Official figures: take-home 35 550 kr (payslip) or about 35 810 kr (final tax); ISK tax on 500 000 kr in 2026: 2 130 kr; maximum parental benefit: 1 259 kr a day (Försäkringskassan); amortisation on a 3 600 000 kr loan at 90% of the price: 6 000 kr a month (2%, Lag 2026:226).</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">3 · Defaults</span>If you don't change anything, the default decides the answer</h2>
+  <p class="prose">Most people don't touch the settings they don't understand. So the municipality a calculator assumes is, for many visitors, the answer. They don't agree.</p>
+  <div class="defaults" id="defaults"></div>
+</section>
+
+<section class="prose">
+  <h2><span class="n">What I'd check</span>Before you trust a calculator's number</h2>
+  <p>None of this needs any knowledge of tax. It's what separated the calculators that got it right from the ones that didn't.</p>
+  <ul class="stand check">
+    <li><strong>Does it say which year's rules it uses?</strong> Tax, ISK and benefit figures change every January. A page that doesn't say may be on last year's.</li>
+    <li><strong>Did it ask where you live?</strong> If it didn't, it has assumed a municipality for you, and that can move the answer by several hundred kronor a month.</li>
+    <li><strong>Does it say whether it shows your payslip or your final tax?</strong> Both are right, for different purposes. Only a few say which.</li>
+    <li><strong>Can you see who runs it and how it's paid for?</strong> Advertising, affiliate links and bank products are fine, as long as you know.</li>
+    <li><strong>What does it load before you type anything?</strong> Your browser can show you: on most sites the padlock or site settings list the cookies and connections.</li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">4 · Before you click</span>What a page contacts before you've typed anything</h2>
+  <p class="prose">Measured in a fresh browser, eight seconds after opening each page, before any consent choice. "Third parties" are other companies' domains the page contacts. It doesn't mean they receive what you type later; it means they know you visited.</p>
+  <figure>
+    <p class="chart-title">Other companies' domains contacted before any click</p>
+    <p class="chart-sub">Swedish sites first, then the British and American benchmarks.</p>
+    <svg id="tpChart" viewBox="0 0 1000 600" role="img" aria-label="Third-party domains contacted per site"></svg>
+    <figcaption>Minimum figures: the network used blocks many advertising hosts, so tracker-heavy sites load more elsewhere. MacLaine Finance's one is Cloudflare Web Analytics (no cookies, no profile); Cloudflare also sets one security cookie.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">5 · Weight</span>How much each page makes your phone download</h2>
+  <figure>
+    <p class="chart-title">Data transferred in the first eight seconds, empty cache</p>
+    <p class="chart-sub">The red part is what comes from other companies.</p>
+    <svg id="wChart" viewBox="0 0 1000 600" role="img" aria-label="Page weight per site"></svg>
+  </figure>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">6 · On a phone</span>Where the answer and the first box sit on the screen</h2>
+  <p class="prose">A 390 px wide phone; the dashed line is the bottom of the first screen. Green is the first result, blue the first input. Red shading is a cookie banner covering the screen.</p>
+  <figure><div class="phones" id="phones"></div></figure>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">7 · Coverage</span>How much each site can calculate</h2>
+  <p class="prose">Interactive calculators on the site's own domain against a fixed list of 20. Articles and fixed examples don't count.</p>
+  <figure class="scroll"><table class="cov" id="covTable"></table></figure>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">8 · Errors found</span>Figures that didn't match, as of 8 November 2026</h2>
+  <p class="prose">Each of these was checked by hand on the day, with a screenshot. Sites change, so some may be fixed by the time you read this.</p>
+  <div class="cards errs">
+    <div class="card"><h3>Smartly: ISK tax article</h3><p>On 500 000 kr: <span class="shows">"about 5,000 SEK in tax"</span>, with no 300 000 kr tax-free amount and the November 2025 statslåneränta given as 2.33%.</p><p class="fig">Official: <span class="off">2 130 kr</span> (300 000 kr tax-free, statslåneränta 2.55%). Article dated 21 July 2026, in English.</p><a href="img/c1a-smartly-isk-5000.png"><img src="img/c1a-smartly-isk-5000.png" alt="Smartly ISK article screenshot"></a></div>
+    <div class="card"><h3>Smartly: parental benefit</h3><p>The parental leave tool states <span class="shows">"Max daily benefit: 1 250 SEK"</span>.</p><p class="fig">Official: <span class="off">1 259 kr</span> a day (Försäkringskassan, 2026).</p><a href="img/c2-smartly-parental-1250.png"><img src="img/c2-smartly-parental-1250.png" alt="Smartly parental benefit screenshot"></a></div>
+    <div class="card"><h3>Smartly: two figures for one salary</h3><p>For 45 000 kr in Stockholm the calculator shows <span class="shows num">35 168 kr</span>; the home page says <span class="shows">"~34,500 SEK take-home per month"</span>.</p><p class="fig">Official: <span class="off">35 550 kr</span> on the payslip, about <span class="off">35 810 kr</span> on final tax.</p><a href="img/c3a-smartly-salary.png"><img src="img/c3a-smartly-salary.png" alt="Smartly salary screenshot"></a></div>
+    <div class="card"><h3>Statsskuld: salary</h3><p>45 000 kr in Stockholm, no church fee: <span class="shows num">34 991 kr</span>. Stockholm is labelled <span class="shows num">31.58%</span>, though the page's own breakdown, 18.22% plus 12.33%, adds up to 30.55%, and it applies a 0.2% burial fee where Stockholm's is 0.07%.</p><p class="fig">Official: <span class="off">35 550 kr</span> or about <span class="off">35 810 kr</span>; Stockholm 30.55% (SCB).</p><a href="img/c4a-statsskuld-salary.png"><img src="img/c4a-statsskuld-salary.png" alt="Statsskuld salary screenshot"></a></div>
+    <div class="card"><h3>Börskollen: salary</h3><p>The church fee box is ticked by default, so the first result, <span class="shows num">35 206 kr</span>, includes a 449 kr fee. With the box unticked it shows <span class="shows num">35 655 kr</span>.</p><p class="fig">Official: <span class="off">35 550 kr</span> or about <span class="off">35 810 kr</span>.</p><a href="img/c5b-borskollen-salary-church-off.png"><img src="img/c5b-borskollen-salary-church-off.png" alt="Börskollen salary screenshot"></a></div>
+    <div class="card"><h3>Börskollen: ISK tax article</h3><p><span class="shows">"Skatten blir då ca 1 240 kr för året (200 000 × 1,07 %)"</span>. Its own sum gives 2 140 kr.</p><p class="fig">Official: <span class="off">2 130 kr</span>.</p><a href="img/c5c-borskollen-isk-1240.png"><img src="img/c5c-borskollen-isk-1240.png" alt="Börskollen ISK article screenshot"></a></div>
+    <div class="card"><h3>Ekonomifokus: mortgage cost calculator</h3><p>A 400 000 kr deposit on a 4 000 000 kr home shows <span class="shows">"Du måste ha minst 10% i kontantinsats!"</span> in red: the page checks for 15%.</p><p class="fig">Since 1 April 2026 the minimum deposit is <span class="off">10%</span> (Lag 2026:226).</p><a href="img/c6d-ekonomifokus-mortgage-deposit-flag.png"><img src="img/c6d-ekonomifokus-mortgage-deposit-flag.png" alt="Ekonomifokus mortgage screenshot"></a></div>
+    <div class="card"><h3>Swedbank: mortgage calculator page</h3><p><span class="shows">"Amorteringen påverkas också av din inkomst i förhållande till hur mycket bolån du har."</span></p><p class="fig">The income-based extra amortisation was <span class="off">removed on 1 April 2026</span> (Lag 2026:226).</p><a href="img/c7a-swedbank-income-amortisation.png"><img src="img/c7a-swedbank-income-amortisation.png" alt="Swedbank screenshot"></a></div>
+    <div class="card"><h3>Konsumenternas Bank- och finansbyrå</h3><p>On amortisation: <span class="shows">"... eller om du har hög belåning i förhållande till din inkomst."</span></p><p class="fig">The income-based rule was <span class="off">removed on 1 April 2026</span> (Lag 2026:226).</p><a href="img/c7b-konsumenternas-income-amortisation.png"><img src="img/c7b-konsumenternas-income-amortisation.png" alt="Konsumenternas screenshot"></a></div>
+  </div>
+  <p class="note prose">Checked by hand between 18:51 and 19:07 on 8 November 2026, with the inputs read back from each page. Three earlier findings were dropped after this check: a broken salary link on one site (it wasn't there), two outdated sentences in years-old comments on another (they were true when written, and the site's own article is correct), and a broken link to a tool (real, but it isn't a wrong figure).</p>
+</section>
+
+<section>
+  <h2 class="prose"><span class="n">9 · Abroad</span>What British and American calculators do that no Swedish one does</h2>
+  <div class="cards">
+    <div class="card"><h3>Earlier tax years</h3><p>Listentotaxman lets you pick any tax year back to 1999 and compare them side by side.</p></div>
+    <div class="card"><h3>An editorial code</h3><p>MoneySavingExpert publishes an editorial code and explains how the site is paid for.</p></div>
+    <div class="card"><h3>A name and a date on each tool</h3><p>NerdWallet puts a named writer, an editor and an update date on every calculator.</p></div>
+    <div class="card"><h3>Saved scenarios</h3><p>FI Calc lets you save scenarios and has a separate documentation site for its method.</p></div>
+  </div>
+  <p class="prose">The other way round, the Swedish sites without advertising load far less. No British or American site tested contacted zero third parties, as Velja, Helhetskollen and Handelsbanken did.</p>
+</section>
+
+<section class="prose">
+  <h2><span class="n">10 · My own site</span>Where MacLaine Finance stands</h2>
+  <ul class="stand">
+    <li>It gave the official figure in all four cases, and says which salary figure it shows.</li>
+    <li>It has the most calculators on the list, 19 of 20. The missing one is a standalone ISK tax calculator.</li>
+    <li>Its pages were the lightest measured.</li>
+    <li class="neutral">It loads one outside service, Cloudflare's page counter, which sets no cookies and builds no profile. Cloudflare also sets one security cookie that checks for bots. Velja and Helhetskollen load none.</li>
+    <li class="minus">On a phone its first input sits lower than Velja's, though its answer is on the first screen.</li>
+    <li class="minus">It didn't show up in any of the searches I ran.</li>
+  </ul>
+</section>
+
+<section class="prose">
+  <h2><span class="n">How this was made</span>Method, and how AI was used</h2>
+  <p><strong>Sites tested.</strong> Sweden: Avanza (<a href="https://www.avanza.se">avanza.se</a>), Börskollen, Ekonomifokus, Handelsbanken (<a href="https://www.handelsbanken.se">handelsbanken.se</a>), Helhetskollen, ISK-guiden, Kalkylverket, MacLaine Finance, Nordnet (<a href="https://www.nordnet.se">nordnet.se</a>), Rika Tillsammans (<a href="https://rikatillsammans.se">rikatillsammans.se</a>), SBAB (<a href="https://www.sbab.se">sbab.se</a>), Smartly, Statsskuld and Velja. Britain and the US: FI Calc, Listentotaxman, MoneySavingExpert (<a href="https://www.moneysavingexpert.com">moneysavingexpert.com</a>) and NerdWallet (<a href="https://www.nerdwallet.com">nerdwallet.com</a>). The exact pages measured are in the data files.</p>
+  <p><strong>Accuracy.</strong> Each calculator was opened in a fresh Chrome profile at phone size. The inputs were typed in by script, read back to check they took, and the result recorded. Official figures: Skatteverket's 2026 tax table 31 (open data) and ISK rules, Försäkringskassan's current amounts, and Lag (2026:226) on mortgage caps and amortisation.</p>
+  <p><strong>Privacy and weight.</strong> The Chrome DevTools protocol, recording every request, host and cookie in the first eight seconds, before any click.</p>
+  <p><strong>Coverage.</strong> Each site's own navigation or tool index, recorded with the URL.</p>
+  <p><strong>AI.</strong> I used Claude (Anthropic). Three models, Claude Opus 5.5, Claude Sonnet 5.5 and Claude Fable 5.1, each wrote an independent review working only from the public web, with the sites listed alphabetically and none named as mine. I used them to cross-check this report and to find sites and claims I'd missed; their scores aren't published, and where they disagreed with the measurements, the measurements are what you see here. A Claude agent ran the measurement scripts. Claude helped me draft the text, and I checked every figure against the data. Every error named in section 8 was checked again by hand.</p>
+  <p><strong>Limits.</strong> One day's snapshot. The network blocked many advertising hosts, so third-party counts are minimums. SBAB and MoneySavingExpert started blocking repeated automated visits, so their figures come from the first visit. Search positions couldn't be measured reliably, so they aren't reported.</p>
+</section>
+
+<footer class="prose">
+  <p>Data and scripts: <a href="https://github.com/MMacLaine/swedish-finance-calculators">github.com/MMacLaine/swedish-finance-calculators</a>. If a figure here is wrong, or a site has fixed something, email <a href="mailto:matthew@maclaine.se">matthew@maclaine.se</a> and I'll correct it with the date.</p>
+  <p>Matthew MacLaine, Stockholm.</p>
+</footer>
+</div>
+
+<script>
+var css = function (v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); };
+var NS = 'http://www.w3.org/2000/svg';
+function el(tag, attrs, parent, text) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; if (parent) parent.appendChild(e); return e; }
+var kr = function (n) { return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' kr'; };
+
+var SAL = [
+  { s: 'Statsskuld', v: 34991 }, { s: 'Smartly', v: 35168 }, { s: 'Börskollen', v: 35655 },
+  { s: 'Helhetskollen', v: 35550 }, { s: 'MacLaine Finance', v: 35810 }, { s: 'Velja', v: 35811 }, { s: 'Kalkylverket', v: 35811 }
+];
+/* 1 · salary: one row per site, a dot on a shared scale, the two official lines.
+   Drawn at the element's real width so text stays readable on a phone. */
+function drawSalary() {
+  var svg = document.getElementById('salaryChart'); while (svg.firstChild) svg.removeChild(svg.firstChild);
+  var W = Math.max(300, svg.clientWidth || svg.parentNode.clientWidth || 900), phone = W < 560;
+  var rows = SAL.slice().sort(function (a, b) { return b.v - a.v; });
+  var rowH = phone ? 40 : 38, top = 34, lab = phone ? 128 : 230, x0 = lab + 14, x1 = W - (phone ? 10 : 24), lo = 34900, hi = 35900;
+  var H = top + rows.length * rowH + 30; svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+  var X = function (v) { return x0 + (v - lo) / (hi - lo) * (x1 - x0); };
+  var fs = phone ? 12 : 15;
+  [[35550, '--mark', 'payslip'], [35810, '--ok', 'final tax']].forEach(function (r, k) {
+    el('line', { x1: X(r[0]), x2: X(r[0]), y1: top - 10, y2: H - 26, stroke: css(r[1]), 'stroke-width': 2, 'stroke-dasharray': '5 4' }, svg);
+    el('text', { x: X(r[0]) + (k ? 4 : -4), y: top - 16, 'text-anchor': k ? 'start' : 'end', 'font-size': fs - 1, fill: css(r[1]), 'font-weight': 600 }, svg, r[2]);
+  });
+  rows.forEach(function (d, i) {
+    var y = top + i * rowH + rowH / 2, c = d.v === 35550 ? '--mark' : (d.v >= 35805 && d.v <= 35815) ? '--ok' : '--bad';
+    el('line', { x1: x0, x2: x1, y1: y, y2: y, stroke: css('--rule') }, svg);
+    el('text', { x: 0, y: y - (phone ? 3 : -5), 'font-size': fs, 'font-weight': 600 }, svg, d.s);
+    if (phone) el('text', { x: 0, y: y + 12, 'font-size': fs - 1, fill: css('--muted') }, svg, kr(d.v));
+    else el('text', { x: lab, y: y + 5, 'text-anchor': 'end', 'font-size': fs, fill: css('--ink-2') }, svg, kr(d.v));
+    el('circle', { cx: X(d.v), cy: y, r: phone ? 7 : 9, fill: css(c) }, svg);
+  });
+  var ty = H - 8;
+  for (var t = 35000; t <= 35800; t += (phone ? 400 : 200)) el('text', { x: X(t), y: ty, 'text-anchor': 'middle', 'font-size': fs - 2, fill: css('--muted') }, svg, kr(t));
+}
+/* 2 · scorecard */
+var CASES = ['Take-home 45 000 kr', 'ISK tax 500 000 kr', 'Parental benefit cap', 'Amortisation at 90%'];
+var SCORE = [
+  ['MacLaine Finance', ['ok', '35 810'], ['ok', '2 130'], ['ok', '1 259'], ['ok', '6 000']],
+  ['Velja', ['ok', '35 811'], ['ok', '2 130'], ['ok', '1 259'], ['ok', '6 000']],
+  ['Kalkylverket', ['ok', '35 811'], ['ok', '2 130'], ['ok', '1 259'], ['ok', '6 000']],
+  ['Helhetskollen', ['ok', '35 550'], null, null, null],
+  ['ISK-guiden', null, ['ok', '2 130'], null, null],
+  ['Handelsbanken', null, null, null, ['ok', '6 000']],
+  ['Ekonomifokus', null, null, null, ['ok', '6 000']],
+  ['Smartly', ['bad', '35 168'], null, ['bad', '1 250'], null],
+  ['Börskollen', ['bad', '35 655'], null, null, null],
+  ['Statsskuld', ['bad', '34 991'], null, null, null]
+];
+(function () {
+  var t = document.getElementById('scoreTable'), h = '<thead><tr><th></th>' + CASES.map(function (c) { return '<th>' + c + '</th>'; }).join('') + '</tr></thead><tbody>';
+  SCORE.forEach(function (r) { h += '<tr><td class="site">' + r[0] + '</td>' + r.slice(1).map(function (c) { return c ? '<td class="' + c[0] + '">' + c[1] + ' kr</td>' : '<td class="na">no tool</td>'; }).join('') + '</tr>'; });
+  t.innerHTML = h + '</tbody>';
+})();
+
+/* 3 · defaults */
+var DEF = [
+  ['MacLaine Finance', 'Stockholm', 'starts at 50 000 kr, born 1995'],
+  ['Velja', 'national average', 'starts at 45 000 kr'],
+  ['Kalkylverket', 'national average', 'starts at 35 000 kr'],
+  ['Smartly', 'Stockholm', 'starts at 45 000 kr; no age or church fee fields'],
+  ['Börskollen', 'Ale', 'starts at 35 000 kr, with the church fee box ticked'],
+  ['Helhetskollen', 'its own estimate', 'until you pick a municipality']
+];
+document.getElementById('defaults').innerHTML = DEF.map(function (d) { return '<div class="dcard"><b>' + d[0] + '</b><div class="v">' + d[1] + '</div><span>' + d[2] + '</span></div>'; }).join('');
+
+/* bars helper */
+function bars(id, data, opts) {
+  var svg = document.getElementById(id); while (svg.firstChild) svg.removeChild(svg.firstChild);
+  var W = Math.max(300, svg.clientWidth || svg.parentNode.clientWidth || 900), phone = W < 560;
+  var rowH = phone ? 26 : 30, top = 10, lab = phone ? 138 : 230, x1 = W - (phone ? 58 : 90), max = opts.max;
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + (top + data.length * rowH + (opts.gap ? 34 : 0) + 10));
+  var y = top;
+  data.forEach(function (d) {
+    if (d.gap) { y += 22; el('text', { x: 0, y: y + 4, 'font-size': phone ? 12 : 14, fill: css('--muted') }, svg, d.gap); y += 12; return; }
+    el('text', { x: lab - 10, y: y + (phone ? 17 : 19), 'text-anchor': 'end', 'font-size': phone ? 12 : 15, 'font-weight': d.me ? 700 : 500 }, svg, d.s);
+    var w = Math.max(2, (d.v / max) * (x1 - lab));
+    el('rect', { x: lab, y: y + (phone ? 6 : 5), width: w, height: phone ? 14 : 18, rx: 3, fill: css(d.v === 0 ? '--ok' : opts.color) }, svg);
+    if (d.v2 != null) el('rect', { x: lab, y: y + (phone ? 6 : 5), width: Math.max(0, (d.v2 / max) * (x1 - lab)), height: phone ? 14 : 18, rx: 3, fill: css('--bad') }, svg);
+    el('text', { x: lab + w + 6, y: y + (phone ? 17 : 19), 'font-size': phone ? 12 : 14, fill: css('--ink-2') }, svg, d.label != null ? d.label : String(d.v));
+    y += rowH;
+  });
+}
+function drawBars() {
+bars('tpChart', [
+  { s: 'Velja', v: 0, label: '0' }, { s: 'Helhetskollen', v: 0, label: '0' }, { s: 'Handelsbanken', v: 0, label: '0' }, { s: 'Avanza', v: 0, label: '0' },
+  { s: 'MacLaine Finance', v: 1, me: true }, { s: 'Nordnet', v: 1 }, { s: 'Statsskuld', v: 2 }, { s: 'SBAB', v: 2 }, { s: 'Ekonomifokus', v: 3 },
+  { s: 'Kalkylverket', v: 4 }, { s: 'ISK-guiden', v: 4 }, { s: 'Smartly', v: 4 }, { s: 'Rika Tillsammans', v: 11 }, { s: 'Börskollen', v: 13 },
+  { gap: 'Britain and the US' },
+  { s: 'MoneySavingExpert', v: 3 }, { s: 'FI Calc', v: 6 }, { s: 'Listentotaxman', v: 20 }, { s: 'NerdWallet', v: 23 }
+], { max: 24, color: '--bad', gap: true });
+bars('wChart', [
+  { s: 'MacLaine Finance', v: 314, v2: 0, label: '314 KB', me: true }, { s: 'Ekonomifokus', v: 360, v2: 0, label: '360 KB' }, { s: 'Helhetskollen', v: 417, v2: 0, label: '417 KB' },
+  { s: 'Smartly', v: 454, v2: 183, label: '454 KB' }, { s: 'Velja', v: 528, v2: 0, label: '528 KB' }, { s: 'ISK-guiden', v: 610, v2: 177, label: '610 KB' },
+  { s: 'Statsskuld', v: 847, v2: 63, label: '847 KB' }, { s: 'Kalkylverket', v: 1130, v2: 178, label: '1 130 KB' }, { s: 'Avanza', v: 1132, v2: 0, label: '1 132 KB' },
+  { s: 'Börskollen', v: 1663, v2: 843, label: '1 663 KB' }, { s: 'Handelsbanken', v: 1959, v2: 0, label: '1 959 KB' }, { s: 'Nordnet', v: 1998, v2: 93, label: '1 998 KB' },
+  { s: 'Rika Tillsammans', v: 5458, v2: 819, label: '5 458 KB' },
+  { gap: 'Britain and the US' },
+  { s: 'MoneySavingExpert', v: 1125, v2: 350, label: '1 125 KB' }, { s: 'Listentotaxman', v: 2404, v2: 2219, label: '2 404 KB' }, { s: 'NerdWallet', v: 3131, v2: 1959, label: '3 131 KB' }
+], { max: 5600, color: '--mark', gap: true });
+}
+
+/* 6 · phones (y in CSS px on a 390 x 844 screen; drawn to 230 px = 1.6 screens) */
+var PH = [
+  ['MacLaine Finance', 65, 855, 0, 'answer on screen, first box just below'],
+  ['Velja', 804, 512, 0, 'both on the first screen'],
+  ['Kalkylverket', 497, 942, 0, 'answer first, box below'],
+  ['Smartly', 1292, 829, 0, 'box on screen, answer below'],
+  ['Statsskuld', null, 385, 0, 'answer after you submit'],
+  ['Helhetskollen', null, 610, 37, 'banner covers the box'],
+  ['Börskollen', 713, 429, 100, 'full-screen consent wall'],
+  ['ISK-guiden', 2314, 1752, 0, 'both below the first screen']
+];
+(function () {
+  var H = 230, span = 844 * 1.6, k = H / span;
+  document.getElementById('phones').innerHTML = PH.map(function (p) {
+    var wall = p[3] ? '<div class="wall" style="height:' + (844 * p[3] / 100 * k) + 'px"></div>' : '';
+    var res = p[1] != null && p[1] < span ? '<div class="dot res" style="top:' + (p[1] * k) + 'px"></div>' : '';
+    var inp = p[2] != null && p[2] < span ? '<div class="dot inp" style="top:' + (p[2] * k) + 'px"></div>' : '';
+    return '<div class="phone"><div class="screen">' + wall + '<div class="fold" style="top:' + (844 * k) + 'px"></div>' + res + inp + '</div><b>' + p[0] + '</b><span>' + p[4] + '</span></div>';
+  }).join('');
+})();
+
+/* 7 · coverage */
+var COLS = ['Salary after tax', 'Salary from take-home', 'Mortgage cost', 'Maximum loan', 'Amortisation rule', 'ISK tax', 'Savings growth', 'Early retirement', 'Pension', 'Salary sacrifice', 'Gains on a home', 'Gains on shares', 'Parental benefit', 'Sick pay', 'Unemployment', 'Student loan', 'Budget', 'Tax return', 'Employer cost', 'Company owner 3:12'];
+var COV = [
+  ['MacLaine Finance', 'YYYYY.YYYYYYYYYYYYYY'], ['Kalkylverket', 'YYYYYYYYYYYYYYY..YYY'], ['Velja', 'Y.YYY.YY.Y..Y.Y.Y..Y'],
+  ['NerdWallet', '..YY..Y.Y..Y...YYY..'], ['MoneySavingExpert', 'Y.YY..Y.Y......YY...'], ['Smartly', 'Y.......Y...Y...YYY.'],
+  ['Ekonomifokus', '..YYY.Y...Y.........'], ['Statsskuld', 'YY....YY..........Y.'], ['Helhetskollen', 'Y.....YYY...........'],
+  ['Handelsbanken', '..YYY.Y.............'], ['Listentotaxman', 'Y........Y.....Y....'], ['ISK-guiden', '.....YY.............'],
+  ['Rika Tillsammans', '......YY............'], ['Börskollen', 'Y.....Y.............'], ['Avanza', '...Y..Y.............'],
+  ['Nordnet', '......Y.............'], ['FI Calc', '.......Y............']
+];
+(function () {
+  var h = '<thead><tr><th></th>' + COLS.map(function (c) { return '<th class="rot"><div>' + c + '</div></th>'; }).join('') + '<th></th></tr></thead><tbody>';
+  COV.forEach(function (r) { var n = 0; h += '<tr><td class="site">' + r[0] + '</td>' + r[1].split('').map(function (c, i) { if (c === 'Y') n++; return '<td class="' + (c === 'Y' ? 'y' : '') + '" title="' + COLS[i] + '"></td>'; }).join('') + '<td class="cnt">' + n + '</td></tr>'; });
+  document.getElementById('covTable').innerHTML = h + '</tbody>';
+})();
+function drawAll() { drawSalary(); drawBars(); }
+drawAll();
+var _rz; window.addEventListener('resize', function () { clearTimeout(_rz); _rz = setTimeout(drawAll, 150); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', drawAll);
+</script>
+</body>
+</html>

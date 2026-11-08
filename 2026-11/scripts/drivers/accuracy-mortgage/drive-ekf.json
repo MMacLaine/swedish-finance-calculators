@@ -1,0 +1,20 @@
+{
+ "before": {
+  "jq": "undefined",
+  "delayed": 0
+ },
+ "after": {
+  "jq": "function"
+ },
+ "read": {
+  "pris": "4 000 000",
+  "kontantinsats": "400 000",
+  "rente": "1.59",
+  "kontantinsatsFlaggedRed": true
+ },
+ "amortering": "6 000",
+ "loanbelopp": "3 600 000",
+ "belaningsgrad": "90",
+ "rantekostnad": "3 339",
+ "sum": "10 339"
+}

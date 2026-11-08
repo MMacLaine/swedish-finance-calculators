@@ -1,0 +1,71 @@
+{
+ "url": "https://www.nordnet.se/tjanster/konton/investeringssparkonto",
+ "title": "Investerings­sparkonto (ISK) - Jämför & öppna konto | Nordnet",
+ "inputs": [
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "id": "",
+   "name": "",
+   "label": "Alla",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "id": "",
+   "name": "",
+   "label": "Kontotyper",
+   "value": "Kontotyper",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "id": "",
+   "name": "",
+   "label": "Aktie- och fondkonto (AF)",
+   "value": "Aktie- och fondkonto (AF)",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "id": "",
+   "name": "",
+   "label": "Kapitalförsäkring (KF)",
+   "value": "Kapitalförsäkring (KF)",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "id": "",
+   "name": "",
+   "label": "Investeringssparkonto (ISK)",
+   "value": "Investeringssparkonto (ISK)",
+   "vis": false,
+   "min": "",
+   "max": ""
+  }
+ ],
+ "lines": [
+  "För sparande på ISK finns en skattelättnad, vilket innebär att de första 300 000 kr är helt befriade från skatt.",
+  "Courtagefritt upp till 50 000 kr",
+  "Dina första 300 000 kr är skattefria",
+  "Med ISK slipper du deklarera dina affärer och dina utbetalningar är fria från vinstskatt, istället betalar du en årlig schablonskatt på 1,065 % (2026).",
+  "Skattefri grundnivå upp till 300 000 kr"
+ ],
+ "links": [
+  "https://www.nordnet.se/faq/skatt-deklaration/deklaration-av-investeringssparkonto-isk"
+ ]
+}

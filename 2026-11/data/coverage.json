@@ -1,0 +1,1682 @@
+{
+ "measuredAt": "2026-11-08",
+ "rule": "# Builds coverage.json + coverage.md from the hand-recorded matrix below (evidence: html/ cache, probe-inputs.sh output, notes).\n# Rule: \"yes\" = an interactive calculator on the site's own domain outputs this item (also when it is a mode/output of a\n# broader calculator; then the note says so). Articles, static examples and percentile comparisons = \"no\".\n# ISK = a calculator that outputs the yearly ISK tax for a given base (ISK tax only modelled inside a growth/comparison tool = no, noted).\n# \"unclear\" = could not be confirmed (reason given). International sites: local equivalent, noted.",
+ "legend": {
+  "SAL": "salary after tax",
+  "N2G": "salary from take-home",
+  "MTG": "mortgage cost",
+  "MAX": "max loan / affordability",
+  "AMO": "amortisation rule",
+  "ISK": "ISK tax",
+  "GRO": "savings growth / compound interest",
+  "FIRE": "FIRE",
+  "PEN": "pension (state or occupational)",
+  "SAC": "salary sacrifice",
+  "CGH": "capital gains, home sale",
+  "CGS": "capital gains, shares",
+  "PAR": "parental benefit",
+  "SICK": "sick pay",
+  "UI": "unemployment insurance",
+  "STU": "student loan",
+  "BUD": "budget",
+  "DEK": "tax return estimate",
+  "EMP": "employer cost",
+  "312": "company owner (3:12)"
+ },
+ "sites": {
+  "velja.se": {
+   "indexUrls": [
+    "https://velja.se/kalkylatorer (\"37 verktyg\")"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/lonekalkyl"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": "no net-to-gross mode in /lonekalkyl"
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/bolanekalkyl"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/bolanekalkyl KALP section"
+    },
+    "AMO": {
+     "value": "yes",
+     "evidence": "/bolanekalkyl: Amortering (2,0 %) row, 'Amorteringskravet följer belåningsgraden'"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": "/isk-eller-depa models ISK tax inside an ISK vs depå comparison only"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/spara-till-barn (månadssparande, ränta-på-ränta)"
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/fire-kalkyl"
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": "no pension calculator; /fire-kalkyl includes tjänste- and allmän pension as inputs"
+    },
+    "SAC": {
+     "value": "yes",
+     "evidence": "/lonevaxling"
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "yes",
+     "evidence": "/foraldrapenning"
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": "/vab is care of a sick child, not sick pay"
+    },
+    "UI": {
+     "value": "yes",
+     "evidence": "/a-kassa"
+    },
+    "STU": {
+     "value": "no",
+     "evidence": "/studiehjalp is upper-secondary study grant, not CSN loan"
+    },
+    "BUD": {
+     "value": "yes",
+     "evidence": "/budgetkalkyl"
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": "not in /lonekalkyl output"
+    },
+    "312": {
+     "value": "yes",
+     "evidence": "/ab-eller-enskild (gränsbelopp 3:12, optimal lön)"
+    }
+   },
+   "notes": [],
+   "yesCount": 11,
+   "unclearCount": 0
+  },
+  "kalkylverket.se": {
+   "indexUrls": [
+    "https://kalkylverket.se/kalkylatorer/privatekonomi",
+    "https://kalkylverket.se/kalkylatorer/skatt",
+    "https://kalkylverket.se/kalkylatorer/bostad-fastighet",
+    "https://kalkylverket.se/kalkylatorer/foretagande",
+    "https://kalkylverket.se/sitemap.xml"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/skatt/inkomstskatt/lon-efter-skatt-kalkylator"
+    },
+    "N2G": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/lon-och-inkomst/brutto-netto-omvandlare (Netto → brutto)"
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/bostad-fastighet/kopa-bostad/bolanekalkylator"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/lan/kalp-kalkylator"
+    },
+    "AMO": {
+     "value": "unclear",
+     "evidence": "bolånekalkylator text describes the 2 %/1 % rule, but the calculator widget did not render in headless Chrome (desktop and phone, 3 loads), so its output could not be seen"
+    },
+    "ISK": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/skatt/kapitalskatt/isk-skatt-kalkylator"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/spara-investera/ranta-pa-ranta-kalkylator"
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/spara-investera/fire-kalkylator"
+    },
+    "PEN": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/pension/pensionskalkylator, tjanstepensionskalkylator, ppm-premiepension-kalkylator"
+    },
+    "SAC": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/lon-och-inkomst/lonevaxlingskalkylator"
+    },
+    "CGH": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/bostad-fastighet/salja-bostad/vinstskatt-bostadsforsaljning-kalkylator"
+    },
+    "CGS": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/skatt/kapitalskatt/kapitalvinstskatt-kalkylator (linked aktieskatt-kalkylator returns 404)"
+    },
+    "PAR": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/lon-och-inkomst/foraldrapenning-kalkylator"
+    },
+    "SICK": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/lon-och-inkomst/sjukpenning-kalkylator, karensavdrag-kalkylator"
+    },
+    "UI": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/privatekonomi/lon-och-inkomst/a-kassa-kalkylator"
+    },
+    "STU": {
+     "value": "no",
+     "evidence": "no CSN calculator in sitemap (519 URLs)"
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": "only renovation/likviditets budgets, no household budget"
+    },
+    "DEK": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/skatt/inkomstskatt/skatteaterbaring-kalkylator"
+    },
+    "EMP": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/foretagande/lon-och-anstallda/lonekostnad-kalkylator"
+    },
+    "312": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/foretagande/skatt-avdrag-foretagare/3-12-kalkylator"
+    }
+   },
+   "notes": [],
+   "yesCount": 17,
+   "unclearCount": 1
+  },
+  "rikatillsammans.se": {
+   "indexUrls": [
+    "https://rikatillsammans.se/verktyg?rt=latest&t=list&num=100 (headless; 15 tools)"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": "/verktyg/jamfor-isk is a percentile comparison of ISK balances; ränta-på-ränta has an ISK tax option inside growth only"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/verktyg/ranta-pa-ranta/"
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/verktyg/fire/"
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": "/verktyg/jamfor-pension/ compares your pension to others (percentile), no projection"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": "/verktyg/spirecta/ is a third-party app page"
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "/verktyg/jamfor-lon/ is a salary percentile comparison, not net pay"
+   ],
+   "yesCount": 2,
+   "unclearCount": 0
+  },
+  "ekonomifokus.se": {
+   "indexUrls": [
+    "site nav 'Räknare' menu (e.g. on https://www.ekonomifokus.se/kalkylator-boendekostnad)"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/kalkylator-boendekostnad"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/hur-dyr-bostad-kan-jag-kopa-enkel-kalkylator; /bostad/lan/kalp"
+    },
+    "AMO": {
+     "value": "yes",
+     "evidence": "/kalkylator-boendekostnad ('räknar alltid med minsta möjliga amortering enligt amorteringskravets krav')"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/spara-till-kontantinsats-bostad-kalkylator (månadssparande + avkastning, ackumulerad avkastning)"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "yes",
+     "evidence": "/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning; /kvar-efter-skatt-och-losen-av-lan-kalkylator"
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: fastighetsavgift/fastighetsskatt, lånekostnad, renovering, skälig hyra calculators (outside checklist)"
+   ],
+   "yesCount": 5,
+   "unclearCount": 0
+  },
+  "isk-guiden.se": {
+   "indexUrls": [
+    "https://isk-guiden.se/verktyg/"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "yes",
+     "evidence": "/isk-kalkylator/"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/ranta-pa-ranta/"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: flytta-ISK, fondavgifts-, utdelnings-kalkylator, ISK Terminal (outside checklist)"
+   ],
+   "yesCount": 2,
+   "unclearCount": 0
+  },
+  "smartly.se": {
+   "indexUrls": [
+    "https://smartly.se/tools"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/tools/salary-after-tax"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "yes",
+     "evidence": "/tools/pension-calculator (public + occupational + private)"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "yes",
+     "evidence": "/tools/parental-leave"
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "yes",
+     "evidence": "/tools/monthly-budget"
+    },
+    "DEK": {
+     "value": "yes",
+     "evidence": "/tools/tax-return-estimator"
+    },
+    "EMP": {
+     "value": "yes",
+     "evidence": "/tools/job-offer-evaluator ('Employer total cost')"
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "English-language site for expats; also citizenship-eligibility tool"
+   ],
+   "yesCount": 6,
+   "unclearCount": 0
+  },
+  "statsskuld.se": {
+   "indexUrls": [
+    "https://statsskuld.se/kalkylatorer",
+    "site nav (Beräkna nettolön / bruttolön)"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/berakna-nettolon"
+    },
+    "N2G": {
+     "value": "yes",
+     "evidence": "/berakna-bruttolon ('Fyll i nettolön och kommun')"
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/ranta-pa-ranta (also sparmal, miljonar, passiv-inkomst)"
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/kalkylatorer/leva-pa-rantan (capital needed for a passive monthly income; no savings timeline)"
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "yes",
+     "evidence": "/berakna-nettolon output 'Total kostnad för arbetsgivaren'"
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: effektiv ränta, skuldränta, inflation, solceller, privat eller företag (VAT purchase), lön vs inflation"
+   ],
+   "yesCount": 5,
+   "unclearCount": 0
+  },
+  "avanza.se": {
+   "indexUrls": [
+    "https://www.avanza.se/ (headless nav)",
+    "https://www.avanza.se/sitemap1.xml, sitemap2.xml (no URL contains 'kalkyl')"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": "/bolan/bolan.html has no inputs; max-loan tool not driven to see if it shows monthly cost"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/bolan/hur-mycket-far-jag-lana.html (inputs: income, birth year, deposit...)"
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/manadssparande.html ('Räkna på ditt sparande')"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": "/pension/borja-pensionsspara.html is a private savings-to-67 growth widget, not state/occupational"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [],
+   "yesCount": 2,
+   "unclearCount": 0
+  },
+  "nordnet.se": {
+   "indexUrls": [
+    "https://www.nordnet.se/se (headless nav)",
+    "https://www.nordnet.se/sitemaps/special/cms.xml"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": "/tjanster/lan/bolan has no inputs"
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/tjanster/manadsspara (start, monthly, return, years sliders)"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": "/tjanster/pension/pensionsguiden has no inputs"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": "/tjanster/pension/lonevaxling shows only the generic savings-growth widget"
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [],
+   "yesCount": 1,
+   "unclearCount": 0
+  },
+  "helhetskollen.se": {
+   "indexUrls": [
+    "https://www.helhetskollen.se/ footer 'Kalkylatorer' list"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/salary (Lönekalkylator)"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/ranta-pa-ranta (Sparkalkylator)"
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/fire-kalkylator"
+    },
+    "PEN": {
+     "value": "yes",
+     "evidence": "/tjanstepension-jamfor-avtal (ITP1/SAF-LO/AKAP-KR/PA16 premium by salary)"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": "/hushallets-utgifter is a dashboard module (Full Access); listed calculators: Dela utgifter efter inkomst, Bo hemma-kalkylator"
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: dashboard pages (allmän pension, balansräkning, nettoförmögenhet) behind free 'Full Access'"
+   ],
+   "yesCount": 4,
+   "unclearCount": 0
+  },
+  "borskollen.se": {
+   "indexUrls": [
+    "https://www.borskollen.se/ nav ('Kalkylator' entries)",
+    "https://www.borskollen.se/sitemap.xml"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/rakna-ut-lon-efter-skatt-kalkylator"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/ranta-pa-ranta-kalkylator, /sparkalkylator"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: CAGR, GAV, timlön/årsinkomst calculators"
+   ],
+   "yesCount": 2,
+   "unclearCount": 0
+  },
+  "sbab.se": {
+   "indexUrls": [
+    "https://www.sbab.se/1/privat.html nav",
+    "https://www.sbab.se/sitemap.xml"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "unclear",
+     "evidence": "/1/privat/lana/bolan/rakneexempel_for_bolan.html ('Räkna på ränta och månadskostnad'): one headless load showed worked examples, no free inputs; later loads blocked by Akamai 'Access Denied'"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/1/privat/lana/bolan/sa_mycket_kan_du_lana.html (title 'Hur mycket får jag låna? | Bolånekalkyl')"
+    },
+    "AMO": {
+     "value": "unclear",
+     "evidence": "rakneexempel shows 'Amortering per månad 2 084 kr' (straight 40-year example); rule-based output not confirmed (blocked)"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "unclear",
+     "evidence": "Kontantinsatskollen / Huskalkylen / Bufferthjälpen are savings planners; whether they compound returns not confirmed (blocked)"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "Akamai returned 'Access Denied' to headless Chrome after 3 quick loads on 2026-11-08; curl still served pages"
+   ],
+   "yesCount": 1,
+   "unclearCount": 3
+  },
+  "handelsbanken.se": {
+   "indexUrls": [
+    "https://www.handelsbanken.se/sv/privat/bolan",
+    "https://www.handelsbanken.se/tron/public/system/sitemapxml.xml?lang=sv (URLs with kalkyl/rakna/berakna)"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/sv/privat/bolan/bolanekalkyl ('Se vad din månadskostnad blir')"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/sv/privat/bolan/bolanekalkyl ('Hur mycket får jag låna?')"
+    },
+    "AMO": {
+     "value": "unclear",
+     "evidence": "bolånekalkyl not driven in coverage pass; page FAQ describes amorteringskrav"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": "/sv/privat/spara/investeringssparkonto/sa-beraknas-skatt-pa-isk is an article, no inputs"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/sv/privat/spara/sparkalkyl"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": "/sv/privat/pension has no calculator"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": "budgetkalkyl page is an article, no inputs"
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [],
+   "yesCount": 3,
+   "unclearCount": 1
+  },
+  "maclaine.se/finance": {
+   "indexUrls": [
+    "https://maclaine.se/finance (hub cards, repo finance.html read-only)",
+    "repo finance/ listing"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/finance/salary"
+    },
+    "N2G": {
+     "value": "yes",
+     "evidence": "/finance/salary take-home mode ('Take-home pay you want per month')"
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/finance/bolan"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/finance/bolan (KALP, max loan)"
+    },
+    "AMO": {
+     "value": "yes",
+     "evidence": "/finance/bolan (amortisation requirement)"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": "no standalone yearly ISK-tax calculator; ISK schablonskatt modelled inside /finance/sparande, /barnsparande, /isk-vs-pension"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/finance/sparande"
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/finance/fire"
+    },
+    "PEN": {
+     "value": "yes",
+     "evidence": "/finance/allman-pension, /finance/pension"
+    },
+    "SAC": {
+     "value": "yes",
+     "evidence": "/finance/lonevaxling"
+    },
+    "CGH": {
+     "value": "yes",
+     "evidence": "/finance/reavinst"
+    },
+    "CGS": {
+     "value": "yes",
+     "evidence": "/finance/kapitalvinst"
+    },
+    "PAR": {
+     "value": "yes",
+     "evidence": "/finance/foraldrapenning"
+    },
+    "SICK": {
+     "value": "yes",
+     "evidence": "/finance/sjukpenning"
+    },
+    "UI": {
+     "value": "yes",
+     "evidence": "/finance/akassa"
+    },
+    "STU": {
+     "value": "yes",
+     "evidence": "/finance/csn"
+    },
+    "BUD": {
+     "value": "yes",
+     "evidence": "/finance/budget"
+    },
+    "DEK": {
+     "value": "yes",
+     "evidence": "/finance/deklaration"
+    },
+    "EMP": {
+     "value": "yes",
+     "evidence": "/finance/salary (employer cost)"
+    },
+    "312": {
+     "value": "yes",
+     "evidence": "/finance/3-12"
+    }
+   },
+   "notes": [],
+   "yesCount": 19,
+   "unclearCount": 0
+  },
+  "listentotaxman.com": {
+   "indexUrls": [
+    "https://www.listentotaxman.com/ (calculator + nav)"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/ (UK take-home)"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "yes",
+     "evidence": "/ pension contribution type 'Salary Sacrifice' (UK equivalent)"
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "yes",
+     "evidence": "/ student loan Plan 1/2/4/5/Postgraduate deduction inside the take-home calculator (UK equivalent)"
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: self-employed tax calculator, tronc tips calculator; no employer NI output seen"
+   ],
+   "yesCount": 3,
+   "unclearCount": 0
+  },
+  "moneysavingexpert.com": {
+   "indexUrls": [
+    "https://www.moneysavingexpert.com/site/tools-and-calculators/ (via WebFetch; headless Chrome got a Cloudflare 'Just a moment...' page, curl 403)",
+    "https://www.moneysavingexpert.com/ links"
+   ],
+   "items": {
+    "SAL": {
+     "value": "yes",
+     "evidence": "/tax-calculator/"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/mortgages/mortgage-rate-calculator/ (Ultimate Mortgage Calculator)"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/mortgages/how-much-can-i-borrow/"
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": "no UK equivalent rule"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": "no UK equivalent (ISA untaxed)"
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/savings/savings-calculator/, /savings/regular-savings-calculator/"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "yes",
+     "evidence": "/savings/voluntary-national-insurance-contributions/#step4 (State Pension top-up calculator)"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": "tax calculator has a pension contribution input; salary sacrifice mode not confirmed"
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "yes",
+     "evidence": "/tax-calculator/ student loan plan selection (repayment inside take-home)"
+    },
+    "BUD": {
+     "value": "yes",
+     "evidence": "/banking/budget-planning/"
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: stamp duty, tax code, benefits check-up, loan/credit card eligibility, energy tools"
+   ],
+   "yesCount": 7,
+   "unclearCount": 0
+  },
+  "nerdwallet.com": {
+   "indexUrls": [
+    "https://www.nerdwallet.com/calculators"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": "no paycheck/take-home calculator in /calculators index"
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "yes",
+     "evidence": "/mortgages/calculators/mortgage-calculator"
+    },
+    "MAX": {
+     "value": "yes",
+     "evidence": "/mortgages/calculators/how-much-house-can-i-afford, /how-much-can-i-borrow"
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": "/mortgages/calculators/amortization is a schedule; no US amortisation rule"
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "yes",
+     "evidence": "/banking/calculators/compound-interest-calculator, savings-calculator"
+    },
+    "FIRE": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PEN": {
+     "value": "yes",
+     "evidence": "/retirement/calculators/401k-calculator, /investing/calculators/social-security-calculator, retirement-calculator (US equivalent)"
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "unclear",
+     "evidence": "same general capital-gains calculator; home-sale exclusion handling not checked"
+    },
+    "CGS": {
+     "value": "yes",
+     "evidence": "/taxes/calculators/capital-gains-tax-calculator"
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "yes",
+     "evidence": "/student-loans/learn/student-loan-calculator"
+    },
+    "BUD": {
+     "value": "yes",
+     "evidence": "/finance/learn/nerdwallet-budget-calculator"
+    },
+    "DEK": {
+     "value": "yes",
+     "evidence": "/taxes/calculators/tax-calculator (federal refund/owed estimate)"
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [
+    "also: auto loan, CD, inflation, net worth, rent vs buy, closing costs, Roth IRA, cost of living"
+   ],
+   "yesCount": 8,
+   "unclearCount": 1
+  },
+  "ficalc.app": {
+   "indexUrls": [
+    "https://ficalc.app/ (single-page app; nav: about, docs, settings)"
+   ],
+   "items": {
+    "SAL": {
+     "value": "no",
+     "evidence": ""
+    },
+    "N2G": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MTG": {
+     "value": "no",
+     "evidence": ""
+    },
+    "MAX": {
+     "value": "no",
+     "evidence": ""
+    },
+    "AMO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "ISK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "GRO": {
+     "value": "no",
+     "evidence": ""
+    },
+    "FIRE": {
+     "value": "yes",
+     "evidence": "/ (historical-data retirement withdrawal simulator)"
+    },
+    "PEN": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SAC": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGH": {
+     "value": "no",
+     "evidence": ""
+    },
+    "CGS": {
+     "value": "no",
+     "evidence": ""
+    },
+    "PAR": {
+     "value": "no",
+     "evidence": ""
+    },
+    "SICK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "UI": {
+     "value": "no",
+     "evidence": ""
+    },
+    "STU": {
+     "value": "no",
+     "evidence": ""
+    },
+    "BUD": {
+     "value": "no",
+     "evidence": ""
+    },
+    "DEK": {
+     "value": "no",
+     "evidence": ""
+    },
+    "EMP": {
+     "value": "no",
+     "evidence": ""
+    },
+    "312": {
+     "value": "no",
+     "evidence": ""
+    }
+   },
+   "notes": [],
+   "yesCount": 1,
+   "unclearCount": 0
+  }
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "url": "https://maclaine.se/finance/sparande",
+ "title": "Ränta-på-ränta Kalkylator 2026: ISK & Skatt | Gratis",
+ "inputs": [
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "start-capital",
+   "name": "",
+   "label": "Startkapital",
+   "value": "0",
+   "vis": true,
+   "min": "0",
+   "max": "10000000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "monthly-savings",
+   "name": "",
+   "label": "Månadssparande",
+   "value": "5000",
+   "vis": true,
+   "min": "0",
+   "max": "100000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "annual-return",
+   "name": "",
+   "label": "Förväntad avkastning",
+   "value": "7",
+   "vis": true,
+   "min": "0",
+   "max": "20"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "time-horizon",
+   "name": "",
+   "label": "Tidshorisont",
+   "value": "20",
+   "vis": true,
+   "min": "1",
+   "max": "60"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "sp-tax",
+   "name": "",
+   "label": "",
+   "value": "isk",
+   "vis": false,
+   "opts": "isk:isk|kv:kv|none:none"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "sp-holding",
+   "name": "",
+   "label": "",
+   "value": "funds",
+   "vis": false,
+   "opts": "funds:funds|shares:shares"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "inflation-rate",
+   "name": "",
+   "label": "",
+   "value": "2",
+   "vis": true,
+   "min": "0",
+   "max": "10"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "id": "",
+   "name": "",
+   "label": "Länk till kalkylen",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "TEXTAREA",
+   "type": "textarea",
+   "id": "",
+   "name": "",
+   "label": "Sammanfattning av kalkylen",
+   "value": "",
+   "vis": false
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "whatif-return",
+   "name": "",
+   "label": "",
+   "value": "7",
+   "vis": false,
+   "min": "4",
+   "max": "10"
+  },
+  {
+   "tag": "INPUT",
+   "type": "range",
+   "id": "whatif-savings",
+   "name": "",
+   "label": "",
+   "value": "5000",
+   "vis": false,
+   "min": "2000",
+   "max": "8000"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-yearOfBirth",
+   "name": "",
+   "label": "Födelseår",
+   "value": "1995",
+   "vis": false,
+   "min": "1916",
+   "max": "2011"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-retireAge",
+   "name": "",
+   "label": "Önskad pensionsålder",
+   "value": "65",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "id": "settings-mun-input",
+   "name": "",
+   "label": "Stockholm",
+   "value": "Stockholm (30,55%)",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-employment",
+   "name": "",
+   "label": "Anställningsform",
+   "value": "employed",
+   "vis": false,
+   "opts": "employed:Anställd|self_ef:Enskild firma|self_ab:Eget AB"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-pension-plan",
+   "name": "",
+   "label": "Pensionsavtal",
+   "value": "itp1",
+   "vis": false,
+   "opts": "itp1:ITP1 (privat, tjänst|itp2:ITP2 (privat, född f|saflo:SAF-LO (privat, arbe|akap:AKAP-KR (kommun/regi|pa16:PA 16 (statlig)|none:Inget kollektivavtal"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-trossamfund",
+   "name": "",
+   "label": "",
+   "value": "no",
+   "vis": false,
+   "opts": "no:Nej|yes:Ja"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-trossamfund-select",
+   "name": "",
+   "label": "Trossamfund",
+   "value": "svenska_kyrkan",
+   "vis": false,
+   "opts": "svenska_kyrkan:Svenska kyrkan (~1,0|bosniakiska_islamiska:Bosniakiska islamisk|equmeniakyrkan:Equmeniakyrkan (1,0%|evangeliska_frikyrkan:Evangeliska frikyrka|forenade_islamiska:Förenade islamiska f|fralsningsarmen:Frälsningsarmén (1,0|imam_malek:Imam Malek trossamfu|islamiska_fatwabyran:Islamiska fatwabyråa"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-grossMonthly",
+   "name": "",
+   "label": "Bruttolön per månad",
+   "value": "50000",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-monthlySavings",
+   "name": "",
+   "label": "Månadssparande",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-bufferSize",
+   "name": "",
+   "label": "Kontantbuffert?Likvid kontantbuffert du har idag (bank eller",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-expectedReturn",
+   "name": "",
+   "label": "Förväntad avkastning?Nominell förväntad årlig avkastning, fö",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-annualSpend",
+   "name": "",
+   "label": "Månadsutgifter?Nettobelopp du faktiskt gör av med per månad.",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-inflation",
+   "name": "",
+   "label": "Förväntad inflation?Årlig prisinflation som används för att ",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-pensionPotTotal",
+   "name": "",
+   "label": "Totalt pensionskapital (kr)?Ditt totala pensionssparande ida",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-pensionPrivate",
+   "name": "",
+   "label": "Privat (kr)",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-pensionTjp",
+   "name": "",
+   "label": "Tjänstepension (kr)",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-pensionState",
+   "name": "",
+   "label": "Allmän (kr)",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-fld-withdrawalRate",
+   "name": "",
+   "label": "Uttagstakt?Säker uttagstakt: andelen av portföljen du tar ut",
+   "value": "",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-partner-fld-yearOfBirth",
+   "name": "",
+   "label": "Födelseår",
+   "value": "1995",
+   "vis": false,
+   "min": "1916",
+   "max": "2011"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-partner-fld-retireAge",
+   "name": "",
+   "label": "Önskad pensionsålder",
+   "value": "65",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "id": "settings-partner-mun-input",
+   "name": "",
+   "label": "Stockholm",
+   "value": "Stockholm (30,55%)",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-partner-employment",
+   "name": "",
+   "label": "Anställningsform",
+   "value": "employed",
+   "vis": false,
+   "opts": "employed:Anställd|self_ef:Enskild firma|self_ab:Eget AB"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-partner-pension-plan",
+   "name": "",
+   "label": "Pensionsavtal",
+   "value": "itp1",
+   "vis": false,
+   "opts": "itp1:ITP1 (privat, tjänst|itp2:ITP2 (privat, född f|saflo:SAF-LO (privat, arbe|akap:AKAP-KR (kommun/regi|pa16:PA 16 (statlig)|none:Inget kollektivavtal"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-partner-trossamfund",
+   "name": "",
+   "label": "",
+   "value": "no",
+   "vis": false,
+   "opts": "no:Nej|yes:Ja"
+  },
+  {
+   "tag": "SELECT",
+   "type": "select-one",
+   "id": "settings-partner-trossamfund-select",
+   "name": "",
+   "label": "Trossamfund",
+   "value": "svenska_kyrkan",
+   "vis": false,
+   "opts": "svenska_kyrkan:Svenska kyrkan (~1,0|bosniakiska_islamiska:Bosniakiska islamisk|equmeniakyrkan:Equmeniakyrkan (1,0%|evangeliska_frikyrkan:Evangeliska frikyrka|forenade_islamiska:Förenade islamiska f|fralsningsarmen:Frälsningsarmén (1,0|imam_malek:Imam Malek trossamfu|islamiska_fatwabyran:Islamiska fatwabyråa"
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-partner-fld-grossMonthly",
+   "name": "",
+   "label": "Bruttolön per månad",
+   "value": "0",
+   "vis": false,
+   "min": "",
+   "max": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "number",
+   "id": "settings-partner-fld-pensionPotTotal",
+   "name": "",
+   "label": "Totalt pensionskapital (kr)?Din partners totala pensionsspar",
+   "value": "0",
+   "vis": false,
+   "min": "",
+   "max": ""
+  }
+ ],
+ "lines": [
+  "Se hur ditt sparande växer med ränta på ränta. Jämför ISK schablonskatt, kapitalvinstskatt och skattefri tillväxt – allt kalibrerat till 2026.",
+  "ISK: schablonbeskattning ~1,07%/år, 300 000 kr skattefritt från 2026. Kapitalvinst: 30% på vinst vid försäljning."
+ ]
+}

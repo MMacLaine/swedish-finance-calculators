@@ -1,0 +1,412 @@
+{
+ "readback": {
+  "salary": "45000",
+  "kommun": "Stockholm / Stockholm (30,55 %)",
+  "all": [
+   {
+    "type": "text",
+    "lab": "Sök kalkylator",
+    "val": "",
+    "checked": false
+   },
+   {
+    "type": "text",
+    "lab": "",
+    "val": "45000",
+    "checked": false
+   },
+   {
+    "type": "select-one",
+    "lab": "",
+    "val": "Stockholm"
+   }
+  ]
+ },
+ "money": [
+  {
+   "t": "Lön efter skatt på 45 000 kr",
+   "y": 634,
+   "fs": 10.5,
+   "fixed": "fixed",
+   "ctx": "LÖN EFTER SKATT PÅ 45 000 KR 35 811 kr"
+  },
+  {
+   "t": "35 811 kr",
+   "y": 650,
+   "fs": 20,
+   "fixed": "fixed",
+   "ctx": "LÖN EFTER SKATT PÅ 45 000 KR 35 811 kr"
+  },
+  {
+   "t": "Månadsspara från 100 kr",
+   "y": 611,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Nordnet ANNONSLÄNK Månadsspara från 100 kr Fonder och aktier hos Nordnet. Börja spara"
+  },
+  {
+   "t": "Lön efter skatt på 45 000 kr",
+   "y": 1281,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "LÖN EFTER SKATT PÅ 45 000 KR 35 811 kr Per år 429 732 kr Per timme (heltid) 206,60 kr Skat"
+  },
+  {
+   "t": "35 811 kr",
+   "y": 1301,
+   "fs": 48,
+   "fixed": "",
+   "ctx": "LÖN EFTER SKATT PÅ 45 000 KR 35 811 kr Per år 429 732 kr Per timme (heltid) 206,60 kr Skat"
+  },
+  {
+   "t": "429 732 kr",
+   "y": 1450,
+   "fs": 18,
+   "fixed": "",
+   "ctx": "Per år 429 732 kr Per timme (heltid) 206,60 kr Skatt av lönen 20,4 % Mot snittkommun +647 "
+  },
+  {
+   "t": "+647 kr/mån",
+   "y": 1538,
+   "fs": 18,
+   "fixed": "",
+   "ctx": "Per år 429 732 kr Per timme (heltid) 206,60 kr Skatt av lönen 20,4 % Mot snittkommun +647 "
+  },
+  {
+   "t": "20 000 kr",
+   "y": 1680,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "16 920 kr",
+   "y": 1680,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "25 000 kr",
+   "y": 1717,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "20 798 kr",
+   "y": 1717,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "30 000 kr",
+   "y": 1754,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "24 650 kr",
+   "y": 1754,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "35 000 kr",
+   "y": 1791,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "28 502 kr",
+   "y": 1791,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "40 000 kr",
+   "y": 1828,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "32 342 kr",
+   "y": 1828,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "45 000 kr",
+   "y": 1865,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "35 811 kr",
+   "y": 1865,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "50 000 kr",
+   "y": 1902,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "39 280 kr",
+   "y": 1902,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "55 000 kr",
+   "y": 1939,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "42 749 kr",
+   "y": 1939,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "60 000 kr",
+   "y": 1976,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "45 225 kr",
+   "y": 1976,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "65 000 kr",
+   "y": 2013,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "47 694 kr",
+   "y": 2013,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "70 000 kr",
+   "y": 2050,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "50 163 kr",
+   "y": 2050,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "75 000 kr",
+   "y": 2087,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "52 632 kr",
+   "y": 2087,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "80 000 kr",
+   "y": 2124,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "55 101 kr",
+   "y": 2124,
+   "fs": 12,
+   "fixed": "",
+   "ctx": "20 000 kr 16 920 kr 15,4 % 25 000 kr 20 798 kr 16,8 % 30 000 kr 24 650 kr 17,8 % 35 000 kr"
+  },
+  {
+   "t": "20 000 kr i lön: 16 700 kr efter skatt (16,5 % skatt)",
+   "y": 3086,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "25 000 kr i lön: 20 496 kr efter skatt (18,0 % skatt)",
+   "y": 3145,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "30 000 kr i lön: 24 267 kr efter skatt (19,1 % skatt)",
+   "y": 3203,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "35 000 kr i lön: 28 039 kr efter skatt (19,9 % skatt)",
+   "y": 3262,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "40 000 kr i lön: 31 798 kr efter skatt (20,5 % skatt)",
+   "y": 3320,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "45 000 kr i lön: 35 164 kr efter skatt (21,9 % skatt)",
+   "y": 3379,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "50 000 kr i lön: 38 530 kr efter skatt (22,9 % skatt)",
+   "y": 3437,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "55 000 kr i lön: 41 897 kr efter skatt (23,8 % skatt)",
+   "y": 3496,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "60 000 kr i lön: 44 270 kr efter skatt (26,2 % skatt)",
+   "y": 3554,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "65 000 kr i lön: 46 636 kr efter skatt (28,3 % skatt)",
+   "y": 3613,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "70 000 kr i lön: 49 003 kr efter skatt (30,0 % skatt)",
+   "y": 3671,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "75 000 kr i lön: 51 369 kr efter skatt (31,5 % skatt)",
+   "y": 3730,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "80 000 kr i lön: 53 736 kr efter skatt (32,8 % skatt)",
+   "y": 3788,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "Lön efter skatt på 30 000, 35 000 och 40 000 kr",
+   "y": 3981,
+   "fs": 20,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "Låga löner: 20 000 och 25 000 kr",
+   "y": 4409,
+   "fs": 20,
+   "fixed": "",
+   "ctx": "Lön efter skatt 2026, tabell Så mycket blir lönen efter skatt per månad med genomsnittlig "
+  },
+  {
+   "t": "Vad blir 30 000 kr i lön efter skatt?",
+   "y": 7035,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Vad blir 30 000 kr i lön efter skatt? +"
+  },
+  {
+   "t": "Vad blir 35 000 kr i lön efter skatt?",
+   "y": 7090,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Vad blir 35 000 kr i lön efter skatt? +"
+  },
+  {
+   "t": "Vad blir 40 000 kr i lön efter skatt?",
+   "y": 7146,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Vad blir 40 000 kr i lön efter skatt? +"
+  },
+  {
+   "t": "31 798 kr i månaden med genomsnittlig kommunalskatt. Skatten är 20,5 %",
+   "y": 7179,
+   "fs": 14,
+   "fixed": "",
+   "ctx": "Vad blir 30 000 kr i lön efter skatt? + Vad blir 35 000 kr i lön efter skatt? + Vad blir 4"
+  },
+  {
+   "t": "Vad blir 50 000 kr efter skatt?",
+   "y": 7201,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Vad blir 50 000 kr efter skatt? +"
+  },
+  {
+   "t": "Vad blir 80 000 kr efter skatt?",
+   "y": 7331,
+   "fs": 15,
+   "fixed": "",
+   "ctx": "Vad blir 80 000 kr efter skatt? +"
+  },
+  {
+   "t": "Månadsspara från 100 kr",
+   "y": 1346,
+   "fs": 14,
+   "fixed": "fixed",
+   "ctx": "Månadsspara från 100 kr Nordnet · Annonslänk Börja spara"
+  }
+ ]
+}
