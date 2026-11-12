@@ -1,0 +1,22 @@
+[
+ {"id":"avanza","domain":"avanza.se","start":["https://www.avanza.se/","https://www.avanza.se/manadssparande.html"]},
+ {"id":"boio","domain":"boio.se","start":["https://boio.se/","https://boio.se/kalkylator/bolan"]},
+ {"id":"borskollen","domain":"borskollen.se","start":["https://www.borskollen.se/","https://www.borskollen.se/rakna-ut-lon-efter-skatt-kalkylator"]},
+ {"id":"ekonomifokus","domain":"ekonomifokus.se","start":["https://www.ekonomifokus.se/","https://www.ekonomifokus.se/bostad/deklaration/berakning-av-vinst-och-skatt-vid-bostadsforsaljning"]},
+ {"id":"fortnox","domain":"fortnox.se","start":["https://www.fortnox.se/","https://www.fortnox.se/fortnox-foretagsguide/kalkylatorer/lon-efter-skatt"]},
+ {"id":"handelsbanken","domain":"handelsbanken.se","start":["https://www.handelsbanken.se/sv/","https://www.handelsbanken.se/sv/privat/bolan/bolanekalkyl"]},
+ {"id":"helhetskollen","domain":"helhetskollen.se","start":["https://www.helhetskollen.se/","https://www.helhetskollen.se/salary"]},
+ {"id":"isk-guiden","domain":"isk-guiden.se","start":["https://isk-guiden.se/","https://isk-guiden.se/isk-kalkylator/"]},
+ {"id":"kalkylverket","domain":"kalkylverket.se","start":["https://kalkylverket.se/","https://kalkylverket.se/kalkylatorer/skatt/inkomstskatt/lon-efter-skatt-kalkylator"]},
+ {"id":"konsumenternas","domain":"konsumenternas","start":["https://www.konsumenternas.se/","https://www.konsumenternas.se/konsumentstod/kalkyler--verktyg/bolanekalkyl/"]},
+ {"id":"maclaine","domain":"maclaine.se","start":["https://maclaine.se/finance","https://maclaine.se/finance/salary"]},
+ {"id":"nettocalc","domain":"nettocalc.com","start":["https://nettocalc.com/se","https://nettocalc.com/se/lon-efter-skatt"]},
+ {"id":"nordnet","domain":"nordnet.se","start":["https://www.nordnet.se/se","https://www.nordnet.se/se/tjanster/manadsspara"]},
+ {"id":"ordio","domain":"ordio.com","start":["https://www.ordio.com/sv","https://www.ordio.com/sv/tools/lon-kalkylator"]},
+ {"id":"rikatillsammans","domain":"rikatillsammans.se","start":["https://rikatillsammans.se/","https://rikatillsammans.se/verktyg/ranta-pa-ranta/"]},
+ {"id":"sbab","domain":"sbab.se","start":["https://www.sbab.se/1/privat.html","https://www.sbab.se/1/privat/lana/bolan/rakneexempel_for_bolan.html"]},
+ {"id":"smartly","domain":"smartly.se","start":["https://smartly.se/","https://smartly.se/tools/salary-after-tax"]},
+ {"id":"spiris","domain":"spiris.se","start":["https://www.spiris.se/","https://www.spiris.se/verktyg/kalkylatorer/lon-efter-skatt"]},
+ {"id":"statsskuld","domain":"statsskuld.se","start":["https://statsskuld.se/","https://statsskuld.se/berakna-nettolon"]},
+ {"id":"velja","domain":"velja.se","start":["https://velja.se/","https://velja.se/lonekalkyl"]}
+]
