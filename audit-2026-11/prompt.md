@@ -1,6 +1,6 @@
 # Judge prompt, v3.3 (frozen)
 
-Paste everything below the line into a fresh conversation, then the site batch, and attach the dump files for that batch. Nothing else goes in the conversation.
+Paste everything below the line into a fresh conversation, then the site batch, and attach the dump files for that batch. Nothing else goes in the conversation. For the outside-check pass (v3.4), also paste this line after the batch: "Outside-check run: do Stage B and Stage C for R1 to R5 only, skip Stage A, and put null for stage_A in the global object."
 
 ---
 

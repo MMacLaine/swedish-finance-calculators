@@ -8,6 +8,7 @@ The plan was argued out between two AI models on 12 November 2026: Z.ai (GLM) pr
 - v2: scripts type, models judge page text only. Fixed rubric, the commissioner named, one JSON line per site, a pilot before the freeze.
 - v3: consent banners and phone layout moved to scripts; a "page-needs-js" status; an expected value and pass rule for every probe; the disagreement log scoped.
 - v3.1 and v3.2: three expected values corrected before any run (below).
+- v3.4 (before any run): the outside models I can use are free tiers, which do not go deep, so the judging is split. Claude models do the full pass with Stage A; ChatGPT, Gemini and DeepSeek check the page reading in small batches.
 - v3.3: changes from the pilot. Dumps record form state, drivers find controls by label, probes type like a person, every expected value cites a fetched source, rubric R1 to R5 as suggested by the pilot judge, expected values sealed by hash.
 
 ## Mistakes caught before the freeze

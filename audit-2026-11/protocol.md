@@ -14,7 +14,10 @@ Pages per site: the calculator pages measured in the report, plus one article in
 1. Pilot (done 2026-11-12, findings not published): maclaine.se and borskollen.se, full probe set, one judging run. Two lessons changed the package: a driver had missed a styled checkbox and reported it absent, and one expected value had been written from memory. Both are now rules (controls are found by label; every expected value cites a fetched source).
 2. Freeze: this folder in one dated commit, with SHA-256 hashes of the sealed expected values and references. No edits afterwards. A change after the freeze is a new version with its own commit and a note of why.
 3. Scripts run every probe in `probes.md` on every site it applies to, then take the dumps with `dump.js`. Dumps are hashed and the hashes published. The dumps themselves are attached to the judges' conversations and not republished, since they are copies of other people's pages.
-4. Judges: ChatGPT, Gemini and DeepSeek, two fresh conversations each per batch, with browsing on, the order inside each batch shuffled. Each gets `prompt.md`, the batch and that batch's dumps, nothing else. GLM is left out because Z.ai, which runs on it, helped design these probes. A Claude run is published as a control and marked as such, because Claude built the drivers.
+4. Judges, in two passes (changed in v3.4, before any run):
+   - Deep pass: Claude Opus 5.5, Sonnet 5.5 and Fable 5.1, two fresh runs each over all 20 sites in the two batches, with the full prompt including Stage A. All three are Claude, and Claude built the drivers; the write-up says so.
+   - Outside check: ChatGPT, Gemini and DeepSeek on their free tiers, one run each, in batches of five sites with that batch's dumps attached, R1 to R5 only, no Stage A. Their job is to catch places where the Claude runs misread a page. GLM is left out because Z.ai, which runs on it, helped design these probes.
+   - Each run reports its coverage: the share of its judgements marked could-not-verify, so a shallow run shows as shallow.
 5. `quote-match.py` checks every quote in every judge's output against the page or dump it cites. A quote that is not there is logged as fabricated, and the run is reported with that count.
 6. The disagreement log records, with sources on both sides:
    - Stage A figures against the sealed references
